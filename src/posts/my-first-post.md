@@ -10,7 +10,7 @@ tags:
   - center
   - right
 ---
-# This is a Heading h1
+# Capitalize
 
 ## This is a Heading h2
 
