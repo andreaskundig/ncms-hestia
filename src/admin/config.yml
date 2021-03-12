@@ -5,8 +5,8 @@ backend:
   ### enable below lines for github integration ###
   # name: github
   # repo: surjithctly/neat-starter
-media_folder: "dating-privacy/src/static/img"
-public_folder: "dating-privacy/static/img"
+media_folder: "src/static/img"
+public_folder: "/static/img"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
@@ -14,10 +14,11 @@ publish_mode: editorial_workflow
 collections:
   - label: "Blog"
     name: "blog"
-    folder: "dating-privacy/src/posts"
+    folder: "src/posts"
     create: true
     editor:
       preview: false
+    preview_path: posts/{{slug}}
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
@@ -37,7 +38,7 @@ collections:
     files:
       - label: "Navigation"
         name: "items"
-        file: "dating-privacy/src/_data/navigation.yaml"
+        file: "src/_data/navigation.yaml"
         fields:
           - label: Nav Items
             name: items
@@ -49,7 +50,7 @@ collections:
               - { label: URL, name: url, widget: string }
       - label: "Quick Links"
         name: "links"
-        file: "dating-privacy/src/_data/quicklinks.yaml"
+        file: "src/_data/quicklinks.yaml"
         fields:
           - label: Nav Items
             name: links
@@ -61,7 +62,7 @@ collections:
               - { label: Description, name: desc, widget: string }
       - label: "Meta Settings"
         name: "settings"
-        file: "dating-privacy/src/_data/settings.yaml"
+        file: "src/_data/settings.yaml"
         fields:
           - { label: Name, name: name, widget: string }
           - { label: Author, name: author, widget: string }
