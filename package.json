@@ -1,14 +1,18 @@
 {
   "scripts": {
-    "start": "npm-run-all --parallel css eleventy",
+    "old-start": "npm-run-all --parallel css eleventy",
     "eleventy": "eleventy --serve",
     "debug": "set DEBUG=* & eleventy",
     "css": "postcss src/static/css/tailwind.css --o _tmp/static/css/style.css --watch",
-    "build": "cross-env NODE_ENV=production eleventy && cross-env NODE_ENV=production postcss src/static/css/tailwind.css --o _site/static/css/style.css"
+    "old-build": "cross-env NODE_ENV=production eleventy && cross-env NODE_ENV=production postcss src/static/css/tailwind.css --o _site/static/css/style.css",
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "@snowpack/plugin-build-script": "^2.1.0",
+    "@snowpack/plugin-run-script": "^2.3.0",
     "@tailwindcss/typography": "^0.3.1",
     "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
@@ -18,6 +22,7 @@
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^8.3.1",
     "prismjs": "^1.21.0",
+    "snowpack": "^3.0.1",
     "tailwindcss": "^2.0.2"
   },
   "dependencies": {
