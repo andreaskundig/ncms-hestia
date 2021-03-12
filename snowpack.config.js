@@ -6,7 +6,9 @@ module.exports = {
     // src: { url: '/dist' },
   },
   plugins: [
-    ['@snowpack/plugin-run-script', { cmd: 'eleventy', watch: '$1 --watch' }],
+    ['@snowpack/plugin-run-script',
+     { cmd: 'eleventy',
+       watch: 'eleventy --serve' }],
     ['@snowpack/plugin-run-script',
      {'cmd': 'cross-env NODE_ENV=production postcss src/static/css/tailwind.css --o _site/static/css/style.css',
       watch: 'postcss src/static/css/tailwind.css --o _tmp/static/css/style.css --watch',

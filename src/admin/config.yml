@@ -31,13 +31,13 @@ collections:
         multiple: true # this is ignored
         create: true
         options: ["Tags", "created", "from", "config.yml"]
-  - label: "Tags"
-    name: "tags"
-    folder: "src/tags"
+  - label: "Tag"
+    name: "tag"
+    folder: "src/tag"
     create: true
     editor:
       preview: false
-    preview_path: tags/{{slug}}
+    preview_path: tag/{{slug}}
     identifier_field: name
     fields:
       - { label: "Name", name: "name", widget: "string" }
