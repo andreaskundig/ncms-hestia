@@ -17,7 +17,7 @@ collections:
     folder: "src/posts"
     create: true
     editor:
-      preview: true
+      preview: false
     preview_path: posts/{{slug}}
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -36,7 +36,7 @@ collections:
     folder: "src/tag"
     create: true
     editor:
-      preview: true
+      preview: false
     preview_path: tag/{{slug}}
     identifier_field: name
     fields:
