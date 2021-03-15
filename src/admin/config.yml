@@ -25,12 +25,13 @@ collections:
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - widget: select
-        label: "tags"
+      - label: "tags"
         name: "tags"
-        multiple: true # this is ignored
-        create: true
-        options: ["Tags", "created", "from", "config.yml"]
+        widget: relation
+        collection: tag
+        value_field: name
+        multiple: true
+        search_fields: ["name"]
   - label: "Tag"
     name: "tag"
     folder: "src/tag"
