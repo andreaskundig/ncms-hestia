@@ -1,10 +1,9 @@
----
 items:
   - text: Blog
-    url: "/blog"
+    url: /blog
   - text: Why
     url: "#"
   - text: Who
     url: "#"
-  - text: What
-    url: "#"
+  - text: Tags
+    url: /tag

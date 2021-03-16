@@ -5,6 +5,6 @@ title: Tags
 <h1>Tags</h1>
 <ul>
     {% for tag in collections.tag %}
-     <li><a href="./{{tag.data.name}}">{{tag.data.name}}</a></li>
+     <li><a href="{{page.url}}{{tag.data.name}}">{{tag.data.name}}</a></li>
     {% endfor %}
 </ul>
