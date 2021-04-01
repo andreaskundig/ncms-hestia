@@ -1,7 +1,7 @@
 ---
 id: dating privacy
 title: Dating privacy
-name: Dating privacy
+name: Dating Privacy
 description: >-
   Dating Privacy aims to understand how dating applications work, in particular
   how data is collected and processed, and how this affects interactions between
