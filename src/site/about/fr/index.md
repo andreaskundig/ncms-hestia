@@ -1,7 +1,8 @@
 ---
+people_title: Des gens
 layout: about
-title: A propos de nous
 permalink: /fr/about/index.html
+title: A propos de nous
 hero: |-
   Vous rêvez
 
@@ -11,8 +12,9 @@ hero: |-
 
   parlons-en
 story_title: Ecoute ça
-story: C'est l'histoire d'un mec...
-people_title: Des gens
+story: C'est l'histoire d'un animal qui avait ...
+contact_title: pas moi
+contact_project: La papesse
 people:
   - name: Hestia
     description: "Dans la mythologie grecque, Hestia (en grec ancien Ἑστία / Hestía)
