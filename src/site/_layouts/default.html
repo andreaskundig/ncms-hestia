@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8">
     {# https://www.w3schools.com/css/css_rwd_viewport.asp #}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
-    <link rel="stylesheet" type="text/css" href="/assets/styles/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
+    {% include "favicons.njk" %}
     {% if path == "home" %}
-      <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      <script defer type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {% endif %}
   </head>
   <body class="mainContainer">

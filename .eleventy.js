@@ -13,6 +13,8 @@ module.exports = function (eleventyConfig) {
   // Note: Passthrough File Copy entries are relative to the root
   // of the project and not Eleventy `dir.input` directory.
   eleventyConfig.addPassthroughCopy("src/site/assets");
+  eleventyConfig.addPassthroughCopy("src/site/favicon*");
+  eleventyConfig.addPassthroughCopy("src/site/manifest.json");
   eleventyConfig.addPassthroughCopy("src/site/admin/*.js");
   eleventyConfig.addPassthroughCopy({ "conf/netlifycms/config.yml": "admin/config.yml" });
 
