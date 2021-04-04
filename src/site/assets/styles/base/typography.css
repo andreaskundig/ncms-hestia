@@ -4,9 +4,17 @@ html {
 
 body {
   font-family: var(--font-family);
-  font-weight: var(--font-weight-base);
+  font-weight: var(--text-base-font-weight);
   font-size: var( --text-base-font-size);
   line-height: var(--line-height-base);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-canvas);
+  font-kerning: normal;
+}
+
+strong, b {
+  font-weight: var(--text-bold-font-weight);
+  letter-spacing: -0.03rem;
 }
 
 header, footer {
@@ -18,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-display);
   margin: 0;
   margin-bottom: var(--paragraph-margin-bottom);
+  letter-spacing: -0.015rem;
+  /* The `text-rendering` property is non-standard; and should be
+     applied to headings only, not to body; see following article:
+     https://css-tricks.com/almanac/properties/t/text-rendering/ */
   text-rendering: optimizeLegibility;
 }
 

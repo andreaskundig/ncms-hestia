@@ -1,4 +1,4 @@
-.container {
+.mainContainer {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -7,4 +7,5 @@
   margin: 0 auto;
   max-width: 760px;
   padding: 2rem 1rem;
+  background-color: var(--color-bg-primary);
 }

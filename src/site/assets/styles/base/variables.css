@@ -1,33 +1,102 @@
 :root {
+  /* Font families */
+
   --font-family-display: 'Roboto', sans-serif;
   --font-family: 'Assistant', sans-serif;
 
-  --font-size-base: 16px;           /* 30/30 */
-  --font-weight-base: 400;
+  /* Fundamental reference values */
 
-  --line-height-half: 0.75rem;
+  /* From here on, all metrics will be expressed in REM units,
+     relative to this base font size, set on the <html> element;
+     additionally, `rfs()` aka _responsive font-size_ could be
+     used to scale the metrics, when the view width changes */
+  --font-size-base: 16px;           /* 30/30 */
+
+  /* Line heights */
+
+  --line-height-half: 0.75rem;      /* calc( --line-height-base / 2) */
   --line-height-base: 1.5rem;
-  --line-height-double: 3rem;
+  --line-height-double: 3rem;       /* calc( --line-height-base * 2) */
+
+  /* Headings */
 
   --h1-font-size: 2.33333rem;       /* 70/30 */
   --h2-font-size: 2rem;             /* 60/30 */
   --h3-font-size: 1.33333rem;       /* 40/30 */
   --h4-font-size: 1rem;             /* 30/30 */
-  --h5-font-size: var( --h4-font-size);
-  --h6-font-size: var( --h4-font-size);
+  --h5-font-size: var(--h4-font-size);
+  --h6-font-size: var(--h4-font-size);
 
   --h1-font-weight: 700;            /* (Roboto) Bold */
   --h2-font-weight: 500;            /* (Roboto) Medium */
   --h3-font-weight: 300;            /* (Roboto) Light */
-  --h4-font-weight: var( --h3-font-weight);
-  --h5-font-weight: var( --h4-font-weight);
-  --h6-font-weight: var( --h4-font-weight);
+  --h4-font-weight: var(--h3-font-weight);
+  --h5-font-weight: var(--h4-font-weight);
+  --h6-font-weight: var(--h4-font-weight);
+
+  /* Text bodies */
 
   --text-xs-font-size: 0.6rem;      /* 18/30 */
   --text-sm-font-size: 0.8rem;      /* 24/30 */
-  --text-base-font-size: 1rem;      /* 30/30 */
+  --text-base-font-size: 1rem;      /* 30/30 (meant to be used for body font-size, while allowing for `rfs()`) */
+  --text-base-font-weight: 400;
+  --text-bold-font-weight: 700;
   --text-lg-font-size: 1.33333rem;  /* 40/30 */
-  --text-xl-font-size: 1.5rem;
+  --text-xl-font-size: 1.5rem;      /* @assert( --text-xl-font-size <= --line-height-base) */
+
+  /* Paragraphs */
 
   --paragraph-margin-bottom: var( --line-height-half);
+
+  /* Functional colors of our color system */
+
+  /* Shadows palette */
+  --shadow-small:                  0 1px 0 rgba(27,31,35,0.04);
+  --shadow-medium:                 0 3px 6px rgba(149,157,165,0.15);
+  --shadow-large:                  0 8px 24px rgba(149,157,165,0.2);
+  --shadow-highlight:              inset 0 1px 0 rgba(255,255,255,0.25);
+
+  /* Backgrounds */
+  --color-bg-canvas:               #ffffff;
+  --color-bg-primary:              #ffffff;
+  --color-bg-secondary:            #fafbfc;
+  --color-bg-tertiary:             #f6f8fa;
+  --color-bg-info:                 #f1f8ff;
+  --color-bg-info-inverse:         #0366d6;
+  --color-bg-danger:               #ffeef0;
+  --color-bg-danger-inverse:       #d73a49;
+  --color-bg-success:              #dcffe4;
+  --color-bg-success-inverse:      #28a745;
+  --color-bg-warning:              #fff5b1;
+  --color-bg-warning-inverse:      #ffd33d;
+
+  /* Text colors */
+  --color-text-primary:            #24292e;
+  --color-text-secondary:          #4f4e50;
+  --color-text-tertiary:           #6a737d;
+  --color-text-placeholder:        #6a737d;
+  --color-text-disabled:           #959da5;
+  --color-text-inverse:            var(--color-bg-primary);
+  --color-text-link:               #f49600;
+  --color-text-danger:             #cb2431;
+  --color-text-success:            #22863a;
+  --color-text-warning:            #b08800;
+  --color-text-white:              #ffffff;
+
+  /* Button colors */
+  --color-btn-text:                 var(--color-text-white);
+  --color-btn-bg:                   var(--color-text-link);
+  --color-btn-border:               var(--color-text-link);
+  --color-btn-hover-text:           var(--color-text-link);
+  --color-btn-hover-bg:             var(--color-text-white);
+  --color-btn-hover-border:         var(--color-text-link);
+  --color-btn-shadow:               var(--shadow-small);
+
+  --color-btn-primary-text:         var(--color-text-link);
+  --color-btn-primary-bg:           var(--color-text-white);
+  --color-btn-primary-border:       var(--color-text-link);
+  --color-btn-primary-hover-text:   var(--color-text-white);
+  --color-btn-primary-hover-bg:     var(--color-text-link);
+  --color-btn-primary-hover-border: var(--color-text-link);
+  --color-btn-primary-shadow:       var(--color-btn-shadow);
 }
