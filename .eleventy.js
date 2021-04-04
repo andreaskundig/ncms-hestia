@@ -15,6 +15,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site/assets");
   eleventyConfig.addPassthroughCopy("src/site/favicon*");
   eleventyConfig.addPassthroughCopy("src/site/manifest.json");
+  eleventyConfig.addPassthroughCopy("src/site/robots.txt");
   eleventyConfig.addPassthroughCopy("src/site/admin/*.js");
   eleventyConfig.addPassthroughCopy({ "conf/netlifycms/config.yml": "admin/config.yml" });
 

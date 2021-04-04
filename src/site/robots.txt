@@ -1,0 +1,15 @@
+# Until public launch, disallow indexing and crawling entirely
+# (see https://github.com/hestiaAI/website.labs/issues/21)
+
+User-agent: *
+Disallow: /
+
+# After public launch, we'll want to disallow indexing
+# of /admin/ only (that is, our content authoring system)
+#
+#User-agent: *
+#Disallow: /admin/
+#
+# To learn more about robots.txt file syntax:
+# Google Search Central › Create a robots.txt file
+# https://developers.google.com/search/docs/advanced/robots/create-robots-txt
