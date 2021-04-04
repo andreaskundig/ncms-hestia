@@ -21,20 +21,23 @@
 [build.environment]
   NODE_VERSION = "14"
 
-[[redirects]]
-  from = "/admin/*"
-  to = "/admin/:splat"
-  status = 302
-
-[[redirects]]
-  from = "/"
-  to = "/fr/"
-  status = 302
-  conditions = {Language = ["fr"]}
-
-[[redirects]]
-  from = "/"
-  to = "/en/"
-  status = 302
+# Redirects deactivated until public launch; display
+# landing homepage in the meantime (see WEBSITE.LABS #21)
+#
+#[[redirects]]
+#  from = "/admin/*"
+#  to = "/admin/:splat"
+#  status = 302
+#
+#[[redirects]]
+#  from = "/"
+#  to = "/fr/"
+#  status = 302
+#  conditions = {Language = ["fr"]}
+#
+#[[redirects]]
+#  from = "/"
+#  to = "/en/"
+#  status = 302
 
 # eof
