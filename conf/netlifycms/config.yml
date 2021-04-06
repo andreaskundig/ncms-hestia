@@ -167,7 +167,6 @@ collections:
     - { label: "Browser tab title", name: title, widget: string, i18n: true }
     - { label: Hero , name: hero, widget: markdown, i18n: true }
     - { label: Body , name: body, widget: markdown, i18n: true }
-
 - label: Home > Media
   name: media
   folder: src/site/media
@@ -176,7 +175,7 @@ collections:
     preview: false
   create: false
   i18n: true
-  preview_path: /en/impressum/
+  preview_path: /en/media/
   fields:
     - { label: "Browser tab title", name: title, widget: string, i18n: true }
     - { label: Hero , name: hero, widget: markdown, i18n: true }
@@ -211,6 +210,49 @@ collections:
         - {label: Date, name: date, widget: date}
         - {label: File, name: url, widget: file }
 
+# - label: Home > Strategy
+#   name: strategy
+#   folder: src/site/strategy
+#   extension: md
+#   editor:
+#     preview: false
+#   create: true
+#   i18n: true
+#   preview_path: /en/strategy/
+#   fields:
+#     - { label: "Browser tab title", name: title, widget: string, i18n: true }
+#     - { label: Hero , name: hero, widget: markdown, i18n: true }
+#     - { label: "Introduction title" , name: introduction_title , widget: text, i18n: true }
+#     - { label: Introduction , name: introduction, widget: markdown, i18n: true }
+#     - { label: "Manifesto button" , name: manifesto_button , widget: text, i18n: true }
+#     - { label: "Manifesto" , name: manifesto , widget: file, i18n: true }
+#     - { label: "Submit button (small)" , name: submit_button_small , widget: text, i18n: true }
+#     - { label: "Submit button (big)" , name: submit_button_big , widget: text, i18n: true }
+#     - { label: "Four steps title" , name: four_steps_title , widget: text, i18n: true }
+#     - { label: Introduction , name: introduction, widget: markdown, i18n: true }
+#     - label: "Media articles"
+#       name: "media_articles"
+#       widget: "list"
+#       i18n: true
+#       summary: '{{fields.title}}'
+#       fields:
+#         - {label: Title, name: title, widget: string}
+#         - {label: Date, name: date, widget: date}
+#         - {label: Publication, name: publication, widget: text }
+#         - {label: Lead, name: lead, widget: text }
+#         - {label: Article, name: url, widget: file }
+#         - {label: Image, name: image, widget: "image"}
+#     - { label: "Press releases title" , name: press_releases_title , widget: text, i18n: true }
+#     - label: "Press releases"
+#       name: "press_releases"
+#       widget: "list"
+#       i18n: true
+#       summary: '{{fields.title}}'
+#       fields:
+#         - {label: Title, name: title, widget: string}
+#         - {label: Date, name: date, widget: date}
+#         - {label: File, name: url, widget: file }
+
 - label: Blog (main page)
   name: blog
   # Configure i18n for this collection.
@@ -239,7 +281,7 @@ collections:
   i18n: true
   preview_path: /en/editorial/{{slug}}
   fields:
-    - { label: "Id (unique value that should never change)", name: id, widget: string}
+    - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string }
     - { label: Title, name: title, widget: string, i18n: true }
     - { label: "Image", name: "image", widget: "image", i18n: true }
     - { label: "Lead", name: "lead", widget: "markdown", i18n: true }
@@ -271,7 +313,7 @@ collections:
   i18n: true
   preview_path: /en/interview/{{slug}}
   fields:
-    - { label: "Id (unique value that should never change)", name: id, widget: string }
+    - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string }
     - { label: Title, name: title, widget: string, i18n: true }
     - { label: "Image", name: "image", widget: "image", i18n: true }
     - { label: "Lead", name: "lead", widget: "markdown", i18n: true }
@@ -303,7 +345,7 @@ collections:
   i18n: true
   preview_path: /en/infographic/{{slug}}
   fields:
-    - { label: "Id (unique value that should never change)", name: id, widget: string }
+    - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string }
     - { label: Title, name: title, widget: string, i18n: true }
     - { label: "Lead", name: "lead", widget: "markdown", i18n: true }
     - { label: "Image", name: "image", widget: "image", i18n: true }
@@ -336,7 +378,7 @@ collections:
   # i18n:
   #   structure: single_file
   fields:
-    - { label: "Id (unique value that should never change)", name: id, widget: string }
+    - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string }
     - { label: "Name", name: name, widget: string, i18n: true }
     - { label: Description, name: description, widget: string, i18n: true }
 
@@ -352,7 +394,7 @@ collections:
   # i18n:
   #   structure: single_file
   fields:
-    - { label: "Id (set at creation and never change afterwards)", name: id, widget: string }
+    - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string }
     - { label: "Name", name: name, widget: string, i18n: true}
     - { label: Description, name: description, widget: string, i18n: true }
 
