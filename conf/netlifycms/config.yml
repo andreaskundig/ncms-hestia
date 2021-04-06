@@ -88,7 +88,7 @@ collections:
       field:
         name: "Project"
         widget: relation
-        collection: projects
+        collection: project
         value_field: "id"
         display_fields: ["name"]
         multiple: false
@@ -217,7 +217,7 @@ collections:
   extension: md
   editor:
     preview: false
-  create: true
+  create: false
   i18n: true
   preview_path: /en/strategy/
   fields:
@@ -242,6 +242,75 @@ collections:
         - {label: Image, name: image, widget: "image"}
     - { label: "Conclusion title" , name: conclusion_title , widget: text, i18n: true }
     - { label: Conclusion , name: conclusion, widget: markdown, i18n: true }
+
+- label: Home > Partners
+  name: partners
+  folder: src/site/partners
+  extension: md
+  editor:
+    preview: false
+  create: true
+  i18n: true
+  preview_path: /en/partners/
+  fields:
+    - { label: "Browser tab title", name: title, widget: string, i18n: true }
+    - { label: Hero , name: hero, widget: markdown, i18n: true }
+    - { label: "You > title" , name: you_title , widget: text, i18n: true }
+    - {label: "You > image", name: you_image, widget: "image", i18n: true }
+    - { label: "You > description" , name: you_description, widget: markdown, i18n: true }
+    - { label: "You > button" , name: you_button , widget: text, i18n: true }
+    - label: "Partners"
+      name: "partners"
+      widget: "list"
+      i18n: true
+      summary: '{{fields.title}}'
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Description, name: description, widget: markdown }
+        - {label: Website, name: website, widget: file}
+        - {label: Image, name: image, widget: "image"}
+
+- label: Home > Projects (page)
+  name: projects_page
+  folder: src/site/projects
+  extension: md
+  editor:
+    preview: false
+  create: false
+  i18n: true
+  preview_path: /en/projects/
+  fields:
+    - { label: "Browser tab title", name: title, widget: string, i18n: true }
+    - { label: Hero , name: hero, widget: markdown, i18n: true }
+    - { label: "Introduction > title" , name: introduction_title , widget: text, i18n: true }
+    - { label: "Introduction > content", name: introduction, widget: markdown, i18n: true }
+    - { label: "Your project > title" , name: your_title , widget: text, i18n: true }
+    - { label: "Your project > subtitle", name: your_subtitle, widget: text, i18n: true }
+    - { label: "Your project > button" , name: your_button , widget: text, i18n: true }
+    - { label: "Running project > title" , name: running_projects_title , widget: text, i18n: true }
+    - label: "Running projects"
+      name: "running_projects"
+      widget: "list"
+      field:
+        name: "Project"
+        widget: relation
+        collection: project
+        value_field: "id"
+        display_fields: ["name"]
+        multiple: false
+        search_fields: ["name", "description"]
+    - { label: "Launchpad project > title" , name: launchpad_projects_title , widget: text, i18n: true }
+    - label: "Launchpad projects"
+      name: "launchpad_projects"
+      widget: "list"
+      field:
+        name: "Project"
+        widget: relation
+        collection: project
+        value_field: "id"
+        display_fields: ["name"]
+        multiple: false
+        search_fields: ["name", "description"]
 
 - label: Blog (main page)
   name: blog
@@ -388,8 +457,8 @@ collections:
     - { label: "Name", name: name, widget: string, i18n: true}
     - { label: Description, name: description, widget: string, i18n: true }
 
-- label: <Projects>
-  name: projects
+- label: <Project>
+  name: project
   folder: src/site/_project
   create: true
   extension: md
