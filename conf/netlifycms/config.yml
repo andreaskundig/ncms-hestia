@@ -54,7 +54,7 @@ collections:
         - { label: "Last name", name: last_name, widget: string, i18n: true }
         - { label: "Email address", name: email, widget: string, i18n: true }
 
-- label: Home
+- label: Home (main page)
   name: home
   # Configure i18n for this collection.
   folder: src/site/home
@@ -113,7 +113,7 @@ collections:
 # - post3: post
 #
 
-- label: About us
+- label: Home > About us
   name: about
   folder: src/site/about
   extension: md
@@ -154,7 +154,7 @@ collections:
         - {label: "Date", name: name, widget: date}
         - {label: Description, name: description, widget: text }
 
-- label: Impressum
+- label: Home > Impressum
   name: impressum
   folder: src/site/impressum
   extension: md
@@ -168,7 +168,7 @@ collections:
     - { label: Hero , name: hero, widget: markdown, i18n: true }
     - { label: Body , name: body, widget: markdown, i18n: true }
 
-- label: Media
+- label: Home > Media
   name: media
   folder: src/site/media
   extension: md
@@ -211,7 +211,7 @@ collections:
         - {label: Date, name: date, widget: date}
         - {label: File, name: url, widget: file }
 
-- label: Blog main page
+- label: Blog (main page)
   name: blog
   # Configure i18n for this collection.
   folder: src/site/blog
@@ -229,7 +229,7 @@ collections:
     - { label: Categories title, name: categories_title, widget: string, i18n: true }
     - { label: Categories title, name: authors_title, widget: string, i18n: true }
 
-- label: Editorials
+- label: Blog > Editorials
   name: editorials
   folder: src/site/editorial
   extension: md
@@ -261,7 +261,7 @@ collections:
       multiple: true
       search_fields: ["name", "id", "description"]
 
-- label: Interviews
+- label: Blog > Interviews
   name: interviews
   folder: src/site/interview
   extension: md
@@ -293,7 +293,7 @@ collections:
       multiple: true
       search_fields: ["name", "id", "description"]
 
-- label: Infographic
+- label: Blog > Infographics
   name: infographic
   folder: src/site/infographic
   extension: md
@@ -324,7 +324,7 @@ collections:
       multiple: true
       search_fields: ["name", "id", "description"]
 
-- label: Categories
+- label: Blog > Categories
   name: post_categories
   folder: src/site/category
   create: true
@@ -340,7 +340,7 @@ collections:
     - { label: "Name", name: name, widget: string, i18n: true }
     - { label: Description, name: description, widget: string, i18n: true }
 
-- label: Authors
+- label: Blog > Authors
   name: post_authors
   folder: src/site/author
   create: true
