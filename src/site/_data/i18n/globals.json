@@ -4,6 +4,7 @@
     "about": "about us",
     "home": "home",
     "blog": "blog",
+    "media": "medias",
     "impressum": "impressum"
   },
   "fr": {
@@ -11,6 +12,7 @@
     "about": "à propos de nous",
     "home": "chez nous",
     "blog": "le blog",
+    "media": "medias",
     "impressum": "impressum"
   }
 }

@@ -25,9 +25,6 @@ function buildLocalesCollection(collectionApi) {
       (transByKey, page)=>{
         const locale = determineLocale(page);
         const key = determineTranslationKey(page);
-        if(key.includes('_project')){
-          console.log('k l:', key, locale);
-        }
         transByKey[key] = transByKey[key] || {};
         const translations = transByKey[key];
         translations[locale] = {locale, page};
@@ -38,9 +35,6 @@ function buildLocalesCollection(collectionApi) {
         const defaultTranslation = ts[DEFAULT_LOCALE];
         Object.values(ts).forEach(t => {
           const {locale, page} = t;
-        if(page.inputPath.includes('_project')){
-          console.log('p', page.inputPath, locale, defaultTranslation?.locale )
-        }
           const translations = LOCALES
                 .filter(loc => loc != locale )
                 .map(loc => ts[loc]);

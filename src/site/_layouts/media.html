@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div>{% markdown hero %}</div>
+<h1>{{articles_title}}</h1>
+{% for article in media_articles %}
+<div>
+  <img src="{{article.image}}">
+  <h3>{{article.title}}</h3>
+  <p>{{article.date | readableDate}}</p>
+  <a href="{{article.url}}">{{read_button}}</a>
+</div>
+{% endfor %}
+
+<h1>{{contact_title}}</h1>
+<div> {{contact_email}} </div>
+
+<h1>{{download_title}}</h1>
+<div> {{media_kit_title}}
+  <a href="{{media_kit_file}}">{{download_button}}</a>
+</div>
+
+<h1>{{press_releases_title}}</h1>
+{% for release in press_releases %}
+<div>
+  <p>{{release.date | readableDate}}</p>
+  <h3><a href="{{release.url}}">{{release.title}}</h3>
+</div>
+{% endfor %}

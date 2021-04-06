@@ -42,6 +42,7 @@ collections:
         - { label: About, name: about, widget: string, i18n: true }
         - { label: Home, name: home, widget: string, i18n: true }
         - { label: Blog, name: blog, widget: string, i18n: true }
+        - { label: Media, name: media, widget: string, i18n: true }
         - { label: Impressum, name: impressum, widget: string, i18n: true }
     - label: Signup text fragments
       name: i18n-signup
@@ -166,6 +167,49 @@ collections:
     - { label: "Browser tab title", name: title, widget: string, i18n: true }
     - { label: Hero , name: hero, widget: markdown, i18n: true }
     - { label: Body , name: body, widget: markdown, i18n: true }
+
+- label: Media
+  name: media
+  folder: src/site/media
+  extension: md
+  editor:
+    preview: false
+  create: false
+  i18n: true
+  preview_path: /en/impressum/
+  fields:
+    - { label: "Browser tab title", name: title, widget: string, i18n: true }
+    - { label: Hero , name: hero, widget: markdown, i18n: true }
+    - { label: "Articles title" , name: articles_title , widget: text, i18n: true }
+    - { label: "Read button" , name: read_button , widget: text, i18n: true }
+    - { label: "Contact title" , name: contact_title , widget: text, i18n: true }
+    - { label: "Contact email" , name: contact_email , widget: text, i18n: true }
+    - { label: "Media kit title" , name: media_kit_title , widget: text, i18n: true }
+    - { label: "Media kit file" , name: media_kit_file , widget: file, i18n: true }
+    - { label: "Download title" , name: download_title , widget: text, i18n: true }
+    - { label: "Download button" , name: download_button , widget: text, i18n: true }
+    - label: "Media articles"
+      name: "media_articles"
+      widget: "list"
+      i18n: true
+      summary: '{{fields.title}}'
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Date, name: date, widget: date}
+        - {label: Publication, name: publication, widget: text }
+        - {label: Lead, name: lead, widget: text }
+        - {label: Article, name: url, widget: file }
+        - {label: Image, name: image, widget: "image"}
+    - { label: "Press releases title" , name: press_releases_title , widget: text, i18n: true }
+    - label: "Press releases"
+      name: "press_releases"
+      widget: "list"
+      i18n: true
+      summary: '{{fields.title}}'
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Date, name: date, widget: date}
+        - {label: File, name: url, widget: file }
 
 - label: Blog main page
   name: blog
