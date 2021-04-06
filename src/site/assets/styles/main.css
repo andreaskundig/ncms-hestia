@@ -2,8 +2,8 @@
 @import './base/variables.css';
 @import './base/fonts.css';
 @import './base/typography.css';
-@import './components/sections.css';
-@import './components/buttons.css';
+@import './elements/sections.css';
+@import './elements/buttons.css';
 
 body {
   max-width: 100vw;
