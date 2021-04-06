@@ -20,6 +20,7 @@
 
 [build.environment]
   NODE_VERSION = "14"
+  NPM_VERSION = "7"
 
 # Redirects deactivated until public launch; display
 # landing homepage in the meantime (see WEBSITE.LABS #21)
