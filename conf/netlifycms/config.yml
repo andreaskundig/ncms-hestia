@@ -195,7 +195,7 @@ collections:
   i18n: true
   preview_path: /en/editorial/{{slug}}
   fields:
-    - { label: "Id (unique value that should never change)", name: id, widget: string , i18n: true}
+    - { label: "Id (unique value that should never change)", name: id, widget: string}
     - { label: Title, name: title, widget: string, i18n: true }
     - { label: "Image", name: "image", widget: "image", i18n: true }
     - { label: "Lead", name: "lead", widget: "markdown", i18n: true }
