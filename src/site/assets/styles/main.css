@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
 }
 
-body.mainContainer {
+.outerContainer {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -30,4 +30,8 @@ img {
 
 main img {
   content-visibility: auto;
+}
+
+::selection {
+  background: var(--color-bg-selection);
 }
