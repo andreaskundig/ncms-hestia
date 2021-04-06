@@ -5,12 +5,7 @@ path: home
 strategy_link_text: En savoir plus
 join_description: par là
 partners_description: "[Engagement Migros](https://www.engagement-migros.ch/fr/kuhne-vorhaben-fr)"
-layout: default
-featured_projects:
-  - dating privacy
-  - uber drivers
-  - mobility
-  - gaming
+layout: home
 permalink: fr/index.html
 title: HestiaLabs
 hero: |-
@@ -31,52 +26,3 @@ news_title: Nouvelles et événements
 news:
   - " a second post"
 ---
-{#
-If we're sure the html will the same as in the english version
-we can avoid the code duplication by moving it to a common template.
-#}
-<div>{% markdown hero %}<div>
-<h1>{{paragraph1_title}}</h1>
-<h2>{{problem_title}}</h2>
-<div>
-  {% markdown problem_description %}
-</div>
-<h2>{{strategy_title}}</h2>
-<div>
-  {% markdown strategy_description %}
-  <a href="/{{locale}}/strategy">{{strategy_link_text}}</a>
-</div>
-<h2>{{join_title}}</h2>
-<div>
-  {% markdown join_description %}
-  <a href="#" onclick="alert('should this open an email to hestia.ai?')" >{{join_link_text}}</a>
-</div>
-<h2>{{partners_title}}</h2>
-<div>
-  {% markdown partners_description %}
-  <a href="/{{locale}}/partners">{{partners_link_text}}</a>
-</div>
-
-
-<h1>{{projects_title}}</h1>
-{% set projects_to_display = defaultTranslation.page.data.featured_projects %}
-{% for project in collections.project %}
-  {% if project.data.locale == locale
-     and project.data.id in projects_to_display %}
-  <div>
-    <img src="{{project.data.image}}">
-    <h2>{{project.data.name}}</h2>
-    <p>{{project.data.description}}</p>
-  </div>
-  {% endif %}
-{% endfor %}
-
-<h1>{{news_title}}</h1>
-{% for edito in collections.editorial %}
-    {% if edito.data.locale == locale
-    and edito.data.id in news %}
-    <div>
-        <li><a href="{{edito.url}}">{{edito.data.title}}</a></li>
-    </div>
-    {% endif %}
-{% endfor %}
