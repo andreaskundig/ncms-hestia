@@ -23,20 +23,9 @@
 //
 // STATUS
 //
-// * Snowpack only serves results of the Eleventy build for now; it
-//   performs no ES build (we have no ES modules or Web Components).
-//
-// * We'll mount additional subfolder later on, for ES modules
-//   or Web Components, that Snowpack would need to process.
-//
-//   If the `src/components/` folder would contain Web Components,
-//   which we'd want to import from URL `components/componentXYZ`
-//   in an HTML script element, config might be ajusted like this:
-//
-//       mount: {
-//         'build/11ty': { url: '/', static: true },
-//         'src/components': { url: '/components' },
-//       },
+//   Snowpack serves the results of the Eleventy build; and performs
+//   an ES build of the Web Components in `/src/components/`, which
+//   are mounted and available to HTML pages at base URL `/components/`.
 //
 /* eslint-env node */
 
@@ -46,6 +35,7 @@ module.exports = {
     // NOTE: in dev mode, only `build/11ty` would exist
     // (`build/snowpack` folder appears at build only)
     'build/11ty': { url: '/', static: true },   // linked to Eleventy `dir.output` setting
+    'src/components': { url: '/components' },   // linked from HTML pages
   },
   plugins: [
     // NOTE: to run Eleventy before Snowpack builds, we replaced the
@@ -62,7 +52,7 @@ module.exports = {
   buildOptions: {
     out: 'build/snowpack',  // linked to Netlify `build.publish` setting
     clean: true,            // (default value)
-    metaUrlPath: 'modules',
+    metaUrlPath: 'modules', // bundled packages will be mounted at base URL /modules/pkg/
     sourcemap: true
   },
   optimize: {

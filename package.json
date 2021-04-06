@@ -48,6 +48,7 @@
     "url": "git+https://github.com/hestiaAI/website.labs.git"
   },
   "dependencies": {
+    "lit-element": "^2.4.0",
     "luxon": "^1.26.0"
   }
 }

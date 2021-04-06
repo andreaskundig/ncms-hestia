@@ -2,6 +2,23 @@
 
 Web Components of our website.
 
+## Available components
+
+* `<article-breakout href="…"> …text… </article-breakout>`
+
+## Usage
+
+```javascript
+<article-breakout href="en/editorial/first-post/">
+  <h1>A first blog post</h1>
+  <p>An attention-grabbing lead</p>
+</article-breakout>
+
+<script type="module">
+  import '/components/article-breakout.js';
+</script>
+```
+
 ## Disambiguation
 
 By ‹Web Components›, in this project, we mean the standardized _front-end_ [Web Components](https://www.webcomponents.org/introduction), which incarnate as custom elements in web pages, registered and instanciated at _runtime_ by the browser. For instance:

@@ -50,12 +50,13 @@ the code to `home/en/index.html` and `home/fr/index.html`
 
 <section id="news">
   <h1>{{news_title}}</h1>
+  <noscript>You need JavaScript enabled to see the additional news articles hereafter.</noscript>
   {% for edito in collections.editorial %}
       {% if edito.data.locale == locale
       and edito.data.id in news %}
-      <div>
-          <li><a href="{{edito.url}}">{{edito.data.title}}</a></li>
-      </div>
+      <article-breakout href="{{edito.url}}">
+        {{edito.data.title}}
+      </article-breakout>
       {% endif %}
   {% endfor %}
 </section>
@@ -63,3 +64,7 @@ the code to `home/en/index.html` and `home/fr/index.html`
 <section id="newsletter">
   {% include "signup.njk" %}
 </section>
+
+<script type="module">
+  import '/components/article-breakout.js';
+</script>
