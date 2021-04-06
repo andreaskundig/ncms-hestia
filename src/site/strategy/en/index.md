@@ -18,10 +18,10 @@ submit_button_big: Submit a project
 change_steps:
   - title: first
     description: grab a cat
-    image: /assets/img/kitten-c-lachlan-rogers-c-.jpg
+    image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
   - title: then
     description: grill marshmallows
-    image: /assets/img/pexels-c-maria-orlova-c-4906149.jpg
+    image: /assets/media/pexels-c-maria-orlova-c-4906149.jpg
 conclusion_title: YOUR p
 conclusion: Lorem impsump
 ---

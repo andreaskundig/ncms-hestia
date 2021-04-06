@@ -24,7 +24,7 @@ media_articles:
     publication: le temps
     lead: this is just their home page
     url: https://www.letemps.ch/
-    image: /assets/img/kitten-c-lachlan-rogers-c-.jpg
+    image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
   - date: 2021-04-06T10:32:04.062Z
     url: https://www.ksl.com/article/46312638/how-to-get-your-data-back-from-google-facebook-and-cambridge-analytica
     title: How to get your data back from Google, Facebook and Cambridge Analytica
@@ -34,7 +34,7 @@ media_articles:
       profiles of what they know — or think they can reasonably guess — about
       your purchasing habits, personality, hobbies and even what political
       issues you care about."
-    image: /assets/img/pexels-c-maria-orlova-c-4906149.jpg
+    image: /assets/media/pexels-c-maria-orlova-c-4906149.jpg
 media_kit: Media kit
 contact_email: press@hestia.ai
 ---
