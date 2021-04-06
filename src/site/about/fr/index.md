@@ -1,4 +1,6 @@
 ---
+contact_sharer_action: Voyez nos projets en cours
+contact_media: Seriez-vous partenaire?
 people_title: Des gens
 layout: about
 permalink: /fr/about/index.html
@@ -13,8 +15,12 @@ hero: |-
   parlons-en
 story_title: Ecoute ça
 story: C'est l'histoire d'un animal qui avait ...
-contact_title: pas moi
-contact_project: La papesse
+contact_title: Contactez-nous
+contact_project: Votre projet a-t-il besoin d'analyse de données
+contact_project_action: Cliquez ici. Nous pourrions peut-être vous aider.
+contact_sharer: Voulez-vous partager vos données
+contact_media_action: Contactez Marie-Pierre
+contact_other: Autre chose
 people:
   - name: Hestia
     description: "Dans la mythologie grecque, Hestia (en grec ancien Ἑστία / Hestía)

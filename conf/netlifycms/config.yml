@@ -154,7 +154,7 @@ collections:
       name: "timeline_events"
       widget: "list"
       i18n: true
-      summary: '{{fields.date}}'
+      summary: '{{fields.name}}'
       fields:
         - {label: "Date", name: name, widget: date}
         - {label: Description, name: description, widget: text }
