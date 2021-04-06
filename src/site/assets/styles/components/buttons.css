@@ -1,0 +1,30 @@
+button {
+  border: var(--color-btn-primary-border);
+  border-radius: var(--text-base-font-size);
+  background-color: var(--color-btn-primary-bg);
+  color: var(--color-btn-primary-text);
+  box-shadow: var(--color-btn-primary-shadow);
+  white-space: nowrap;
+  text-decoration: none;
+  padding: calc(var(--text-base-font-size) / 4) calc(var(--text-base-font-size) * 1.5);
+  margin: calc(var(--text-base-font-size) / 4);
+  transition: box-shadow 400ms ease, background 200ms ease;
+  width: fit-content;
+  cursor: pointer;
+}
+
+button:focus {
+  border-color: var(--color-btn-primary-hover-border);
+}
+
+button:hover {
+  background-color: var(--color-btn-primary-hover-bg);
+  border: var(--color-btn-primary-hover-border);
+  color: var(--color-btn-primary-hover-text);
+  box-shadow: var(--color-btn-primary-hover-shadow);
+  transition: box-shadow 400ms ease, background 200ms ease;
+}
+
+section#hero button {
+  border-radius: var(--h1-font-size);
+}

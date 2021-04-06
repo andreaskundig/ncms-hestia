@@ -86,17 +86,19 @@
   /* Button colors */
   --color-btn-text:                 var(--color-text-white);
   --color-btn-bg:                   var(--color-text-link);
-  --color-btn-border:               var(--color-text-link);
+  --color-btn-border:               calc(var(--text-base-font-size) / 6) solid var(--color-text-link);
+  --color-btn-shadow:               var(--shadow-small);
   --color-btn-hover-text:           var(--color-text-link);
   --color-btn-hover-bg:             var(--color-text-white);
-  --color-btn-hover-border:         var(--color-text-link);
-  --color-btn-shadow:               var(--shadow-small);
+  --color-btn-hover-border:         var(--color-btn-border);
+  --color-btn-hover-shadow:         var(--shadow-medium);
 
   --color-btn-primary-text:         var(--color-text-link);
   --color-btn-primary-bg:           var(--color-text-white);
-  --color-btn-primary-border:       var(--color-text-link);
+  --color-btn-primary-border:       calc(var(--text-base-font-size) / 6) solid var(--color-text-link);
+  --color-btn-primary-shadow:       var(--color-btn-shadow);
   --color-btn-primary-hover-text:   var(--color-text-white);
   --color-btn-primary-hover-bg:     var(--color-text-link);
-  --color-btn-primary-hover-border: var(--color-text-link);
-  --color-btn-primary-shadow:       var(--color-btn-shadow);
+  --color-btn-primary-hover-border: var(--color-btn-primary-border);
+  --color-btn-primary-hover-shadow: var(--color-btn-hover-shadow);
 }

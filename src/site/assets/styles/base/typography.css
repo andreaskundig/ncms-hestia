@@ -36,7 +36,8 @@ section#hero {
 }
 
 h1,
-section#hero p {
+section#hero p,
+section#hero button {
   font-size: var(--h1-font-size);
   line-height: var( --line-height-double);
 }
