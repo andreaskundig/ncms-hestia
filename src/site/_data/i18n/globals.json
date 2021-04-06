@@ -5,6 +5,7 @@
     "home": "home",
     "blog": "blog",
     "media": "medias",
+    "strategy": "strategy",
     "impressum": "impressum"
   },
   "fr": {
@@ -13,6 +14,7 @@
     "home": "chez nous",
     "blog": "le blog",
     "media": "medias",
+    "strategy": "stratégie",
     "impressum": "impressum"
   }
 }

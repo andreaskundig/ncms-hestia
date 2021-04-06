@@ -42,6 +42,7 @@ collections:
         - { label: About, name: about, widget: string, i18n: true }
         - { label: Home, name: home, widget: string, i18n: true }
         - { label: Blog, name: blog, widget: string, i18n: true }
+        - { label: Strategy, name: strategy, widget: string, i18n: true }
         - { label: Media, name: media, widget: string, i18n: true }
         - { label: Impressum, name: impressum, widget: string, i18n: true }
     - label: Signup text fragments
@@ -225,7 +226,7 @@ collections:
     - { label: "Introduction title" , name: introduction_title , widget: text, i18n: true }
     - { label: Introduction , name: introduction, widget: markdown, i18n: true }
     - { label: "Manifesto button" , name: manifesto_button , widget: text, i18n: true }
-    - { label: "Manifesto" , name: manifesto , widget: file, i18n: true }
+    - { label: "Manifesto" , name: manifesto_file , widget: file, i18n: true }
     - { label: "Submit button (small)" , name: submit_button_small , widget: text, i18n: true }
     - { label: "Submit button (big)" , name: submit_button_big , widget: text, i18n: true }
     - { label: "Four steps title" , name: four_steps_title , widget: text, i18n: true }
