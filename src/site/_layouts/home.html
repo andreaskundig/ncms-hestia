@@ -2,52 +2,63 @@
 layout: default
 ---
 {#
-If we need custom html per language,
-move this to home/en/index.html and home/fr/index.html
+Would we need custom HTML per language, copy & override
+the code to `home/en/index.html` and `home/fr/index.html`
 #}
-<div>{% markdown hero %}<div>
-<h1>{{paragraph1_title}}</h1>
-<h2>{{problem_title}}</h2>
-<div>
-  {% markdown problem_description %}
-</div>
-<h2>{{strategy_title}}</h2>
-<div>
-  {% markdown strategy_description %}
-  <a href="/{{locale}}/strategy">{{strategy_link_text}}</a>
-</div>
-<h2>{{join_title}}</h2>
-<div>
-  {% markdown join_description %}
-  <a href="#" onclick="alert('should this open an email to hestia.ai?')" >{{join_link_text}}</a>
-</div>
-<h2>{{partners_title}}</h2>
-<div>
-  {% markdown partners_description %}
-  <a href="/{{locale}}/partners">{{partners_link_text}}</a>
-</div>
+<section id="hero">
+  {% markdown hero %}
+</section>
 
-<h1>{{projects_title}}</h1>
-{% set projects_to_display = defaultTranslation.page.data.featured_projects %}
-{% for project in collections.project %}
-{% if project.data.locale == locale
-   and project.data.id in projects_to_display%}
+<section id="wat">
+  <h1>{{paragraph1_title}}</h1>
+  <h2>{{problem_title}}</h2>
   <div>
-    <img src="{{project.data.image}}">
-    <h2>{{project.data.name}}</h2>
-    <p>{{project.data.description}}</p>
+    {% markdown problem_description %}
   </div>
-  {% endif %}
-{% endfor %}
+  <h2>{{strategy_title}}</h2>
+  <div>
+    {% markdown strategy_description %}
+    <a href="/{{locale}}/strategy">{{strategy_link_text}}</a>
+  </div>
+  <h2>{{join_title}}</h2>
+  <div>
+    {% markdown join_description %}
+    <a href="#" onclick="alert('should this open an email to hestia.ai?')" >{{join_link_text}}</a>
+  </div>
+  <h2>{{partners_title}}</h2>
+  <div>
+    {% markdown partners_description %}
+    <a href="/{{locale}}/partners">{{partners_link_text}}</a>
+  </div>
+</section>
 
-<h1>{{news_title}}</h1>
-{% for edito in collections.editorial %}
-    {% if edito.data.locale == locale
-    and edito.data.id in news %}
+<section id="projects">
+  <h1>{{projects_title}}</h1>
+  {% set projects_to_display = defaultTranslation.page.data.featured_projects %}
+  {% for project in collections.project %}
+  {% if project.data.locale == locale
+    and project.data.id in projects_to_display%}
     <div>
-        <li><a href="{{edito.url}}">{{edito.data.title}}</a></li>
+      <img src="{{project.data.image}}">
+      <h2>{{project.data.name}}</h2>
+      <p>{{project.data.description}}</p>
     </div>
     {% endif %}
-{% endfor %}
+  {% endfor %}
+</section>
 
-{% include "signup.njk" %}
+<section id="news">
+  <h1>{{news_title}}</h1>
+  {% for edito in collections.editorial %}
+      {% if edito.data.locale == locale
+      and edito.data.id in news %}
+      <div>
+          <li><a href="{{edito.url}}">{{edito.data.title}}</a></li>
+      </div>
+      {% endif %}
+  {% endfor %}
+</section>
+
+<section id="newsletter">
+  {% include "signup.njk" %}
+</section>

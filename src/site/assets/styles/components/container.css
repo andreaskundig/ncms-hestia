@@ -9,3 +9,16 @@
   padding: 2rem 1rem;
   background-color: var(--color-bg-primary);
 }
+
+section#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 24em;
+  background-color: var(--color-bg-tertiary);
+  background-image: url('section-hero-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}

@@ -22,7 +22,9 @@ header, footer {
   text-transform: uppercase;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3,
+h4, h5, h6,
+section#hero {
   font-family: var(--font-family-display);
   margin: 0;
   margin-bottom: var(--paragraph-margin-bottom);
@@ -33,10 +35,14 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 
-h1 {
+h1,
+section#hero p {
   font-size: var(--h1-font-size);
-  font-weight: var(--h1-font-weight);
   line-height: var( --line-height-double);
+}
+
+h1 {
+  font-weight: var(--h1-font-weight);
 }
 
 h2 {
