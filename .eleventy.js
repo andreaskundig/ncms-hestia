@@ -25,8 +25,9 @@ module.exports = function (eleventyConfig) {
     DateTime.fromJSDate(dateObj, { zone: "utc" })
             .toFormat("dd LLL yyyy")
   );
-  eleventyConfig.addNunjucksShortcode("creditedImage", creditedImage);
-  eleventyConfig.addNunjucksShortcode("markdown", markdown);
+  eleventyConfig.addShortcode("creditedImage", creditedImage);
+  eleventyConfig.addShortcode("markdown", markdown);
+  eleventyConfig.addShortcode("dumbTemplate", (str, val) => str.replace('###', val));
 
   // Let Eleventy transform HTML files as Nunjucks
   // So that we can use .html instead of .njk

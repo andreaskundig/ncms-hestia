@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<h1>{{name}}</h1>
+<section id="hero">
+{% dumbTemplate i18n.category_fragments[locale].hero, name %}
+</section>
 <p>{{description}}</p>
 <ul>
     {% for post in collections.post %}

@@ -455,7 +455,17 @@ collections:
     - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string }
     - { label: "Name", name: name, widget: string, i18n: true }
     - { label: Description, name: description, widget: string, i18n: true }
-
+- label: Blog ‹Category text fragments›
+  name: category_fragment_files
+  i18n:
+    structure: single_file
+  files:
+    - label: Category text fragments
+      name: category_fragments
+      file: src/site/_data/i18n/category_fragments.json
+      i18n: true
+      fields:
+        - { label: 'Hero (### will be replaced by the category name )', name: hero, widget: string, i18n: true }
 - label: Blog › Authors
   name: post_authors
   folder: src/site/author
