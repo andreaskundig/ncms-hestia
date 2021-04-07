@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<section id="hero">
+{% markdown hero %}
+</section>
+
+<section id="wat">
+  <h1>{{introduction_title}}</h1>
+  <div>
+    {% markdown introduction%}
+  </div>
+  <h1>{{your_title}}</h1>
+  <h2>{{your_subtitle}}</h2>
+<a href="#" onclick="alert('not implemented')">{{your_button}}</a>
+</section>
+
+<section id="running-projects">
+  <h1>{{running_projects_title}}</h1>
+  {% set running_to_display = defaultTranslation.page.data.running_projects %}
+  {% for project in collections.project %}
+  {% if project.data.locale == locale
+    and project.data.id in running_to_display%}
+    <div>
+      <img src="{{project.data.image}}">
+      <h2>{{project.data.name}}</h2>
+      <p>{{project.data.description}}</p>
+    </div>
+    {% endif %}
+  {% endfor %}
+</section>
+
+<section id="launchpad-projects">
+  <h1>{{launchpad_projects_title}}</h1>
+  {% set launchpad_to_display = defaultTranslation.page.data.launchpad_projects %}
+  {% for project in collections.project %}
+  {% if project.data.locale == locale
+    and project.data.id in launchpad_to_display%}
+    <div>
+      <img src="{{project.data.image}}">
+      <h2>{{project.data.name}}</h2>
+      <p>{{project.data.description}}</p>
+    </div>
+    {% endif %}
+  {% endfor %}
+</section>

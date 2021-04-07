@@ -1,6 +1,12 @@
 ---
+your_subtitle: hey
+layout: projects
+permalink: /en/projects/index.html
 title: Projects
-hero: jerp
+hero: |-
+  Already **X** projects underway.
+
+  What's your's
 introduction_title: Intro
 introduction: "**Lorem Ipsum** is simply dummy text of the printing and
   typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -12,12 +18,12 @@ introduction: "**Lorem Ipsum** is simply dummy text of the printing and
   desktop publishing software like Aldus PageMaker including versions of Lorem
   Ipsum."
 your_title: Your proj
-your_subtitle: hey
-your_button: yes
+your_button: submit your project
 running_projects_title: Running
 running_projects:
   - dating privacy
 launchpad_projects_title: Launchpad
 launchpad_projects:
   - uber drivers
+  - mobility
 ---
