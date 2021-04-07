@@ -4,16 +4,16 @@
     "about": "about us",
     "home": "home",
     "blog": "blog",
-    "media": "medias",
+    "media": "media",
     "strategy": "strategy",
     "impressum": "impressum"
   },
   "fr": {
     "contact": "contactez-nous",
-    "about": "à propos de nous",
-    "home": "chez nous",
-    "blog": "le blog",
-    "media": "medias",
+    "about": "à propos",
+    "home": "accueil",
+    "blog": "blog",
+    "media": "médias",
     "strategy": "stratégie",
     "impressum": "impressum"
   }
