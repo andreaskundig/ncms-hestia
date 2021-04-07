@@ -10,6 +10,9 @@ locale: en
       <p>
         <a href="/{{locale}}">{{i18n.globals[locale].home}}</a> |
         <a href="/{{locale}}/blog/">{{i18n.globals[locale].blog}}</a> |
+        <a href="/{{locale}}/strategy/">{{i18n.globals[locale].strategy}}</a> |
+        <a href="/{{locale}}/projects/">{{i18n.globals[locale].projects}}</a> |
+        <a href="/{{locale}}/partners/">{{i18n.globals[locale].partners}}</a> |
         {% for translation in translations %}
           {% if not loop.first %}/{% endif %}
           <a href="{{translation.page.url}}">{{translation.locale}}</a>
@@ -23,7 +26,6 @@ locale: en
       <p>
         {{i18n.globals[locale].contact}} |
         <a href="/{{locale}}/about/">{{i18n.globals[locale].about}}</a> |
-        <a href="/{{locale}}/strategy/">{{i18n.globals[locale].strategy}}</a> |
         <a href="/{{locale}}/media/">{{i18n.globals[locale].media}}</a> |
         <a href="/{{locale}}/impressum/">{{i18n.globals[locale].impressum}}</a>
       </p>

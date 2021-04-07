@@ -6,6 +6,8 @@
     "blog": "blog",
     "media": "media",
     "strategy": "strategy",
+    "partners": "partners",
+    "projects": "projects",
     "impressum": "impressum"
   },
   "fr": {
@@ -15,6 +17,8 @@
     "blog": "blog",
     "media": "médias",
     "strategy": "stratégie",
+    "partners": "partenaires",
+    "projects": "projets",
     "impressum": "impressum"
   }
 }
