@@ -2,7 +2,7 @@
 layout: default
 ---
 <section id="hero">
-{% dumbTemplate i18n.category_fragments[locale].hero, name %}
+    {% include "author_fragments/" + locale +"/hero.md" %}
 </section>
 <p>{{description}}</p>
 <ul>

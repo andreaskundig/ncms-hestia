@@ -2,7 +2,9 @@
 layout: default
 ---
 {% set id = defaultTranslation.page.data.id %}
-<h1>{{name}}</h1>
+<section id="hero">
+    {% include "author_fragments/" + locale +"/hero.md" %}
+</section>
 <p>{{ description }}</p>
     {% for post in collections.post %}
         {% set post_authors = post.data.post_authors %}
