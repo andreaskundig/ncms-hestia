@@ -9,7 +9,7 @@ permalink: /fr/partners/index.html
 title: Partenaires
 hero: Ensemble
 you_title: Vous
-you_image: /assets/media/pexels-c-maria-orlova-c-4906149.jpg
+you_image: /assets/media/you_partner_claudio-schwarz-purzlbaum-unsplash.jpeg
 you_description: Vous êtes
 you_button: Parlons-en
 ---
