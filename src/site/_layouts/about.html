@@ -4,24 +4,35 @@ layout: default
 <section id="hero">
     {% markdown hero %}
 </section>
-<h1>{{story_title}}</h1>
+<h1>{% markdown story_title %}</h1>
 <div>{% markdown story %}</div>
 
-<h1>{{people_title}}</h1>
+<h1>{% markdown people_title %}</h1>
 {% for person in people %}
 <div>
   <h2>{{person.name}}</h2>
-  <p>{{person.description}}</p>
+  <p>{% markdown person.description %}</p>
+  <p>
+    {% if person.twitter %}
+      <a href="{{person.twitter}}">twitter</a>
+    {% endif %}
+    {% if person.linkedin %}
+      <a href="{{person.linkedin}}">linkedin</a>
+    {% endif %}
+    {% if person.email %}
+      <a href="{{person.email}}">email</a>
+    {% endif %}
+  </p>
 </div>
 {% endfor %}
 
-<h1>{{contact_title}}</h1>
+<h1>{% markdown contact_title %}</h1>
 <div>
   <div>
     {{contact_project}}
   </div>
   <div>
-    <a href="#" onclick="alert('not implemented')">{{contact_project_action}}</a>
+    <a href="{{contact_project_url}}">{{contact_project_action}}</a>
   </div>
 </div>
 <div>
@@ -29,7 +40,7 @@ layout: default
     {{contact_sharer}}
   </div>
   <div>
-    <a href="#" onclick="alert('not implemented')">{{contact_sharer_action}}</a>
+    <a href="{{contact_sharer_url}}">{{contact_sharer_action}}</a>
   </div>
 </div>
 <div>
@@ -37,7 +48,7 @@ layout: default
     {{contact_media}}
   </div>
   <div>
-    <a href="#" onclick="alert('not implemented')">{{contact_media_action}}</a>
+    <a href="{{contact_media_url}}">{{contact_media_action}}</a>
   </div>
 </div>
 <div>
@@ -49,6 +60,6 @@ layout: default
 {% for event in timeline_events %}
 <div>
   <h2>{{event.name | readableDate}}</h2>
-  <p>{{event.description}}</p>
+  <p>{% markdown event.description %}</p>
 </div>
 {% endfor %}

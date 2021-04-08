@@ -4,11 +4,11 @@ layout: default
 <section id="hero">
     {% markdown hero %}
 </section>
-<h1>{{introduction_title}}</h1>
-<p>{{introduction}}</p>
+<h1>{% markdown introduction_title %}</h1>
+<p>{% markdown introduction %}</p>
 <a href="{{manifesto_file}}">{{manifesto_button}}</a>
 <a href="#" onclick="alert('not implemented')">{{submit_button_small}}</a>
-<h1>{{four_steps_title}}</h1>
+<h1>{% markdown four_steps_title %}</h1>
 {% for step in change_steps %}
 <div>
   <h3>{{step.title}}</h3>
@@ -17,6 +17,6 @@ layout: default
 </div>
 {% endfor %}
 
-<h1>{{conclusion_title}}</h1>
-<p>{{conclusion}}</p>
+<h1>{% markdown conclusion_title %}</h1>
+<p>{% markdown conclusion %}</p>
 <a href="#" onclick="alert('not implemented')">{{submit_button_big}}</a>

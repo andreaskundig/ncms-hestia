@@ -143,17 +143,23 @@ collections:
   fields:
     - { label: "Browser tab title", name: title, widget: string, i18n: true }
     - { label: Hero , name: hero, widget: markdown, i18n: true }
-    - { label: "Story title", name: story_title, widget: string, i18n: true }
+    - { label: "Story title", name: story_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Story", name: story, widget: markdown, i18n: true }
-    - { label: "Contact title", name: contact_title, widget: string, i18n: true }
+    - { label: "Contact title", name: contact_title, i18n: true ,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Contact project", name: contact_project, widget: string, i18n: true }
     - { label: "Contact project action", name: contact_project_action, widget: string, i18n: true }
+    - { label: "Contact project url", name: contact_project_url, widget: file, i18n: true }
     - { label: "Contact sharer", name: contact_sharer, widget: string, i18n: true }
     - { label: "Contact sharer action", name: contact_sharer_action, widget: string, i18n: true }
+    - { label: "Contact sharer url", name: contact_sharer_url, widget: file, i18n: true }
     - { label: "Contact media", name: contact_media, widget: string, i18n: true }
     - { label: "Contact media action", name: contact_media_action, widget: string, i18n: true }
+    - { label: "Contact media url", name: contact_media_url, widget: file, i18n: true }
     - { label: "Contact other", name: contact_other, widget: string, i18n: true }
-    - { label: "People title", name: people_title, widget: string, i18n: true }
+    - { label: "People title", name: people_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - label: "People"
       name: "people"
       widget: "list"
@@ -161,16 +167,20 @@ collections:
       summary: '{{fields.name}}'
       fields:
         - {label: Name, name: name, widget: string}
-        - {label: Description, name: description, widget: text }
+        - {label: Description, name: description, widget: markdown }
+        - {label: Image, name: image, widget: "image"}
+        - {label: Twitter, name: twitter, widget: string, required: false}
+        - {label: Linkedin, name: linkedin, widget: string, required: false}
+        - {label: Email, name: email, widget: string, required: false}
     - { label: "Timeline title", name: timeline_title, widget: string, i18n: true }
     - label: "Timeline events"
       name: "timeline_events"
       widget: "list"
       i18n: true
-      summary: '{{fields.name}}'
+      summary: '{{fields.description}}'
       fields:
-        - {label: "Date", name: name, widget: date}
-        - {label: Description, name: description, widget: text }
+        - {label: "Date", name: name, widget: date, date_format: "MM/YYYY" }
+        - {label: Description, name: description, widget: markdown }
 
 - label: Home › Impressum
   name: impressum
@@ -307,7 +317,7 @@ collections:
     - { label: "Your project › subtitle", name: your_subtitle, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Your project › button" , name: your_button , widget: text, i18n: true }
-    - { label: "Your project › url" , name: your_url , widget: text, i18n: true }
+    - { label: "Your project › url" , name: your_url , widget: file, i18n: true }
     - { label: "Running project › title" , name: running_projects_title, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Running project › button" , name: running_projects_button, i18n: true, widget: string}
