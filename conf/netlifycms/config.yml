@@ -297,12 +297,17 @@ collections:
   fields:
     - { label: "Browser tab title", name: title, widget: string, i18n: true }
     - { label: Hero , name: hero, widget: markdown, i18n: true }
-    - { label: "Introduction › title" , name: introduction_title , widget: text, i18n: true }
+    - { label: "Introduction › title" , name: introduction_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Introduction › content", name: introduction, widget: markdown, i18n: true }
-    - { label: "Your project › title" , name: your_title , widget: text, i18n: true }
-    - { label: "Your project › subtitle", name: your_subtitle, widget: text, i18n: true }
+    - { label: "Your project › title", name: your_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
+    - { label: "Your project › subtitle", name: your_subtitle, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Your project › button" , name: your_button , widget: text, i18n: true }
-    - { label: "Running project › title" , name: running_projects_title , widget: text, i18n: true }
+    - { label: "Your project › url" , name: your_url , widget: text, i18n: true }
+    - { label: "Running project › title" , name: running_projects_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - label: "Running projects"
       name: "running_projects"
       widget: "list"
@@ -314,7 +319,8 @@ collections:
         display_fields: ["name"]
         multiple: false
         search_fields: ["name", "description"]
-    - { label: "Launchpad project › title" , name: launchpad_projects_title , widget: text, i18n: true }
+    - { label: "Launchpad project › title" , name: launchpad_projects_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - label: "Launchpad projects"
       name: "launchpad_projects"
       widget: "list"
