@@ -2,6 +2,7 @@
 title: Strategy
 hero: |-
   An urgent mission
+
   A relevant strategy
 introduction_title: '"With great power comes great responsibility"'
 introduction: >-
