@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1>{{title}}</h1>
+<h1>{% markdown title %}</h1>
 <p>
 {% for author in collections.post_author %}
 {% if author.data.id in post_authors

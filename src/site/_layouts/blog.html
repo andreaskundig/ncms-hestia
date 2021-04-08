@@ -31,7 +31,7 @@ layout: default
 {% endif %}
 
 {% if collections.infographic %}
-  <h1>{{infographics_title}}</h1>
+  <h1>{% markdown infographics_title %}</h1>
   {% for post in collections.infographic %}
     {% if post.data.locale == locale %}
       <div>
@@ -42,7 +42,7 @@ layout: default
     {% endif %}
   {% endfor %}
 {% endif %}
-<h1>{{categories_title}}</h1>
+<h1>{% markdown categories_title %}</h1>
 <ul>
     {% for category in collections.post_category %}
         {% if category.data.locale == locale %}
@@ -51,7 +51,7 @@ layout: default
     {% endfor %}
 </ul>
 
-<h1>{{authors_title}}</h1>
+<h1>{% markdown authors_title %}</h1>
 <ul>
     {% for author in collections.post_author %}
         {% if author.data.locale == locale %}

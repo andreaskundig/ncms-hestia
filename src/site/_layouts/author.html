@@ -5,7 +5,7 @@ layout: default
 <section id="hero">
     {% include "author_fragments/" + locale +"/hero.md" %}
 </section>
-<p>{{ description }}</p>
+<p>{% markdown  description  %}</p>
     {% for post in collections.post %}
         {% set post_authors = post.data.post_authors %}
         {% if post.data.locale == locale and id in post_authors %}

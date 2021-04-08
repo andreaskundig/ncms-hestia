@@ -11,7 +11,7 @@ layout: default
 <h1>{% markdown four_steps_title %}</h1>
 {% for step in change_steps %}
 <div>
-  <h3>{{step.title}}</h3>
+  <h3>{% markdown step.title %}</h3>
   <img src="{{step.image}}">
   <p>{% markdown step.description %}</p>
 </div>

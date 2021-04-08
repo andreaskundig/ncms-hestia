@@ -5,12 +5,12 @@ layout: default
     {% markdown hero %}
 </section>
 <img src="{{you_image}}">
-<h1>{{you_title}}</h1>
+<h1>{% markdown you_title %}</h1>
 <p>{% markdown you_description %}</p>
 <a href="#" onclick="alert('not implemented')">{{you_button}}</a>
 {% for partner in partners %}
 <div>
-  <h2>{{partner.title}}</h2>
+  <h2>{% markdown partner.title %}</h2>
   <p>{% markdown partner.description %}</p>
   <img src="{{partner.image}}">
 </div>
