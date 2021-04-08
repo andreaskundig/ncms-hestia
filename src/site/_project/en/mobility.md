@@ -2,9 +2,9 @@
 id: mobility
 name: Mobility
 description: >-
-  Data is key to optimizing mobility solutions. When passengers use multiple
+  Data is key for optimising mobility solutions. When passengers use multiple
   services in a single journey, it makes sense to start looking at the data
-  ecosystem from that individual’s perspective instead.
+  ecosystem from that individual’s perspective.
 
 
   What happens when we combine forces? Let’s find out!
