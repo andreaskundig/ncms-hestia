@@ -6,7 +6,7 @@ layout: default
 </section>
 {% include "signup.njk" %}
 {% if collections.editorial %}
-<h1>{{editorials_title}}</h1>
+<h1>{% markdown editorials_title %}</h1>
 {% for post in collections.editorial %}
   {% if post.data.locale == locale %}
     <div>
@@ -18,7 +18,7 @@ layout: default
 {% endfor %}
 {% endif %}
 {% if collections.interview %}
-  <h1>{{interviews_title}}</h1>
+  <h1>{% markdown interviews_title %}</h1>
   {% for post in collections.interview %}
     {% if post.data.locale == locale %}
       <div>
