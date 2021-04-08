@@ -11,4 +11,5 @@ description: >-
 
   The project also provides dating apps users with a tool to visualise and understand the dating apps data ecosystem and its exploitation.
 image: https://placekitten.com/300/180
+url: https://wiki.personaldata.io/wiki/Project:Dating_Privacy
 ---

@@ -1,5 +1,6 @@
 ---
 your_subtitle: alors qu'est-ce vous faites?
+your_url: proposez
 layout: projects
 permalink: /fr/projects/index.html
 title: Projets
@@ -16,9 +17,11 @@ introduction: >-
 your_title: vot projet
 your_button: proposer un projet
 running_projects_title: En cours
+running_projects_button: site web
 running_projects:
   - dating privacy
 launchpad_projects_title: En préparation
+launchpad_projects_button: rejoignez le projet
 launchpad_projects:
   - uber drivers
   - mobility

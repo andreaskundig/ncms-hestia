@@ -1,5 +1,6 @@
 ---
 your_subtitle: hey
+your_url: mailto:welcome@future.com
 layout: projects
 permalink: /en/projects/index.html
 title: Projects
@@ -18,11 +19,13 @@ introduction: "**Lorem Ipsum** is simply dummy text of the printing and
   desktop publishing software like Aldus PageMaker including versions of Lorem
   Ipsum."
 your_title: Your proj
-your_button: submit your project
+your_button: Submit a project
 running_projects_title: Running
+running_projects_button: Website
 running_projects:
   - dating privacy
 launchpad_projects_title: Launchpad
+launchpad_projects_button: Join the project
 launchpad_projects:
   - uber drivers
   - mobility

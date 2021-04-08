@@ -25,6 +25,7 @@ layout: default
       <img src="{{project.data.image}}">
       <h2>{{project.data.name}}</h2>
       <p>{{project.data.description}}</p>
+      <a href="{{project.data.url}}">{{running_projects_button}}</a>
     </div>
     {% endif %}
   {% endfor %}
@@ -40,6 +41,7 @@ layout: default
       <img src="{{project.data.image}}">
       <h2>{{project.data.name}}</h2>
       <p>{{project.data.description}}</p>
+      <a href="{{project.data.url}}">{{launchpad_projects_button}}</a>
     </div>
     {% endif %}
   {% endfor %}

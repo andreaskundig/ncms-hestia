@@ -55,7 +55,7 @@ collections:
         - { label: "Last name", name: last_name, widget: string, i18n: true }
         - { label: "Email address", name: email, widget: string, i18n: true }
 
-- label: ‹Project›
+- label: ‹Projects›
   name: project
   folder: src/site/_project
   create: true
@@ -65,10 +65,12 @@ collections:
   i18n: true
   identifier_field: id
   fields:
-    - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string, }
+    - {label: "Id (never change this, only set a unique value at creation)", name: id, widget: string, }
     - {label: Name, name: name, widget: string, i18n: true}
     - {label: Description, name: description, widget: markdown, i18n: true }
     - {label: Image, name: image, widget: image, i18n: true}
+    - {label: Url, name: url, widget: file, i18n: true}
+
 
 - label: Home (main page)
   name: home
@@ -308,6 +310,7 @@ collections:
     - { label: "Your project › url" , name: your_url , widget: text, i18n: true }
     - { label: "Running project › title" , name: running_projects_title, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
+    - { label: "Running project › button" , name: running_projects_button, i18n: true, widget: string}
     - label: "Running projects"
       name: "running_projects"
       widget: "list"
@@ -321,6 +324,7 @@ collections:
         search_fields: ["name", "description"]
     - { label: "Launchpad project › title" , name: launchpad_projects_title, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
+    - { label: "Launchpad project › button" , name: launchpad_projects_button, i18n: true, widget: string}
     - label: "Launchpad projects"
       name: "launchpad_projects"
       widget: "list"
