@@ -142,7 +142,7 @@ collections:
     - { label: "Browser tab title", name: title, widget: string, i18n: true }
     - { label: Hero , name: hero, widget: markdown, i18n: true }
     - { label: "Story title", name: story_title, widget: string, i18n: true }
-    - { label: "Story", name: story, widget: text, i18n: true }
+    - { label: "Story", name: story, widget: markdown, i18n: true }
     - { label: "Contact title", name: contact_title, widget: string, i18n: true }
     - { label: "Contact project", name: contact_project, widget: string, i18n: true }
     - { label: "Contact project action", name: contact_project_action, widget: string, i18n: true }
