@@ -1,7 +1,5 @@
 ---
-contact_project_url: https://wiki.personaldata.io/wiki/Main_Page
 contact_sharer_action: Check our running projects
-contact_sharer_url: https://wiki.personaldata.io/wiki/Main_Page
 contact_media: You feel like you would be a valuable partner for HestiaLabs?
 people_title: People
 layout: about
@@ -16,44 +14,55 @@ hero: |-
 
   Let’s talk
 story_title: A short story about us
-story: It all started in 20XX when ...  enim ipsam voluptatem quia voluptas sit
-  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-  ratione voluptatem sequi nesciunt. Neque porro quisquam est. consequuntur
-  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-  est magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-  quisquam est.
+story: >-
+  The work of HestiaLabs' founder (the mathematician Paul-Olivier Dehaye) led to
+  the revelation of the Facebook-Cambridge Analytica scandal (2018) and the
+  writing of "Love under Algorithm", a book deconstructing Tinder's algorithm
+  (2019).
+
+
+  “Paul-Olivier Dehaye is today one of the best experts on this issue in the world. His aim is not to climb this kind of summit any further. Rather to contribute to the emergence of solutions and instruments likely to bring about change”, wrote Paris-Match. HestiaLabs is one of them.
 contact_title: Contact us
 contact_project: Your great project require data analysis?
 contact_project_action: Click here. We might help!
 contact_sharer: You would like to share your data in a constructive way (without being cheated)
 contact_media_action: Get in touch with Marie-Pierre
-contact_media_url: https://wiki.personaldata.io/wiki/Main_Page
 contact_other: Something else
 people:
-  - name: Hestia
-    description: 'In the Ancient Greek religion, Hestia (/ˈhɛstiə, ˈhɛstʃə/; Greek:
-      Ἑστία, "hearth" or "fireside") is the virgin goddess of the hearth, the
-      right ordering of domesticity, the family, the home, and the state. In
-      Greek mythology, she is the firstborn child of the Titans Cronus and Rhea'
-    image: https://placekitten.com/300/182
-    email: https://en.wikipedia.org/wiki/Hestia
-    linkedin: https://en.wikipedia.org/wiki/Hestia
-  - name: Vesta
+  - name: Paul-Olivier Dehaye
+    description: Paul is a mathematician by training who became interested in the
+      role of personal data in society. He has most notably helped uncover the
+      Cambridge Analytica scandal. He has led the NGO PersonalData.io and sits
+      on the board of MyData Global. He is the CEO of Hestia.ai, the company
+      running the HestiaLabs project.
+  - name: Olivier Lange
     description: "Vesta (Classical Latin: [ˈwɛsta]) is the virgin goddess of the
       hearth, home, and family in Roman religion. She was rarely depicted in
       human form, and was often represented by the fire of her temple in the
       Forum Romanum."
-    image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
-    twitter: https://en.wikipedia.org/wiki/Hestia
+  - name: Marie-Pierre Vidonne
+    description: Marie-Pierre is a Physicist. After several years spent in R&D in
+      both public and private sectors, Marie-Pierre joined Hestia in February
+      2021 as analyst and grant officer.
+  - name: Charles Foucault-Dumas
+    description: A science journalist and writer, Charles launched the media L'Usine
+      Digitale before heading the NGO Empowerment Foundation for a
+      human-centered digital world. He joined HestiaLabs in January 2021 as Head
+      of Communications.
+  - name: Andreas Kündig
+    description: >
+      Why he/she joined HestiaLabs , when did it happen, What he/she does for
+      HestiaLabs thanks to which skills and what he/she does when not working on
+      giving users control over their data.
 timeline_title: How it started - How it's going
 timeline_events:
-  - date: 0482-05-26T23:25:52.000Z
+  - name: 0482-05-26T23:25:52.000Z
     description: The end of the world predicted by Hydatius, also spelled Idacius
-  - date: 0793-04-05T23:25:52.000Z
+  - name: 0793-04-05T23:25:52.000Z
     description: The end of the world predicted by Saint Beatus of Liébana
-  - date: 1814-10-18T23:25:52.000Z
+  - name: 1814-10-18T23:25:52.000Z
     description: >-
-      The end of the world predicted by **Joanna Southcott**. 
+      The end of the world predicted by Joanna Southcott. 
 
       This 64-year-old self-described prophet claimed she was pregnant with the Christ child, and that he would be born on October 19, 1814. She died later that year having not delivered a child, and an autopsy proved she had not been pregnant.
 ---
