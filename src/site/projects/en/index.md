@@ -1,5 +1,8 @@
 ---
-your_subtitle: hey
+your_subtitle: >-
+  So? What about your idea?
+
+  Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
 layout: projects
 permalink: /en/projects/index.html
 title: Projects
@@ -54,7 +57,7 @@ introduction: >-
 
   The projects backed by HestiaLabs bring people together to build and learn things by pooling their data. We share the results obtained with journalists, researchers and civil society so that these innovations and knowledge benefit society as a whole.
 your_title: Your project
-your_button: submit your project
+your_button: Submit a project
 running_projects_title: Running
 running_projects:
   - dating privacy
