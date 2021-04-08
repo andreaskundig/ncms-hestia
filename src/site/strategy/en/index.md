@@ -37,7 +37,7 @@ four_steps_introduction: ...that do not need to be sequential
 permalink: /en/strategy/index.html
 manifesto_button: Download our manifesto
 manifesto_file: https://theanarchistlibrary.org/library/andre-breton-manifesto-of-surrealism.pdf
-submit_button_big: Submit a project
+submit_button_big: Submit your project
 change_steps:
   - title: Personal transformation
     description: >-
@@ -52,7 +52,7 @@ change_steps:
 
 
       HestiaLabs takes care to select projects and partners mature in this raising-awareness aspect, and focuses on its key asset: collective action.
-    image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
+    image: /assets/media/strategy-step1-laurenz-kleinheider-unsplash-c.jpeg
   - title: A conversation strikes up
     description: >-
       Now aware of a problem that he/she understands well, the individual
@@ -61,7 +61,49 @@ change_steps:
 
 
       This "individual external" dimension of the theory of change is the playground of our partner [PersonalData.io](https://wiki.personaldata.io/wiki/Main_Page): it invites anyone who feels lost as to their individual data rights to talk to each other and pool a set of resources.
-    image: /assets/media/pexels-c-maria-orlova-c-4906149.jpg
-conclusion_title: YOUR p
-conclusion: Lorem impsump
+    image: /assets/media/sar_le-temps.jpg
+  - description: >-
+      Once many people realise their data rights can create change, how do they
+      work together? Here are many unanswered questions . This “transforming
+      collective patterns of action and thinking” is the core of  HestiaLabs’
+      activities.
+
+
+      We support data collectives in their governance, their goal setting and mostly in their infrastructure.
+
+
+      With the help of recognised academic partners, we do the hard work of analysing collectivised data and transforming it into actionable insights.
+    title: Collective evolution
+    image: /assets/media/strategy-step3-c-pexels-pixabay-c.jpeg
+  - description: >-
+      When a group of individuals work together towards a common goal and
+      produce results, how do they reach out to those outside the collective to
+      bring about change?
+
+
+      A project creating new knowledge from the data collectivised does not achieve its goal. To be successful, its outputs must have an impact.
+
+
+      Through our media partners and the [MyData](https://mydata.org/) network, these outcomes are brought to the attention of decision-makers who can give them the social/legal impact they deserve.
+    title: Societal change
+    image: /assets/media/strategy-step4-c-bundeshaus_bern_2009_flooffy-c.jpeg
+conclusion_title: YOUR projects make this happen
+conclusion: >-
+  Your project directly benefits you and the data sharers who joined the data
+  collective we built together.
+
+
+  Your ourputs become further evidence of  a possible world where people decide how and why their data is used.
+
+
+  Communicating your outcomes to the general public sparks a change of mindset in some and ideas for new projects in others.
+
+
+  Your results add to those of the various initiatives under the common HestiaLabs umbrella. Their impact is multiplied and they are part of the global movement of data reappropriation by users.
+
+
+  The sum of these efforts paves the way to a world where data-driven innovations are made in collaboration with the people who produce them, and not without their consent anymore.
+
+
+  We don’t appropriate the data. We don’t speak in a vacuum. We focus on the very concrete development of legal and technical mechanisms to enable trust and data-driven bottom-up innovation in a sustainable way.
 ---
