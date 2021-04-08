@@ -456,13 +456,13 @@ collections:
     - { label: "Name", name: name, widget: string, i18n: true }
     - { label: Description, name: description, widget: string, i18n: true }
 
-- label: Blog › Category (common fragments)
+- label: Blog < Category fragments>
   name: category_fragments
   folder: src/site/_includes/category_fragments
   extension: md
   editor:
     preview: false
-  create: true
+  create: false
   i18n: true
   identifier_field: body
   fields:
@@ -484,13 +484,13 @@ collections:
     - { label: "Name", name: name, widget: string, i18n: true}
     - { label: Description, name: description, widget: string, i18n: true }
 
-- label: Blog › Author (common fragments)
+- label: Blog <Author fragments>
   name: author_fragments
   folder: src/site/_includes/author_fragments
   extension: md
   editor:
     preview: false
-  create: true
+  create: false
   i18n: true
   identifier_field: body
   fields:
