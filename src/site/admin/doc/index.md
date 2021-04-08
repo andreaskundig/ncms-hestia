@@ -12,5 +12,7 @@ When you create an id, make sure that it is unique. If two blog posts have the s
 
 Never change the ID field, because the references to it from other pages would not be updated.
 
+## The ID determines the url
+
 The value of the ID field at creation is used to create the url where the page will be found. After creation, the url will not change. If you want another url, you need to create another page and delete the first one.
 
