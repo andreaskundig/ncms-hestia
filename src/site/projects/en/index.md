@@ -58,11 +58,12 @@ introduction: >-
   The projects backed by HestiaLabs bring people together to build and learn things by pooling their data. We share the results obtained with journalists, researchers and civil society so that these innovations and knowledge benefit society as a whole.
 your_title: Your project
 your_button: Submit a project
-running_projects_title: Running
+running_projects_title: 1 Running project
 running_projects:
   - dating privacy
-launchpad_projects_title: Launchpad
+launchpad_projects_title: 4 projects on the launchpad
 launchpad_projects:
   - uber drivers
   - mobility
+  - disinformation
 ---
