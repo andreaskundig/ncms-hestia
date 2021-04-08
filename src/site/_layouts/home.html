@@ -54,8 +54,10 @@ the code to `home/en/index.html` and `home/fr/index.html`
   {% for edito in collections.editorial %}
       {% if edito.data.locale == locale
       and edito.data.id in news %}
-      <article-breakout href="{{edito.url}}" imgSrc="{{edito.data.image}}">
-        {{edito.data.title}}
+  <article-breakout href="{{edito.url}}"
+                    imgSrc="{{edito.data.image}}"
+                    title="{{edito.data.title}}">
+        {{edito.data.lead}}
       </article-breakout>
       {% endif %}
   {% endfor %}
