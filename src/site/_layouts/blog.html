@@ -4,10 +4,9 @@ layout: default
 <section id="hero">
     {% markdown lead %}
 </section>
+{% include "signup.njk" %}
 {% if collections.editorial %}
-{% set signup = i18n.signup[locale] %}</p>
-<p>{{signup.title}} ({{signup.first_name}}, {{signup.last_name}}, {{signup.email}})</p>
-<h2>{{editorials_title}}</h2>
+<h1>{{editorials_title}}</h1>
 {% for post in collections.editorial %}
   {% if post.data.locale == locale %}
     <div>
@@ -19,7 +18,7 @@ layout: default
 {% endfor %}
 {% endif %}
 {% if collections.interview %}
-  <h2>{{interviews_title}}</h2>
+  <h1>{{interviews_title}}</h1>
   {% for post in collections.interview %}
     {% if post.data.locale == locale %}
       <div>
@@ -32,7 +31,7 @@ layout: default
 {% endif %}
 
 {% if collections.infographic %}
-  <h2>{{infographics_title}}</h2>
+  <h1>{{infographics_title}}</h1>
   {% for post in collections.infographic %}
     {% if post.data.locale == locale %}
       <div>
@@ -43,7 +42,7 @@ layout: default
     {% endif %}
   {% endfor %}
 {% endif %}
-<h2>{{categories_title}}</h2>
+<h1>{{categories_title}}</h1>
 <ul>
     {% for category in collections.post_category %}
         {% if category.data.locale == locale %}
@@ -52,7 +51,7 @@ layout: default
     {% endfor %}
 </ul>
 
-<h2>{{authors_title}}</h2>
+<h1>{{authors_title}}</h1>
 <ul>
     {% for author in collections.post_author %}
         {% if author.data.locale == locale %}
@@ -61,4 +60,3 @@ layout: default
     {% endfor %}
 </ul>
 
-{% include "signup.njk" %}

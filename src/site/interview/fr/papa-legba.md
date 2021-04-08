@@ -1,5 +1,6 @@
 ---
 title: P. Legba
+date: 2021-01-12T11:32:25.646Z
 image: https://upload.wikimedia.org/wikipedia/commons/7/77/VeveLegba.svg
 lead: Intéressant dieu haïtien
 post_categories:

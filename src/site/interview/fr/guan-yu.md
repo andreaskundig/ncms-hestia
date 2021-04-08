@@ -2,6 +2,7 @@
 title: Kouan Yu
 image: https://upload.wikimedia.org/wikipedia/commons/e/ec/Guanyu-1.jpg
 lead: Intéressant dieu chinois
+date: 2021-01-08T11:32:25.646Z
 post_categories:
   - chill
 post_authors:

@@ -3,6 +3,23 @@ layout: default
 ---
 <h1>{{title}}</h1>
 <p>{% markdown lead %}</p>
+<p>
+{% for author in collections.post_author %}
+{% if author.data.id in post_authors
+   and author.data.locale == locale %}
+   <a href="{{author.data.page.url}}">{{author.data.name}}</a>
+  {% endif %}
+   {% endfor %}
+{{ date | readableDate}}
+</p>
+<p>
+{% for category in collections.post_category %}
+{% if category.data.id in post_categories
+   and category.data.locale == locale %}
+  <a href="{{category.data.page.url}}">{{category.data.name}}</a>
+  {% endif %}
+{% endfor %}
+</p>
 <img src="{{image}}">
 <div>
 {{ content | safe }}
