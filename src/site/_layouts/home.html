@@ -11,22 +11,22 @@ the code to `home/en/index.html` and `home/fr/index.html`
 </section>
 
 <section id="wat">
-  <h1>{{paragraph1_title}}</h1>
-  <h2>{{problem_title}}</h2>
+  <h1>{% markdown paragraph1_title %}</h1>
+  <h2>{% markdown problem_title %}</h2>
   <div>
     {% markdown problem_description %}
   </div>
-  <h2>{{strategy_title}}</h2>
+  <h2>{% markdown strategy_title %}</h2>
   <div>
     {% markdown strategy_description %}
     <a href="/{{locale}}/strategy">{{strategy_link_text}}</a>
   </div>
-  <h2>{{join_title}}</h2>
+  <h2>{% markdown join_title %}</h2>
   <div>
     {% markdown join_description %}
     <a href="#" onclick="alert('should this open an email to hestia.ai?')" >{{join_link_text}}</a>
   </div>
-  <h2>{{partners_title}}</h2>
+  <h2>{% markdown partners_title %}</h2>
   <div>
     {% markdown partners_description %}
     <a href="/{{locale}}/partners">{{partners_link_text}}</a>
@@ -34,7 +34,7 @@ the code to `home/en/index.html` and `home/fr/index.html`
 </section>
 
 <section id="projects">
-  <h1>{{projects_title}}</h1>
+  <h1>{% markdown projects_title %}</h1>
   {% set projects_to_display = defaultTranslation.page.data.featured_projects %}
   {% for project in collections.project %}
   {% if project.data.locale == locale
@@ -42,22 +42,22 @@ the code to `home/en/index.html` and `home/fr/index.html`
     <div>
       <img src="{{project.data.image}}">
       <h2>{{project.data.name}}</h2>
-      <p>{{project.data.description}}</p>
+      <p>{% markdown project.data.description %}</p>
     </div>
     {% endif %}
   {% endfor %}
 </section>
 
 <section id="news">
-  <h1>{{news_title}}</h1>
+  <h1>{% markdown news_title %}</h1>
   <noscript>You need JavaScript enabled to see the additional news articles hereafter.</noscript>
   {% for edito in collections.editorial %}
       {% if edito.data.locale == locale
       and edito.data.id in news %}
   <article-breakout href="{{edito.url}}"
                     imgSrc="{{edito.data.image}}"
-                    title="{{edito.data.title}}">
-        {{edito.data.lead}}
+                    title="{% markdown edito.data.title %}">
+        {% markdown edito.data.lead %}
       </article-breakout>
       {% endif %}
   {% endfor %}

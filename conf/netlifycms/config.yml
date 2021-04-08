@@ -86,19 +86,25 @@ collections:
   fields:
     - { label: "Browser tab title", name: title, widget: string, i18n: true }
     - { label: Hero , name: hero, widget: markdown, i18n: true }
-    - { label: "Paragraph 1 title", name: paragraph1_title, widget: string, i18n: true }
-    - { label: "Problem title", name: problem_title, widget: string, i18n: true }
+    - { label: "Paragraph 1 title", name: paragraph1_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
+    - { label: "Problem title", name: problem_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Problem description", name: problem_description, widget: markdown, i18n: true }
-    - { label: "Strategy title", name: strategy_title, widget: string, i18n: true }
+    - { label: "Strategy title", name: strategy_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Strategy description", name: strategy_description, widget: markdown, i18n: true }
     - { label: "Strategy link text", name: strategy_link_text, widget: string, i18n: true }
-    - { label: "Join title", name: join_title, widget: string, i18n: true }
+    - { label: "Join title", name: join_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Join description", name: join_description, widget: markdown, i18n: true }
     - { label: "Join link text", name: join_link_text, widget: string, i18n: true }
-    - { label: "Partners title", name: partners_title, widget: string, i18n: true }
+    - { label: "Partners title", name: partners_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Partners description", name: partners_description, widget: markdown, i18n: true }
     - { label: "Partners link text", name: partners_link_text, widget: string, i18n: true }
-    - { label: "Projects title", name: projects_title, widget: string, i18n: true }
+    - { label: "Projects title", name: projects_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - label: "Projects"
       name: "featured_projects"
       widget: "list"
@@ -110,7 +116,8 @@ collections:
         display_fields: ["name"]
         multiple: false
         search_fields: ["name", "description"]
-    - { label: "News title", name: news_title, widget: string, i18n: true }
+    - { label: "News title", name: news_title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - label: "News items"
       name: "news"
       widget: "list"
@@ -123,13 +130,6 @@ collections:
         display_fields: ["title"]
         multiple: false
         search_fields: ["title", "body"]
-
-# projects...
-# relations (news & events):
-# - post1: post
-# - post2: post
-# - post3: post
-#
 
 - label: Home › About us
   name: about
@@ -376,7 +376,8 @@ collections:
   preview_path: /en/editorial/{{slug}}
   fields:
     - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string }
-    - { label: Title, name: title, widget: string, i18n: true }
+    - { label: Title, name: title, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: Date, name: date, widget: datetime, i18n: true }
     - { label: "Image", name: "image", widget: "image", i18n: true }
     - { label: "Lead", name: "lead", widget: "markdown", i18n: true }
@@ -479,7 +480,7 @@ collections:
     - { label: "Name", name: name, widget: string, i18n: true }
     - { label: Description, name: description, widget: string, i18n: true }
 
-- label: Blog < Category fragments>
+- label: Blog ‹Category fragments›
   name: category_fragments
   folder: src/site/_includes/category_fragments
   extension: md
@@ -507,7 +508,7 @@ collections:
     - { label: "Name", name: name, widget: string, i18n: true}
     - { label: Description, name: description, widget: string, i18n: true }
 
-- label: Blog <Author fragments>
+- label: Blog ‹Author fragments›
   name: author_fragments
   folder: src/site/_includes/author_fragments
   extension: md
