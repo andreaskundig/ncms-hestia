@@ -15,10 +15,12 @@ partners:
     website: https://mydatageneva.org/
     image: /assets/media/mydatageneva.jpeg
     description: "[MyData is a global movement](http://mydata.org) encouraging
-      individual empowerment around personal data. Its local chapter in
-      French-speaking Switzerland is based in Geneva. Thanks to its extensive
-      network, MyData Geneva helps the projects supported by HestiaLabs to find
-      other relevant partners."
+      individual empowerment around personal data. Its local chapters in
+      French-speaking Switzerland are based in
+      [Geneva](https://mydatageneva.org/) and
+      [Vaud](https://medium.com/mydatavaud). Thanks to its [extensive
+      network](https://mydata.org/organisation-members/), MyData helps the
+      projects supported by HestiaLabs to find other relevant partners."
   - title: PersonalData.IO
     description: >-
       Global nonprofit focused on data protection, PersonalData.IO encourages
@@ -26,7 +28,7 @@ partners:
       of its diversity (activists, researchers, educators, etc).
 
 
-      Through its awareness-raising initiatives, it changes the perception of people outside our [data collectives](https://hestialabs.org/en/projects/) about the issues we address.
+      Through its awareness-raising initiatives, it changes the perception of people outside our [data collectives](https://hestialabs.org/en/projects/) about the issues we address, and how they want to situate themselves as actors of change.
     website: https://wiki.personaldata.io/wiki/Main_Page
     image: /assets/media/personaldata.png
   - title: Academic partners
@@ -37,6 +39,9 @@ partners:
 
 
       HestiaLabs would be delighted to team up with an academic partner or partners. Their expertise and legitimacy on these topics would enhance the value of this knowledge and give it the scientific resonance it deserves.
+
+
+      HestiaLabs is currently working with multiple labs and units at the [University of Genève](https://www.unige.ch/) and the [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch).
     website: mailto:partners@hestialabs.org
     image: /assets/media/researcher_pexels.jpeg
   - description: >-
