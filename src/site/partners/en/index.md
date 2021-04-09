@@ -15,10 +15,12 @@ partners:
     website: https://mydatageneva.org/
     image: /assets/media/mydatageneva.jpeg
     description: "[MyData is a global movement](http://mydata.org) encouraging
-      individual empowerment around personal data. Its local chapter in
-      French-speaking Switzerland is based in Geneva. Thanks to its extensive
-      network, MyData Geneva helps the projects supported by HestiaLabs to find
-      other relevant partners."
+      individual empowerment around personal data. Its local chapters in
+      French-speaking Switzerland are based in
+      [Geneva](https://mydatageneva.org/) and
+      [Vaud](https://medium.com/mydatavaud). Thanks to its [extensive
+      network](https://mydata.org/organisation-members/), MyData helps the
+      projects supported by HestiaLabs to find other relevant partners."
   - title: PersonalData.IO
     description: >-
       Global nonprofit focused on data protection, PersonalData.IO encourages
