@@ -47,11 +47,11 @@ people:
     twitter: https://en.wikipedia.org/wiki/Hestia
 timeline_title: How it started - How it's going
 timeline_events:
-  - name: 0482-05-26T23:25:52.000Z
+  - date: 0482-05-26T23:25:52.000Z
     description: The end of the world predicted by Hydatius, also spelled Idacius
-  - name: 0793-04-05T23:25:52.000Z
+  - date: 0793-04-05T23:25:52.000Z
     description: The end of the world predicted by Saint Beatus of Liébana
-  - name: 1814-10-18T23:25:52.000Z
+  - date: 1814-10-18T23:25:52.000Z
     description: >-
       The end of the world predicted by **Joanna Southcott**. 
 

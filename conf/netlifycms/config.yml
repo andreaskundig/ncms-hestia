@@ -180,7 +180,7 @@ collections:
       i18n: true
       summary: '{{fields.description}}'
       fields:
-        - {label: "Date", name: name, widget: date, date_format: "MM/YYYY" }
+        - {label: "Date", name: date, widget: date, date_format: "MM/YYYY" }
         - {label: Description, name: description, widget: markdown }
 
 #TODO check changes in figma
