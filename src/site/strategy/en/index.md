@@ -94,7 +94,7 @@ conclusion: >-
   collective we built together.
 
 
-  Your ourputs become further evidence of  a possible world where people decide how and why their data is used.
+  Your outputs become further evidence of a possible world where people decide how and why their data is used.
 
 
   Communicating your outcomes to the general public sparks a change of mindset in some and ideas for new projects in others.
