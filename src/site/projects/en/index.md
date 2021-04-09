@@ -66,10 +66,11 @@ running_projects_title: 1 Running project
 running_projects_button: Website
 running_projects:
   - dating privacy
-launchpad_projects_title: 3 projects on the launchpad
+launchpad_projects_title: 4 projects on the launchpad
 launchpad_projects_button: Contact us
 launchpad_projects:
   - uber drivers
   - mobility
   - disinformation
+  - data-literacy
 ---
