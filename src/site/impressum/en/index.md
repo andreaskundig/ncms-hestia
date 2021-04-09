@@ -8,8 +8,7 @@ permalink: /en/impressum/index.html
 
 * Publisher hestia.ai LLC, registered in the Commercial Register of the Canton of Geneva  [IDE CHE-416.261.732](https://www.zefix.ch/en/search/entity/list/firm/1224854?name=hestia.ai&searchType=exact)
 * Manager Paul-Olivier Dehaye
-* Email contact\[at]hestialabs.org
-
+* Email contact\[at]hestia.ai
 ## Copyrights
 
 All content (trademarks, names, titles, logos, images, graphics, text and other elements) on this website is protected by copyright. Any reproduction is therefore subject to the written consent of the author. The various contents of the site may not be freely reproduced without the indication of the source and the explicit permission of the authors. Similarly, the pages of HestiaLabs’ website must not be embedded within the pages of another site.
