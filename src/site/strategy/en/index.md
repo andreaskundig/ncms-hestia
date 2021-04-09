@@ -1,4 +1,9 @@
 ---
+submit_button_small: Submit project
+four_steps_title: 4 (non-sequential) steps to change the world
+layout: strategy
+four_steps_introduction: ...that do not need to be sequential
+permalink: /en/strategy/index.html
 title: Strategy
 hero: |-
   An urgent mission
@@ -11,7 +16,7 @@ introduction: >-
   resigned](https://web.archive.org/web/20160307232436/http://www.bloomberg.com:80/bw/magazine/content/11_17/b4225060960537.htm).
   He was right. That sucks. But he was wrong too:  some of the "best minds of
   his generation" refuse to let a few multinationals control the huge profits
-  from our shared data. And you know what? [They work for
+  from our shared data. And you know what? [They work on
   HestiaLabs](https://hestialabs.org/en/about/).
 
 
@@ -31,11 +36,6 @@ introduction: >-
 
 
   You have a meaningful project in mind that requires data?
-submit_button_small: Submit project
-four_steps_title: 4 (non-sequential) steps to change the world
-layout: strategy
-four_steps_introduction: ...that do not need to be sequential
-permalink: /en/strategy/index.html
 manifesto_button: Download our manifesto
 manifesto_file: https://theanarchistlibrary.org/library/andre-breton-manifesto-of-surrealism.pdf
 submit_button_big: Submit your project
