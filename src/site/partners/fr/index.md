@@ -3,7 +3,7 @@ layout: partners
 partners:
   - title: Fonds pionnier Migros
     description: Migros...
-    website: https://www.migros-pionierfonds.ch/fr
+    url: https://www.migros-pionierfonds.ch/fr
     image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
 permalink: /fr/partners/index.html
 title: Partenaires

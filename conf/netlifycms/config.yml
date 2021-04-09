@@ -305,6 +305,7 @@ collections:
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
     - { label: "You › description" , name: you_description, widget: markdown, i18n: true }
     - { label: "You › button" , name: you_button , widget: text, i18n: true }
+    - { label: "You › button link" , name: you_url , widget: file, i18n: true }
     - label: "Partners"
       name: "partners"
       widget: "list"
@@ -314,7 +315,7 @@ collections:
         - {label: Title, name: title,
            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
         - {label: Description, name: description, widget: markdown }
-        - {label: Website, name: website, widget: file}
+        - {label: Website, name: url, widget: file}
         - {label: Image, name: image, widget: image}
         - {label: "Image caption", name: image_caption, required: false,
             widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }

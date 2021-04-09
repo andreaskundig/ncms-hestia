@@ -9,10 +9,10 @@ partners:
       de MPF.Texte en attente de MPF. Texte en attente de MPF. Texte en attente
       de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
       de MPF.
-    website: https://www.migros-pionierfonds.ch/en
+    url: https://www.migros-pionierfonds.ch/en
     image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
   - title: MyData Geneva
-    website: https://mydatageneva.org/
+    url: https://mydatageneva.org/
     image: /assets/media/mydatageneva.jpeg
     description: "[MyData is a global movement](http://mydata.org) encouraging
       individual empowerment around personal data. Its local chapters in
@@ -29,7 +29,7 @@ partners:
 
 
       Through its awareness-raising initiatives, it changes the perception of people outside our [data collectives](https://hestialabs.org/en/projects/) about the issues we address, and how they want to situate themselves as actors of change.
-    website: https://wiki.personaldata.io/wiki/Main_Page
+    url: https://wiki.personaldata.io/wiki/Main_Page
     image: /assets/media/personaldata.png
   - title: Academic partners
     description: >-
@@ -42,7 +42,7 @@ partners:
 
 
       HestiaLabs is currently working with multiple labs and units at the [University of Genève](https://www.unige.ch/) and the [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch).
-    website: mailto:partners@hestialabs.org
+    url: mailto:partners@hestialabs.org
     image: /assets/media/researcher_pexels.jpeg
   - description: >-
       Is your editorial staff aware of the personal data issue? Would you like
@@ -54,7 +54,7 @@ partners:
 
       Play your role as the fourth estate by covering our efforts.
     title: Media partners
-    website: mailto:partners@hestialabs.org
+    url: mailto:partners@hestialabs.org
     image: /assets/media/journalist_unsplash.jpeg
 permalink: /en/partners/index.html
 title: Partners
