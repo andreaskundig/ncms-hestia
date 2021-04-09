@@ -1,4 +1,4 @@
 ---
 name: Mobilité
-image: https://placekitten.com/300/182
+image: /assets/media/project-mobility-c-albert-jarod-ibay-unsplash-c.jpeg
 ---
