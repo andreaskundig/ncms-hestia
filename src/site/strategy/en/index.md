@@ -36,8 +36,6 @@ introduction: >-
 
 
   You have a meaningful project in mind that requires data?
-manifesto_button: Download our manifesto
-manifesto_file: https://theanarchistlibrary.org/library/andre-breton-manifesto-of-surrealism.pdf
 submit_button_big: Submit your project
 change_steps:
   - title: Personal transformation
