@@ -1,17 +1,17 @@
-# Website hestialabs.org
+# ‹Dating Privacy› website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/de7a1d71-9b54-4c6c-b2f6-1fa6341804af/deploy-status)](https://app.netlify.com/sites/hestialabs/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/98d7a43c-3306-4444-b108-6543ace144b6/deploy-status)](https://app.netlify.com/sites/hestialabs-dating-privacy/deploys)
 
-Our HestiaLabs main website:
+The HestiaLabs ‹Dating Privacy› website:
 
-* [`dating-privacy.netlify.app/{fr,en}`](https://hestialabs.netlify.app/en/) ⟵ is currently accessible here;
-* [`dating-privacy.hestialabs.org/{fr,en}`](https://dating-privacy.hestialabs.org/en/) ⟵ will be accessible here on public launch.
+* [`dating-privacy.hestialabs.org/{fr,en}`](https://dating-privacy.hestialabs.org/en/) ⟵ is currently accessible here;
+* [`hestialabs-dating-privacy.netlify.app/{fr,en}`](https://hestialabs-dating-privacy.netlify.app/en/) ⟵ as well as here.
 
 # Deliverables
 
 The website is currently made of two major deliverables; whose sources are available in this repository:
 
-1. [`dating-privacy.hestialabs.org`](dating-privacy.hestialabs.org): publicly accessible website of HestiaLabs, in french and english;
+1. [`dating-privacy.hestialabs.org`](https://dating-privacy.hestialabs.org/): publicly accessible website of HestiaLabs, in french and english;
 2. [`dating-privacy.hestialabs.org/admin`](https://dating-privacy.hestialabs.org/admin/): our [content-authoring system (_aka_ NetlifyCMS)](https://www.netlifycms.org), accessible thru invite only.
 
 # Access rights
@@ -21,7 +21,7 @@ The website is currently made of two major deliverables; whose sources are avail
 Would you need _editorial access_ to the website contents — that is, to our NetlifyCMS content-authoring & management system:
 
 * ask [@olange](https://github.com/olange) or [@andreaskundig](https://github.com/andreaskundig) for an invite to the HestiaLabs site;
-* access is defined from [Netlify › Hestia _team_ › HestiaLabs _site_ › Identity](https://app.netlify.com/sites/hestialabs/identity) webpage.
+* access is defined from [Netlify › Hestia _team_ › HestiaLabs Dating Privacy _site_ › Identity](https://app.netlify.com/sites/hestialabs-dating-privacy/identity) webpage.
 
 ## Netlify
 
