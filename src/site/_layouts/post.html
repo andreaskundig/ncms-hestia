@@ -20,7 +20,10 @@ layout: default
   {% endif %}
 {% endfor %}
 </p>
-<img src="{{image}}">
+<figure>
+  <img src="{{image}}">
+  <figcaption>{{image_caption}}</figcaption>
+</figure>
 <div>
 {{ content | safe }}
 </div>

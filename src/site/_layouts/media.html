@@ -7,7 +7,10 @@ layout: default
 <h1>{% markdown articles_title %}</h1>
 {% for article in media_articles %}
 <div>
-  <img src="{{article.image}}">
+  <figure>
+    <img src="{{article.image}}">
+    <figcaption>{{article.image_caption}}</figcaption>
+  </figure>
   <h3>{{article.title}}</h3>
   <p>{{article.date | readableDate}}</p>
   <a href="{{article.url}}">{{read_button}}</a>

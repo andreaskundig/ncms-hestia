@@ -12,7 +12,10 @@ layout: default
 {% for step in change_steps %}
 <div>
   <h3>{% markdown step.title %}</h3>
-  <img src="{{step.image}}">
+  <figure>
+    <img src="{{step.image}}">
+    <figcaption>{{step.image_caption}}</figcaption>
+  </figure>
   <p>{% markdown step.description %}</p>
 </div>
 {% endfor %}

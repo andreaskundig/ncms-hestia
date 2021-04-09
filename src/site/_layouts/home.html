@@ -40,7 +40,10 @@ the code to `home/en/index.html` and `home/fr/index.html`
   {% if project.data.locale == locale
     and project.data.id in projects_to_display%}
     <div>
-      <img src="{{project.data.image}}">
+      <figure>
+        <img src="{{project.data.image}}">
+        <figcaption>{{project.data.image_caption}}</figcaption>
+      </figure>
       <h2>{{project.data.name}}</h2>
       <p>{% markdown project.data.description %}</p>
     </div>

@@ -4,7 +4,10 @@ layout: default
 <section id="hero">
     {% markdown hero %}
 </section>
-<img src="{{you_image}}">
+<figure>
+  <img src="{{you_image}}">
+  <figcaption>{{you_image_caption}}</figcaption>
+</figure>
 <h1>{% markdown you_title %}</h1>
 <p>{% markdown you_description %}</p>
 <a href="#" onclick="alert('not implemented')">{{you_button}}</a>
@@ -12,6 +15,9 @@ layout: default
 <div>
   <h2>{% markdown partner.title %}</h2>
   <p>{% markdown partner.description %}</p>
-  <img src="{{partner.image}}">
+  <figure>
+    <img src="{{partner.image}}">
+    <figcaption>{{partner.image_caption}}</figcaption>
+  </figure>
 </div>
 {% endfor %}
