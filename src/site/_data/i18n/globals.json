@@ -8,7 +8,6 @@
     "strategy": "strategy",
     "impressum": "impressum",
     "suggested_posts": "You might also **like** to read",
-    "projects": "projects",
     "home": "home"
   },
   "fr": {
@@ -20,7 +19,6 @@
     "strategy": "stratégie",
     "impressum": "impressum",
     "suggested_posts": "Vous aimeriez peut-être **aussi** lire",
-    "projects": "projets",
     "home": "accueil"
   }
 }

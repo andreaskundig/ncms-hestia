@@ -33,26 +33,6 @@ the code to `home/en/index.html` and `home/fr/index.html`
   </div>
 </section>
 
-<section id="projects">
-  <h1>{% markdown projects_title %}</h1>
-  {% set projects_to_display = defaultTranslation.page.data.featured_projects %}
-  {% for project in collections.project %}
-  {% if project.data.locale == locale
-    and project.data.id in projects_to_display%}
-    <div>
-      <figure>
-        <a href="{{project.data.url}}">
-          <img src="{{project.data.image}}">
-        </a>
-        <figcaption>{{project.data.image_caption}}</figcaption>
-      </figure>
-      <h2><a href="{{project.data.url}}">{{project.data.name}}</a></h2>
-      <p>{% markdown project.data.description %}</p>
-    </div>
-    {% endif %}
-  {% endfor %}
-</section>
-
 <section id="news">
   <h1>{% markdown news_title %}</h1>
   <noscript>You need JavaScript enabled to see the additional news articles hereafter.</noscript>

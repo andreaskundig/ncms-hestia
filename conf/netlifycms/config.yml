@@ -57,24 +57,6 @@ collections:
         - { label: "Last name", name: last_name, widget: string, i18n: true }
         - { label: "Email address", name: email, widget: string, i18n: true }
 
-- label: ‹Projects›
-  name: project
-  folder: src/site/_project
-  create: true
-  extension: md
-  editor:
-    preview: false
-  i18n: true
-  identifier_field: id
-  fields:
-    - {label: "Id (never change this, only set a unique value at creation)", name: id, widget: string, }
-    - { label: Name, name: name, widget: string, i18n: true }
-    - { label: Description, name: description, widget: markdown, i18n: true }
-    - { label: Image, name: image, widget: image, i18n: true }
-    - { label: "Image caption", name: image_caption, required: false, i18n: true,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
-    - { label: Url, name: url, widget: file, i18n: true }
-
 - label: Home (main page)
   name: home
   # Configure i18n for this collection.
@@ -108,17 +90,6 @@ collections:
     - { label: "Partners link text", name: partners_link_text, widget: string, i18n: true }
     - { label: "Projects title", name: projects_title, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - label: "Projects"
-      name: "featured_projects"
-      widget: "list"
-      field:
-        name: "Project"
-        widget: relation
-        collection: project
-        value_field: "id"
-        display_fields: ["name"]
-        multiple: false
-        search_fields: ["name", "description"]
     - { label: "News title", name: news_title, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - label: "News items"
@@ -321,56 +292,6 @@ collections:
         - {label: Image, name: image, widget: image}
         - {label: "Image caption", name: image_caption, required: false,
             widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
-
-- label: Home › Projects (page)
-  name: projects_page
-  folder: src/site/projects
-  extension: md
-  editor:
-    preview: false
-  create: false
-  i18n: true
-  preview_path: /en/projects/
-  fields:
-    - { label: "Browser tab title", name: title, widget: string, i18n: true }
-    - { label: Hero , name: hero, widget: markdown, i18n: true }
-    - { label: "Introduction › title" , name: introduction_title, i18n: true,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - { label: "Introduction › content", name: introduction, widget: markdown, i18n: true }
-    - { label: "Your project › title", name: your_title, i18n: true,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - { label: "Your project › subtitle", name: your_subtitle, i18n: true,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - { label: "Your project › button" , name: your_button , widget: text, i18n: true }
-    - { label: "Your project › url" , name: your_url , widget: file, i18n: true }
-    - { label: "Running project › title" , name: running_projects_title, i18n: true,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - { label: "Running project › button" , name: running_projects_button, i18n: true, widget: string}
-    - label: "Running projects"
-      name: "running_projects"
-      widget: "list"
-      field:
-        name: "Project"
-        widget: relation
-        collection: project
-        value_field: "id"
-        display_fields: ["name"]
-        multiple: false
-        search_fields: ["name", "description"]
-    - { label: "Launchpad project › title" , name: launchpad_projects_title, i18n: true,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - { label: "Launchpad project › button" , name: launchpad_projects_button, i18n: true, widget: string}
-    - label: "Launchpad projects"
-      name: "launchpad_projects"
-      widget: "list"
-      field:
-        name: "Project"
-        widget: relation
-        collection: project
-        value_field: "id"
-        display_fields: ["name"]
-        multiple: false
-        search_fields: ["name", "description"]
 
 - label: Blog (main page)
   name: blog
