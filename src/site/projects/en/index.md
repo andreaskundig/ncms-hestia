@@ -3,7 +3,7 @@ your_subtitle: >-
   So? What about your idea?
 
   Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
-your_url: mailto:projects@hestia.ai
+your_url: mailto:projects@hestialabs.org
 layout: projects
 permalink: /en/projects/index.html
 title: Projects
@@ -63,11 +63,11 @@ introduction: >-
 your_title: Your project
 your_button: Submit a project
 running_projects_title: 1 Running project
-running_projects_button: x
+running_projects_button: Website
 running_projects:
   - dating privacy
 launchpad_projects_title: 3 projects on the launchpad
-launchpad_projects_button: x
+launchpad_projects_button: Contact us
 launchpad_projects:
   - uber drivers
   - mobility
