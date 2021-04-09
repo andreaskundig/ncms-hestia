@@ -1,12 +1,12 @@
 {
-  "name": "@hestia/website-labs",
+  "name": "@hestia/website-dp",
   "version": "0.1.0",
-  "description": "HestiaLabs.org main website",
+  "description": "HestiaLabs ‹Dating Privacy› website",
   "license": "UNLICENSED",
-  "author": "Charles Foucault-Dumas",
+  "author": "Marie-Pierre Vidonne",
   "contributors": [
     "Paul-Olivier Dehaye",
-    "Marie-Pierre Vidonne",
+    "Charles Foucault-Dumas",
     "Andréas Kündig",
     "Olivier Lange"
   ],
