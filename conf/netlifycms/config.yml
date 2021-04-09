@@ -264,8 +264,6 @@ collections:
     - { label: "Introduction title" , name: introduction_title , i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: Introduction , name: introduction, widget: markdown, i18n: true }
-    - { label: "Manifesto button" , name: manifesto_button , widget: text, i18n: true }
-    - { label: "Manifesto" , name: manifesto_file , widget: file, i18n: true }
     - { label: "Submit button (small)" , name: submit_button_small , widget: text, i18n: true }
     - { label: "Submit button (big)" , name: submit_button_big , widget: text, i18n: true }
     - { label: "Submit url" , name: submit_url, widget: file, i18n: true }
