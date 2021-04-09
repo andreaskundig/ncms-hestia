@@ -265,6 +265,7 @@ collections:
     - { label: "Manifesto" , name: manifesto_file , widget: file, i18n: true }
     - { label: "Submit button (small)" , name: submit_button_small , widget: text, i18n: true }
     - { label: "Submit button (big)" , name: submit_button_big , widget: text, i18n: true }
+    - { label: "Submit url" , name: submit_url, widget: file, i18n: true }
     - { label: "Four steps title" , name: four_steps_title , i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Four steps introduction" , name: four_steps_introduction, widget: markdown, i18n: true }

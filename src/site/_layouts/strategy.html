@@ -7,7 +7,7 @@ layout: default
 <h1>{% markdown introduction_title %}</h1>
 <p>{% markdown introduction %}</p>
 <a href="{{manifesto_file}}">{{manifesto_button}}</a>
-<a href="#" onclick="alert('not implemented')">{{submit_button_small}}</a>
+<a href="{{submit_url}}" >{{submit_button_small}}</a>
 <h1>{% markdown four_steps_title %}</h1>
 {% for step in change_steps %}
 <div>
@@ -19,4 +19,4 @@ layout: default
 
 <h1>{% markdown conclusion_title %}</h1>
 <p>{% markdown conclusion %}</p>
-<a href="#" onclick="alert('not implemented')">{{submit_button_big}}</a>
+<a href="{{submit_url}}">{{submit_button_big}}</a>
