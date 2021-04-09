@@ -35,7 +35,7 @@ export class ArticleBreakout extends LitElement {
   render() {
     return html`<article class="box">
       <figure>
-        <img src="${this.imgSrc}">
+        <a href="${this.href}"><img src="${this.imgSrc}"></a>
         <figcaption/><slot name="img-caption"/><figcaption>
       </figure>
       <h1><a href="${this.href}"><slot name="title"/></a></h1>
