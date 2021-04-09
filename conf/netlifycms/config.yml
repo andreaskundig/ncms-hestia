@@ -66,11 +66,12 @@ collections:
   identifier_field: id
   fields:
     - {label: "Id (never change this, only set a unique value at creation)", name: id, widget: string, }
-    - {label: Name, name: name, widget: string, i18n: true}
-    - {label: Description, name: description, widget: markdown, i18n: true }
-    - {label: Image, name: image, widget: image, i18n: true}
-    - {label: Url, name: url, widget: file, i18n: true}
-
+    - { label: Name, name: name, widget: string, i18n: true }
+    - { label: Description, name: description, widget: markdown, i18n: true }
+    - { label: Image, name: image, widget: image, i18n: true }
+    - { label: "Image caption", name: image_caption, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
+    - { label: Url, name: url, widget: file, i18n: true }
 
 - label: Home (main page)
   name: home
@@ -166,12 +167,14 @@ collections:
       i18n: true
       summary: '{{fields.name}}'
       fields:
-        - {label: Name, name: name, widget: string}
-        - {label: Description, name: description, widget: markdown }
-        - {label: Image, name: image, widget: "image"}
-        - {label: Twitter, name: twitter, widget: string, required: false}
-        - {label: Linkedin, name: linkedin, widget: string, required: false}
-        - {label: Email, name: email, widget: string, required: false}
+        - { label: Name, name: name, widget: string }
+        - { label: Description, name: description, widget: markdown }
+        - { label: Image, name: image, widget: image }
+        - { label: "Image caption", name: image_caption,
+            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
+        - { label: Twitter, name: twitter, widget: string, required: false }
+        - { label: Linkedin, name: linkedin, widget: string, required: false }
+        - { label: Email, name: email, widget: string, required: false }
     - { label: "Timeline title", name: timeline_title, widget: string, i18n: true }
     - label: "Timeline events"
       name: "timeline_events"
@@ -227,12 +230,14 @@ collections:
       i18n: true
       summary: '{{fields.title}}'
       fields:
-        - {label: Title, name: title, widget: string}
-        - {label: Date, name: date, widget: date}
-        - {label: Publication, name: publication, widget: text }
-        - {label: Lead, name: lead, widget: text }
-        - {label: Article, name: url, widget: file }
-        - {label: Image, name: image, widget: "image"}
+        - { label: Title, name: title, widget: string }
+        - { label: Date, name: date, widget: date }
+        - { label: Publication, name: publication, widget: text }
+        - { label: Lead, name: lead, widget: text }
+        - { label: Article, name: url, widget: file }
+        - { label: Image, name: image, widget: image}
+        - { label: "Image caption", name: image_caption,
+            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
     - { label: "Press releases title" , name: press_releases_title, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - label: "Press releases"
@@ -275,10 +280,12 @@ collections:
       i18n: true
       summary: '{{fields.title}}'
       fields:
-        - {label: Title, name: title,
-           widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-        - {label: Description, name: description, widget: markdown }
-        - {label: Image, name: image, widget: "image"}
+        - { label: Title, name: title,
+            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
+        - { label: Description, name: description, widget: markdown }
+        - { label: Image, name: image, widget: image }
+        - { label: "Image caption", name: image_caption,
+            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
     - { label: "Conclusion title" , name: conclusion_title, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: Conclusion , name: conclusion, widget: markdown, i18n: true }
@@ -297,7 +304,9 @@ collections:
     - { label: Hero , name: hero, widget: markdown, i18n: true }
     - { label: "You › title" , name: you_title , i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - {label: "You › image", name: you_image, widget: "image", i18n: true }
+    - { label: "You › image", name: you_image, widget: image, i18n: true }
+    - { label: "You › image caption", name: you_image_caption, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
     - { label: "You › description" , name: you_description, widget: markdown, i18n: true }
     - { label: "You › button" , name: you_button , widget: text, i18n: true }
     - label: "Partners"
@@ -310,7 +319,9 @@ collections:
            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
         - {label: Description, name: description, widget: markdown }
         - {label: Website, name: website, widget: file}
-        - {label: Image, name: image, widget: "image"}
+        - {label: Image, name: image, widget: image}
+        - {label: "Image caption", name: image_caption,
+            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
 
 - label: Home › Projects (page)
   name: projects_page
@@ -399,7 +410,9 @@ collections:
     - { label: Title, name: title, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: Date, name: date, widget: datetime, i18n: true }
-    - { label: "Image", name: "image", widget: "image", i18n: true }
+    - { label: Image, name: image, widget: image, i18n: true }
+    - { label: "Image caption", name: image_caption, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
     - { label: "Lead", name: "lead", widget: "markdown", i18n: true }
     - { label: "Body", name: "body", widget: "markdown", i18n: true }
     - label: "categories"
@@ -433,7 +446,9 @@ collections:
     - { label: Title, name: title, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: Date, name: date, widget: datetime, i18n: true }
-    - { label: "Image", name: "image", widget: "image", i18n: true }
+    - { label: Image, name: image, widget: image, i18n: true }
+    - { label: "Image caption", name: image_caption, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
     - { label: "Lead", name: "lead", widget: "markdown", i18n: true }
     - { label: "Body", name: "body", widget: "markdown", i18n: true }
     - label: "categories"
@@ -468,7 +483,9 @@ collections:
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: Date, name: date, widget: datetime, i18n: true }
     - { label: "Lead", name: "lead", widget: "markdown", i18n: true }
-    - { label: "Image", name: "image", widget: "image", i18n: true }
+    - { label: Image, name: image, widget: image, i18n: true }
+    - { label: "Image caption", name: image_caption, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
     - label: "categories"
       name: "post_categories"
       widget: relation
