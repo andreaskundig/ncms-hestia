@@ -23,4 +23,5 @@ launchpad_projects:
   - uber drivers
   - mobility
   - disinformation
+  - data-literacy
 ---
