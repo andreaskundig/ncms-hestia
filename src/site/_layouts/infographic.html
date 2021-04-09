@@ -23,5 +23,13 @@ layout: default
   <img src="{{image}}">
   <figcaption>{{image_caption}}</figcaption>
 </figure>
+<h2>{% markdown i18n.globals[locale].suggested_posts %}</h2>
+{% set suggested_posts = [].concat(suggested_editorials, suggested_interviews, suggested_infographics) %}
+{% for post in collections.post %}
+  {% if post.data.locale == locale and post.data.id in suggested_posts %}
+
+      <p><a href="{{post.url}}"> {% markdown post.data.title %}</a></p>
+  {% endif %}
+{% endfor %}
 
 {% include "signup.njk" %}

@@ -45,6 +45,8 @@ collections:
         - { label: Strategy, name: strategy, widget: string, i18n: true }
         - { label: Media, name: media, widget: string, i18n: true }
         - { label: Impressum, name: impressum, widget: string, i18n: true }
+        - { label: Suggested blog posts, name: suggested_posts, i18n: true,
+            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
     - label: Signup text fragments
       name: i18n-signup
       file: src/site/_data/i18n/signup.json
@@ -428,6 +430,42 @@ collections:
       value_field: "id"
       multiple: true
       search_fields: ["name", "id", "description"]
+    - label: "Suggested editorials"
+      name: "suggested_editorials"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Editorial"
+        widget: relation
+        collection: editorials
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
+    - label: "Suggested interviews"
+      name: "suggested_interviews"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Interview"
+        widget: relation
+        collection: interviews
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
+    - label: "Suggested infographics"
+      name: "suggested_infographics"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Infographic"
+        widget: relation
+        collection: infographics
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
 
 - label: Blog › Interviews
   name: interviews
@@ -464,9 +502,45 @@ collections:
       value_field: "id"
       multiple: true
       search_fields: ["name", "id", "description"]
+    - label: "Suggested editorials"
+      name: "suggested_editorials"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Editorial"
+        widget: relation
+        collection: editorials
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
+    - label: "Suggested interviews"
+      name: "suggested_interviews"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Interview"
+        widget: relation
+        collection: interviews
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
+    - label: "Suggested infographics"
+      name: "suggested_infographics"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Infographic"
+        widget: relation
+        collection: infographics
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
 
 - label: Blog › Infographics
-  name: infographic
+  name: infographics
   folder: src/site/infographic
   extension: md
   editor:
@@ -499,6 +573,42 @@ collections:
       value_field: "id"
       multiple: true
       search_fields: ["name", "id", "description"]
+    - label: "Suggested editorials"
+      name: "suggested_editorials"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Editorial"
+        widget: relation
+        collection: editorials
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
+    - label: "Suggested interviews"
+      name: "suggested_interviews"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Interview"
+        widget: relation
+        collection: interviews
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
+    - label: "Suggested infographics"
+      name: "suggested_infographics"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Infographic"
+        widget: relation
+        collection: infographics
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
 
 - label: Blog › Categories
   name: post_categories

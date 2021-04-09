@@ -11,6 +11,12 @@ post_categories:
   - sleepy
 post_authors:
   - dan brown
+suggested_editorials:
+  - " a second post"
+suggested_interviews:
+  - papa legba
+suggested_infographics:
+  - napoleon in russia
 ---
 This also works as a template for nunjucks. Here's my locale: {{locale}}<br>
 
