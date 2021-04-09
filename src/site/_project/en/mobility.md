@@ -9,4 +9,5 @@ description: >-
 
   What happens when we combine forces? Let’s find out!
 image: /assets/media/project-mobility-c-albert-jarod-ibay-unsplash-c.jpeg
+url: mailto:projects@hestialabs.org
 ---
