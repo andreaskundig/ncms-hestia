@@ -7,5 +7,5 @@ description: >-
 
 
   Ce projet aide aussi les utilisateurs d'applications à visualiser et comprendre l'écosystème des données d'app et leur exploitation. 
-image: https://placekitten.com/300/180
+image: /assets/media/project-dating-privacy-c-alexander-sinn-unsplash-c.jpeg
 ---
