@@ -6,14 +6,9 @@ permalink: /en/impressum/index.html
 ---
 ## Legal notice
 
-* Publisher hestia.ai LLC
-* Headquarter Lancy (GE)
-* Address Chemin des Fauvettes 18, 1212 Lancy Switzerland
-* IDE CHE-416.261.732
-* Registered in the Commercial Register of the Canton of Geneva on 07.03.2019
+* Publisher hestia.ai LLC, registered in the Commercial Register of the Canton of Geneva  [IDE CHE-416.261.732](https://www.zefix.ch/en/search/entity/list/firm/1224854?name=hestia.ai&searchType=exact)
 * Manager Paul-Olivier Dehaye
 * Email contact\[at]hestialabs.org
-* Phone (+41) 76.407.57.96
 
 ## Copyrights
 
