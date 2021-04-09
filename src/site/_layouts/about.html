@@ -61,7 +61,7 @@ layout: default
 
 {% for event in timeline_events %}
 <div>
-  <h2>{{event.name | readableDate}}</h2>
+  <h2>{{event.date | readableDate(locale, "LLLL yyyy")}}</h2>
   <p>{% markdown event.description %}</p>
 </div>
 {% endfor %}

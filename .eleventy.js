@@ -2,10 +2,9 @@
 // https://www.11ty.dev/docs/config/
 /* eslint-env node */
 
-const { buildLocalesCollection} = require('./conf/11ty/locales');
+const { buildLocalesCollection, formatDate} = require('./conf/11ty/locales');
 const { creditedImage } = require('./conf/11ty/creditedImage')
 const { markdown } = require('./conf/11ty/markdown')
-const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
   // Copy to `dir.output` those files required by the website,
@@ -22,10 +21,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("locales", buildLocalesCollection);
 
-  eleventyConfig.addFilter("readableDate", (dateObj) =>
-    DateTime.fromJSDate(dateObj, { zone: "utc" })
-            .toFormat("dd LLL yyyy")
-  );
+  eleventyConfig.addFilter("readableDate", formatDate);
   eleventyConfig.addShortcode("creditedImage", creditedImage);
   eleventyConfig.addShortcode("markdown", (s) => markdown(s||''));
 

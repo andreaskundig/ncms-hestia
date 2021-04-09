@@ -9,7 +9,7 @@ layout: default
    <a href="{{author.data.page.url}}">{{author.data.name}}</a>
   {% endif %}
    {% endfor %}
-{{ date | readableDate}}
+{{ date | readableDate(locale)}}
 </p>
 <p>
 {% for category in collections.post_category %}

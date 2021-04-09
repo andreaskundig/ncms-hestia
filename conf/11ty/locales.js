@@ -1,5 +1,5 @@
-
 /* eslint-env node */
+const { DateTime } = require("luxon");
 
 // this must match the CMS locales declared in conf/netlifycms/config.yml
 const LOCALES = ["en", "fr"]
@@ -46,4 +46,9 @@ function buildLocalesCollection(collectionApi) {
     return localesByPath;
 }
 
-module.exports = { buildLocalesCollection };
+const formatDate = (date, locale, format) =>
+  DateTime.fromJSDate(date, { zone: "utc" })
+    .setLocale(locale || DEFAULT_LOCALE)
+    .toFormat(format || "dd LLLL yyyy");
+
+module.exports = { buildLocalesCollection, formatDate };

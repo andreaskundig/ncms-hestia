@@ -12,7 +12,7 @@ layout: default
     <figcaption>{{article.image_caption}}</figcaption>
   </figure>
   <h3>{{article.title}}</h3>
-  <p>{{article.date | readableDate}}</p>
+  <p>{{article.date | readableDate(locale)}}</p>
   <a href="{{article.url}}">{{read_button}}</a>
 </div>
 {% endfor %}
@@ -28,7 +28,7 @@ layout: default
 <h1>{% markdown press_releases_title %}</h1>
 {% for release in press_releases %}
 <div>
-  <p>{{release.date | readableDate}}</p>
+  <p>{{release.date | readableDate(locale)}}</p>
   <h3><a href="{{release.url}}"> {% markdown release.title %}</h3>
 </div>
 {% endfor %}
