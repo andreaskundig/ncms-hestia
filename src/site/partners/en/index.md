@@ -39,6 +39,9 @@ partners:
 
 
       HestiaLabs would be delighted to team up with an academic partner or partners. Their expertise and legitimacy on these topics would enhance the value of this knowledge and give it the scientific resonance it deserves.
+
+
+      HestiaLabs is currently working with multiple labs and units at the [University of Genève](https://www.unige.ch/) and the [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch).
     website: mailto:partners@hestialabs.org
     image: /assets/media/researcher_pexels.jpeg
   - description: >-
