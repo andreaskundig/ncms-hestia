@@ -27,7 +27,7 @@ module.exports = function (eleventyConfig) {
             .toFormat("dd LLL yyyy")
   );
   eleventyConfig.addShortcode("creditedImage", creditedImage);
-  eleventyConfig.addShortcode("markdown", markdown);
+  eleventyConfig.addShortcode("markdown", (s) => markdown(s||''));
 
   // Let Eleventy transform HTML files as Nunjucks
   // So that we can use .html instead of .njk
