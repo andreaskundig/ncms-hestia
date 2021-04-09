@@ -28,7 +28,7 @@ partners:
       of its diversity (activists, researchers, educators, etc).
 
 
-      Through its awareness-raising initiatives, it changes the perception of people outside our [data collectives](https://hestialabs.org/en/projects/) about the issues we address.
+      Through its awareness-raising initiatives, it changes the perception of people outside our [data collectives](https://hestialabs.org/en/projects/) about the issues we address, and how they want to situate themselves as actors of change.
     website: https://wiki.personaldata.io/wiki/Main_Page
     image: /assets/media/personaldata.png
   - title: Academic partners
