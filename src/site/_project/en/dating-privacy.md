@@ -11,4 +11,5 @@ description: >-
 
   The project also provides dating apps users with a tool to visualise and understand the dating apps data ecosystem and its exploitation.
 image: /assets/media/project-dating-privacy-c-alexander-sinn-unsplash-c.jpeg
+url: mailto:datingprivacy@personaldata.io
 ---
