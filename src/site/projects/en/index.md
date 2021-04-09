@@ -1,32 +1,75 @@
 ---
-your_subtitle: hey
-your_url: mailto:welcome@future.com
+your_subtitle: >-
+  So? What about your idea?
+
+  Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
+your_url: mailto:projects@hestialabs.org
 layout: projects
 permalink: /en/projects/index.html
 title: Projects
 hero: |-
-  Already **X** projects underway.
+  Already **4** projects underway.
 
-  What's your's
-introduction_title: Intro
-introduction: "**Lorem Ipsum** is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-  ever since the 1500s, when an unknown printer took a galley of type and
-  scrambled it to make a type specimen book. It has survived not only five
-  centuries, but also the leap into electronic typesetting, remaining
-  essentially unchanged. It was popularised in the 1960s with the release of
-  Letraset sheets containing Lorem Ipsum passages, and more recently with
-  desktop publishing software like Aldus PageMaker including versions of Lorem
-  Ipsum."
-your_title: Your proj
+  What's yours?
+introduction_title: We support data collectives
+introduction: >-
+  ## What is a data collective?
+
+
+  A data collective brings together all the actors able to transform a project based on personal data into a successful vector of individual, collective and social change (read also about the [4 steps to change the world](https://hestialabs.org/en/strategy/)):
+
+
+  * The **Lead partner** defines the objectives and mobilises data sharers
+
+  * **Data sharers** volunteer to share their data to push this project forward
+
+  * **Academic partners** co-create knowledge and approve the results
+
+  * **Media partners** amplify the impact of the outputs
+
+  * **Sponsors** endorse the project and support it financially
+
+  * **HestiaLabs** offers tools and world-class expertise
+
+
+  ## What HestiaLabs does
+
+
+  HestiaLabs supports individuals or organisations wishing to launch virtuous projects involving personal data. For free.
+
+
+  * We help project leader find partners to build a **sustainable and ever growing data collective** for their project (as described above)
+
+  * We make the project visible and attractive with a turnkey website
+
+  * We assist the project leader in recruiting volunteers/peers to participate in the project (data sharers)
+
+  * We process the data collected (in a privacy-friendly manner)
+
+  * We advise the project leader on how to communicate the results obtained in order to amplify their impact
+
+
+  ## What HestiaLabs doesn’t do
+
+
+  * We do not appropriate data
+
+  * We do not share data (we help you share the knowledge created)
+
+  * We do not sell data
+
+
+  The projects backed by HestiaLabs bring people together to build and learn things by pooling their data. We help you share the results with journalists, researchers and civil society so that these innovations and knowledge benefit society as a whole.
+your_title: Your project
 your_button: Submit a project
-running_projects_title: Running
+running_projects_title: 1 Running project
 running_projects_button: Website
 running_projects:
   - dating privacy
-launchpad_projects_title: Launchpad
-launchpad_projects_button: Join the project
+launchpad_projects_title: 3 projects on the launchpad
+launchpad_projects_button: Contact us
 launchpad_projects:
   - uber drivers
   - mobility
+  - disinformation
 ---
