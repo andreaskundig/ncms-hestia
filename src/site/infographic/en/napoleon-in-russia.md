@@ -9,4 +9,6 @@ post_categories:
   - unshakable
 post_authors:
   - proust
+suggested_interviews:
+  - guanyu
 ---
