@@ -1,7 +1,7 @@
 ---
-name: Chauffeurs uber
-description: Uber drivers are helped to get their data back and use it
-  effectively for personal and collective interest. Cities are interested in
-  this data as well.
-image: https://placekitten.com/300/181
+name: Chauffeurs de VTC
+description: Nous aidons les conducteurs des plateformes à la demande à
+  récupérer leurs données et à les utiliser efficacement dans un intérêt
+  personnel et collectif. Les villes sont également intéressées par ces données.
+image: /assets/media/project_for-hire-drivers-c-dan-gold-unsplash-c.jpeg
 ---
