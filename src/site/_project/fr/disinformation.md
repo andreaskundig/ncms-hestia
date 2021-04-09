@@ -1,5 +1,5 @@
 ---
 name: Désinformation
 description: Comment se propage-t-elle
-image: https://placekitten.com/300/189
+image: /assets/media/disinformation_project-c-united-nations-unsplash-c.jpeg
 ---
