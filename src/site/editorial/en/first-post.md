@@ -1,9 +1,10 @@
 ---
 id: a first blog post
-title: A first blog post
+title: A *first* **blog** post
 date: 2021-04-08T11:32:25.646Z
 image: https://placekitten.com/200/300
-lead: An attention-grabbing lead
+image_caption: kitten
+lead: An **attention**-*grabbing* lead
 post_categories:
   - euphoric
   - chill

@@ -24,7 +24,6 @@ export class ArticleBreakout extends LitElement {
   static get properties() {
     return {
       href: { type: String },
-      title: { type: String },
       imgSrc: { type: String }
     }
   }
@@ -35,8 +34,11 @@ export class ArticleBreakout extends LitElement {
 
   render() {
     return html`<article class="box">
-      <img src="${this.imgSrc}">
-      <h1><a href="${this.href}">${this.title}</a></h1>
+      <figure>
+        <img src="${this.imgSrc}">
+        <figcaption/><slot name="img-caption"/><figcaption>
+      </figure>
+      <h1><a href="${this.href}"><slot name="title"/></a></h1>
       <p><slot></slot></p>
       <a href="${this.href}"><button>Read more</button></a>
     </article>`
