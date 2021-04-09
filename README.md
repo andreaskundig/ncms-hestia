@@ -4,14 +4,14 @@
 
 The HestiaLabs ‹Dating Privacy› website:
 
-* [`dating-privacy.hestialabs.org/{fr,en}`](https://dating-privacy.hestialabs.org/en/) ⟵ is currently accessible here;
-* [`hestialabs-dating-privacy.netlify.app/{fr,en}`](https://hestialabs-dating-privacy.netlify.app/en/) ⟵ as well as here.
+* [`dating-privacy.hestialabs.org/en/`](https://dating-privacy.hestialabs.org/en/) ⟵ is currently accessible here;
+* [`hestialabs-dating-privacy.netlify.app/en/`](https://hestialabs-dating-privacy.netlify.app/en/) ⟵ as well as here.
 
 # Deliverables
 
 The website is currently made of two major deliverables; whose sources are available in this repository:
 
-1. [`dating-privacy.hestialabs.org`](https://dating-privacy.hestialabs.org/): publicly accessible website of HestiaLabs, in french and english;
+1. [`dating-privacy.hestialabs.org`](https://dating-privacy.hestialabs.org/): publicly accessible, in english only;
 2. [`dating-privacy.hestialabs.org/admin`](https://dating-privacy.hestialabs.org/admin/): our [content-authoring system (_aka_ NetlifyCMS)](https://www.netlifycms.org), accessible thru invite only.
 
 # Access rights
