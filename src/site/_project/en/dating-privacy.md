@@ -8,8 +8,10 @@ description: >-
   users (who is introduced to whom).
 
 
+  The project also provides dating apps users with a tool to visualize and understand the dating apps data ecosystem and its exploitation.
 
-  The project also provides dating apps users with a tool to visualise and understand the dating apps data ecosystem and its exploitation.
+
+  In a first phase, this project will focus on the relevance of geolocation data. 
 image: /assets/media/project-dating-privacy-c-alexander-sinn-unsplash-c.jpeg
 url: mailto:datingprivacy@personaldata.io
 ---
