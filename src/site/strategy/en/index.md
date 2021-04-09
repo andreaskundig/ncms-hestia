@@ -61,31 +61,30 @@ change_steps:
       seeks out peers who are concerned about the same issues.
 
 
-      This "individual external" dimension of the theory of change is the playground of our partner [PersonalData.io](https://wiki.personaldata.io/wiki/Main_Page): it invites anyone who feels lost as to their individual data rights to talk to each other and pool a set of resources.
+      This "individual external" dimension of the theory of change is the playground of our partner [PersonalData.io](https://wiki.personaldata.io/wiki/Main_Page): it invites anyone who feels lost as to their individual data rights to talk to each other, start getting active on their own, and pool a set of resources.
     image: /assets/media/sar_le-temps.jpg
   - description: >-
       Once many people realise their data rights can create change, how do they
-      work together? Here are many unanswered questions . This “transforming
-      collective patterns of action and thinking” is the core of  HestiaLabs’
-      activities.
+      work together? Here are many unanswered questions . This is the
+      "collective internal" dimension of our theory of change. 
 
 
-      We support data collectives in their governance, their goal setting and mostly in their infrastructure.
+      The core of  HestiaLabs’ activities are here, “transforming collective patterns of action and thinking”. To achieve this, we support data collectives in their governance, their goal setting and mostly in their infrastructure.
 
 
-      With the help of recognised academic partners, we do the hard work of analysing collectivised data and transforming it into actionable insights.
+      With the help of recognized academic partners, we do the hard work of analyzing collectivized data and transforming it into actionable insights.
     title: Collective evolution
     image: /assets/media/strategy-step3-c-pexels-pixabay-c.jpeg
   - description: >-
       When a group of individuals work together towards a common goal and
-      produce results, how do they reach out to those outside the collective to
-      bring about change?
+      produce results, how do they reach out to those outside their collective
+      to bring about change?
 
 
-      A project creating new knowledge from the data collectivised does not achieve its goal. To be successful, its outputs must have an impact.
+      A project creating new knowledge from the data collectivized does not achieve its goal. To be successful, its outputs must have an impact.
 
 
-      Through our media partners and the [MyData](https://mydata.org/) network, these outcomes are brought to the attention of decision-makers who can give them the social/legal impact they deserve.
+      Through our media partners and the [MyData](https://mydata.org/) network, these outcomes are brought to the attention of decision-makers who can give them the social/legal impact they deserve. 
     title: Societal change
     image: /assets/media/strategy-step4-c-bundeshaus_bern_2009_flooffy-c.jpeg
 conclusion_title: YOUR projects make this happen
@@ -94,7 +93,7 @@ conclusion: >-
   collective we built together.
 
 
-  Your outputs become further evidence of a possible world where people decide how and why their data is used.
+  Your project leads by example, and its outputs become further evidence of a possible world where people decide how and why their data is used.
 
 
   Communicating your outcomes to the general public sparks a change of mindset in some and ideas for new projects in others.
