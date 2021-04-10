@@ -5,29 +5,13 @@ locale: en
 <!DOCTYPE html>
 <html lang="{{locale}}">
   {% include "head.njk" %}
-  <body class="outerContainer">
-    <header>
-      <p>
-        <a href="/{{locale}}">{{i18n.globals[locale].home}}</a> |
-        <a href="/{{locale}}/blog/">{{i18n.globals[locale].blog}}</a> |
-        <a href="/{{locale}}/strategy/">{{i18n.globals[locale].strategy}}</a> |
-        <a href="/{{locale}}/partners/">{{i18n.globals[locale].partners}}</a> |
-        {% for translation in translations %}
-          {% if not loop.first %}/{% endif %}
-          <a href="{{translation.page.url}}">{{translation.locale}}</a>
-        {% endfor %}
-      </p>
-    </header>
+  <body>
+    {% include "header.njk" %}
     <main>
-      {{ content | safe }}
+      <div class="responsive-wrapper">
+        {{ content | safe }}
+      </div>
     </main>
-    <footer>
-      <p>
-        {{i18n.globals[locale].contact}} |
-        <a href="/{{locale}}/about/">{{i18n.globals[locale].about}}</a> |
-        <a href="/{{locale}}/media/">{{i18n.globals[locale].media}}</a> |
-        <a href="/{{locale}}/impressum/">{{i18n.globals[locale].impressum}}</a>
-      </p>
-    </footer>
+    {% include "footer.njk" %}
   </body>
 </html>
