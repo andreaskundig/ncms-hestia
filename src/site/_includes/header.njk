@@ -1,0 +1,20 @@
+<header class="header-outer">
+  <div class="header-inner responsive-wrapper">
+    <a href="/{{locale}}" class="header-logo"
+      role="img" aria-label="{{i18n.globals[locale].home}}">
+      <img src="/assets/img/hestialabs-logo+text.svg"
+        onerror="this.onerror=null; this.src='/assets/img/hestialabs-logo+text.export-390x147.png'"
+        height="40" width="106" alt="‹HestiaLabs› logo">
+    </a>
+    <nav class="header-navigation">
+      <a href="/{{locale}}/blog/">{{i18n.globals[locale].blog}}</a>
+      <a href="/{{locale}}/strategy/">{{i18n.globals[locale].strategy}}</a>
+      <a href="/{{locale}}/projects/">{{i18n.globals[locale].projects}}</a>
+      <a href="/{{locale}}/partners/">{{i18n.globals[locale].partners}}</a>
+      {% for translation in translations %}
+        {% if not loop.first %}|{% endif %}
+        <a href="{{translation.page.url}}">{{translation.locale}}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

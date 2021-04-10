@@ -7,7 +7,7 @@ body {
   font-weight: var(--text-base-font-weight);
   font-size: var( --text-base-font-size);
   line-height: var(--line-height-base);
-  color: var(--color-text-primary);
+  color: var(--color-text-secondary);
   background-color: var(--color-bg-canvas);
   font-kerning: normal;
 }
@@ -18,14 +18,18 @@ strong, b {
 }
 
 header, footer {
-  font-size: var( --text-sm-font-size);
+  color: var(--header-text-color);
+  font-family: var(--header-font-family);
+  font-size: var(--header-font-size);
+  font-weight: var(--header-font-weight);
   text-transform: uppercase;
 }
 
 h1, h2, h3,
 h4, h5, h6,
 section#hero {
-  font-family: var(--font-family-display);
+  color: var(--hx-text-color);
+  font-family: var(--hx-font-family);
   margin: 0;
   margin-bottom: var(--paragraph-margin-bottom);
   letter-spacing: -0.015rem;
