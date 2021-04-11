@@ -17,11 +17,19 @@ strong, b {
   letter-spacing: -0.03rem;
 }
 
-header, footer {
+header {
   color: var(--header-text-color);
   font-family: var(--header-font-family);
   font-size: var(--header-font-size);
   font-weight: var(--header-font-weight);
+  text-transform: uppercase;
+}
+
+footer {
+  color: var(--footer-text-color);
+  font-family: var(--footer-font-family);
+  font-size: var(--footer-font-size);
+  font-weight: var(--footer-font-weight);
   text-transform: uppercase;
 }
 

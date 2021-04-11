@@ -1,8 +1,16 @@
-<footer>
-  <p>
-    {{i18n.globals[locale].contact}} |
-    <a href="/{{locale}}/about/">{{i18n.globals[locale].about}}</a> |
-    <a href="/{{locale}}/media/">{{i18n.globals[locale].media}}</a> |
-    <a href="/{{locale}}/impressum/">{{i18n.globals[locale].impressum}}</a>
-  </p>
+<footer class="footer-outer">
+  <div class="footer-inner responsive-wrapper">
+    <a href="/{{locale}}" class="foot-logo"
+      role="img" aria-label="{{i18n.globals[locale].home}}">
+      <img src="/assets/img/hestialabs-logo+text-inverted.svg"
+        onerror="this.onerror=null; this.src='/assets/img/hestialabs-logo+text-inverted.export-390x147.png'"
+        height="72" width="191" alt="‹HestiaLabs› logo">
+    </a>
+    <nav class="footer-navigation">
+      <a href="/{{locale}}/media/">{{i18n.globals[locale].media}}</a>
+      <a href="/{{locale}}/impressum/">{{i18n.globals[locale].impressum}}</a>
+      <a href="/{{locale}}/about/">{{i18n.globals[locale].about}}</a>
+      <a href="#TODO" onclick="alert('TODO: create ‹contact› page please (CF/AK?); otherwise, ask OL to remove this link from footer');">{{i18n.globals[locale].contact}}</a>
+    </nav>
+  </div>
 </footer>

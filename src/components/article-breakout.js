@@ -10,7 +10,7 @@ export class ArticleBreakout extends LitElement {
 
       .box {
         color: var(--color-text-tertiary);
-        background-color: var(--color-bg-secondary);
+        background-color: var(--color-bg-tertiary);
         padding: 1rem;
         margin-right: 1rem;
         max-width: 30rem;
