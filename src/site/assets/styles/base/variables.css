@@ -62,7 +62,7 @@
   --color-bg-canvas:               #ffffff;
   --color-bg-highlight:            #ffd33d;
   --color-bg-primary:              #ffffff;
-  --color-bg-secondary:            #fafbfc;
+  --color-bg-secondary:            #5a53a0;
   --color-bg-tertiary:             #f6f8fa;
   --color-bg-info:                 #f1f8ff;
   --color-bg-info-inverse:         #0366d6;
@@ -126,7 +126,8 @@
   --selection-bg-color:             var(--color-bg-highlight);
 
   /* Body */
-  --body-bg-color:                  var(--color-bg-canvas);
+  --body-bg-color:                  var(--color-bg-secondary); /* same as --footer-bg-color */
+  --main-bg-color:                  var(--color-bg-canvas);
 
   /* Paragraphs */
 
@@ -165,6 +166,6 @@
   --footer-font-family:             var(--font-family-display);
   --footer-font-size:               var(--text-sm-font-size);
   --footer-font-weight:             var(--h2-font-weight);
-  --footer-text-color:              var(--color-text-secondary);
-  --footer-bg-color:                var(--color-bg-primary);
+  --footer-text-color:              var(--color-text-white);
+  --footer-bg-color:                var(--color-bg-secondary);
 }
