@@ -11,14 +11,25 @@
   justify-content: space-between;
 }
 
+/*  Sticky Shrinking Header — the height, position and top
+    attributes on .header-outer and .header-inner are special
+    (the negative top of .header-outer namely) and go together.
+
+    «How to Create a Shrinking Header on Scroll Without JavaScript»
+    https://css-tricks.com/how-to-create-a-shrinking-header-on-scroll-without-javascript/ */
 .header-outer {
   height: var(--header-height-outer);
+  position: sticky;
+  top: var(--header-height-diff); /* a negative value, on purpose */
   background-color: var(--header-bg-color);
   box-shadow: var(--shadow-medium);
+  z-index: 1000;
 }
 
 .header-inner {
   height: var(--header-height-inner);
+  position: sticky;
+  top: 0;
 }
 
 .footer-outer {
@@ -49,19 +60,21 @@
   position: relative;
 }
 
-.header-navigation a {
+.header-navigation a {
   font-size: var(--header-text-font-size);
 }
 
 .footer-navigation a {
-  font-size: var(--footer-text-font-size);
+  font-size: var(--footer-text-footer-size);
 }
 
-.header-navigation a:hover:after {
+.header-navigation a:hover:after,
+.footer-navigation a:hover:after {
   transform: scalex(1);
 }
 
-.header-navigation a:after {
+.header-navigation a:after,
+.footer-navigation a:after {
   transition: 0.25s ease;
   content: "";
   display: block;
