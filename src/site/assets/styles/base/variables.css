@@ -126,7 +126,12 @@
   --selection-bg-color:             var(--color-bg-highlight);
 
   /* Body */
-  --body-text-color:                var(--color-text-secondary); /* same as --footer-bg-color */
+  --body-text-font-family:          var(--font-family);
+  --body-text-font-weight:          var(--text-base-font-weight);
+  --body-text-bold-font-weight:     var(--text-bold-font-weight);
+  --body-text-font-size:            var(--text-base-font-size);
+  --body-text-color:                var(--color-text-secondary);
+  --body-line-height:               var(--line-height-base);
   --body-bg-color:                  var(--color-bg-secondary); /* same as --footer-bg-color */
   --main-bg-color:                  var(--color-bg-canvas);
 

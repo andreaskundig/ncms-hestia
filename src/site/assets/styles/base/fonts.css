@@ -10,6 +10,18 @@
        url('../../fonts/assistant/assistant-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* ASSISTANT BOLD 700 */
+
+/* assistant-700 - latin */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../../fonts/assistant/assistant-v7-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../../fonts/assistant/assistant-v7-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 /* ROBOTO MEDIUM 500 */
 
 /* roboto-500 - latin */
