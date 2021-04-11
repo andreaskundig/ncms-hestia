@@ -153,8 +153,9 @@
   --hx-font-family:                 var(--font-family-display);
 
   /* Header & footer */
-  --header-height-outer:            4rem;
+  --header-height-outer:            5rem;
   --header-height-inner:            3rem;
+  --header-height-diff:             calc(var(--header-height-inner) - var(--header-height-outer)); /* negative value actually, on purpose */
   --header-font-family:             var(--font-family-display);
   --header-font-size:               var(--text-sm-font-size);
   --header-font-weight:             var(--h2-font-weight);
