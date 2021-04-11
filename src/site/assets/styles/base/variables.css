@@ -1,16 +1,38 @@
 :root {
-  /* Font families */
+  /* === REFERENCE LAYER === === === === === === === === === === === === */
+
+  /* NOTE: The following variable definitions provide our «design
+     system» foundation, with available metrics, colors and effects.
+
+     The variable definitions of the REFERENCE LAYER should and will
+     rarely be used in CSS rules directly; rather, they should and
+     will be used by other variable definitions of the FUNCTIONAL
+     LAYER (which is defined hereafter).
+
+     Moreover, the variable definitions of this REFERENCE LAYER
+     should not be overriden in CSS- or Web Components stylesheets.
+     Only the variables of the FUNCTIONAL LAYER can and should be
+     overriden — and the variables of this REFERENCE LAYER should
+     be used whenever applicable for those overrides, instead of
+     primitive values. Hope this makes sense — and the reference
+     layer is possibly missing definitions; complete it as needed. */
+
+  /* FONT FAMILIES */
 
   --font-family-display: 'Roboto', sans-serif;
   --font-family: 'Assistant', sans-serif;
 
-  /* Fundamental reference values */
+  /* REFERENCE VALUES */
 
-  /* From here on, all metrics will be expressed in REM units,
-     relative to this base font size, set on the <html> element;
-     additionally, `rfs()` aka _responsive font-size_ could be
-     used to scale the metrics, when the view width changes */
   --font-size-base: 18px;           /* 30/30 */
+
+  /* From here on, all metrics should be expressed in REM units,
+     relative to the previous base font size definition, which
+     has to be applied on the <html> element (done in main.css).
+
+     Additionally, `rfs()` aka _responsive font-size_ could be
+     applied on font metrics, eventually on paddings/margins also,
+     to scale them, when the view width changes (not implemented yet) */
 
   /* Line heights */
 
@@ -28,11 +50,7 @@
   --text-lg-font-size: 1.33333rem;  /* 40/30 */
   --text-xl-font-size: 1.5rem;      /* @assert( --text-xl-font-size <= --line-height-base) */
 
-  /* Paragraphs */
-
-  --paragraph-margin-bottom: var( --line-height-half);
-
-  /* Functional colors of our color system */
+  /* COLOR PALETTE / FUNCTIONAL COLORS */
 
   /* Shadows palette */
   --shadow-small:                  0 1px 0 rgba(27,31,35,0.04);
@@ -42,7 +60,7 @@
 
   /* Backgrounds */
   --color-bg-canvas:               #ffffff;
-  --color-bg-selection:            #ffd33d;
+  --color-bg-highlight:            #ffd33d;
   --color-bg-primary:              #ffffff;
   --color-bg-secondary:            #fafbfc;
   --color-bg-tertiary:             #f6f8fa;
@@ -87,6 +105,33 @@
   --color-btn-primary-hover-border: var(--color-btn-primary-border);
   --color-btn-primary-hover-shadow: var(--color-btn-hover-shadow);
 
+  /* === FUNCTIONAL LAYER === === === === === === === === === === === === */
+
+  /* Actual applications of the REFERENCE LAYER fundamental variables,
+     which will and should be used by CSS rules of the CSS- and Web
+     Components stylesheets.
+
+     Conceptually, the variable definitions of the FUNCTIONAL LAYER
+     lay the foundation for «theming» (day/night/dimmed) our website;
+     but we have not come so far yet, as to implement various themes.
+
+     These FUNCTIONAL LAYER variable definitions can and are meant to
+     be overridden, from within CSS stylesheets of Web Components; or
+     by user-agent variable definitions. You can play changing them
+     in the Inspector of your browser, to effect the «theme» globally. */
+
+  /* ELEMENTS */
+
+  /* Globals */
+  --selection-bg-color:             var(--color-bg-highlight);
+
+  /* Body */
+  --body-bg-color:                  var(--color-bg-canvas);
+
+  /* Paragraphs */
+
+  --paragraph-margin-bottom:        var( --line-height-half);
+
   /* Headings */
 
   --h1-font-size:                   2.33333rem;       /* 70/30 */
@@ -114,4 +159,12 @@
   --header-font-weight:             var(--h2-font-weight);
   --header-text-color:              var(--color-text-secondary);
   --header-bg-color:                var(--color-bg-primary);
+
+  --footer-height-outer:            8rem;
+  --footer-height-inner:            7rem;
+  --footer-font-family:             var(--font-family-display);
+  --footer-font-size:               var(--text-sm-font-size);
+  --footer-font-weight:             var(--h2-font-weight);
+  --footer-text-color:              var(--color-text-secondary);
+  --footer-bg-color:                var(--color-bg-primary);
 }
