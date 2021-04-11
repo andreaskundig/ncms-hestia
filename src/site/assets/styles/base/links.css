@@ -1,0 +1,50 @@
+
+a, a:link {
+  color: var(--link-normal-text-color);
+  text-decoration: var(--link-normal-text-deco-line);
+  text-decoration-thickness: var(--link-normal-text-deco-thickness);
+}
+
+main a:visited {
+  color: var(--link-visited-text-color);
+}
+
+main a:hover {
+  color: var(--link-hover-text-color);
+}
+
+main a:active {
+  color: var(--link-active-text-color);
+  background-color: var(--link-active-text-bg);
+}
+
+main a:focus {
+  outline: var(--link-focus-outline);
+}
+
+/* Style all links that include .pdf|.csv|.doc|.xls at the end */
+main a[href$=".pdf"]::after {
+  content: " (PDF)";
+}
+
+main a[href$=".csv"]::after {
+  content: " (CSV)";
+}
+
+main a[href$=".doc"]::after,
+main a[href$=".docx"]::after {
+  content: " (Word)";
+}
+
+main a[href$=".xls"]::after,
+main a[href$=".xlsx"]::after {
+  content: " (Excel)";
+}
+
+/* Styling links for print */
+@media print {
+  /* For links in content, visually display the link */
+  main a::after {
+    content: " (" attr(href) ")";
+  }
+}

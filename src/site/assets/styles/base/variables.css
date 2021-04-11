@@ -126,12 +126,23 @@
   --selection-bg-color:             var(--color-bg-highlight);
 
   /* Body */
+  --body-text-color:                var(--color-text-secondary); /* same as --footer-bg-color */
   --body-bg-color:                  var(--color-bg-secondary); /* same as --footer-bg-color */
   --main-bg-color:                  var(--color-bg-canvas);
 
   /* Paragraphs */
 
   --paragraph-margin-bottom:        var( --line-height-half);
+
+  /* Links */
+  --link-normal-text-color:         var(--body-text-color);
+  --link-normal-text-deco-line:     underline;
+  --link-normal-text-deco-thickness: 0.125rem;
+  --link-visited-text-color:        var(--body-text-color);
+  --link-hover-text-color:          var(--color-text-link);
+  --link-active-text-color:         var(--color-text-link);
+  --link-active-text-bg:            var(--color-bg-highlight);
+  --link-focus-outline:             3px solid var(--color-text-link);
 
   /* Headings */
 
