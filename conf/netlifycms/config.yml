@@ -163,7 +163,7 @@ collections:
     preview: false
   create: false
   i18n: true
-  preview_path: /en/about/
+  preview_path: /en/contact/
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
@@ -188,20 +188,36 @@ collections:
     - { label: "Subject", name: contact_subject, required: false, widget: string, i18n: true }
     - { label: "Message", name: contact_message, required: false, widget: string, i18n: true }
 #TODO check changes in figma
-- label: Home › Impressum
-  name: impressum
-  folder: src/site/impressum
+- label: Home › SAR
+  name: sar
+  folder: src/site/act/sar
   extension: md
   editor:
     preview: false
   create: false
   i18n: true
-  preview_path: /en/impressum/
+  preview_path: /en/act/sar/
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
     - { label: Body , name: body, required: false, widget: markdown, i18n: true }
-
+    - { label: "Sar title" , name: sar_title , required: false, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
+    - { label: "Sar subtitle" , name: sar_subtitle , required: false, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
+- label: Home › Catalog
+  name: catalog
+  folder: src/site/act/catalog
+  extension: md
+  editor:
+    preview: false
+  create: false
+  i18n: true
+  preview_path: /en/catalog/
+  fields:
+    - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
+    - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
+    - { label: Body , name: body, required: false, widget: markdown, i18n: true }
 - label: Home › Media
   name: media
   folder: src/site/media
