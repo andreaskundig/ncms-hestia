@@ -1,8 +1,8 @@
 /* eslint-env node */
 
 function creditedImage(href, alt, title, credits) {
-    var caption = credits ? `copyright ${credits}` : '';
-    return `<div><img src="${href}" alt="${alt}" title="${title}" ><div>${caption}</div></div>`;
+    var caption = credits || '';
+    return `<figure><img src="${href}" alt="${alt}" title="${title}" ><figcaption>${caption}</figcaption></figure>`;
 }
 
 module.exports = { creditedImage };
