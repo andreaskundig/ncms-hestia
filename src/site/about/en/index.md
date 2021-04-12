@@ -39,7 +39,7 @@ people:
       on the board of MyData Global. He is the CEO of Hestia.ai, the company
       running the HestiaLabs project.
     twitter: https://twitter.com/podehaye
-    image: https://placekitten.com/300/182
+    image: /assets/media/dehaye_paul-olivier_portrait_berlin_crop.jpg
   - name: Olivier Lange
     description: "Vesta (Classical Latin: [ˈwɛsta]) is the virgin goddess of the
       hearth, home, and family in Roman religion. She was rarely depicted in
