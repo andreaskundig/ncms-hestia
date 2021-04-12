@@ -22,11 +22,12 @@ layout: default
   {% if project.data.locale == locale
     and project.data.id in running_to_display%}
     <div>
+      <h2><a name="{{project.data.page.fileSlug}}">
+          {{project.data.name}}</a></h2>
       <figure>
         <a href="{{project.data.url}}"><img src="{{project.data.image}}"></a>
         <figcaption>{{project.data.image_caption}}</figcaption>
       </figure>
-      <h2>{{project.data.name}}</h2>
       <p>{{project.data.description}}</p>
       <a href="{{project.data.url}}">{{running_projects_button}}</a>
     </div>
@@ -41,11 +42,12 @@ layout: default
   {% if project.data.locale == locale
     and project.data.id in launchpad_to_display%}
     <div>
+      <h2><a name="{{project.data.page.fileSlug}}">
+          {{project.data.name}}</a></h2>
       <figure>
         <a href="{{project.data.url}}"><img src="{{project.data.image}}"></a>
         <figcaption>{{project.data.image_caption}}</figcaption>
       </figure>
-      <h2>{{project.data.name}}</h2>
       <p>{{project.data.description}}</p>
       <a href="{{project.data.url}}">{{launchpad_projects_button}}</a>
     </div>

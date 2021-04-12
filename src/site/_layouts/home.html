@@ -38,15 +38,16 @@ the code to `home/en/index.html` and `home/fr/index.html`
   {% set projects_to_display = defaultTranslation.page.data.featured_projects %}
   {% for project in collections.project %}
   {% if project.data.locale == locale
-    and project.data.id in projects_to_display%}
+  and project.data.id in projects_to_display%}
+    {% set project_url = "/" + locale + "/projects#" +project.data.page.fileSlug %}
     <div>
+      <h2><a href="{{project_url}}">{{project.data.name}}</a></h2>
       <figure>
         <a href="{{project.data.url}}">
           <img src="{{project.data.image}}">
         </a>
         <figcaption>{{project.data.image_caption}}</figcaption>
       </figure>
-      <h2><a href="{{project.data.url}}">{{project.data.name}}</a></h2>
       <p>{% markdown project.data.description %}</p>
     </div>
     {% endif %}
