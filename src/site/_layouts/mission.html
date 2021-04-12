@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section id="hero">
+    {% markdown hero %}
+</section>
+<h1>{% markdown introduction_title %}</h1>
+<p>{% markdown introduction %}</p>
+{% for solution in solutions %}
+<div>
+  <h3>{% markdown solution.title %}</h3>
+  {% if solution.image %}
+  <figure>
+    <img src="{{solution.image}}">
+    <figcaption>{{solution.image_caption}}</figcaption>
+  </figure>
+  {% endif %}
+  <p>{% markdown solution.description %}</p>
+</div>
+{% endfor %}
+

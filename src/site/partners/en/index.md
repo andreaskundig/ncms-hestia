@@ -58,14 +58,11 @@ partners:
     image: /assets/media/journalist_unsplash.jpeg
 permalink: /en/partners/index.html
 title: Partners
-hero: |-
-  Together with our partners, 
-  we build **trust**.
-you_title: You
-you_image: /assets/media/you_partner_claudio-schwarz-purzlbaum-unsplash.jpeg
-you_description: |-
-  You are interested in building a better digital world?\
-  You think you can help us achieve our ambitious goals?\
-  Or maybe you just want to chat a bit?
-you_button: Let's talk
+hero: >-
+  # Partners we trust
+
+
+  A data collective = engaged data sharers + complementary trustworthy partners.
+
+  They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
 ---

@@ -1,14 +1,11 @@
 ---
-submit_button_small: Submit project
-four_steps_title: 4 (non-sequential) steps to change the world
-layout: strategy
-four_steps_introduction: ...that do not need to be sequential
-permalink: /en/strategy/index.html
-title: Strategy
+layout: mission
+permalink: /en/mission/index.html
+title: Mission
 hero: |-
   An urgent mission
 
-  A relevant strategy
+  A relevant mission
 introduction_title: '"With great power comes great responsibility"'
 introduction: >-
   "The best minds of my generation are thinking about how to make people click
@@ -36,8 +33,7 @@ introduction: >-
 
 
   You have a meaningful project in mind that requires data?
-submit_button_big: Submit your project
-change_steps:
+solutions:
   - title: Personal transformation
     description: >-
       Each individual should realise, within himself, those three things:

@@ -4,13 +4,6 @@ layout: default
 <section id="hero">
     {% markdown hero %}
 </section>
-<figure>
-  <img src="{{you_image}}">
-  <figcaption>{{you_image_caption}}</figcaption>
-</figure>
-<h1>{% markdown you_title %}</h1>
-<p>{% markdown you_description %}</p>
-<a href="{{you_url}}">{{you_button}}</a>
 {% for partner in partners %}
 <div>
   <h2>{% markdown partner.title %}</h2>

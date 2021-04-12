@@ -15,4 +15,4 @@ All content (trademarks, names, titles, logos, images, graphics, text and other 
 
 ## Liability
 
-HestiaLabs’ website is compiled with the utmost care. Nevertheless, HestiaLabs cannot guarantee that the information contained herein is free of errors. Liability for damages is excluded unless based on intent or gross negligence on our part. HestiaLabs can change the content of its websites at any time at its own discretion and without prior notice. HestiaLabs websites contain links to other websites. We are not responsible for the data protection strategy or the content of these websites.
+HestiaLabs’ website is compiled with the utmost care. Nevertheless, HestiaLabs cannot guarantee that the information contained herein is free of errors. Liability for damages is excluded unless based on intent or gross negligence on our part. HestiaLabs can change the content of its websites at any time at its own discretion and without prior notice. HestiaLabs websites contain links to other websites. We are not responsible for the data protection mission or the content of these websites.

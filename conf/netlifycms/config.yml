@@ -42,7 +42,7 @@ collections:
         - { label: About, name: about, required: false, widget: string, i18n: true }
         - { label: Home, name: home, required: false, widget: string, i18n: true }
         - { label: Blog, name: blog, required: false, widget: string, i18n: true }
-        - { label: Strategy, name: strategy, required: false, widget: string, i18n: true }
+        - { label: Mission, name: strategy, required: false, widget: string, i18n: true }
         - { label: Media, name: media, required: false, widget: string, i18n: true }
         - { label: Impressum, name: impressum, required: false, widget: string, i18n: true }
         - { label: Suggested blog posts, name: suggested_posts, required: false, i18n: true,
@@ -269,29 +269,23 @@ collections:
         - {label: Date, name: date, required: false, widget: date}
         - {label: File, name: url, required: false, widget: file }
 
-- label: Home › Strategy
-  name: strategy
-  folder: src/site/strategy
+- label: Home › Mission
+  name: mission
+  folder: src/site/mission
   extension: md
   editor:
     preview: false
   create: false
   i18n: true
-  preview_path: /en/strategy/
+  preview_path: /en/mission/
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
     - { label: "Introduction title" , name: introduction_title , required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: Introduction , name: introduction, required: false, widget: markdown, i18n: true }
-    - { label: "Submit button (small)" , name: submit_button_small , required: false, widget: text, i18n: true }
-    - { label: "Submit button (big)" , name: submit_button_big , required: false, widget: text, i18n: true }
-    - { label: "Submit url" , name: submit_url, required: false, widget: file, i18n: true }
-    - { label: "Four steps title" , name: four_steps_title , required: false, i18n: true,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - { label: "Four steps introduction" , name: four_steps_introduction, required: false, widget: markdown, i18n: true }
-    - label: "Change steps"
-      name: "change_steps"
+    - label: "Solutions"
+      name: "solutions"
       widget: "list"
       i18n: true
       summary: '{{fields.title}}'
@@ -302,9 +296,6 @@ collections:
         - { label: Image, name: image, required: false, widget: image }
         - { label: "Image caption", name: image_caption, required: false,
             widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
-    - { label: "Conclusion title" , name: conclusion_title, required: false, i18n: true,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - { label: Conclusion , name: conclusion, required: false, widget: markdown, i18n: true }
 
 - label: Home › Partners
   name: partners
@@ -318,14 +309,6 @@ collections:
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
-    - { label: "You › title" , name: you_title , required: false, i18n: true,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - { label: "You › image", name: you_image, required: false, widget: image, i18n: true }
-    - { label: "You › image caption", name: you_image_caption, required: false, i18n: true,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
-    - { label: "You › description" , name: you_description, required: false, widget: markdown, i18n: true }
-    - { label: "You › button" , name: you_button , required: false, widget: text, i18n: true }
-    - { label: "You › button link" , name: you_url , required: false, widget: file, i18n: true }
     - label: "Partners"
       name: "partners"
       widget: "list"
