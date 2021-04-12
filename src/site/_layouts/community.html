@@ -5,9 +5,7 @@ layout: default
     {% markdown hero %}
 </section>
 <h1>{% markdown story_title %}</h1>
-<div>{% markdown story %}</div>
 
-<h1>{% markdown people_title %}</h1>
 {% for person in people %}
 <div>
 
@@ -28,34 +26,8 @@ layout: default
 </div>
 {% endfor %}
 
-<h1>{% markdown contact_title %}</h1>
-<div>
-  <div>
-    {{contact_project}}
-  </div>
-  <div>
-    <a href="{{contact_project_url}}">{{contact_project_action}}</a>
-  </div>
-</div>
-<div>
-  <div>
-    {{contact_sharer}}
-  </div>
-  <div>
-    <a href="{{contact_sharer_url}}">{{contact_sharer_action}}</a>
-  </div>
-</div>
-<div>
-  <div>
-    {{contact_media}}
-  </div>
-  <div>
-    <a href="{{contact_media_url}}">{{contact_media_action}}</a>
-  </div>
-</div>
-<div>
-  <div>{{contact_other}}</div>
-</div>
+<div>{% markdown story %}</div>
+
 
 <h1>{{timeline_title}}</h1>
 

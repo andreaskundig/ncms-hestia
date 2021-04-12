@@ -39,7 +39,7 @@ collections:
       i18n: true
       fields:
         - { label: Contact, name: contact, required: false, widget: string, i18n: true }
-        - { label: About, name: about, required: false, widget: string, i18n: true }
+        - { label: Community, name: community, required: false, widget: string, i18n: true }
         - { label: Home, name: home, required: false, widget: string, i18n: true }
         - { label: Blog, name: blog, required: false, widget: string, i18n: true }
         - { label: Mission, name: strategy, required: false, widget: string, i18n: true }
@@ -105,35 +105,21 @@ collections:
         multiple: false
         search_fields: ["title", "body"]
 
-- label: Home › About us
-  name: about
-  folder: src/site/about
+- label: Home › Community
+  name: community
+  folder: src/site/community
   extension: md
   editor:
     preview: false
   create: false
   i18n: true
-  preview_path: /en/about/
+  preview_path: /en/community/
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
     - { label: "Story title", name: story_title, required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Story", name: story, required: false, widget: markdown, i18n: true }
-    - { label: "Contact title", name: contact_title, required: false, i18n: true ,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - { label: "Contact project", name: contact_project, required: false, widget: string, i18n: true }
-    - { label: "Contact project action", name: contact_project_action, required: false, widget: string, i18n: true }
-    - { label: "Contact project url", name: contact_project_url, required: false, widget: file, i18n: true }
-    - { label: "Contact sharer", name: contact_sharer, required: false, widget: string, i18n: true }
-    - { label: "Contact sharer action", name: contact_sharer_action, required: false, widget: string, i18n: true }
-    - { label: "Contact sharer url", name: contact_sharer_url, required: false, widget: file, i18n: true }
-    - { label: "Contact media", name: contact_media, required: false, widget: string, i18n: true }
-    - { label: "Contact media action", name: contact_media_action, required: false, widget: string, i18n: true }
-    - { label: "Contact media url", name: contact_media_url, required: false, widget: file, i18n: true }
-    - { label: "Contact other", name: contact_other, required: false, widget: string, i18n: true }
-    - { label: "People title", name: people_title, required: false, i18n: true,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - label: "People"
       name: "people"
       widget: "list"

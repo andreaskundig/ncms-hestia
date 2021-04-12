@@ -1,34 +1,8 @@
 ---
-contact_project_url: https://wiki.personaldata.io/wiki/Main_Page
-contact_sharer_action: Check our running projects
-contact_sharer_url: https://wiki.personaldata.io/wiki/Main_Page
-contact_media: You feel like you would be a valuable partner for HestiaLabs?
 people_title: People
-layout: about
-permalink: /en/about/index.html
-title: About us
-hero: |-
-  Dreaming of a data-driven breakthrough?
-
-
-  We have the skills to make it happen
-
-
-  Let’s talk
+layout: community
+permalink: /en/community/index.html
 story_title: A short story about us
-story: It all started in 20XX when ...  enim ipsam voluptatem quia voluptas sit
-  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-  ratione voluptatem sequi nesciunt. Neque porro quisquam est. consequuntur
-  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-  est magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-  quisquam est.
-contact_title: Contact us
-contact_project: Your great project require data analysis?
-contact_project_action: Click here. We might help!
-contact_sharer: You would like to share your data in a constructive way (without being cheated)
-contact_media_action: Get in touch with Marie-Pierre
-contact_media_url: https://wiki.personaldata.io/wiki/Main_Page
-contact_other: Something else
 people:
   - name: Hestia
     description: 'In the Ancient Greek religion, Hestia (/ˈhɛstiə, ˈhɛstʃə/; Greek:
@@ -45,7 +19,13 @@ people:
       Forum Romanum."
     image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
     twitter: https://en.wikipedia.org/wiki/Hestia
-timeline_title: How it started - How it's going
+story: It all started in 20XX when ...  enim ipsam voluptatem quia voluptas sit
+  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+  ratione voluptatem sequi nesciunt. Neque porro quisquam est. consequuntur
+  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+  est magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+  quisquam est.
+title: Community
 timeline_events:
   - date: 0482-05-26T23:25:52.000Z
     description: The end of the world predicted by Hydatius, also spelled Idacius
@@ -56,4 +36,10 @@ timeline_events:
       The end of the world predicted by **Joanna Southcott**. 
 
       This 64-year-old self-described prophet claimed she was pregnant with the Christ child, and that he would be born on October 19, 1814. She died later that year having not delivered a child, and an autopsy proved she had not been pregnant.
+timeline_title: How it started - How it's going
+hero: |-
+  # The amazing data privacy community
+
+  Dating privacy exists thanks to and for its data sharers.
+  Here is how we are getting together to create a massive collective movement.
 ---
