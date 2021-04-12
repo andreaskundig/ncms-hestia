@@ -155,7 +155,38 @@ collections:
       fields:
         - {label: "Date", name: date, required: false, widget: date, date_format: "MM/YYYY" }
         - {label: Description, name: description, required: false, widget: markdown }
-
+- label: Home › Contact
+  name: contact
+  folder: src/site/contact
+  extension: md
+  editor:
+    preview: false
+  create: false
+  i18n: true
+  preview_path: /en/about/
+  fields:
+    - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
+    - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
+    - { label: "Contact title", name: contact_title, required: false, i18n: true ,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
+    - { label: "Contact community", name: contact_community, required: false, widget: string, i18n: true }
+    - { label: "Contact community action", name: contact_community_action, required: false, widget: string, i18n: true }
+    - { label: "Contact community url", name: contact_community_url, required: false, widget: file, i18n: true }
+    - { label: "Contact researcher", name: contact_researcher, required: false, widget: string, i18n: true }
+    - { label: "Contact researcher action", name: contact_researcher_action, required: false, widget: string, i18n: true }
+    - { label: "Contact researcher url", name: contact_researcher_url, required: false, widget: file, i18n: true }
+    - { label: "Contact partner", name: contact_partner, required: false, widget: string, i18n: true }
+    - { label: "Contact partner action", name: contact_partner_action, required: false, widget: string, i18n: true }
+    - { label: "Contact partner url", name: contact_partner_url, required: false, widget: file, i18n: true }
+    - { label: "Contact media", name: contact_media, required: false, widget: string, i18n: true }
+    - { label: "Contact media action", name: contact_media_action, required: false, widget: string, i18n: true }
+    - { label: "Contact media url", name: contact_media_url, required: false, widget: file, i18n: true }
+    - { label: "Contact other", name: contact_other, required: false, widget: string, i18n: true }
+    - { label: "First name", name: contact_first_name, required: false, widget: string, i18n: true }
+    - { label: "Last name", name: contact_last_name, required: false, widget: string, i18n: true }
+    - { label: "Email address", name: contact_email, required: false, widget: string, i18n: true }
+    - { label: "Subject", name: contact_subject, required: false, widget: string, i18n: true }
+    - { label: "Message", name: contact_message, required: false, widget: string, i18n: true }
 #TODO check changes in figma
 - label: Home › Impressum
   name: impressum

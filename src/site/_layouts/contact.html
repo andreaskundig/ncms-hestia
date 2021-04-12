@@ -1,0 +1,82 @@
+---
+layout: default
+---
+<section id="hero">
+    {% markdown hero %}
+</section>
+
+<h1>{% markdown contact_title %}</h1>
+<div>
+  <div>
+    {{contact_community}}
+  </div>
+  <div>
+    <a href="{{contact_community_url}}">{{contact_community_action}}</a>
+  </div>
+</div>
+<div>
+  <div>
+    {{contact_researcher}}
+  </div>
+  <div>
+    <a href="{{contact_researcher_url}}">{{contact_researcher_action}}</a>
+  </div>
+</div>
+<div>
+  <div>
+    {{contact_partner}}
+  </div>
+  <div>
+    <a href="{{contact_partner_url}}">{{contact_partner_action}}</a>
+  </div>
+<div>
+  <div>
+    {{contact_media}}
+  </div>
+  <div>
+    <a href="{{contact_media_url}}">{{contact_media_action}}</a>
+  </div>
+</div>
+
+<section id="contact-form">
+  <form>
+    <h1>
+      {{contact_other}}
+    </h1>
+    <div >
+      <label for="contact-first-name">
+        {{contact_first_name}}
+      </label>
+      <input type="text" name="first-name"
+             id="contact-first-name">
+    </div>
+    <div >
+      <label for="contact-last-name">
+        {{contact_last_name}}
+      </label>
+      <input type="text" name="last-name"
+             id="contact-last-name">
+    </div>
+    <div >
+      <label for="contact-email">
+        {{contact_email}}
+      </label>
+      <input type="email" name="email"
+             id="contact-email">
+    </div>
+    <div >
+      <label for="contact-subject">
+        {{contact_subject}}
+      </label>
+      <input type="email" name="subject"
+             id="contact-subject">
+    </div>
+    <div >
+      <label for="contact-message">
+        {{contact_message}}
+      </label>
+      <input type="text" name="message"
+             id="contact-message">
+    </div>
+  </form>
+</section>
