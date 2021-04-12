@@ -1,9 +1,4 @@
 ---
-contact_sharer_action: Check our running projects
-contact_media: You feel like you would be a valuable partner for HestiaLabs?
-people_title: People
-layout: about
-permalink: /en/about/index.html
 title: About us
 hero: |-
   Dreaming of a data-driven breakthrough?
@@ -25,9 +20,17 @@ story: >-
 contact_title: Contact us
 contact_project: Your great project require data analysis?
 contact_project_action: Click here. We might help!
+contact_project_url: mailto:project@hestialabs.org
 contact_sharer: You would like to share your data in a constructive way (without being cheated)
-contact_media_action: Get in touch with Marie-Pierre
+contact_sharer_action: Check our running projects
+contact_sharer_url: https://hestialabs.org/en/projects/
+contact_media: You feel like you would be a valuable partner for HestiaLabs?
 contact_other: Something else?
+people_title: People
+layout: about
+permalink: /en/about/index.html
+contact_media_action: Get in touch with Marie-Pierre
+contact_media_url: mailto:partners@hestialabs.org
 people:
   - name: Paul-Olivier Dehaye
     description: Paul is a mathematician by training who became interested in the
@@ -35,39 +38,49 @@ people:
       Cambridge Analytica scandal. He has led the NGO PersonalData.io and sits
       on the board of MyData Global. He is the CEO of Hestia.ai, the company
       running the HestiaLabs project.
+    twitter: https://twitter.com/podehaye
+    image: https://placekitten.com/300/182
   - name: Olivier Lange
     description: "Vesta (Classical Latin: [ˈwɛsta]) is the virgin goddess of the
       hearth, home, and family in Roman religion. She was rarely depicted in
       human form, and was often represented by the fire of her temple in the
       Forum Romanum."
+    image: https://placekitten.com/300/182
   - name: Marie-Pierre Vidonne
     description: Marie-Pierre is a Physicist. After several years spent in R&D in
       both public and private sectors, Marie-Pierre joined Hestia in February
       2021 as analyst and grant officer.
+    image: /assets/media/marie-pierre-vidonne-for-hestia.jpeg
   - name: Charles Foucault-Dumas
     description: A science journalist and writer, Charles launched the media L'Usine
       Digitale before heading the NGO Empowerment Foundation for a
       human-centered digital world. He joined HestiaLabs in January 2021 as Head
       of Communications.
+    image: /assets/media/charles_square.png
   - name: Andreas Kündig
     description: >
       Why he/she joined HestiaLabs , when did it happen, What he/she does for
       HestiaLabs thanks to which skills and what he/she does when not working on
       giving users control over their data.
+    image: https://placekitten.com/300/182
 timeline_title: How it started - How it's going
 timeline_events:
   - name: 0482-05-26T23:25:52.000Z
     description: |
       P.O. Dehaye helps uncover the Facebook-Cambridge Analytica scandal.
+    date: 2021-04-12T09:53:29.481Z
   - name: 0793-04-05T23:25:52.000Z
     description: >
       The Netflix documentary "The Great Hack" about the massive theft of
       personal data for electoral purposes send shockwaves around the world and
       trigger a click in Paul-Olivier Dehaye's head.
+    date: 2021-04-12T09:53:29.690Z
   - name: 1814-10-18T23:25:52.000Z
     description: Launch of HestiaLabs to build a new digital world where users keep
       control of their personal data.
+    date: 2021-04-12T09:53:29.798Z
   - name: 2021-04-08T15:09:42.588Z
     description: You join us as a partner, a project leader, or a data sharer and
       start turning the digital world around.
+    date: 2021-04-12T09:53:29.864Z
 ---
