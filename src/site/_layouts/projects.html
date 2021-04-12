@@ -18,39 +18,43 @@ layout: default
 <section id="running-projects">
   <h1>{% markdown running_projects_title %}</h1>
   {% set running_to_display = defaultTranslation.page.data.running_projects %}
-  {% for project in collections.project %}
-  {% if project.data.locale == locale
-    and project.data.id in running_to_display%}
-    <div>
-      <h2><a name="{{project.data.page.fileSlug}}">
-          {{project.data.name}}</a></h2>
-      <figure>
-        <a href="{{project.data.url}}"><img src="{{project.data.image}}"></a>
-        <figcaption>{{project.data.image_caption}}</figcaption>
-      </figure>
-      <p>{{project.data.description}}</p>
-      <a href="{{project.data.url}}">{{running_projects_button}}</a>
-    </div>
-    {% endif %}
+  {% for project_to_display in running_to_display %}
+    {% for project in collections.project %}
+    {% if project.data.locale == locale
+      and project.data.id == project_to_display%}
+      <div>
+        <h2><a name="{{project.data.page.fileSlug}}">
+            {{project.data.name}}</a></h2>
+        <figure>
+          <a href="{{project.data.url}}"><img src="{{project.data.image}}"></a>
+          <figcaption>{{project.data.image_caption}}</figcaption>
+        </figure>
+        <p>{{project.data.description}}</p>
+        <a href="{{project.data.url}}">{{running_projects_button}}</a>
+      </div>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </section>
 
 <section id="launchpad-projects">
   <h1>{% markdown launchpad_projects_title %}</h1>
   {% set launchpad_to_display = defaultTranslation.page.data.launchpad_projects %}
-  {% for project in collections.project %}
-  {% if project.data.locale == locale
-    and project.data.id in launchpad_to_display%}
-    <div>
-      <h2><a name="{{project.data.page.fileSlug}}">
-          {{project.data.name}}</a></h2>
-      <figure>
-        <a href="{{project.data.url}}"><img src="{{project.data.image}}"></a>
-        <figcaption>{{project.data.image_caption}}</figcaption>
-      </figure>
-      <p>{{project.data.description}}</p>
-      <a href="{{project.data.url}}">{{launchpad_projects_button}}</a>
-    </div>
-    {% endif %}
+  {% for project_to_display in launchpad_to_display %}
+    {% for project in collections.project %}
+      {% if project.data.locale == locale
+         and project.data.id == project_to_display%}
+        <div>
+          <h2><a name="{{project.data.page.fileSlug}}">
+              {{project.data.name}}</a></h2>
+          <figure>
+            <a href="{{project.data.url}}"><img src="{{project.data.image}}"></a>
+            <figcaption>{{project.data.image_caption}}</figcaption>
+          </figure>
+          <p>{{project.data.description}}</p>
+          <a href="{{project.data.url}}">{{launchpad_projects_button}}</a>
+        </div>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </section>
