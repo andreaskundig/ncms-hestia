@@ -77,6 +77,13 @@ the code to `home/en/index.html` and `home/fr/index.html`
   {% include "signup.njk" %}
 </section>
 
+<section id="sponsor">
+  <h1>{% markdown sponsor_title %}</h1>
+  <div>
+    {% markdown sponsor_description %}
+  </div>
+</section>
+
 <script type="module">
   import '/components/article-breakout.js';
 </script>
