@@ -65,13 +65,13 @@ timeline_events:
   - name: 0482-05-26T23:25:52.000Z
     description: |
       P.O. Dehaye helps uncover the Facebook-Cambridge Analytica scandal.
-    date: 2021-04-12T09:53:29.481Z
+    date: 2018-03-12T10:53:29.481Z
   - name: 0793-04-05T23:25:52.000Z
     description: >
       The Netflix documentary "The Great Hack" about the massive theft of
       personal data for electoral purposes send shockwaves around the world and
       trigger a click in Paul-Olivier Dehaye's head.
-    date: 2021-04-12T09:53:29.690Z
+    date: 2019-07-12T09:53:29.690Z
   - name: 1814-10-18T23:25:52.000Z
     description: Launch of HestiaLabs to build a new digital world where users keep
       control of their personal data.
@@ -79,5 +79,5 @@ timeline_events:
   - name: 2021-04-08T15:09:42.588Z
     description: You join us as a partner, a project leader, or a data sharer and
       start turning the digital world around.
-    date: 2021-04-12T09:53:29.864Z
+    date: 2021-05-12T09:53:29.864Z
 ---
