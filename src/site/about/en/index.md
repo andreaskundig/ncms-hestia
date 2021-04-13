@@ -61,7 +61,7 @@ people:
     image: /assets/media/charles_square.png
     twitter: https://twitter.com/lettweetbe
     linkedin: https://www.linkedin.com/in/charlesfoucaultdumas/
-    email: charles.foucault@hestia.ai
+    email: mailto:charles.foucault@hestia.ai
   - name: Andreas Kündig
     description: Andreas Kündig is economist, computer scientist, and comic book
       author. Since March 2021, he has been using at least one of these skills
