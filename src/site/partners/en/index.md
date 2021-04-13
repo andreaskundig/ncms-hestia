@@ -43,17 +43,32 @@ partners:
     url: mailto:partners@hestialabs.org
     image: /assets/media/researcher_pexels.jpeg
   - description: >-
-      Is your editorial staff aware of the personal data issue? Would you like
-      to be the first to know about major developments in this area?
+      Privacy is everyone's concern in our digital world. Would you like to be
+      the first to know about major new developments in this area?\
 
+      \
 
-      Unlike (many) others, HestiaLabs does not produce opinions but facts: data analysis, tangible innovations, scientific knowledge...
+      Like David against Goliath, HestiaLabs is taking on the data monopoly economy for the benefit of all. [With success](https://twitter.com/jason_kint/status/1381776266630664198?s=20).\
 
+      \
 
-      Play your role as the fourth estate by covering our efforts.
+      Unlike (many) others, we do not produce opinions but facts: data analysis, tangible innovations, scientific knowledge…\
+
+      \
+
+      Another distinctive feature: We do it with and for the users of digital services, not without their knowledge.\
+
+      \
+
+      Help your audience connect the dots and play your role as the fourth estate by covering our efforts.
     title: Media partners
     url: mailto:partners@hestialabs.org
     image: /assets/media/journalist_unsplash.jpeg
+    button: Join us
+    image_caption: Photo by [Vanilla Bear
+      Films](https://unsplash.com/@vanillabearfilms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+      on
+      [Unsplash](https://unsplash.com/s/photos/journalist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 permalink: /en/partners/index.html
 hero: |-
   Together with our partners, 
