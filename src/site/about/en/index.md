@@ -36,7 +36,7 @@ story: >-
 contact_sharer: You would like to share your data in a constructive way (without being cheated)
 contact_partner_action: Get in touch with Marie-Pierre
 contact_media_action: This page is just for you
-contact_media_url: media/
+contact_media_url: ../media/
 contact_other: Something else?
 people:
   - name: Paul-Olivier Dehaye
