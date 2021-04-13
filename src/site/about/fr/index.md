@@ -29,9 +29,12 @@ people:
       appartient à la génération des dieux mineurs, bien que sa présence dans le
       canon olympien soit variable. Hestia est la déesse vierge du foyer
       domestique. "
-  - name: Vesta
-    description: "Vesta (prononciation latine : [ˈwɛs.ta]) est la déesse du foyer du
-      peuple romain2,3 et, par extension, de la maison et de la famille dans la
-      religion romaine4. Sa présence était symbolisée par le feu sacré qui
-      brûlait dans son foyer et ses temples. "
+  - name: Andreas Kündig
+    description: Andreas Kündig est économiste de formation, développeur de
+      logiciels et auteur de bandes dessinées. Depuis mars 2021, il utilise au
+      moins une de ces compétences pour faire progresser HestiaLabs. Andreas a
+      travaillé dans un large éventail d'industries et d'organisations, y
+      compris deux startups technologiques en phase de démarrage.
+    image: /assets/media/andreas-kundig_liunkedin.jpg
+  - {}
 ---

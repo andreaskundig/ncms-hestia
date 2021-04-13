@@ -66,9 +66,11 @@ people:
     linkedin: https://www.linkedin.com/in/charlesfoucaultdumas/
     email: mailto:charles.foucault@hestia.ai
   - name: Andreas Kündig
-    description: Andreas Kündig is economist, software developer, and comic book
-      author. Since March 2021, he has been using at least one of these skills
-      on a daily basis to advance HestiaLabs.
+    description: Andreas Kündig is an economist by training, a software developer,
+      and a comic book author. Since March 2021, he has been using at least one
+      of these skills to drive HestiaLabs forward. Andreas has worked in a wide
+      range of industries and organisations, including two early-stage tech
+      startups.
     image: /assets/media/andreas-kundig_liunkedin.jpg
 timeline_title: How it started - How it's going
 timeline_events:
