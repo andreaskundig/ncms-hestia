@@ -77,7 +77,9 @@ timeline_events:
       control of their personal data.
     date: 2021-04-12T09:53:29.798Z
   - name: 2021-04-08T15:09:42.588Z
-    description: You join us as a partner, a project leader, or a data sharer and
-      start turning the digital world around.
+    description: You join us as a [partner](https://hestialabs.org/en/partners/), a
+      [project leader](mailto:project@hestialabs.org), or a [data
+      sharer](https://hestialabs.org/en/projects/) and start turning the digital
+      world around.
     date: 2021-05-12T09:53:29.864Z
 ---
