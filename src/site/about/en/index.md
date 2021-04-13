@@ -43,24 +43,24 @@ people:
     description: Paul is a mathematician by training who became interested in the
       role of personal data in society. He has most notably helped uncover the
       Cambridge Analytica scandal. He has led the NGO PersonalData.io and sits
-      on the board of MyData Global. He is the CEO of Hestia.ai, the company
+      on the board of MyData Global. He is the **CEO** of Hestia.ai, the company
       running the HestiaLabs project.
     twitter: https://twitter.com/podehaye
     image: /assets/media/dehaye_paul-olivier_portrait_berlin_crop.jpg
   - name: Olivier Lange
     description: Creative, skilled, intuitive and listening "software artisan",
-      Olivier is the CTO of HestiaLabs since March 2021.
+      Olivier is the **CTO** of HestiaLabs since March 2021.
     image: /assets/media/olivier_lange_linkedin.jpg
   - name: Marie-Pierre Vidonne
     description: Marie-Pierre is a Physicist. After several years spent in R&D in
       both public and private sectors, Marie-Pierre joined Hestia in February
-      2021 as analyst and grant officer.
+      2021 as **analyst and grant officer**.
     image: /assets/media/marie-pierre-vidonne-for-hestia.jpeg
   - name: Charles Foucault-Dumas
     description: A science journalist and writer, Charles launched the media L'Usine
       Digitale before heading the NGO Empowerment Foundation for a
-      human-centered digital world. He joined HestiaLabs in January 2021 as Head
-      of Communications.
+      human-centered digital world. He joined HestiaLabs in January 2021 as
+      **Head of Communications**.
     image: /assets/media/charles_square.png
     twitter: https://twitter.com/lettweetbe
     linkedin: https://www.linkedin.com/in/charlesfoucaultdumas/
