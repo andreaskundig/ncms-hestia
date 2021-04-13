@@ -1,4 +1,7 @@
 <h1>{{i18n.signup[locale].title}}</h1>
+{% if i18n.signup[locale].info %}
+  <p>{{i18n.signup[locale].info}}</p>
+{% endif %}
 <div >
     <label for="signup-first-name">
     {{i18n.signup[locale].first_name}}
