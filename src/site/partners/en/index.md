@@ -11,6 +11,7 @@ partners:
       de MPF.
     url: https://www.migros-pionierfonds.ch/en
     image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
+    button: website
   - title: MyData Geneva
     url: https://mydatageneva.org/
     image: /assets/media/mydatageneva.jpeg
@@ -21,6 +22,7 @@ partners:
       [Vaud](https://medium.com/mydatavaud). Thanks to its [extensive
       network](https://mydata.org/organisation-members/), MyData helps the
       projects supported by HestiaLabs to find other relevant partners."
+    button: website
   - title: PersonalData.IO
     description: >-
       Global nonprofit focused on data protection, PersonalData.IO encourages
@@ -31,6 +33,7 @@ partners:
       Through its awareness-raising initiatives, it changes the perception of people outside our [data collectives](https://hestialabs.org/en/projects/) about the issues we address, and how they want to situate themselves as actors of change.
     url: https://wiki.personaldata.io/wiki/Main_Page
     image: /assets/media/personaldata.png
+    button: website
   - title: Academic partners
     description: >-
       The sum of data, problems and situations tackled by the data collectives
@@ -44,6 +47,7 @@ partners:
       HestiaLabs is currently working with multiple labs and units at the [University of Genève](https://www.unige.ch/) and the [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch).
     url: mailto:partners@hestialabs.org
     image: /assets/media/researcher_pexels.jpeg
+    button: join us
   - description: >-
       Is your editorial staff aware of the personal data issue? Would you like
       to be the first to know about major developments in this area?
@@ -56,6 +60,7 @@ partners:
     title: Media partners
     url: mailto:partners@hestialabs.org
     image: /assets/media/journalist_unsplash.jpeg
+    button: join us
 permalink: /en/partners/index.html
 title: Partners
 hero: |-

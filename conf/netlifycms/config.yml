@@ -319,7 +319,8 @@ collections:
         - {label: Title, name: title, required: false,
            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
         - {label: Description, name: description, required: false, widget: markdown }
-        - {label: Website, name: url, required: false, widget: file}
+        - {label: Button link, name: url, required: false, widget: file}
+        - {label: Button, name: button, required: false, widget: text}
         - {label: Image, name: image, required: false, widget: image}
         - {label: "Image caption", name: image_caption, required: false,
             widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
