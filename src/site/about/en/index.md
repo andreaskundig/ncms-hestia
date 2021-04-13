@@ -55,6 +55,9 @@ people:
       human-centered digital world. He joined HestiaLabs in January 2021 as Head
       of Communications.
     image: /assets/media/charles_square.png
+    twitter: https://twitter.com/lettweetbe
+    linkedin: https://www.linkedin.com/in/charlesfoucaultdumas/
+    email: charles.foucault@hestia.ai
   - name: Andreas Kündig
     description: Andreas Kündig is economist, computer scientist, and comic book
       author. Since March 2021, he has been using at least one of these skills
@@ -67,10 +70,10 @@ timeline_events:
       P.O. Dehaye helps uncover the Facebook-Cambridge Analytica scandal.
     date: 2018-03-12T10:53:29.481Z
   - name: 0793-04-05T23:25:52.000Z
-    description: >
-      The Netflix documentary "The Great Hack" about the massive theft of
-      personal data for electoral purposes send shockwaves around the world and
-      trigger a click in Paul-Olivier Dehaye's head.
+    description: The Netflix documentary "[The Great
+      Hack](https://en.wikipedia.org/wiki/The_Great_Hack)" about the massive
+      theft of personal data for electoral purposes send shockwaves around the
+      world and trigger a click in Paul-Olivier Dehaye's head.
     date: 2019-07-12T09:53:29.690Z
   - name: 1814-10-18T23:25:52.000Z
     description: Launch of HestiaLabs to build a new digital world where users keep
