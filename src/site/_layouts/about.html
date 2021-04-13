@@ -10,9 +10,8 @@ layout: default
 <h1>{% markdown people_title %}</h1>
 {% for person in people %}
 <div>
-
-  <img src="{{person.image}}" alt="{{person.name}}" title="{{person.name}}">
   <h2>{{person.name}}</h2>
+  <img src="{{person.image}}" alt="{{person.name}}" title="{{person.name}}">
   <p>{% markdown person.description %}</p>
   <p>
     {% if person.twitter %}
