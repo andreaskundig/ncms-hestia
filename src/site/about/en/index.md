@@ -56,11 +56,10 @@ people:
       of Communications.
     image: /assets/media/charles_square.png
   - name: Andreas Kündig
-    description: >
-      Why he/she joined HestiaLabs , when did it happen, What he/she does for
-      HestiaLabs thanks to which skills and what he/she does when not working on
-      giving users control over their data.
-    image: https://placekitten.com/300/182
+    description: Andreas Kündig is economist, computer scientist, and comic book
+      author. Since March 2021, he has been using at least one of these skills
+      on a daily basis to advance HestiaLabs.
+    image: https://www.babelio.com/users/AVT_Andreas-Kundig_9674.jpg
 timeline_title: How it started - How it's going
 timeline_events:
   - name: 0482-05-26T23:25:52.000Z
