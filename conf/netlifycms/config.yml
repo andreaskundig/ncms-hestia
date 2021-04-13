@@ -133,10 +133,6 @@ collections:
         display_fields: ["title"]
         multiple: false
         search_fields: ["title", "body"]
-    - { label: "Sponsor title", name: sponsor_title, required: false, i18n: true,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - { label: "Sponsor description", name: sponsor_description, required: false, widget: markdown, i18n: true }
-
 - label: Home › About us
   name: about
   folder: src/site/about
