@@ -41,11 +41,9 @@ people:
     twitter: https://twitter.com/podehaye
     image: /assets/media/dehaye_paul-olivier_portrait_berlin_crop.jpg
   - name: Olivier Lange
-    description: "Vesta (Classical Latin: [ˈwɛsta]) is the virgin goddess of the
-      hearth, home, and family in Roman religion. She was rarely depicted in
-      human form, and was often represented by the fire of her temple in the
-      Forum Romanum."
-    image: https://placekitten.com/300/182
+    description: Creative, skilled, intuitive and listening "software artisan",
+      Olivier is the CTO of HestiaLabs since March 2021.
+    image: /assets/media/olivier_lange_linkedin.jpg
   - name: Marie-Pierre Vidonne
     description: Marie-Pierre is a Physicist. After several years spent in R&D in
       both public and private sectors, Marie-Pierre joined Hestia in February
