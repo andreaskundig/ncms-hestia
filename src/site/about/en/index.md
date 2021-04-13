@@ -11,12 +11,16 @@ hero: |-
 story_title: A short story about us
 story: >-
   The work of HestiaLabs' founder (the mathematician Paul-Olivier Dehaye) led to
-  the revelation of the Facebook-Cambridge Analytica scandal (2018) and the
-  writing of "Love under Algorithm", a book deconstructing Tinder's algorithm
+  [the revelation of the Facebook-Cambridge Analytica
+  scandal](https://www.letemps.ch/societe/paulolivier-dehaye-matheux-ennemi-facebook)
+  (2018) and the writing of "[Love under
+  Algorithm](https://www.editionsgouttedor.com/single-post/2019/03/07/-l-amour-sous-algorithme-de-judith-duportail)",
+  a [book deconstructing Tinder's
+  algorithm](https://www.theguardian.com/technology/2017/sep/27/tinder-data-privacy-tech-eu-general-data-protection-regulation)
   (2019).
 
 
-  “Paul-Olivier Dehaye is today one of the best experts on this issue in the world. His aim is not to climb this kind of summit any further. Rather to contribute to the emergence of solutions and instruments likely to bring about change”, wrote Paris-Match. HestiaLabs is one of them.
+  “Paul-Olivier Dehaye is today one of the best experts on this issue in the world. His aim is not to climb this kind of summit any further. Rather to contribute to the emergence of solutions and instruments likely to bring about change”, wrote [Paris-Match](https://paris-match.ch/labecedaire-de-paul-olivier-dehaye/). HestiaLabs is one of them.
 contact_title: Contact us
 contact_project: Your great project require data analysis?
 contact_project_action: Click here. We might help!
