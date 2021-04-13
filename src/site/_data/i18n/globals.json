@@ -1,6 +1,7 @@
 {
   "en": {
     "contact": "contact us",
+    "ethics": "ethics",
     "blog": "blog",
     "media": "media",
     "partners": "partners",
@@ -9,10 +10,12 @@
     "impressum": "impressum",
     "suggested_posts": "You might also **like** to read",
     "projects": "projects",
-    "home": "home"
+    "home": "home",
+    "share": "Share this"
   },
   "fr": {
     "contact": "contactez-nous",
+    "ethics": "ethics",
     "blog": "blog",
     "media": "médias",
     "partners": "partenaires",
@@ -21,6 +24,7 @@
     "impressum": "impressum",
     "suggested_posts": "Vous aimeriez peut-être **aussi** lire",
     "projects": "projets",
-    "home": "accueil"
+    "home": "accueil",
+    "share": "Partager"
   }
 }
