@@ -156,6 +156,9 @@ collections:
     - { label: "Contact sharer", name: contact_sharer, required: false, widget: string, i18n: true }
     - { label: "Contact sharer action", name: contact_sharer_action, required: false, widget: string, i18n: true }
     - { label: "Contact sharer url", name: contact_sharer_url, required: false, widget: file, i18n: true }
+    - { label: "Contact partner", name: contact_partner, required: false, widget: string, i18n: true }
+    - { label: "Contact partner action", name: contact_partner_action, required: false, widget: string, i18n: true }
+    - { label: "Contact partner url", name: contact_partner_url, required: false, widget: file, i18n: true }
     - { label: "Contact media", name: contact_media, required: false, widget: string, i18n: true }
     - { label: "Contact media action", name: contact_media_action, required: false, widget: string, i18n: true }
     - { label: "Contact media url", name: contact_media_url, required: false, widget: file, i18n: true }
