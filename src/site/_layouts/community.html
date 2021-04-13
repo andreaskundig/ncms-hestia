@@ -37,3 +37,15 @@ layout: default
   <p>{% markdown event.description %}</p>
 </div>
 {% endfor %}
+
+{% if chat_groups | length %}
+<h1>{{chat_groups_title}}</h1>
+  {% for group in chat_groups %}
+  <div>
+    <a href="{{group.link}}" target="_blank">
+      <img src="{{group.image}}">
+      <span>{{group.name}}</span>
+    </a>
+   </div>
+  {% endfor %}
+{% endif %}

@@ -2,7 +2,19 @@
 people_title: People
 layout: community
 permalink: /en/community/index.html
+title: Community
+hero: |-
+  # The amazing data privacy community
+
+  Dating privacy exists thanks to and for its data sharers.
+  Here is how we are getting together to create a massive collective movement.
 story_title: A short story about us
+story: It all started in 20XX when ...  enim ipsam voluptatem quia voluptas sit
+  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+  ratione voluptatem sequi nesciunt. Neque porro quisquam est. consequuntur
+  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+  est magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+  quisquam est.
 people:
   - name: Hestia
     description: 'In the Ancient Greek religion, Hestia (/ˈhɛstiə, ˈhɛstʃə/; Greek:
@@ -19,13 +31,7 @@ people:
       Forum Romanum."
     image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
     twitter: https://en.wikipedia.org/wiki/Hestia
-story: It all started in 20XX when ...  enim ipsam voluptatem quia voluptas sit
-  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-  ratione voluptatem sequi nesciunt. Neque porro quisquam est. consequuntur
-  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-  est magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-  quisquam est.
-title: Community
+timeline_title: How it started - How it's going
 timeline_events:
   - date: 0482-05-26T23:25:52.000Z
     description: The end of the world predicted by Hydatius, also spelled Idacius
@@ -36,10 +42,12 @@ timeline_events:
       The end of the world predicted by **Joanna Southcott**. 
 
       This 64-year-old self-described prophet claimed she was pregnant with the Christ child, and that he would be born on October 19, 1814. She died later that year having not delivered a child, and an autopsy proved she had not been pregnant.
-timeline_title: How it started - How it's going
-hero: |-
-  # The amazing data privacy community
-
-  Dating privacy exists thanks to and for its data sharers.
-  Here is how we are getting together to create a massive collective movement.
+chat_groups_title: Join the conversation
+chat_groups:
+  - name: Whatsapp
+    link: https://en.wikipedia.org/wiki/WhatsApp
+    image: https://placekitten.com/20/20
+  - name: Discord
+    link: https://en.wikipedia.org/wiki/Discord
+    image: https://placekitten.com/19/20
 ---

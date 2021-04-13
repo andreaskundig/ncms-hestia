@@ -143,6 +143,17 @@ collections:
       fields:
         - {label: "Date", name: date, required: false, widget: date, date_format: "MM/YYYY" }
         - {label: Description, name: description, required: false, widget: markdown }
+    - { label: "Chat groups title", name: chat_groups_title, required: false, widget: string, i18n: true }
+    - label: "Chat groups"
+      name: "chat_groups"
+      widget: "list"
+      i18n: true
+      summary: '{{fields.name}}'
+      fields:
+        - {label: Name, name: name, required: false, widget: text }
+        - {label: Link, name: link, required: false, widget: file }
+        - {label: Image, name: image, required: false, widget: image }
+
 - label: Contact
   name: contact
   folder: src/site/contact
