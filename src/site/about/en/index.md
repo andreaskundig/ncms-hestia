@@ -8,6 +8,18 @@ hero: |-
 
 
   Let’s talk
+contact_title: Contact us
+contact_project: Your great project require data analysis?
+contact_project_action: Click here. We might help!
+contact_project_url: mailto:project@hestialabs.org
+contact_sharer_action: Check our running projects
+contact_sharer_url: https://hestialabs.org/en/projects/
+contact_partner: You feel like you would be a valuable partner for HestiaLabs?
+contact_partner_url: mailto:partners@hestialabs.org
+contact_media: Are you a journalist?
+people_title: People
+layout: about
+permalink: /en/about/index.html
 story_title: A short story about us
 story: >-
   The work of HestiaLabs' founder (the mathematician Paul-Olivier Dehaye) led to
@@ -21,20 +33,11 @@ story: >-
 
 
   “Paul-Olivier Dehaye is today one of the best experts on this issue in the world. His aim is not to climb this kind of summit any further. Rather to contribute to the emergence of solutions and instruments likely to bring about change”, wrote [Paris-Match](https://paris-match.ch/labecedaire-de-paul-olivier-dehaye/). HestiaLabs is one of them.
-contact_title: Contact us
-contact_project: Your great project require data analysis?
-contact_project_action: Click here. We might help!
-contact_project_url: mailto:project@hestialabs.org
 contact_sharer: You would like to share your data in a constructive way (without being cheated)
-contact_sharer_action: Check our running projects
-contact_sharer_url: https://hestialabs.org/en/projects/
-contact_media: You feel like you would be a valuable partner for HestiaLabs?
+contact_partner_action: Get in touch with Marie-Pierre
+contact_media_action: This page is just for you
+contact_media_url: ""
 contact_other: Something else?
-people_title: People
-layout: about
-permalink: /en/about/index.html
-contact_media_action: Get in touch with Marie-Pierre
-contact_media_url: mailto:partners@hestialabs.org
 people:
   - name: Paul-Olivier Dehaye
     description: Paul is a mathematician by training who became interested in the

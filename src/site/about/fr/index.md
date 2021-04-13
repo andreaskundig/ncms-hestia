@@ -1,4 +1,9 @@
 ---
+contact_sharer_action: Voyez nos projets en cours
+contact_media: Seriez-vous partenaire?
+people_title: Des gens
+layout: about
+permalink: /fr/about/index.html
 title: A propos de nous
 hero: |-
   Vous rêvez
@@ -8,11 +13,6 @@ hero: |-
 
 
   parlons-en
-contact_sharer_action: Voyez nos projets en cours
-contact_media: Seriez-vous partenaire?
-people_title: Des gens
-layout: about
-permalink: /fr/about/index.html
 story_title: Ecoute ça
 story: C'est l'histoire d'un animal qui avait ...
 contact_title: Contactez-nous
