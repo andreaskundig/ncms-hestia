@@ -57,19 +57,19 @@ people:
       2021 as **analyst and grant officer**.
     image: /assets/media/marie-pierre-vidonne-for-hestia.jpeg
   - name: Charles Foucault-Dumas
-    description: A science journalist and writer, Charles launched the media L'Usine
-      Digitale before heading the NGO Empowerment Foundation for a
-      human-centered digital world. He joined HestiaLabs in January 2021 as
-      **Head of Communications**.
+    description: A science journalist and [writer](https://foucault-dumas.ch/),
+      Charles launched the media L'Usine Digitale before heading the NGO
+      Empowerment Foundation for a human-centered digital world. He joined
+      HestiaLabs in January 2021 as **Head of Communications**.
     image: /assets/media/charles_square.png
     twitter: https://twitter.com/lettweetbe
     linkedin: https://www.linkedin.com/in/charlesfoucaultdumas/
     email: mailto:charles.foucault@hestia.ai
   - name: Andreas Kündig
-    description: Andreas Kündig is economist, computer scientist, and comic book
+    description: Andreas Kündig is economist, software developer, and comic book
       author. Since March 2021, he has been using at least one of these skills
       on a daily basis to advance HestiaLabs.
-    image: https://www.babelio.com/users/AVT_Andreas-Kundig_9674.jpg
+    image: /assets/media/andreas-kundig_liunkedin.jpg
 timeline_title: How it started - How it's going
 timeline_events:
   - name: 0482-05-26T23:25:52.000Z
