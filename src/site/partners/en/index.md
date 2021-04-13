@@ -42,7 +42,7 @@ partners:
 
 
       HestiaLabs is currently working with multiple labs and units at the [University of Genève](https://www.unige.ch/) and the [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch).
-    url: mailto:partners@hestia.ai
+    url: mailto:partners@hestialabs.org
     image: /assets/media/researcher_pexels.jpeg
   - description: >-
       Is your editorial staff aware of the personal data issue? Would you like
@@ -54,7 +54,7 @@ partners:
 
       Play your role as the fourth estate by covering our efforts.
     title: Media partners
-    url: mailto:partners@hestia.ai
+    url: mailto:partners@hestialabs.org
     image: /assets/media/journalist_unsplash.jpeg
 permalink: /en/partners/index.html
 title: Partners
@@ -62,7 +62,5 @@ hero: >-
   # Partners we trust
 
 
-  A data collective = engaged data sharers + complementary trustworthy partners.
-
-  They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
+  We only collaborate and engage with partners who we trust and who meet our ethical charter
 ---
