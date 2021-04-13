@@ -35,4 +35,5 @@ published on {{ date | readableDate(locale)}}
       <p><a href="{{post.url}}"> {% markdown post.data.title %}</a></p>
   {% endif %}
 {% endfor %}
+{% include "share.njk" %}
 {% include "signup.njk" %}

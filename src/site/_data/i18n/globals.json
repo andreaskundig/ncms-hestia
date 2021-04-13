@@ -1,24 +1,26 @@
 {
   "en": {
     "contact": "contact us",
+    "ethics": "ethics",
     "blog": "blog",
     "media": "media",
-    "partners": "partners",
     "community": "community",
+    "partners": "partners",
     "mission": "mission",
-    "ethics": "ethics",
     "suggested_posts": "You might also **like** to read",
-    "home": "home"
+    "home": "home",
+    "share": "Share this"
   },
   "fr": {
     "contact": "contactez-nous",
+    "ethics": "ethics",
     "blog": "blog",
     "media": "médias",
-    "partners": "partenaires",
     "community": "communauté",
+    "partners": "partenaires",
     "mission": "mission",
-    "ethics": "ethics",
     "suggested_posts": "Vous aimeriez peut-être **aussi** lire",
-    "home": "accueil"
+    "home": "accueil",
+    "share": "Partager"
   }
 }
