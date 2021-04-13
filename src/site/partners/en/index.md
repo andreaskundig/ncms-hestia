@@ -1,17 +1,14 @@
 ---
 layout: partners
+title: Partners
 partners:
-  - title: Migros Pioneer Fund
-    description: Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF.Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF.
+  - title: "Innovation partner: Migros Pioneer Fund"
+    description: >-
+      **About Migros Pioneer Fund**
+
+      The Migros Pioneer Fund looks for and supports ideas with social potential. It enables pioneering projects that break new ground and seek out forward-looking solutions. Its impact-oriented funding approach combines financial support with coaching services. The Migros Pioneer Fund is part of the Migros Group's social engagement and is enabled by the Migros Group with around CHF 15 million annually. For further information: [www.migros- pioneer-fund.ch/en](https://www.migros-pionierfonds.ch/en)
     url: https://www.migros-pionierfonds.ch/en
-    image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
-    button: website
+    image: /assets/media/logo_fge_mptag1_erm_rgb_300dpi_en.png
   - title: MyData Geneva
     url: https://mydatageneva.org/
     image: /assets/media/mydatageneva.jpeg
@@ -22,7 +19,6 @@ partners:
       [Vaud](https://medium.com/mydatavaud). Thanks to its [extensive
       network](https://mydata.org/organisation-members/), MyData helps the
       projects supported by HestiaLabs to find other relevant partners."
-    button: website
   - title: PersonalData.IO
     description: >-
       Global nonprofit focused on data protection, PersonalData.IO encourages
@@ -33,7 +29,6 @@ partners:
       Through its awareness-raising initiatives, it changes the perception of people outside our [data collectives](https://hestialabs.org/en/projects/) about the issues we address, and how they want to situate themselves as actors of change.
     url: https://wiki.personaldata.io/wiki/Main_Page
     image: /assets/media/personaldata.png
-    button: website
   - title: Academic partners
     description: >-
       The sum of data, problems and situations tackled by the data collectives
@@ -47,7 +42,6 @@ partners:
       HestiaLabs is currently working with multiple labs and units at the [University of Genève](https://www.unige.ch/) and the [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch).
     url: mailto:partners@hestialabs.org
     image: /assets/media/researcher_pexels.jpeg
-    button: join us
   - description: >-
       Is your editorial staff aware of the personal data issue? Would you like
       to be the first to know about major developments in this area?
@@ -60,9 +54,7 @@ partners:
     title: Media partners
     url: mailto:partners@hestialabs.org
     image: /assets/media/journalist_unsplash.jpeg
-    button: join us
 permalink: /en/partners/index.html
-title: Partners
 hero: |-
   Together with our partners, 
   we build **trust**.
@@ -73,4 +65,5 @@ you_description: |-
   You think you can help us achieve our ambitious goals?\
   Or maybe you just want to chat a bit?
 you_button: Let's talk
+you_url: mailto:partners@hestialabs.org
 ---
