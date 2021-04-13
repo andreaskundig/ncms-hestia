@@ -155,8 +155,6 @@ collections:
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
-    - { label: "Contact title", name: contact_title, required: false, i18n: true ,
-        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Contact community", name: contact_community, required: false, widget: string, i18n: true }
     - { label: "Contact community action", name: contact_community_action, required: false, widget: string, i18n: true }
     - { label: "Contact community url", name: contact_community_url, required: false, widget: file, i18n: true }
