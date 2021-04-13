@@ -70,8 +70,7 @@ people:
 timeline_title: How it started - How it's going
 timeline_events:
   - name: 0482-05-26T23:25:52.000Z
-    description: |
-      P.O. Dehaye helps uncover the Facebook-Cambridge Analytica scandal.
+    description: Paul-Olivier Dehaye helps uncover the Facebook-Cambridge Analytica scandal.
     date: 2018-03-12T10:53:29.481Z
   - name: 0793-04-05T23:25:52.000Z
     description: The Netflix documentary "[The Great
