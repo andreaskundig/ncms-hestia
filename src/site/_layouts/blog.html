@@ -4,7 +4,7 @@ layout: default
 <section id="lead" style="{{hero_image | backgroundImage}}">
     {% markdown lead %}
 </section>
-<figcaption>{{lead_image_caption}}</figcaption>
+<figcaption>{% markdown lead_image_caption %}</figcaption>
 
 {% include "signup.njk" %}
 {% if collections.editorial %}
