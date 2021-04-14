@@ -8,7 +8,7 @@ layout: projects
 permalink: /en/projects/index.html
 title: Projects
 hero: |-
-  Already **4** projects underway
+  Already **5** projects underway
 
   What's yours?
 hero_image: /assets/media/hl_projects_hero_c-jess-bailey-ffh_ofq9f08-unsplash-c.jpeg
