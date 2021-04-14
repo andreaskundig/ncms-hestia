@@ -1,14 +1,14 @@
 ---
-your_content: >-
+your_subtitle: >-
   So? What about your idea?
 
   Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
-your_url: mailto:projects@hestia.ai
+your_url: mailto:projects@hestialabs.org
 layout: projects
 permalink: /en/projects/index.html
 title: Projects
 hero: |-
-  Already **4** projects underway.
+  Already **4** projects underway
 
   What's yours?
 introduction_title: We support data collectives
@@ -67,7 +67,7 @@ running_projects_button: Website
 running_projects:
   - dating privacy
 launchpad_projects_title: 4 projects on the launchpad
-launchpad_projects_button: Contact us
+launchpad_projects_button: Join the project
 launchpad_projects:
   - uber drivers
   - mobility
