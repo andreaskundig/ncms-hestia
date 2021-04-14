@@ -21,5 +21,12 @@ media_articles:
       business très lucratif.
     url: https://rts.ch/play/tv/redirect/detail/12087030
     image: /assets/media/media-tinder-ttc-c-rts-c.png
+  - date: 2021-02-12T17:44:01.456Z
+    title: " Pourquoi les algorithmes des applications de rencontre sont-ils pervers?"
+    publication: RTBF
+    url: https://www.rtbf.be/auvio/detail_pourquoi-les-algorithmes-des-applications-de-rencontre-sont-ils-pervers?id=2735177
+    lead: "Est-on vraiment libre de ses choix sur les sites de rencontres ? Comment
+      l’algorithme fonctionne-t-il ? Que font les applications avec nos
+      données ? "
 media_kit: Media kit
 ---
