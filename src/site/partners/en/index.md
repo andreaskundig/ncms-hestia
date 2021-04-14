@@ -2,8 +2,8 @@
 layout: partners
 partners:
   - title: MyData Vaud
-    url: https://mydatageneva.org/
-    image: /assets/media/mydatageneva.jpeg
+    url: https://mydata.org/swiss-vaud/
+    image: /assets/media/mydata-hub-vaud-logo.png
     description: "[MyData is a global movement](http://mydata.org) encouraging
       individual empowerment around personal data. Its local chapters in
       French-speaking Switzerland are based in
