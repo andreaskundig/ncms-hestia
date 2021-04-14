@@ -1,6 +1,16 @@
 ---
+you_image_caption: Photo by [Claudio Schwarz |
+  @purzlbaum](https://unsplash.com/@purzlbaum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 layout: partners
 title: Partners
+hero: |-
+  Together with our partners, 
+  we build **trust**.
+hero_image: /assets/media/hl_partners_hero-c-eric-krull-ejcuhcdfwrs-unsplash-c.jpeg
+you_title: You
+you_button: Let's talk
 partners:
   - title: "Innovation partner: Migros Pioneer Fund"
     description: >-
@@ -42,6 +52,8 @@ partners:
       HestiaLabs is currently working with multiple labs and units at the [University of Genève](https://www.unige.ch/) and the [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch).
     url: mailto:partners@hestialabs.org
     image: /assets/media/researcher_pexels.jpeg
+    image_caption: Photo by **[Startup Stock
+      Photos](https://www.pexels.com/fr-fr/@startup-stock-photos?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** on **[Pexels](https://www.pexels.com/fr-fr/photo/homme-personne-piece-rechercher-212286/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)**
   - description: >-
       Privacy is everyone's concern in our digital world. Would you like to be
       the first to know about major new developments in this area?\
@@ -70,15 +82,10 @@ partners:
       on
       [Unsplash](https://unsplash.com/s/photos/journalist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 permalink: /en/partners/index.html
-hero: |-
-  Together with our partners, 
-  we build **trust**.
-you_title: You
 you_image: /assets/media/you_partner_claudio-schwarz-purzlbaum-unsplash.jpeg
 you_description: |-
   You are interested in building a better digital world?\
   You think you can help us achieve our ambitious goals?\
   Or maybe you just want to chat a bit?
-you_button: Let's talk
 you_url: mailto:partners@hestialabs.org
 ---
