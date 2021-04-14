@@ -9,6 +9,7 @@ hero: |-
   An urgent mission
 
   A relevant mission
+hero_image_caption: thank you *placekitten*
 introduction: >-
   "The best minds of my generation are thinking about how to make people click
   ads. That sucks", said [the creator of Facebook's data team as he
