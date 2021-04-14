@@ -11,6 +11,7 @@ hero: |-
   Already **4** projects underway
 
   What's yours?
+hero_image: /assets/media/hl_projects_hero_c-jess-bailey-ffh_ofq9f08-unsplash-c.jpeg
 introduction_title: We support data collectives
 introduction: >-
   ## What is a data collective?
