@@ -3,6 +3,7 @@
 /* eslint-env node */
 
 const { buildLocalesCollection, formatDate} = require('./conf/11ty/locales');
+const { backgroundImage } = require('./conf/11ty/backgroundImage')
 const { creditedImage } = require('./conf/11ty/creditedImage')
 const { markdown } = require('./conf/11ty/markdown')
 
@@ -22,6 +23,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("locales", buildLocalesCollection);
 
   eleventyConfig.addFilter("readableDate", formatDate);
+  eleventyConfig.addFilter("backgroundImage", backgroundImage);
   eleventyConfig.addShortcode("creditedImage", creditedImage);
   eleventyConfig.addShortcode("markdown", (s) => markdown(s||''));
 
