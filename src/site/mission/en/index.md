@@ -1,12 +1,14 @@
 ---
 layout: mission
 permalink: /en/mission/index.html
+hero_image: https://placekitten.com/799/432
+introduction_title: '"With great power comes great responsibility"'
+conclusion_title: YOUR projects make this happen
 title: Mission
 hero: |-
   An urgent mission
 
   A relevant mission
-introduction_title: '"With great power comes great responsibility"'
 introduction: >-
   "The best minds of my generation are thinking about how to make people click
   ads. That sucks", said [the creator of Facebook's data team as he
@@ -81,7 +83,6 @@ solutions:
       Through our media partners and the [MyData](https://mydata.org/) network, these outcomes are brought to the attention of decision-makers who can give them the social/legal impact they deserve. 
     title: Societal change
     image: /assets/media/strategy-step4-c-bundeshaus_bern_2009_flooffy-c.jpeg
-conclusion_title: YOUR projects make this happen
 conclusion: >-
   Your project directly benefits you and the data sharers who joined the data
   collective we built together.

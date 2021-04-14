@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-<section id="hero">
+<section id="hero"
+  {% if hero_image %}
+         style="background-image: url({{hero_image}})"
+  {% endif %}
+>
     {% markdown hero %}
 </section>
 {% for partner in partners %}

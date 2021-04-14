@@ -5,8 +5,12 @@ layout: default
 Would we need custom HTML per language, copy & override
 the code to `home/en/index.html` and `home/fr/index.html`
 #}
-<section id="hero">
-  <h1>{% markdown hero %}</h1>
+<section id="hero"
+  {% if hero_image %}
+         style="background-image: url({{hero_image}})"
+  {% endif %}
+>
+  {% markdown hero %}
     <button onclick="alert('That was good, click me again!');">Click me, you fool</button>
 </section>
 
