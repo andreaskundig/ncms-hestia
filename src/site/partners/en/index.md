@@ -19,6 +19,7 @@ partners:
       The Migros Pioneer Fund looks for and supports ideas with social potential. It enables pioneering projects that break new ground and seek out forward-looking solutions. Its impact-oriented funding approach combines financial support with coaching services. The Migros Pioneer Fund is part of the Migros Group's social engagement and is enabled by the Migros Group with around CHF 15 million annually. For further information: [www.migros- pioneer-fund.ch/en](https://www.migros-pionierfonds.ch/en)
     url: https://www.migros-pionierfonds.ch/en
     image: /assets/media/logo_fge_mptag1_erm_rgb_300dpi_en.png
+    button: Website
   - title: MyData Geneva
     url: https://mydatageneva.org/
     image: /assets/media/mydatageneva.jpeg
@@ -29,6 +30,7 @@ partners:
       [Vaud](https://medium.com/mydatavaud). Thanks to its [extensive
       network](https://mydata.org/organisation-members/), MyData helps the
       projects supported by HestiaLabs to find other relevant partners."
+    button: Website
   - title: PersonalData.IO
     description: >-
       Global nonprofit focused on data protection, PersonalData.IO encourages
@@ -39,6 +41,7 @@ partners:
       Through its awareness-raising initiatives, it changes the perception of people outside our [data collectives](https://hestialabs.org/en/projects/) about the issues we address, and how they want to situate themselves as actors of change.
     url: https://wiki.personaldata.io/wiki/Main_Page
     image: /assets/media/personaldata.png
+    button: Website
   - title: Academic partners
     description: >-
       The sum of data, problems and situations tackled by the data collectives
@@ -54,6 +57,7 @@ partners:
     image: /assets/media/researcher_pexels.jpeg
     image_caption: Photo by **[Startup Stock
       Photos](https://www.pexels.com/fr-fr/@startup-stock-photos?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** on **[Pexels](https://www.pexels.com/fr-fr/photo/homme-personne-piece-rechercher-212286/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)**
+    button: Join us
   - description: >-
       Privacy is everyone's concern in our digital world. Would you like to be
       the first to know about major new developments in this area?\
