@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-<section id="hero">
+<section id="hero"
+  {% if lead_image %}
+         style="background-image: url({{lead_image}})"
+  {% endif %}
+>
     {% markdown lead %}
-    {% if lead_image %}
-       <img src="{{lead_image}}">
-    {% endif %}
 </section>
 {% include "signup.njk" %}
 {% if collections.editorial %}
