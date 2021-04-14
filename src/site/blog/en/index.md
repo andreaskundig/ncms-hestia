@@ -1,6 +1,7 @@
 ---
 title: Data stories
 lead: ""
+lead_image: /assets/media/hl_blog-main_hero-c-max-langelott-wwq760meywi-unsplash-c.jpeg
 editorials_title: Latest posts
 interviews_title: Special guests
 infographics_title: Infographics
