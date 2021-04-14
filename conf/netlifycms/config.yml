@@ -84,6 +84,7 @@ collections:
   editor:
     preview: false
   create: false
+  delete: false
   i18n:
     structure: multiple_folders
   preview_path: /en/
@@ -142,6 +143,7 @@ collections:
   editor:
     preview: false
   create: false
+  delete: false
   i18n: true
   preview_path: /en/about/
   fields:
@@ -197,6 +199,7 @@ collections:
   editor:
     preview: false
   create: false
+  delete: false
   i18n: true
   preview_path: /en/impressum/
   fields:
@@ -211,6 +214,7 @@ collections:
   editor:
     preview: false
   create: false
+  delete: false
   i18n: true
   preview_path: /en/media/
   fields:
@@ -262,6 +266,7 @@ collections:
   editor:
     preview: false
   create: false
+  delete: false
   i18n: true
   preview_path: /en/strategy/
   fields:
@@ -298,7 +303,8 @@ collections:
   extension: md
   editor:
     preview: false
-  create: true
+  create: false
+  delete: false
   i18n: true
   preview_path: /en/partners/
   fields:
@@ -334,6 +340,7 @@ collections:
   editor:
     preview: false
   create: false
+  delete: false
   i18n: true
   preview_path: /en/projects/
   fields:
@@ -384,6 +391,7 @@ collections:
   editor:
     preview: false
   create: false
+  delete: false
   i18n: true
   preview_path: /en/blog/
   fields:
@@ -638,6 +646,7 @@ collections:
   editor:
     preview: false
   create: false
+  delete: false
   i18n: true
   identifier_field: body
   fields:
@@ -666,6 +675,7 @@ collections:
   editor:
     preview: false
   create: false
+  delete: false
   i18n: true
   identifier_field: body
   fields:
