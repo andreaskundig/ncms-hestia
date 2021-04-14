@@ -8,6 +8,8 @@ hero_image: /assets/media/14-winkler-ttj0cljli6w-unsplash.jpg
 Values of the collective/ project
 
 **Commitment : research and privacy**
+
+
 •	We are committed to develop awareness, tools, methods, and ultimately be able to push better practices as standard in the dating app industry.
 
 **Transparency**
