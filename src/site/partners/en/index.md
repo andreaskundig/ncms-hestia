@@ -1,17 +1,7 @@
 ---
 layout: partners
 partners:
-  - title: Migros Pioneer Fund
-    description: Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF.Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF.
-    url: https://www.migros-pionierfonds.ch/en
-    image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
-  - title: MyData Geneva
+  - title: MyData Vaud
     url: https://mydatageneva.org/
     image: /assets/media/mydatageneva.jpeg
     description: "[MyData is a global movement](http://mydata.org) encouraging
@@ -56,11 +46,12 @@ partners:
     title: Media partners
     url: mailto:partners@hestialabs.org
     image: /assets/media/journalist_unsplash.jpeg
+  - title: HestiaLabs
 permalink: /en/partners/index.html
 title: Partners
 hero: >-
   # Partners we trust
 
 
-  We only collaborate and engage with partners who we trust and who meet our ethical charter
+  We only collaborate and engage with partners who we trust and who meet our [ethical charter](https://dating-privacy.hestialabs.org/en/ethics/). They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
 ---
