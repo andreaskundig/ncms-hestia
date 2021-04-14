@@ -10,7 +10,7 @@ layout: default
 </section>
 <figure>
   <img src="{{you_image}}">
-  <figcaption>{{you_image_caption}}</figcaption>
+  <figcaption>{% markdown you_image_caption %}</figcaption>
 </figure>
 <h1>{% markdown you_title %}</h1>
 <p>{% markdown you_description %}</p>
@@ -22,7 +22,7 @@ layout: default
   <a href="{{partner.url}}">{{partner.button}}</a>
   <figure>
     <a href="{{partner.url}}"><img src="{{partner.image}}"></a>
-    <figcaption>{{partner.image_caption}}</figcaption>
+    <figcaption>{% markdown partner.image_caption %}</figcaption>
   </figure>
 </div>
 {% endfor %}

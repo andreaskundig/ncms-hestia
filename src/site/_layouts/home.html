@@ -51,7 +51,7 @@ the code to `home/en/index.html` and `home/fr/index.html`
             <a href="{{project_url}}">
               <img src="{{project.data.image}}">
             </a>
-            <figcaption>{{project.data.image_caption}}</figcaption>
+            <figcaption>{% markdown project.data.image_caption %}</figcaption>
           </figure>
           <p>{% markdown project.data.description %}</p>
         </div>

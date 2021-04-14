@@ -18,7 +18,7 @@ layout: default
         {% markdown post.data.lead %}
         <figure>
           <a href="{{post.url}}"><img src="{{post.data.image}}"></a>
-          <figcaption>{{post.data.image_caption}}</figcaption>
+          <figcaption>{% markdown post.data.image_caption %}</figcaption>
         </figure>
     </div>
   {% endif %}
@@ -33,7 +33,7 @@ layout: default
         {% markdown post.data.lead %}
         <figure>
           <a href="{{post.url}}"><img src="{{post.data.image}}"></a>
-          <figcaption>{{post.data.image_caption}}</figcaption>
+          <figcaption>{% markdown post.data.image_caption %}</figcaption>
         </figure>
       </div>
     {% endif %}
@@ -49,7 +49,7 @@ layout: default
         {% markdown post.data.lead %}
         <figure>
           <a href="{{post.url}}"><img src="{{post.data.image}}"></a>
-          <figcaption>{{post.data.image_caption}}</figcaption>
+          <figcaption>{% markdown post.data.image_caption %}</figcaption>
         </figure>
       </div>
     {% endif %}

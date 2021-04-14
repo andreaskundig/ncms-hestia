@@ -31,7 +31,7 @@ layout: default
             {{project.data.name}}</a></h2>
         <figure>
           <a href="{{project.data.url}}"><img src="{{project.data.image}}"></a>
-          <figcaption>{{project.data.image_caption}}</figcaption>
+          <figcaption>{% markdown project.data.image_caption %}</figcaption>
         </figure>
         <p>{{project.data.description}}</p>
         <a href="{{project.data.url}}">{{running_projects_button}}</a>
@@ -53,7 +53,7 @@ layout: default
               {{project.data.name}}</a></h2>
           <figure>
             <a href="{{project.data.url}}"><img src="{{project.data.image}}"></a>
-            <figcaption>{{project.data.image_caption}}</figcaption>
+            <figcaption>{% markdown project.data.image_caption %}</figcaption>
           </figure>
           <p>{{project.data.description}}</p>
           <a href="{{project.data.url}}">{{launchpad_projects_button}}</a>

@@ -14,7 +14,7 @@ layout: default
         <p>{% markdown post.data.lead %}</p>
         <figure>
           <img src="{{post.data.image}}">
-          <figcaption>{{post.data.image_caption}}</figcaption>
+          <figcaption>{% markdown post.data.image_caption %}</figcaption>
         </figure>
     </div>
         {% endif %}

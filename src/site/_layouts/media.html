@@ -9,7 +9,7 @@ layout: default
 <div>
   <figure>
     <img src="{{article.image}}">
-    <figcaption>{{article.image_caption}}</figcaption>
+    <figcaption>{% markdown article.image_caption %}</figcaption>
   </figure>
   <h3>{{article.title}}</h3>
   <p>{{article.date | readableDate(locale)}}</p>

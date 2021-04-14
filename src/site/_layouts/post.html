@@ -22,7 +22,7 @@ published on {{ date | readableDate(locale)}}
 </p>
 <figure>
   <img src="{{image}}">
-  <figcaption>{{image_caption}}</figcaption>
+  <figcaption>{% markdown image_caption %}</figcaption>
 </figure>
 <div>
 {{ content | safe }}
