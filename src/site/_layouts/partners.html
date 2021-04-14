@@ -15,7 +15,7 @@ layout: default
   <a href="{{partner.url}}">website</a>
   <figure>
     <a href="{{partner.url}}"><img src="{{partner.image}}"></a>
-    <figcaption>{{partner.image_caption}}</figcaption>
+    <figcaption>{% markdown partner.image_caption %}</figcaption>
   </figure>
 </div>
 {% endfor %}

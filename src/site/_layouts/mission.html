@@ -16,7 +16,7 @@ layout: default
   {% if solution.image %}
   <figure>
     <img src="{{solution.image}}">
-    <figcaption>{{solution.image_caption}}</figcaption>
+    <figcaption>{% markdown solution.image_caption %}</figcaption>
   </figure>
   {% endif %}
   <p>{% markdown solution.description %}</p>

@@ -21,7 +21,7 @@ layout: default
 </p>
 <figure>
   <img src="{{image}}">
-  <figcaption>{{image_caption}}</figcaption>
+  <figcaption>{% markdown image_caption %}</figcaption>
 </figure>
 <h2>{% markdown i18n.globals[locale].suggested_posts %}</h2>
 {% set suggested_posts = [].concat(suggested_editorials, suggested_interviews, suggested_infographics) %}

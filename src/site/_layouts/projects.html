@@ -24,7 +24,7 @@ layout: default
     <div>
       <figure>
         <a href="{{project.data.url}}"><img src="{{project.data.image}}"></a>
-        <figcaption>{{project.data.image_caption}}</figcaption>
+        <figcaption>{% markdown project.data.image_caption %}</figcaption>
       </figure>
       <h2>{{project.data.name}}</h2>
       <p>{{project.data.description}}</p>
@@ -43,7 +43,7 @@ layout: default
     <div>
       <figure>
         <a href="{{project.data.url}}"><img src="{{project.data.image}}"></a>
-        <figcaption>{{project.data.image_caption}}</figcaption>
+        <figcaption>{% markdown project.data.image_caption %}</figcaption>
       </figure>
       <h2>{{project.data.name}}</h2>
       <p>{{project.data.description}}</p>
