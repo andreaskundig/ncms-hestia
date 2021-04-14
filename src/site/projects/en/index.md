@@ -1,5 +1,5 @@
 ---
-your_subtitle: >-
+your_content: >-
   So? What about your idea?
 
   Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?

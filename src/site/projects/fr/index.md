@@ -1,5 +1,5 @@
 ---
-your_subtitle: alors qu'est-ce vous faites?
+your_content: alors qu'est-ce vous faites?
 layout: projects
 permalink: /fr/projects/index.html
 title: Projets

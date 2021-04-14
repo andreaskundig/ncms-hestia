@@ -1,11 +1,7 @@
 ---
 layout: default
 ---
-<section id="hero"
-  {% if hero_image %}
-         style="background-image: url({{hero_image}})"
-  {% endif %}
->
+<section id="hero" style="{{hero_image | backgroundImage}}">
     {% markdown hero %}
 </section>
 <figcaption>{{hero_image_caption}}</figcaption>
@@ -16,7 +12,7 @@ layout: default
     {% markdown introduction%}
   </div>
   <h1>{% markdown your_title %}</h1>
-  <h2>{% markdown your_subtitle %}</h2>
+  <p>{% markdown your_content %}</p>
 <a href="{{your_url}}" >{{your_button}}</a>
 </section>
 

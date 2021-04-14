@@ -363,7 +363,7 @@ collections:
     - { label: "Introduction › content", name: introduction, required: false, widget: markdown, i18n: true }
     - { label: "Your project › title", name: your_title, required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - { label: "Your project › subtitle", name: your_subtitle, required: false, i18n: true,
+    - { label: "Your project › content", name: your_content, required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Your project › button" , name: your_button , required: false, widget: text, i18n: true }
     - { label: "Your project › url" , name: your_url , required: false, widget: file, i18n: true }
