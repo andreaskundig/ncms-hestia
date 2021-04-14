@@ -10,5 +10,5 @@ image_caption: Photo by [Campaign
   Creators](https://unsplash.com/@campaign_creators?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   on
   [Unsplash](https://unsplash.com/s/photos/digital-learning?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-url: mailto:projects@hestialabs.org
+url: mailto:projects@hestia.ai
 ---

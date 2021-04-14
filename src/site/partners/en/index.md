@@ -45,7 +45,7 @@ partners:
 
 
       HestiaLabs is currently working with multiple labs and units at the [University of Genève](https://www.unige.ch/) and the [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch).
-    url: mailto:partners@hestialabs.org
+    url: mailto:partners@hestia.ai
     image: /assets/media/researcher_pexels.jpeg
     button: join us
   - description: >-
@@ -58,7 +58,7 @@ partners:
 
       Play your role as the fourth estate by covering our efforts.
     title: Media partners
-    url: mailto:partners@hestialabs.org
+    url: mailto:partners@hestia.ai
     image: /assets/media/journalist_unsplash.jpeg
     button: join us
 permalink: /en/partners/index.html

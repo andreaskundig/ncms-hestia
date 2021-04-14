@@ -3,7 +3,7 @@ your_content: >-
   So? What about your idea?
 
   Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
-your_url: mailto:projects@hestialabs.org
+your_url: mailto:projects@hestia.ai
 layout: projects
 permalink: /en/projects/index.html
 title: Projects
