@@ -1,5 +1,5 @@
 ---
-media_kit_file: mailto:press@hestialabs.org
+media_kit_file: mailto:press@hestia.ai
 download_title: Download
 download_button: Download
 press_releases_title: Press releases
@@ -24,5 +24,5 @@ media_articles:
     url: https://rts.ch/play/tv/redirect/detail/12087030
     image: /assets/media/media-tinder-ttc-c-rts-c.png
 media_kit: Media kit
-contact_email: press@hestialabs.org
+contact_email: press@hestia.ai
 ---

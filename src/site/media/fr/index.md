@@ -29,5 +29,5 @@ media_articles:
     url: https://www.bilan.ch/opinions/caroline-widmer/la-forteresse-du-big-data-quels-impacts-sur-notre-souverainete-collective
     image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
 media_kit: Kit media
-contact_email: press@hestialabs.org
+contact_email: press@hestia.ai
 ---
