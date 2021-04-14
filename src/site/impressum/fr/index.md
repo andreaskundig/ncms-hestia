@@ -1,17 +1,19 @@
 ---
 title: Impressum
 layout: impressum
-hero: Impressum & Credits
+hero: Legal notice
 permalink: /fr/impressum/index.html
 ---
-**Impressum**
+## Legal notice
 
-Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora. Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora. Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
-Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora. Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
-Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora. Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
+* Publisher <strong>hestia.ai LLC</strong>, registered in the Commercial Register of the Canton of Geneva  [IDE CHE-416.261.732](https://www.zefix.ch/en/search/entity/list/firm/1224854?name=hestia.ai&searchType=exact)
+* Manager <strong>Paul-Olivier Dehaye</strong>
+* E-mail <strong>contact\[at]hestia.ai</strong>
 
-**Credits**
+## Copyrights
 
-Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora. Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora. Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
-Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora. Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
-Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora. Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
+All content (trademarks, names, titles, logos, images, graphics, text and other elements) on this website is protected by copyright. Any reproduction is therefore subject to the written consent of the author. The various contents of the site may not be freely reproduced without the indication of the source and the explicit permission of the authors. Similarly, the pages of HestiaLabs’ website must not be embedded within the pages of another site.
+
+## Liability
+
+HestiaLabs’ website is compiled with the utmost care. Nevertheless, HestiaLabs cannot guarantee that the information contained herein is free of errors. Liability for damages is excluded unless based on intent or gross negligence on our part. HestiaLabs can change the content of its websites at any time at its own discretion and without prior notice. HestiaLabs websites contain links to other websites. We are not responsible for the data protection strategy or the content of these websites.
