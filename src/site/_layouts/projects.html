@@ -2,7 +2,10 @@
 layout: default
 ---
 <section id="hero">
-{% markdown hero %}
+    {% markdown hero %}
+    {% if hero_image %}
+       <img src="{{hero_image}}">
+    {% endif %}
 </section>
 
 <section id="wat">

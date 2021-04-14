@@ -3,6 +3,9 @@ layout: default
 ---
 <section id="hero">
     {% markdown lead %}
+    {% if lead_image %}
+       <img src="{{lead_image}}">
+    {% endif %}
 </section>
 {% include "signup.njk" %}
 {% if collections.editorial %}

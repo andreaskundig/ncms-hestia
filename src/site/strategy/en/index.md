@@ -9,6 +9,7 @@ hero: |-
   An urgent mission
 
   A relevant strategy
+hero_image: https://placekitten.com/800/432
 introduction_title: '"With great power comes great responsibility"'
 introduction: >-
   "The best minds of my generation are thinking about how to make people click

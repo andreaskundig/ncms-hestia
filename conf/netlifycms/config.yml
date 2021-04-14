@@ -91,6 +91,7 @@ collections:
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
+    - { label: Hero image , name: hero_image, required: false, widget: image, i18n: true }
     - { label: "Paragraph 1 title", name: paragraph1_title, required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Problem title", name: problem_title, required: false, i18n: true,
@@ -272,6 +273,7 @@ collections:
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
+    - { label: Hero image , name: hero_image, required: false, widget: image, i18n: true }
     - { label: "Introduction title" , name: introduction_title , required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: Introduction , name: introduction, required: false, widget: markdown, i18n: true }
@@ -310,6 +312,7 @@ collections:
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
+    - { label: Hero image , name: hero_image, required: false, widget: image, i18n: true }
     - { label: "You › title" , name: you_title , required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "You › image", name: you_image, required: false, widget: image, i18n: true }
@@ -346,6 +349,7 @@ collections:
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
+    - { label: Hero image , name: hero_image, required: false, widget: image, i18n: true }
     - { label: "Introduction › title" , name: introduction_title, required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Introduction › content", name: introduction, required: false, widget: markdown, i18n: true }
@@ -397,6 +401,7 @@ collections:
   fields:
     - { label: Title, name: title, required: false, widget: string, i18n: true }
     - { label: "Lead", name: "lead", required: false, widget: "markdown", i18n: true }
+    - { label: Lead Image , name: lead_image, required: false, widget: image, i18n: true }
     - { label: Editorials title, name: editorials_title, required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: Interviews title, name: interviews_title, required: false, i18n: true,

@@ -8,6 +8,9 @@ the code to `home/en/index.html` and `home/fr/index.html`
 <section id="hero">
     {% markdown hero %}
     <button onclick="alert('That was good, click me again!');">Click me, you fool</button>
+    {% if hero_image %}
+       <img src="{{hero_image}}">
+    {% endif %}
 </section>
 
 <section id="wat">
