@@ -1,11 +1,7 @@
 ---
 layout: default
 ---
-<section id="hero"
-  {% if hero_image %}
-         style="background-image: url({{hero_image}})"
-  {% endif %}
->
+<section id="hero" style="{{hero_image | backgroundImage}}">
     {% markdown hero %}
 </section>
 <figcaption>{% markdown hero_image_caption %}</figcaption>
