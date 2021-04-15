@@ -1,20 +1,18 @@
 ---
-media_kit_file: mailto:press@hestia.ai
-download_title: Download
-download_button: Download
-press_releases_title: Press releases
-press_releases: []
-layout: media
-permalink: /en/media/index.html
 title: Medias
-hero: |-
-  They talk about our 
-
-  **virtuous uses of data**
+hero: ""
 articles_title: Last articles
 read_button: Read
 contact_title: Contact
-media_kit_title: Media kit
+contact_email: datingprivacy@personaldata.io
+media_kit_title: ""
+media_kit_file: ""
+download_title: ""
+download_button: ""
+press_releases_title: ""
+press_releases: []
+layout: media
+permalink: /en/media/index.html
 media_articles:
   - date: 2021-03-30T10:21:28.350Z
     title: Tinder, un business très lucratif
@@ -23,6 +21,14 @@ media_articles:
       business très lucratif.
     url: https://rts.ch/play/tv/redirect/detail/12087030
     image: /assets/media/media-tinder-ttc-c-rts-c.png
+  - date: 2021-02-12T17:44:01.456Z
+    title: " Pourquoi les algorithmes des applications de rencontre sont-ils pervers?"
+    publication: RTBF
+    url: https://www.rtbf.be/auvio/detail_pourquoi-les-algorithmes-des-applications-de-rencontre-sont-ils-pervers?id=2735177
+    lead: "Est-on vraiment libre de ses choix sur les sites de rencontres ? Comment
+      l’algorithme fonctionne-t-il ? Que font les applications avec nos
+      données ? "
+    image: https://s2.qwant.com/thumbr/0x0/5/2/ba2f6fd5cf9473af72335762be3a1e18b5cde08514e618d6f59c8d535e10c0/ng_c6e4f241dcbc6186e61f-324x183@2x.jpg?u=https%3A%2F%2Fds1.static.rtbf.be%2Fmedia%2Fprogram%2Fimage%2Fng_c6e4f241dcbc6186e61f-324x183%402x.jpg&q=0&b=1&p=0&a=0
+    image_caption: Photo rtbf.be
 media_kit: Media kit
-contact_email: press@hestia.ai
 ---
