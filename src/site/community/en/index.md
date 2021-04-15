@@ -9,12 +9,12 @@ hero: |-
   Dating privacy exists thanks to and for its data sharers.
   Here is how we are getting together to create a massive collective movement.
 story_title: A short story about us
-story: It all started in 20XX when ...  enim ipsam voluptatem quia voluptas sit
-  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-  ratione voluptatem sequi nesciunt. Neque porro quisquam est. consequuntur
-  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-  est magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-  quisquam est.
+story: It all started in 20XX when blabla ...  enim ipsam voluptatem quia
+  voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+  dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+  consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+  porro quisquam est magni dolores eos qui ratione voluptatem sequi nesciunt.
+  Neque porro quisquam est.
 people:
   - name: Hestia
     description: 'In the Ancient Greek religion, Hestia (/ˈhɛstiə, ˈhɛstʃə/; Greek:
