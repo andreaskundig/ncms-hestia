@@ -9,7 +9,7 @@ media_kit_title: Media kit
 media_kit_file: mailto:press@hestialabs.org
 download_title: Download
 download_button: Download
-press_releases_title: Press releases
+press_releases_title: ""
 press_releases: []
 layout: media
 permalink: /en/media/index.html
@@ -28,5 +28,7 @@ media_articles:
     lead: "Est-on vraiment libre de ses choix sur les sites de rencontres ? Comment
       l’algorithme fonctionne-t-il ? Que font les applications avec nos
       données ? "
+    image: https://s2.qwant.com/thumbr/0x0/5/2/ba2f6fd5cf9473af72335762be3a1e18b5cde08514e618d6f59c8d535e10c0/ng_c6e4f241dcbc6186e61f-324x183@2x.jpg?u=https%3A%2F%2Fds1.static.rtbf.be%2Fmedia%2Fprogram%2Fimage%2Fng_c6e4f241dcbc6186e61f-324x183%402x.jpg&q=0&b=1&p=0&a=0
+    image_caption: Photo rtbf.be
 media_kit: Media kit
 ---
