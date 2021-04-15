@@ -24,6 +24,14 @@ partners:
   - title: HestiaLabs
     url: www.hestialabs.org
     image: /assets/media/hestialabs_logo_vectorise.svg
+    description: >-
+      HestiaLabs is a common good project enabled by the [Migros Pioneer
+      Fund](https://www.migros-pionierfonds.ch/en). The core of HestiaLabs’
+      activities is to support data collectives in their governance, their goal
+      setting and mostly in their infrastructure.
+
+
+      HestiaLabs helps Dating Privacy with fundraising and communication. Above all, it does the hard work of analysing the data collected and turning it into actionable insights.
   - title: Academic partners
     description: ""
     url: mailto:datingprivacy@personaldata.io
