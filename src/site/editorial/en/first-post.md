@@ -1,16 +1,18 @@
 ---
 id: a first blog post
-title: A *first* **blog** post
-date: 2021-04-08T11:32:25.646Z
-image: https://placekitten.com/200/300
-image_caption: kitten
-lead: An **attention**-*grabbing* lead
+title: HestiaLabs takes off
+date: 2021-04-19T11:37:00.000Z
+image: /assets/media/blog_editorial_1_c-mika-baumeister-y_lgxwqex2c-unsplash-c.jpeg
+image_caption: Photo by [Mika
+  Baumeister](https://unsplash.com/@mbaumi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/start?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+lead: The foundation stone for a new digital world where users take back control
+  of their data is being laid today.
 post_categories:
-  - euphoric
   - chill
-  - sleepy
 post_authors:
-  - dan brown
+  - CFD
 suggested_editorials:
   - " a second post"
 suggested_interviews:
@@ -18,10 +20,12 @@ suggested_interviews:
 suggested_infographics:
   - napoleon in russia
 ---
-This also works as a template for nunjucks. Here's my locale: {{locale}}<br>
+We are on the verge of creating the complex tools needed for user collectives to take back control of their data and innovate together.
 
-{% creditedImage "/assets/media/kitten-c-lachlan-rogers-c-.jpg", "a kitten", "how cute", "Lachlan Rogers" %}
+We have the skills, the networks and the will to succeed.
 
-Another credited image:
+[Join us](https://hestialabs.org/en/projects/), [follow us](https://twitter.com/hestialabs), and stay tune!
 
-{% creditedImage "/assets/media/pexels-c-maria-orlova-c-4906149.jpg", "grilling marshmallows", "that's too much sugar right here", "Maria Orlova" %}
+{% creditedImage "/assets/media/blog_editorial_1-c-fabrizio-conti-xpfhk0mgsyw-unsplash-c-.jpeg", "People and mountain", "Steep is the slope, but straight is the road.", "Lachlan Rogers" %}
+
+{% creditedImage "", "", "", "Maria Orlova" %}
