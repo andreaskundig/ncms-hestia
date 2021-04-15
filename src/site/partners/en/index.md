@@ -33,7 +33,8 @@ partners:
 permalink: /en/partners/index.html
 title: Partners
 hero: ""
-hero_image_caption: <https://unsplash.com/photos/0Qdm8Gbg6PE>
+hero_image: https://images.unsplash.com/photo-1594477898765-b9ad43ad9cfc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80
+hero_image_caption: ""
 introduction: >-
   Partners we trust
 
