@@ -12,6 +12,10 @@ hero: |-
 
   What's yours?
 hero_image: /assets/media/hl_projects_hero_c-jess-bailey-ffh_ofq9f08-unsplash-c.jpeg
+hero_image_caption: Photo by [Jess
+  Bailey](https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/collect?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 introduction_title: We support data collectives
 introduction: >-
   ## What is a data collective?
