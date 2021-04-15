@@ -5,10 +5,8 @@ introduction_title: Dating Privacy aims to raise awareness about privacy risks
   and build new practices in online dating for both users and companies.
 conclusion_title: YOUR projects make this happen
 title: Mission
-hero: |-
-  Dating Privacy's journey
-
-  coucouc
+hero: Dating Privacy's journey
+hero_image_caption: ""
 introduction: >-
   ## The problem 
 
@@ -76,7 +74,7 @@ introduction: >-
   ## What can you do to help Dating Privacy? 
 
 
-  1. [Start requesting your data](https://dating-privacy.hestialabs.org/en/act/sar/) to understand what traces about yourself and your dating preferences you leave online
+  1. [Start requesting your data](https://dating-privacy.hestialabs.org/en/act/sar/) to understand what traces about yourself and your dating preferences you leave online.
 
   2. Participate in our activities and online discussions. Learn with us about privacy, how dating apps work and user practices.
 
