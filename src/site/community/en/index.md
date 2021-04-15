@@ -3,18 +3,28 @@ people_title: People
 layout: community
 permalink: /en/community/index.html
 title: Community
-hero: |-
-  # The amazing data privacy community
-
-  Dating privacy exists thanks to and for its data sharers.
-  Here is how we are getting together to create a massive collective movement.
+hero: ""
 story_title: A short story about us
-story: It all started in 20XX when blabla ...  enim ipsam voluptatem quia
-  voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-  dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
-  consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
-  porro quisquam est magni dolores eos qui ratione voluptatem sequi nesciunt.
-  Neque porro quisquam est.
+story: >-
+  
+
+  We are a small group of highly skilled individuals
+
+
+  Jessica Pidoux, Doctoral Researcher at the Digital Humanities Institute at École Polytechnique Fédérale de Lausanne works on revealing biases in Tinder's secretive matching algorithms. <https://jessicapidoux.info/>
+
+
+  Frank, freelance journalist has revealed privacy risks on Hinge and is currently being messed around by Hinge, Bumble and Tinder having asked for his data <https://bit.ly/2J8mKOo> [](https://wiki.personaldata.io/wiki/User:Frandrews "User:Frandrews")
+
+
+  An other member maps the dating app ecosystem in the wiki platform available thanks to our partner personaldata.io and delves into dating app patents.\
+
+  \
+
+  Another volunteer digs into regulation policies and how online dating interacts with collective practices and communities.
+
+
+  A counsel in intellectual property and IT helps us with the all the legal facets.
 people:
   - name: Hestia
     description: 'In the Ancient Greek religion, Hestia (/ˈhɛstiə, ˈhɛstʃə/; Greek:
