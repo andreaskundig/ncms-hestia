@@ -24,7 +24,7 @@ story: >-
   Another volunteer digs into regulation policies and how online dating interacts with collective practices and communities.
 
 
-  A counsel in intellectual property and IT helps us with the all the legal facets.
+  A counsel in intellectual property and IT helps us with  all the legal facets.
 people:
   - name: Hestia
     description: 'In the Ancient Greek religion, Hestia (/ˈhɛstiə, ˈhɛstʃə/; Greek:
