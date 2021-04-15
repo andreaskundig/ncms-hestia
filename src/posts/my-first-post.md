@@ -5,7 +5,10 @@ description: Capitalize on low hanging fruit to identify a ballpark value added
   clickthroughs from DevOps.
 author: Surjith S M
 date: 2020-09-01
-tags: moped
+tagso: moped
+tags: mopedo
+fake-tagsi: gg
+
 fake-tags:
   - created
 ---
