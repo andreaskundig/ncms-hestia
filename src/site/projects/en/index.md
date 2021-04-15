@@ -1,9 +1,9 @@
 ---
+your_url: mailto:projects@hestialabs.org
 your_subtitle: >-
   So? What about your idea?
 
   Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
-your_url: mailto:projects@hestialabs.org
 layout: projects
 permalink: /en/projects/index.html
 title: Projects
@@ -12,6 +12,10 @@ hero: |-
 
   What's yours?
 hero_image: /assets/media/hl_projects_hero_c-jess-bailey-ffh_ofq9f08-unsplash-c.jpeg
+hero_image_caption: Photo by [Jess
+  Bailey](https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/collect?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 introduction_title: We support data collectives
 introduction: >-
   ## What is a data collective?
@@ -62,6 +66,10 @@ introduction: >-
 
   The projects backed by HestiaLabs bring people together to build and learn things by pooling their data. We help you share the results with journalists, researchers and civil society so that these innovations and knowledge benefit society as a whole.
 your_title: Your project
+your_content: >-
+  **So? What about your idea?**
+
+  Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
 your_button: Submit a project
 running_projects_title: 1 Running project
 running_projects_button: Website
