@@ -1,26 +1,6 @@
 ---
 layout: partners
 partners:
-  - title: Migros Pioneer Fund
-    description: Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF.Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF. Texte en attente de MPF. Texte en attente de MPF. Texte en attente
-      de MPF.
-    url: https://www.migros-pionierfonds.ch/en
-    image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
-  - title: MyData Geneva
-    url: https://mydatageneva.org/
-    image: /assets/media/mydatageneva.jpeg
-    description: "[MyData is a global movement](http://mydata.org) encouraging
-      individual empowerment around personal data. Its local chapters in
-      French-speaking Switzerland are based in
-      [Geneva](https://mydatageneva.org/) and
-      [Vaud](https://medium.com/mydatavaud). Thanks to its [extensive
-      network](https://mydata.org/organisation-members/), MyData helps the
-      projects supported by HestiaLabs to find other relevant partners."
   - title: PersonalData.IO
     description: >-
       Global nonprofit focused on data protection, PersonalData.IO encourages
@@ -28,41 +8,54 @@ partners:
       of its diversity (activists, researchers, educators, etc).
 
 
-      Through its awareness-raising initiatives, it changes the perception of people outside our [data collectives](https://hestialabs.org/en/projects/) about the issues we address, and how they want to situate themselves as actors of change.
+      It helped our collective to emerge by gathering us and helped us to think together. Its wiki platform provided us with the structure we needed to start working on dating app data (giving us access to store, manage and access structured data).
     url: https://wiki.personaldata.io/wiki/Main_Page
     image: /assets/media/personaldata.png
-  - title: Academic partners
+  - title: MyData Vaud
+    url: https://mydata.org/swiss-vaud/
+    image: /assets/media/mydata-hub-vaud-logo.png
+    description: "[MyData is a global movement](http://mydata.org) encouraging
+      individual empowerment around personal data. Its local chapters in
+      French-speaking Switzerland are based in
+      [Geneva](https://mydatageneva.org/) and
+      [Vaud](https://medium.com/mydatavaud). Thanks to its [extensive
+      network](https://mydata.org/organisation-members/), MyData Vaud helps
+      Dating Privacy to find relevant partners and promote its events."
+  - title: HestiaLabs
+    url: www.hestialabs.org
+    image: /assets/media/hestialabs_logo_vectorise.svg
     description: >-
-      The sum of data, problems and situations tackled by the data collectives
-      we support is an inexhaustible source of knowledge about data science,
-      individual rights and privacy.
+      HestiaLabs is a common good project enabled by the [Migros Pioneer
+      Fund](https://www.migros-pionierfonds.ch/en). The core of HestiaLabs’
+      activities is to support data collectives in their governance, their goal
+      setting and mostly in their infrastructure.
 
 
-      HestiaLabs would be delighted to team up with an academic partner or partners. Their expertise and legitimacy on these topics would enhance the value of this knowledge and give it the scientific resonance it deserves.
-
-
-      HestiaLabs is currently working with multiple labs and units at the [University of Genève](https://www.unige.ch/) and the [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch).
-    url: mailto:partners@hestia.ai
-    image: /assets/media/researcher_pexels.jpeg
-  - description: >-
-      Is your editorial staff aware of the personal data issue? Would you like
-      to be the first to know about major developments in this area?
-
-
-      Unlike (many) others, HestiaLabs does not produce opinions but facts: data analysis, tangible innovations, scientific knowledge...
-
-
-      Play your role as the fourth estate by covering our efforts.
+      HestiaLabs helps Dating Privacy with fundraising and communication. Above all, it does the hard work of analysing the data collected and turning it into actionable insights.
+  - title: Academic partners
+    description: ""
+    url: mailto:datingprivacy@personaldata.io
+    image: ""
+  - description: ""
     title: Media partners
-    url: mailto:partners@hestia.ai
-    image: /assets/media/journalist_unsplash.jpeg
+    url: mailto:partners@hestialabs.org
+    image: ""
+  - url: mailto:datingprivacy@personaldata.io
+    title: associations (LGBIQ+, feministes, ...)
 permalink: /en/partners/index.html
 title: Partners
 hero: >-
   # Partners we trust
 
 
-  A data collective = engaged data sharers + complementary trustworthy partners.
+  We only collaborate and engage with partners who we trust and who meet our [ethical chart](https://datingprivacy.hestialabs.org/en/ethics/). They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
+hero_image: https://images.unsplash.com/photo-1594477898765-b9ad43ad9cfc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80
+hero_image_caption: ""
+introduction: >-
+  Partners we trust
+
+
+  We only collaborate and engage with partners who we trust and who meet our [ethical chart](https://dating-privacy.hestialabs.org/en/ethics/).
 
   They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
 ---
