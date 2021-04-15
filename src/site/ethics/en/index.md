@@ -4,6 +4,10 @@ layout: ethics
 hero: ""
 permalink: /en/ethics/index.html
 hero_image: /assets/media/14-winkler-ttj0cljli6w-unsplash.jpg
+hero_image_caption: Photo by [Markus
+  Winkler](https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/collections/9847331/website-headers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 ---
 # Values of the collective/ project
 
