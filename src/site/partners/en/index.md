@@ -9,6 +9,10 @@ hero: |-
   Together with our partners, 
   we build **trust**.
 hero_image: /assets/media/hl_partners_hero-c-eric-krull-ejcuhcdfwrs-unsplash-c.jpeg
+hero_image_caption: Photo by [Eric
+  Krull](https://unsplash.com/@ekrull?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/collection?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 you_title: You
 you_button: Let's talk
 partners:
