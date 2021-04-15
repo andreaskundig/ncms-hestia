@@ -4,11 +4,11 @@ hero: ""
 articles_title: Last articles
 read_button: Read
 contact_title: Contact
-contact_email: press@hestialabs.org
-media_kit_title: Media kit
-media_kit_file: mailto:press@hestialabs.org
-download_title: Download
-download_button: Download
+contact_email: datingprivacy@personaldata.io
+media_kit_title: ""
+media_kit_file: ""
+download_title: ""
+download_button: ""
 press_releases_title: ""
 press_releases: []
 layout: media
