@@ -38,7 +38,7 @@ introduction: >-
   Partners we trust
 
 
-  We only collaborate and engage with partners who we trust and who meet our [ethical charter](https://dating-privacy.hestialabs.org/en/ethics/).
+  We only collaborate and engage with partners who we trust and who meet our [ethical chart](https://dating-privacy.hestialabs.org/en/ethics/).
 
   They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
 ---
