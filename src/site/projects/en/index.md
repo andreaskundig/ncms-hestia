@@ -1,9 +1,9 @@
 ---
+your_url: mailto:projects@hestialabs.org
 your_subtitle: >-
   So? What about your idea?
 
   Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
-your_url: mailto:projects@hestialabs.org
 layout: projects
 permalink: /en/projects/index.html
 title: Projects
@@ -62,6 +62,10 @@ introduction: >-
 
   The projects backed by HestiaLabs bring people together to build and learn things by pooling their data. We help you share the results with journalists, researchers and civil society so that these innovations and knowledge benefit society as a whole.
 your_title: Your project
+your_content: >-
+  **So? What about your idea?**
+
+  Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
 your_button: Submit a project
 running_projects_title: 1 Running project
 running_projects_button: Website
