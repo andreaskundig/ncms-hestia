@@ -10,7 +10,7 @@ image_caption: "[René Mahieu](https://twitter.com/renelpmahieu), [doctoral
 lead: “A driver’s interest in knowing why he or she was fired is more important
   than Uber’s interest in protecting its secrecy.”
 post_categories:
-  - chill
+  - Worth reading
 post_authors:
   - CFD
 ---
