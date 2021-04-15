@@ -32,7 +32,9 @@ partners:
   - title: HestiaLabs
 permalink: /en/partners/index.html
 title: Partners
-hero: >-
+hero: ""
+hero_image_caption: <https://unsplash.com/photos/0Qdm8Gbg6PE>
+introduction: >-
   Partners we trust
 
 
