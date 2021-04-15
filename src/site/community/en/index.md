@@ -34,13 +34,6 @@ people:
     image: https://placekitten.com/300/182
     email: https://en.wikipedia.org/wiki/Hestia
     linkedin: https://en.wikipedia.org/wiki/Hestia
-  - name: Vesta
-    description: "Vesta (Classical Latin: [ˈwɛsta]) is the virgin goddess of the
-      hearth, home, and family in Roman religion. She was rarely depicted in
-      human form, and was often represented by the fire of her temple in the
-      Forum Romanum."
-    image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
-    twitter: https://en.wikipedia.org/wiki/Hestia
 timeline_title: How it started - How it's going
 timeline_events:
   - date: 0482-05-26T23:25:52.000Z
