@@ -30,13 +30,13 @@ The value of the ID field at creation is used to create the url where the page w
 2. Charles retrieves the "in review" content and
 a. Asks its creator for modifications
 -> Save + Set status " draft " + inform creator -> return to point 1
-b. Validates it
+or b. Validates it
 -> Save + Set status " ready " + inform PO
 
 3. PO retrieves the "ready" content and
 a. Requests changes from Charles
 -> Save + Set status " in review " + inform Charles -> return to point 2
-b. Validates it
+or b. Validates it
 -> Save + Publish
 
 ### Workflow Projects
@@ -50,11 +50,11 @@ b. Validates it
 2. Charles retrieves the "in review" content and
 a. Asks its creator for modifications
 -> Save + Set status " draft " + inform creator -> return to point 1
-b. Validates it
+or b. Validates it
 -> Save + Set status " ready " + inform Project Leader
 
 3. Project leader retrieves the "ready" content and
 a. Requests changes from the creator
 -> Save + Set status " draft " + inform creator -> return to point 1
-b. Validates it
+or b. Validates it
 -> Save + Publish
