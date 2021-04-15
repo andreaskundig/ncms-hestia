@@ -342,6 +342,7 @@ collections:
     - { label: Hero image , name: hero_image, required: false, widget: image, i18n: true }
     - { label: "Hero image caption", name: hero_image_caption, required: false,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
+    - { label: Introduction , name: introduction, required: false, widget: markdown, i18n: true }
     - label: "Partners"
       name: "partners"
       widget: "list"
