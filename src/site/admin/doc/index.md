@@ -23,38 +23,45 @@ The value of the ID field at creation is used to create the url where the page w
 
 1. The creator of a content enters it and edits it (text, title, subtitles, images, photo/image credits) remains in "Draft" status until it is "publishable" according to him/her (do a preview to check).
 
--> Save + Set status "in review" + tell Charles
+  - -> Save + Set status "in review" + tell Charles
 
 ![image](https://user-images.githubusercontent.com/81250365/114867472-264c1200-9df5-11eb-88f3-552608c4aa84.png)
 
 2. Charles retrieves the "in review" content and
-a. Asks its creator for modifications
--> Save + Set status " draft " + inform creator -> return to point 1
-or b. Validates it
--> Save + Set status " ready " + inform PO
+  - a. Asks its creator for modifications
+    - -> Save + Set status " draft " + inform creator -> return to point 1
+
+  or 
+  - b. Validates it
+    - -> Save + Set status " ready " + inform PO
 
 3. PO retrieves the "ready" content and
-a. Requests changes from Charles
--> Save + Set status " in review " + inform Charles -> return to point 2
-or b. Validates it
--> Save + Publish
+  - a. Requests changes from Charles
+    - -> Save + Set status " in review " + inform Charles -> return to point 2
+
+  or 
+  - b. Validates it
+    - -> Save + Publish
 
 ### Workflow Projects
 
 1. The creator of a content enters it and edits it (text, title, subtitles, images, photo/image credits) remains in "Draft" status until it is "publishable" according to him/her (do a preview to check).
 
--> Save + Set status "in review" + tell Charles
+  - -> Save + Set status "in review" + tell Charles
 
 ![image](https://user-images.githubusercontent.com/81250365/114867472-264c1200-9df5-11eb-88f3-552608c4aa84.png)
 
 2. Charles retrieves the "in review" content and
-a. Asks its creator for modifications
--> Save + Set status " draft " + inform creator -> return to point 1
-or b. Validates it
--> Save + Set status " ready " + inform Project Leader
+  - a. Asks its creator for modifications
+    - -> Save + Set status " draft " + inform creator -> return to point 1
+
+or 
+  - b. Validates it
+    - -> Save + Set status " ready " + inform Project Leader
 
 3. Project leader retrieves the "ready" content and
-a. Requests changes from the creator
--> Save + Set status " draft " + inform creator -> return to point 1
-or b. Validates it
--> Save + Publish
+  - a. Requests changes from the creator
+    - -> Save + Set status " draft " + inform creator -> return to point 1
+or 
+  - b. Validates it
+    - -> Save + Publish
