@@ -42,4 +42,10 @@ introduction: >-
   We only collaborate and engage with partners who we trust and who meet our [ethical chart](https://dating-privacy.hestialabs.org/en/ethics/).
 
   They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
+
+
+  Dating Privacy would be delighted to team up with an academic partner or partners. Their expertise and legitimacy on these topics would enhance the value of this knowledge and give it the scientific resonance it deserves.
+
+
+  We are also looking for associations active in gender bias.
 ---
