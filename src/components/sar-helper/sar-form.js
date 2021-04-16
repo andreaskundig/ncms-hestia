@@ -9,6 +9,25 @@ function compareItemLabel(appA, appB) {
     return 0;
 }
 
+const IDS = {
+    select: 'dating-app-select',
+    body: 'email-body',
+    recipient: 'email-recipient',
+    subject: 'email-subject'
+};
+
+//TODO https://github.com/andreasbm/lit-translate
+const TXT = {
+    datingApp: 'Dating app',
+    selectPlaceholder: 'Click to choose',
+    searchPlaceholder: 'search',
+    recipient: 'Recipient',
+    subject: 'Subject',
+    body: 'Body',
+    bodyPlaceholder: 'Choose an app to fill this automatically',
+    copyButton: 'Copy to clipboard',
+    emailButton: 'Open in your email client'
+};
 
 export class SubjectAccessRequestForm extends LitElement {
 
@@ -20,12 +39,11 @@ export class SubjectAccessRequestForm extends LitElement {
 
     static get properties() {
         return {
-            apps: { type: Array },
-            search: { type: String },
-            recipient: { type: String },
-            subject: { type: String },
-            body: { type: String },
-            id: { type: Object }
+            apps: { type: Array, attribute: false },
+            search: { type: String, attribute: false },
+            recipient: { type: String, attribute: false },
+            subject: { type: String, attribute: false },
+            body: { type: String, attribute: false }
         }
     }
 
@@ -36,13 +54,19 @@ export class SubjectAccessRequestForm extends LitElement {
         this.recipient = '';
         this.subject = '';
         this.body = '';
-        this.fetchApps();
-        this.ids = {
-            select: 'dating-app-select',
-            body: 'email-body',
-            recipient: 'email-recipient',
-            subject: 'email-subject'
+        this.i18n = {
+            datingApp: 'Dating app',
+            selectPlaceholder: 'Click to choose',
+            searchPlaceholder: 'search',
+            recipient: 'Recipient',
+            subject: 'Subject',
+            body: 'Body',
+            bodyPlaceholder: 'Choose an app to fill this automatically',
+            copyButton: 'Copy to clipboard',
+            emailButton: 'Open in your email client'
         };
+
+        this.fetchApps();
     }
 
     async fetchApps() {
@@ -66,7 +90,7 @@ export class SubjectAccessRequestForm extends LitElement {
 
     onSearch(event){
         const search = event.target;
-        const select = this.byId(this.ids.select);
+        const select = this.byId(IDS.select);
         const option = select.querySelector(
                 `option[value='${search.value}']`);
         if (option) {
@@ -83,12 +107,12 @@ export class SubjectAccessRequestForm extends LitElement {
         document.execCommand("copy");
     }
 
-    createMailToFromFields() {
+    openEmailClient() {
         const t = this;
-        console.log('heee',this.ids.subject, t.byId(t.ids.subject))
-        const email = t.byId(t.ids.recipient).value;
-        const subject = encodeURIComponent(t.byId(t.ids.subject).value);
-        const body = encodeURIComponent(t.byId(t.ids.body).value);
+        console.log('heee',IDS.subject, t.byId(IDS.subject))
+        const email = t.byId(IDS.recipient).value;
+        const subject = encodeURIComponent(t.byId(IDS.subject).value);
+        const body = encodeURIComponent(t.byId(IDS.body).value);
         const urlString = `mailto:${email}?subject=${subject}&body=${body}`;
         const url = new URL(urlString);
         window.location.href = url.href;
@@ -96,12 +120,12 @@ export class SubjectAccessRequestForm extends LitElement {
 
     render() {
         const t = this;
-        const ids = this.ids;
+        const TXT = this.i18n;
         return html`
           <div class="inline">
-            <label for="${ids.select}">Dating app</label>
-            <select id="${ids.select}" @change="${t.onSelectApp}">
-               <option disabled selected value> Click to choose </option>
+            <label for="${IDS.select}">${TXT.datingApp}</label>
+            <select id="${IDS.select}" @change="${t.onSelectApp}">
+               <option disabled selected value> ${TXT.selectPlaceholder} </option>
               ${t.apps.map(app =>
                html`<option data-item="${app.item}"
                              value="${app.itemLabel}">
@@ -109,7 +133,8 @@ export class SubjectAccessRequestForm extends LitElement {
             </select>
           </div>
           <div class="inline">
-            <input placeholder="search" list="search-list"
+            <input placeholder="${TXT.searchPlaceholder}"
+                   list="search-list"
                    value="${t.search}"
                    @input="${t.onSearch}">
             <datalist  id="search-list">
@@ -118,30 +143,30 @@ export class SubjectAccessRequestForm extends LitElement {
             </datalist>
           </div>
           <div>
-            <label for="${ids.recipient}">Recipient</label>
-            <input id="${ids.recipient}" value="${t.recipient}">
-            <button @click="${_ => t.copyToClipboard(ids.recipient)}">
-               Copy to clipboard
+            <label for="${IDS.recipient}">${TXT.recipient}</label>
+            <input id="${IDS.recipient}" value="${t.recipient}">
+            <button @click="${_ => t.copyToClipboard(IDS.recipient)}">
+               ${TXT.copyButton}
              </button>
           </div>
           <div>
-            <label for="${ids.subject}">Subject</label>
-            <input id="${ids.subject}" value="${t.subject}">
-            <button @click="${_ => t.copyToClipboard(ids.subject)}">
-               Copy to clipboard
+            <label for="${IDS.subject}">${TXT.subject}</label>
+            <input id="${IDS.subject}" value="${t.subject}">
+            <button @click="${_ => t.copyToClipboard(IDS.subject)}">
+               ${TXT.copyButton}
              </button>
           </div>
           <div>
-            <label for="${ids.body}">Body</label>
-            <textarea placeholder="Choose an app to fill this automatically."
-                      id="${ids.body}">${t.body}</textarea>
-            <button @click="${_ => t.copyToClipboard(ids.body)}">
-               Copy to clipboard
+            <label for="${IDS.body}">${TXT.body}</label>
+            <textarea placeholder="${TXT.bodyPlaceholder}"
+                      id="${IDS.body}">${t.body}</textarea>
+            <button @click="${_ => t.copyToClipboard(IDS.body)}">
+               ${TXT.copyButton}
             </button>
           </div>
           <div>
-            <button @click="${t.createMailToFromFields}">
-                Open in your email client
+            <button @click="${t.openEmailClient}">
+               ${TXT.emailButton}
             </button>
           </div>
      `;
