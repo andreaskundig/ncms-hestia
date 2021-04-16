@@ -1,8 +1,9 @@
 ---
+layout: media
+permalink: /en/media/index.html
 title: Medias
 hero: |-
-  They talk about our 
-
+  They talk about our\
   **virtuous uses of data**
 articles_title: Last articles
 read_button: Read
@@ -14,8 +15,6 @@ download_title: ""
 download_button: ""
 press_releases_title: ""
 press_releases: []
-layout: media
-permalink: /en/media/index.html
 media_articles:
   - date: 2021-03-30T10:21:28.350Z
     title: Tinder, un business très lucratif

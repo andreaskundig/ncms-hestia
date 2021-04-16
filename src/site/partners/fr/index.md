@@ -1,5 +1,19 @@
 ---
 layout: partners
+permalink: /fr/partners/index.html
+title: Partenaires
+hero: |-
+  **Ensemble**
+hero_image: /assets/media/hl_partners_hero-c-eric-krull-ejcuhcdfwrs-unsplash-c.jpeg
+hero_image_caption: Photo de [Eric Krull](https://unsplash.com/@ekrull)
+  sur [Unsplash](https://unsplash.com/photos/Ejcuhcdfwrs)
+you_title: Vous
+you_description: Vous êtes
+you_url: mailto:partners@hestialabs.org
+you_image: /assets/media/you_partner_claudio-schwarz-purzlbaum-unsplash.jpeg
+you_image_caption: Photo de [Claudio Schwarz](https://unsplash.com/@purzlbaum)
+  sur [Unsplash](https://unsplash.com/photos/k39RGHmLoV8)
+you_button: Parlons-en
 partners:
   - title: Fonds pionnier Migros
     description: Migros...
@@ -29,15 +43,4 @@ partners:
       [Unsplash](https://unsplash.com/s/photos/journalist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
     button: Join us
     url: mailto:partners@hestialabs.org
-permalink: /fr/partners/index.html
-title: Partenaires
-hero: |-
-  **Ensemble**
-hero_image: /assets/media/hl_partners_hero-c-eric-krull-ejcuhcdfwrs-unsplash-c.jpeg
-hero_image_caption: Photo by [Eric Krull](https://unsplash.com/@ekrull)
-  on [Unsplash](https://unsplash.com/s/photos/collection)
-you_title: Vous
-you_image: /assets/media/you_partner_claudio-schwarz-purzlbaum-unsplash.jpeg
-you_description: Vous êtes
-you_button: Parlons-en
 ---

@@ -1,6 +1,6 @@
 ---
-join_title: Join us
-partners_title: Partners we can trust
+layout: home
+permalink: en/index.html
 path: home
 title: HestiaLabs
 hero: |-
@@ -9,7 +9,9 @@ hero: |-
   Are you in?
 hero_image: /assets/media/hl_home_hero-c-rodion-kutsaev-unsplash-c.jpeg
 hero_image_caption: Photo by [Rodion Kutsaev](https://unsplash.com/@frostroomhead)
-  on [Unsplash](https://unsplash.com/s/photos/data-person)
+  on [Unsplash](https://unsplash.com/photos/0VGG7cqTwCo)
+join_title: Join us
+partners_title: Partners we can trust
 problem_description: >-
   Artificial intelligence is changing the world. This revolution must benefit
   the many and not the few. For this to happen, individuals and organisations
@@ -30,7 +32,6 @@ partners_description: We are very grateful to those who believe in us since the
   carry out our **public interest mission** without the constant pressure of
   profitability.
 subtitle_1: Your data is important
-layout: home
 partners_link_text: Learn more
 featured_projects:
   - dating privacy
@@ -39,7 +40,6 @@ featured_projects:
   - disinformation
   - data-literacy
 subtitle_2: We support data collectives
-permalink: en/index.html
 paragraph1_title: We create a new relationship to personal data
 problem_title: The problem we solve
 strategy_title: Our strategy

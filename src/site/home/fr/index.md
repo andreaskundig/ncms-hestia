@@ -1,7 +1,6 @@
 ---
-problem_title: Le problème ...
-join_title: Rejoignez-..
-partners_title: Par..
+layout: home
+permalink: fr/index.html
 path: home
 title: HestiaLabs
 hero: |-
@@ -10,7 +9,10 @@ hero: |-
   Prêt?
 hero_image: /assets/media/hl_home_hero-c-rodion-kutsaev-unsplash-c.jpeg
 hero_image_caption: Photo by [Rodion Kutsaev](https://unsplash.com/@frostroomhead)
-  on [Unsplash](https://unsplash.com/s/photos/data-person)
+  on [Unsplash](https://unsplash.com/photos/0VGG7cqTwCo)
+problem_title: Le problème ...
+join_title: Rejoignez-..
+partners_title: Par..
 paragraph1_title: Nous créons...
 problem_description: oulala
 strategy_title: Notre str...
@@ -20,7 +22,6 @@ join_description: par là
 join_link_text: Proposer un projet
 partners_description: "[Migros Fonds
   pionnier](https://www.migros-pionierfonds.ch/fr/kuhne-vorhaben-fr)"
-layout: home
 partners_link_text: En savoir plus
 projects_title: Projets en cours
 featured_projects:
@@ -29,7 +30,6 @@ featured_projects:
   - mobility
   - disinformation
   - data-literacy
-permalink: fr/index.html
 news_title: Nouvelles et événements
 news:
   - " a second post"

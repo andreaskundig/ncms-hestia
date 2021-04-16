@@ -1,18 +1,18 @@
 ---
+layout: projects
+permalink: /en/projects/index.html
+title: Projects
+hero: |-
+  Already 5 projects underway\
+  **What's yours?**
+hero_image: /assets/media/hl_projects_hero_c-jess-bailey-ffh_ofq9f08-unsplash-c.jpeg
+hero_image_caption: Photo by [Jess Bailey](https://unsplash.com/@jessbaileydesigns)
+  on [Unsplash](https://unsplash.com/photos/Ffh_ofq9f08)
 your_url: mailto:projects@hestialabs.org
 your_subtitle: >-
   So? What about your idea?
 
   Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
-layout: projects
-permalink: /en/projects/index.html
-title: Projects
-hero: |-
-  <p>Already 5 projects underway<br>
-  <strong>What's yours?</strong></p>
-hero_image: /assets/media/hl_projects_hero_c-jess-bailey-ffh_ofq9f08-unsplash-c.jpeg
-hero_image_caption: Photo by [Jess Bailey](https://unsplash.com/@jessbaileydesigns)
-  on [Unsplash](https://unsplash.com/s/photos/collect)
 introduction_title: We support data collectives
 introduction: >-
   ## What is a data collective?

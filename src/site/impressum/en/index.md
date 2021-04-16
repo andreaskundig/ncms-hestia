@@ -1,8 +1,9 @@
 ---
-title: Legal notice
 layout: impressum
-hero: <strong>Legal notice</strong>
 permalink: /en/impressum/index.html
+title: Legal notice
+hero: |-
+  **Legal notice**
 ---
 ## Legal notice
 

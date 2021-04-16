@@ -1,9 +1,11 @@
 ---
+layout: about
+permalink: /en/about/index.html
 title: About us
 hero: |-
-  <p>Dreaming of a data-driven breakthrousgh?
-  — We have the skills to make it happen<br>
-  <strong>Let’s talk</strong></p>
+  Dreaming of a data-driven breakthrousgh?
+  — We have the skills to make it happen\
+  **Let’s talk**
 story_title: A short story about us
 story: >-
   The work of HestiaLabs' founder (the mathematician Paul-Olivier Dehaye) led to
@@ -28,8 +30,6 @@ contact_partner: You feel like you would be a valuable partner for HestiaLabs?
 contact_partner_action: Get in touch with Marie-Pierre
 contact_media: Are you a journalist?
 people_title: People
-layout: about
-permalink: /en/about/index.html
 contact_partner_url: mailto:partners@hestialabs.org
 contact_media_action: This page is just for you
 contact_media_url: https://hestialabs.org/en/media/
