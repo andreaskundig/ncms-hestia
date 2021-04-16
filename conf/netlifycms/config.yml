@@ -80,7 +80,7 @@ collections:
   name: home
   # Configure i18n for this collection.
   folder: src/site/home
-  extension: html
+  extension: md
   editor:
     preview: false
   create: false
