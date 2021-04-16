@@ -79,10 +79,10 @@
   content: "";
   display: block;
   width: 100%;
-  height: var(--link-normal-text-deco-thickness);
+  height: var(--link-text-decoration-thickness);
   background-color: currentcolor;
   transform: scalex(0);
   position: absolute;
-  bottom: calc(-1 * var(--link-normal-text-deco-thickness));
+  bottom: calc(-1 * var(--link-text-decoration-thickness));
   left: 0;
 }

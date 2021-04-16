@@ -1,8 +1,10 @@
 
 a, a:link {
   color: var(--link-normal-text-color);
-  text-decoration: var(--link-normal-text-deco-line);
-  text-decoration-thickness: var(--link-normal-text-deco-thickness);
+  text-decoration: var(--link-text-deco);
+  text-decoration-thickness: var(--link-text-decoration-thickness);
+  text-underline-position: var(--link-text-underline-pos);
+  text-decoration-skip: var(--link-text-deco-skip);
 }
 
 main a:visited {

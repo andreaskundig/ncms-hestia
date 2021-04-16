@@ -140,9 +140,11 @@
   --paragraph-margin-bottom:        var( --line-height-half);
 
   /* Links */
+  --link-text-deco:                 underline;
+  --link-text-decoration-thickness: 0.11rem;
+  --link-text-deco-skip:            edges;            /* fixes WEBSITE.LABS#57 (avoid dot after PDF suffix) */
+  --link-text-underline-pos:        under;            /* websites peculiar visual identity & also fixes WEBSITE.LABS#57 */
   --link-normal-text-color:         var(--body-text-color);
-  --link-normal-text-deco-line:     underline;
-  --link-normal-text-deco-thickness: 0.125rem;
   --link-visited-text-color:        var(--body-text-color);
   --link-hover-text-color:          var(--color-text-link);
   --link-active-text-color:         var(--color-text-link);
@@ -158,9 +160,9 @@
   --h5-font-size:                   var(--h4-font-size);
   --h6-font-size:                   var(--h4-font-size);
 
-  --h1-font-weight:                 700;            /* (Roboto) Bold */
-  --h2-font-weight:                 500;            /* (Roboto) Medium */
-  --h3-font-weight:                 300;            /* (Roboto) Light */
+  --h1-font-weight:                 700;              /* (Roboto) Bold */
+  --h2-font-weight:                 500;              /* (Roboto) Medium */
+  --h3-font-weight:                 300;              /* (Roboto) Light */
   --h4-font-weight:                 var(--h3-font-weight);
   --h5-font-weight:                 var(--h4-font-weight);
   --h6-font-weight:                 var(--h4-font-weight);
