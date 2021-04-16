@@ -6,6 +6,7 @@ introduction_title: Dating Privacy aims to raise awareness about privacy risks
 conclusion_title: YOUR projects make this happen
 title: Mission
 hero: Dating Privacy's journey
+hero_image_caption: ""
 introduction: >-
   ## The problem 
 
@@ -46,7 +47,7 @@ introduction: >-
   Recent studies and media articles have given contradictory results about the influence of dating app algorithms on couples. Dating apps are designed as recommendation systems, applying machine learning techniques that score and rank users online to be presented to others. This can have either positive or negative effects on couple formation. On one side, studies affirm that couples who met through dating apps have different socioeconomic status which increases diversity. On the other, dating apps reproduce a patriarchal model by presenting women with a lower socioeconomic status to men who have a better position.
 
 
-  Besides collecting data for matching systems, one [](https://fil.forbrukerradet.no/wp-content/uploads/2020/01/mnemonic-security-test-report-v1.0.pdf)[investigation](https://fil.forbrukerradet.no/wp-content/uploads/2020/01/mnemonic-security-test-report-v1.0.pdf) conducted by the Norwegian Consumer Council shows dating apps also collect data that is shared with third parties for commercial profit; i.e. for dating app partners, connected social networks and external investors.
+  Besides collecting data for matching systems, one [investigation](https://fil.forbrukerradet.no/wp-content/uploads/2020/01/mnemonic-security-test-report-v1.0.pdf) conducted by the Norwegian Consumer Council shows dating apps also collect data that is shared with third parties for commercial profit; i.e. for dating app partners, connected social networks and external investors.
 
 
   Another problem is that the majority of dating app analysis focuses on understanding heterosexual practices, while ignoring other communities with different identities. They do not know how the dating app data ecosystem and the use of algorithms affect the results a user can obtain in the app.
@@ -73,7 +74,7 @@ introduction: >-
   ## What can you do to help Dating Privacy? 
 
 
-  1. [Start requesting your data](https://dating-privacy.hestialabs.org/en/act/sar/) to understand what traces about yourself and your dating preferences you leave online
+  1. [Start requesting your data](https://dating-privacy.hestialabs.org/en/act/sar/) to understand what traces about yourself and your dating preferences you leave online.
 
   2. Participate in our activities and online discussions. Learn with us about privacy, how dating apps work and user practices.
 
