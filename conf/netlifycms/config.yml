@@ -63,7 +63,7 @@ collections:
   name: home
   # Configure i18n for this collection.
   folder: src/site/home
-  extension: html
+  extension: md
   editor:
     preview: false
   create: false
@@ -95,8 +95,7 @@ collections:
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Partners description", name: partners_description, required: false, widget: markdown, i18n: true }
     - { label: "Partners link text", name: partners_link_text, required: false, widget: string, i18n: true }
-    - { label: "Sar button" , name: sar_button , required: false, widget: text, i18n: true }
-
+    - { label: "SAR button" , name: sar_button , required: false, widget: text, i18n: true }
     - { label: "News title", name: news_title, required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - label: "News items"

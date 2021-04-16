@@ -1,5 +1,4 @@
 ---
-people_title: People
 layout: community
 inverse: true
 permalink: /en/community/index.html
@@ -23,6 +22,7 @@ story: >-
 
 
   A counsel in intellectual property and IT helps us with  all the legal facets.
+people_title: People
 people:
   - name: Hestia
     description: 'In the Ancient Greek religion, Hestia (/ˈhɛstiə, ˈhɛstʃə/; Greek:

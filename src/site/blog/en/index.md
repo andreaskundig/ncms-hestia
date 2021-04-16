@@ -1,5 +1,6 @@
 ---
 layout: blog
+permalink: /en/blog/index.html
 title: Data stories
 hero: Our **wonderfuls posts**
 hero_image: 
@@ -10,5 +11,4 @@ authors_title: authors
 interviews_title: Special guests
 infographics_title: Infographics
 categories_title: categories
-permalink: /en/blog/index.html
 ---

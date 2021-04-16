@@ -1,11 +1,11 @@
 ---
-title: claim your data back
 layout: sar
+permalink: /en/act/sar/index.html
+title: claim your data back
 hero: |-
   Make it happen —\
   Claim your data back!\
   **Now**  ⤵️
-permalink: /en/act/sar/index.html
 sar_title: Ask for your data
 sar_subtitle: You can ask here for a copy of your personal data
 ---

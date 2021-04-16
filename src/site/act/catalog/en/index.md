@@ -1,8 +1,8 @@
 ---
-title: Data Catalog
 layout: catalog
-hero: Data Catalog
 permalink: /en/act/catalog/index.html
+title: Data Catalog
+hero: Data Catalog
 ---
 ## Why a catalog?
 

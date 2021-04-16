@@ -1,5 +1,6 @@
 ---
 layout: blog
+permalink: /fr/blog/index.html
 title: Histoires de données
 hero: Nos très **intéressants articles**
 hero_image: 
@@ -10,5 +11,4 @@ authors_title: auteurs
 interviews_title: Invités spéciaux
 infographics_title: Infographiques
 categories_title: categories
-permalink: /fr/blog/index.html
 ---

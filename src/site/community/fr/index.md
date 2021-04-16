@@ -1,5 +1,4 @@
 ---
-people_title: Des gens
 layout: community
 inverse: true
 permalink: /fr/community/index.html
@@ -12,6 +11,7 @@ hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66?ixid=Mn
 hero_image_caption: 
 story_title: Ecoute ça
 story: C'est l'histoire d'un animal qui avait ...
+people_title: Des gens
 people:
   - name: Hestia
     description: "Dans la mythologie grecque, Hestia (en grec ancien Ἑστία / Hestía)

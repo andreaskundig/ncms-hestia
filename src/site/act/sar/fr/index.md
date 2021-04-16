@@ -1,11 +1,11 @@
 ---
-title: Obtenez vos données
 layout: sar
+permalink: /fr/act/sar/index.html
+title: Obtenez vos données
 hero: |-
   Faites-le advenir — \
   Obtenez vos données! \
   **Maintenant**  ⤵️
-permalink: /fr/act/sar/index.html
 sar_title: Demandez vos données
 sar_subtitle: Vous pouvez demander une copie de vos données personnelles
 ---
