@@ -33,11 +33,9 @@ footer {
 
 h1, h2, h3,
 h4, h5, h6,
-section#hero {
+section.masthead {
   color: var(--hx-text-color);
   font-family: var(--hx-font-family);
-  margin: 0;
-  margin-bottom: var(--paragraph-margin-bottom);
   letter-spacing: -0.015rem;
   /* The `text-rendering` property is non-standard; and should be
      applied to headings only, not to body; see following article:
@@ -46,8 +44,8 @@ section#hero {
 }
 
 h1,
-section#hero p,
-section#hero button {
+section.masthead p,
+section.masthead button {
   font-size: var(--h1-font-size);
   line-height: var( --line-height-double);
 }
@@ -84,6 +82,8 @@ h6 {
   font-weight: var(--h6-font-weight);
 }
 
+h1, h2, h3,
+h4, h5, h6,
 p {
   margin: 0;
   margin-bottom: var(--paragraph-margin-bottom);

@@ -4,7 +4,7 @@
 @import './base/typography.css';
 @import './base/links.css';
 @import './elements/header-footer.css';
-@import './elements/sections.css';
+@import './elements/section-hero.css';
 @import './elements/buttons.css';
 
 body {
@@ -18,7 +18,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem 1rem;
   background-color: var(--main-bg-color);
 }
 

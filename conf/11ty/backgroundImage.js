@@ -1,5 +1,7 @@
-const backgroundImage = (imageUrl) =>
-     imageUrl &&
-      `background: url(${imageUrl}) no-repeat center center fixed; background-size: cover`;
+/* eslint-env node */
+function backgroundImage(imageUrl) {
+    const backgroundImageCSSProperty = imageUrl && `background-image: url('${imageUrl}');`
+    return backgroundImageCSSProperty;
+}
 
 module.exports = { backgroundImage };
