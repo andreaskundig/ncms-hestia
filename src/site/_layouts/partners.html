@@ -11,11 +11,11 @@ layout: default
 {% for partner in partners %}
 <div>
   <h2>{% markdown partner.title %}</h2>
-  <p>{% markdown partner.description %}</p>
-  <a href="{{partner.url}}">website</a>
   <figure>
     <a href="{{partner.url}}"><img src="{{partner.image}}"></a>
     <figcaption>{% markdown partner.image_caption %}</figcaption>
   </figure>
+  <p>{% markdown partner.description %}</p>
+  <a href="{{partner.url}}">website</a>
 </div>
 {% endfor %}
