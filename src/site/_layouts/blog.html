@@ -1,12 +1,6 @@
 ---
-layout: default
+layout: defaultWithHero
 ---
-<section id="hero" style="{{lead_image | backgroundImage}}">
-  <h1>{{ title }}</h1>
-    {% markdown lead %}
-</section>
-<figcaption>{% markdown lead_image_caption %}</figcaption>
-
 {% include "signup.njk" %}
 {% if collections.editorial %}
 <h1>{% markdown editorials_title %}</h1>
@@ -71,4 +65,3 @@ layout: default
         {% endif %}
     {% endfor %}
 </ul>
-
