@@ -14,7 +14,7 @@ lead: >-
 image: /assets/media/what-is-a-data-collective.png
 image_caption: Infographics by Charles Foucault-Dumas and Clara Janossy
 post_categories:
-  - News
+  - Data collectives
 post_authors:
   - CFD
 ---
