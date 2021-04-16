@@ -5,6 +5,8 @@ image: https://placekitten.com/300/300
 lead: celui-ci est **vraiment** intéressant
 post_categories:
   - Worth reading
+  - Data rights
+  - GDPR
 post_authors:
   - CFD
 ---
