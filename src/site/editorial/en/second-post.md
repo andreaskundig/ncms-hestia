@@ -11,6 +11,8 @@ lead: “A driver’s interest in knowing why he or she was fired is more import
   than Uber’s interest in protecting its secrecy.”
 post_categories:
   - Worth reading
+  - Data rights
+  - GDPR
 post_authors:
   - CFD
 ---
