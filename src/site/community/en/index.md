@@ -3,18 +3,26 @@ people_title: People
 layout: community
 permalink: /en/community/index.html
 title: Community
-hero: |-
-  # The amazing data privacy community
-
-  Dating privacy exists thanks to and for its data sharers.
-  Here is how we are getting together to create a massive collective movement.
+hero: <https://images.unsplash.com/photo-1588613254750-cf5d89a29b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1008&q=80>
 story_title: A short story about us
-story: It all started in 20XX when ...  enim ipsam voluptatem quia voluptas sit
-  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-  ratione voluptatem sequi nesciunt. Neque porro quisquam est. consequuntur
-  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-  est magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-  quisquam est.
+story: >-
+  We are a small group of highly skilled individuals
+
+
+  [Jessica Pidoux](https://jessicapidoux.info/), Doctoral Researcher at the Digital Humanities Institute at École Polytechnique Fédérale de Lausanne works on revealing biases in Tinder's secretive matching algorithms. [](https://jessicapidoux.info/)
+
+
+  [Frank](https://bit.ly/2J8mKOo), freelance journalist has revealed privacy risks on Hinge and is currently being messed around by Hinge, Bumble and Tinder having asked for his data. [](https://wiki.personaldata.io/wiki/User:Frandrews "User:Frandrews")
+
+
+  An other member maps the dating app ecosystem in the wiki platform available thanks to our partner personaldata.io and delves into dating app patents.\
+
+  \
+
+  Another volunteer digs into regulation policies and how online dating interacts with collective practices and communities.
+
+
+  A counsel in intellectual property and IT helps us with  all the legal facets.
 people:
   - name: Hestia
     description: 'In the Ancient Greek religion, Hestia (/ˈhɛstiə, ˈhɛstʃə/; Greek:
@@ -24,13 +32,6 @@ people:
     image: https://placekitten.com/300/182
     email: https://en.wikipedia.org/wiki/Hestia
     linkedin: https://en.wikipedia.org/wiki/Hestia
-  - name: Vesta
-    description: "Vesta (Classical Latin: [ˈwɛsta]) is the virgin goddess of the
-      hearth, home, and family in Roman religion. She was rarely depicted in
-      human form, and was often represented by the fire of her temple in the
-      Forum Romanum."
-    image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
-    twitter: https://en.wikipedia.org/wiki/Hestia
 timeline_title: How it started - How it's going
 timeline_events:
   - date: 0482-05-26T23:25:52.000Z
