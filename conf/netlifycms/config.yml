@@ -152,6 +152,9 @@ collections:
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
+    - { label: Hero image , name: hero_image, required: false, widget: image, i18n: true }
+    - { label: "Hero image caption", name: hero_image_caption, required: false,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
     - { label: "Story title", name: story_title, required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Story", name: story, required: false, widget: markdown, i18n: true }
@@ -223,6 +226,9 @@ collections:
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
+    - { label: Hero image , name: hero_image, required: false, widget: image, i18n: true }
+    - { label: "Hero image caption", name: hero_image_caption, required: false,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
     - { label: "Articles title" , name: articles_title , required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Read button" , name: read_button , required: false, widget: text, i18n: true }
@@ -695,4 +701,5 @@ collections:
   identifier_field: body
   fields:
     - { label: "Body ({{name}} will be replaced by author name)", name: "body", required: false, widget: "markdown", i18n: true }
+
 # eof
