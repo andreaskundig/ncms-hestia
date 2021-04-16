@@ -1,6 +1,7 @@
 ---
 title: Stratégie
-hero: Mission qui urge
+hero: <strong>Mission qui urge</strong>
+hero_image: /assets/media/hl_strategy_hero_c-volodymyr-hryshchenko-ini8gnms190-unsplash-c.jpeg
 introduction: Ils doivent envisager qu'une grande responsabilité est la suite
   inséparable d'un grand pouvoir.
 submit_button_small: Proposer un projet

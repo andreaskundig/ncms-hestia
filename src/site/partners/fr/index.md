@@ -31,7 +31,11 @@ partners:
     url: mailto:partners@hestialabs.org
 permalink: /fr/partners/index.html
 title: Partenaires
-hero: Ensemble
+hero: |-
+  **Ensemble**
+hero_image: /assets/media/hl_partners_hero-c-eric-krull-ejcuhcdfwrs-unsplash-c.jpeg
+hero_image_caption: Photo by [Eric Krull](https://unsplash.com/@ekrull)
+  on [Unsplash](https://unsplash.com/s/photos/collection)
 you_title: Vous
 you_image: /assets/media/you_partner_claudio-schwarz-purzlbaum-unsplash.jpeg
 you_description: Vous êtes

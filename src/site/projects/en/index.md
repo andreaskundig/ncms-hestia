@@ -8,14 +8,11 @@ layout: projects
 permalink: /en/projects/index.html
 title: Projects
 hero: |-
-  Already **5** projects underway
-
-  What's yours?
+  <p>Already 5 projects underway<br>
+  <strong>What's yours?</strong></p>
 hero_image: /assets/media/hl_projects_hero_c-jess-bailey-ffh_ofq9f08-unsplash-c.jpeg
-hero_image_caption: Photo by [Jess
-  Bailey](https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/collect?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+hero_image_caption: Photo by [Jess Bailey](https://unsplash.com/@jessbaileydesigns)
+  on [Unsplash](https://unsplash.com/s/photos/collect)
 introduction_title: We support data collectives
 introduction: >-
   ## What is a data collective?

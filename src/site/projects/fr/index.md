@@ -3,8 +3,13 @@ your_subtitle: alors qu'est-ce vous faites?
 layout: projects
 permalink: /fr/projects/index.html
 title: Projets
-hero: bon
-introduction_title: Inro
+hero: |-
+  <p>Déjà 5 projects en cours<br>
+  <strong>Quel serait le vôtre?</strong></p>
+hero_image: /assets/media/hl_projects_hero_c-jess-bailey-ffh_ofq9f08-unsplash-c.jpeg
+hero_image_caption: Photo by [Jess Bailey](https://unsplash.com/@jessbaileydesigns)
+  on [Unsplash](https://unsplash.com/s/photos/collect)
+introduction_title: Intro
 introduction: >-
   Lorem superposés valise pourparlers rêver chiots rendez-vous naissance Eiffel
   myrtille. Grèves Arc de Triomphe encore pourquoi sentiments baguette pédiluve

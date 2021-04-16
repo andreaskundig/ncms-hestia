@@ -7,9 +7,8 @@ four_steps_introduction: ""
 permalink: /en/strategy/index.html
 title: Strategy
 hero: |-
-  An urgent mission
-
-  A relevant strategy
+  <p>An urgent <strong>mission</strong><br>
+  A relevant <strong>strategy</strong></p>
 hero_image: /assets/media/hl_strategy_hero_c-volodymyr-hryshchenko-ini8gnms190-unsplash-c.jpeg
 introduction_title: '"With great power comes great responsibility"'
 introduction: >-
