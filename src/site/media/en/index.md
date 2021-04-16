@@ -1,6 +1,7 @@
 ---
 title: Medias
-hero: ""
+hero: |-
+  In the **press**
 articles_title: Last articles
 read_button: Read
 contact_title: Contact

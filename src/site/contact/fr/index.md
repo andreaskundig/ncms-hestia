@@ -13,12 +13,8 @@ contact_media_action: Contactez Marie-Pierre
 story: C'est l'histoire d'un animal qui avait ...
 title: Contact
 hero: |-
-  Vous rêvez
-
-
-  Nous ...
-
-
-  parlons-en
+  Vous rêvez\
+  Nous ...\
+  **Parlons-en**
 contact_title: Contactez-nous
 ---

@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-<section id="hero">
-    {% markdown hero %}
+<section id="content">
+  {{ content | safe }}
 </section>
-<div>
-{{ content | safe }}
-</div>

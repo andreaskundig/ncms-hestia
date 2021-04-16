@@ -1,13 +1,13 @@
 ---
 title: Ethics
 layout: ethics
-hero: ""
+inverse: true
 permalink: /en/ethics/index.html
+hero: |-
+  **Ethics & Credits**
 hero_image: /assets/media/14-winkler-ttj0cljli6w-unsplash.jpg
-hero_image_caption: Photo by [Markus
-  Winkler](https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/collections/9847331/website-headers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+hero_image_caption: Photo by [Markus Winkler](https://unsplash.com/@markuswinkler)
+  on [Unsplash](https://unsplash.com/photos/TtJ0CLjLi6w)
 ---
 # Values of the collective/ project
 

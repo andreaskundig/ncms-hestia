@@ -2,16 +2,14 @@
 title: claim your data back
 layout: sar
 hero: |-
-  # **Make it happen:**
-
-  # **Claim your data back!**
-
-  # **Now** ⤵️
+  Make it happen —\
+  Claim your data back!\
+  **Now**  ⤵️
 permalink: /en/act/sar/index.html
 sar_title: Ask for your data
 sar_subtitle: You can ask here for a copy of your personal data
 ---
-# This is your rights
+# These are your rights
 
 As a dating app user, you are a “data subject” in subject eyes of the law. This gives you “data subject rights”. **The dating app does not own your data, you do**. 
 

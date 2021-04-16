@@ -1,10 +1,6 @@
 ---
-layout: default
+layout: defaultWithHero
 ---
-<section id="hero" style="{{hero_image | backgroundImage}}">
-    {% markdown hero %}
-</section>
-<figcaption>{% markdown hero_image_caption %}</figcaption>
 <h1>{% markdown introduction_title %}</h1>
 <p>{% markdown introduction %}</p>
 {% for solution in solutions %}
@@ -19,4 +15,3 @@ layout: default
   <p>{% markdown solution.description %}</p>
 </div>
 {% endfor %}
-

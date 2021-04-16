@@ -9,13 +9,9 @@ contact_community_action: Join the community
 permalink: /en/contact/index.html
 title: Contact
 hero: |-
-  A problem with a dating app?
-
-
-  Ideas, skills or goodwill to share? 
-
-
-  Let's talk
+  A problem with a dating app? \
+  Ideas, skills or goodwill to share? \
+  **Let's talk**
 contact_title: Contact us
 contact_researcher_action: Get in touch with Jessica
 contact_researcher_url: null

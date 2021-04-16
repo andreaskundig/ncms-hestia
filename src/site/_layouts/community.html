@@ -1,14 +1,10 @@
 ---
-layout: default
+layout: defaultWithHero
 ---
-<section id="hero">
-    {% markdown hero %}
-</section>
 <h1>{% markdown story_title %}</h1>
 
 {% for person in people %}
 <div>
-
   <img src="{{person.image}}" alt="{{person.name}}" title="{{person.name}}">
   <h2>{{person.name}}</h2>
   <p>{% markdown person.description %}</p>
@@ -27,7 +23,6 @@ layout: default
 {% endfor %}
 
 <div>{% markdown story %}</div>
-
 
 <h1>{{timeline_title}}</h1>
 

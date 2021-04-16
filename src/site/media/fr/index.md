@@ -1,8 +1,7 @@
 ---
 title: Medias
 hero: |-
-  Ils parlent de notre 
-
+  Ils parlent de notre \
   **vertu**
 articles_title: Derniers articles
 read_button: Lire

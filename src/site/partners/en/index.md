@@ -1,5 +1,14 @@
 ---
 layout: partners
+inverse: true
+permalink: /en/partners/index.html
+title: Partners
+hero: |-
+  **Partners we trust**\
+  We only collaborate and engage with partners who we trust and who meet our [ethical chart](../ethics/). They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
+hero_image: https://images.unsplash.com/photo-1594477898765-b9ad43ad9cfc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80
+hero_image_caption: Photo by [Nick Fewings](https://unsplash.com/@jannerboy62)
+  on [Unsplash](https://unsplash.com/photos/0Qdm8Gbg6PE)
 partners:
   - title: PersonalData.IO
     description: >-
@@ -42,15 +51,6 @@ partners:
     image: ""
   - url: mailto:datingprivacy@personaldata.io
     title: associations (LGBIQ+, feministes, ...)
-permalink: /en/partners/index.html
-title: Partners
-hero: >-
-  # Partners we trust
-
-
-  We only collaborate and engage with partners who we trust and who meet our [ethical chart](https://datingprivacy.hestialabs.org/en/ethics/). They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
-hero_image: https://images.unsplash.com/photo-1594477898765-b9ad43ad9cfc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80
-hero_image_caption: ""
 introduction: >-
   Partners we trust
 

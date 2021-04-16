@@ -1,23 +1,23 @@
 ---
 people_title: People
 layout: community
+inverse: true
 permalink: /en/community/index.html
 title: Community
-hero: <https://images.unsplash.com/photo-1588613254750-cf5d89a29b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1008&q=80>
+hero: Community
+hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1008&q=80
+hero_image_caption:
 story_title: A short story about us
 story: >-
-  We are a small group of highly skilled individuals
-
+  We are a small group of skilled individuals
 
   [Jessica Pidoux](https://jessicapidoux.info/), Doctoral Researcher at the Digital Humanities Institute at École Polytechnique Fédérale de Lausanne works on revealing biases in Tinder's secretive matching algorithms. [](https://jessicapidoux.info/)
 
 
   [Frank](https://bit.ly/2J8mKOo), freelance journalist has revealed privacy risks on Hinge and is currently being messed around by Hinge, Bumble and Tinder having asked for his data. [](https://wiki.personaldata.io/wiki/User:Frandrews "User:Frandrews")
 
+  An other member maps the dating app ecosystem in the wiki platform available thanks to our partner personaldata.io and delves into dating app patents.
 
-  An other member maps the dating app ecosystem in the wiki platform available thanks to our partner personaldata.io and delves into dating app patents.\
-
-  \
 
   Another volunteer digs into regulation policies and how online dating interacts with collective practices and communities.
 
