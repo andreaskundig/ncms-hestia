@@ -1,13 +1,9 @@
 ---
 title: About us
 hero: |-
-  Dreaming of a data-driven breakthrough?
-
-
-  We have the skills to make it happen
-
-
-  Let’s talk
+  <p>Dreaming of a data-driven breakthrough?
+  — We have the skills to make it happen<br>
+  <strong>Let’s talk</strong></p>
 story_title: A short story about us
 story: >-
   The work of HestiaLabs' founder (the mathematician Paul-Olivier Dehaye) led to

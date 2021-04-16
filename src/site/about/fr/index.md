@@ -1,13 +1,9 @@
 ---
 title: A propos de nous
 hero: |-
-  Vous rêvez
-
-
-  Nous ...
-
-
-  parlons-en
+  <p>Vous rêvez
+  — Nous ...<br>
+  <strong>Parlons-en</strong></p>
 contact_sharer_action: Voyez nos projets en cours
 contact_media: Seriez-vous partenaire?
 people_title: Des gens
