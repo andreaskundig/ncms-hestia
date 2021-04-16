@@ -26,9 +26,19 @@ section.masthead h4,
 section.masthead h5,
 section.masthead h6,
 section.masthead p {
+  text-shadow: var(--shadow-text-on-image);
   font-size: calc( var(--h1-font-size) * 1.5);
   line-height: 1;
-  color: var(--color-text-white);
-  text-shadow: var(--shadow-text-on-image);
   margin-bottom: 0;
+}
+
+section.masthead.inverse h1,
+section.masthead.inverse h2,
+section.masthead.inverse h3,
+section.masthead.inverse h4,
+section.masthead.inverse h5,
+section.masthead.inverse h6,
+section.masthead.inverse p {
+  text-shadow: var(--shadow-text-on-image-inverse);
+  color: var(--color-text-white);
 }
