@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: splash
 ---
 # minimal [CMS](/admin/) documentation
 
