@@ -42,7 +42,7 @@ collections:
         - { label: Community, name: community, required: false, widget: string, i18n: true }
         - { label: Home, name: home, required: false, widget: string, i18n: true }
         - { label: Blog, name: blog, required: false, widget: string, i18n: true }
-        - { label: Mission, name: strategy, required: false, widget: string, i18n: true }
+        - { label: Mission, name: mission, required: false, widget: string, i18n: true }
         - { label: Media, name: media, required: false, widget: string, i18n: true }
         - { label: Ethics, name: ethics, required: false, widget: string, i18n: true }
         - { label: Suggested blog posts, name: suggested_posts, required: false, i18n: true,
