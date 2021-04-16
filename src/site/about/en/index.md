@@ -1,7 +1,7 @@
 ---
 title: About us
 hero: |-
-  <p>Dreaming of a data-driven breakthrough?
+  <p>Dreaming of a data-driven breakthrousgh?
   — We have the skills to make it happen<br>
   <strong>Let’s talk</strong></p>
 story_title: A short story about us
@@ -45,7 +45,7 @@ people:
     image: /assets/media/dehaye_paul-olivier_portrait_berlin_crop.jpg
   - name: Olivier Lange
     description: Creative, skilled, intuitive and listening "software artisan",
-      Olivier is the **CTO** of HestiaLabs since March 2021.
+      Olivier is the **CTO** of HestiaLabs.
     image: /assets/media/olivier_lange_linkedin.jpg
   - name: Marie-Pierre Vidonne
     description: Marie-Pierre is a Physicist. After several years spent in R&D in
