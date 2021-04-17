@@ -46,9 +46,13 @@ partners:
       better practices.
     title: Media partners
     url: mailto:partners@hestialabs.org
-    image: ""
+    image: <a href='https://www.freepik.com/vectors/camera'>Camera vector created by
+      macrovector - www.freepik.com</a>
   - url: mailto:datingprivacy@personaldata.io
     title: associations (LGBIQ+, feministes, ...)
+    description: "**TO REMOVE AT LAUNCH.** texte pas pret"
+    image: <a href='https://www.freepik.com/vectors/people'>People vector created by
+      pch.vector - www.freepik.com</a>
 permalink: /en/partners/index.html
 inverse: true
 title: Partners
