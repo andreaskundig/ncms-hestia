@@ -31,14 +31,8 @@ lead: An **attention**-*grabbing* lead
 
 6- The assumption can be also largely confirmed by the abundance of scientific articles studying gay men user practices on Grindr and not other other sexual orientations.
 
-
-
-
-
-
-
-{% creditedImage "/assets/media/kitten-c-lachlan-rogers-c-.jpg", "a kitten", "how cute", "Lachlan Rogers" %}
+{% creditedImage "", "", "", "Lachlan Rogers" %}
 
 Another credited image:
 
-{% creditedImage "/assets/media/pexels-c-maria-orlova-c-4906149.jpg", "grilling marshmallows", "that's too much sugar right here", "Maria Orlova" %}
+{% creditedImage "", "", "", "Maria Orlova" %}
