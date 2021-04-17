@@ -25,9 +25,9 @@ people:
   - description: An other member maps the dating app ecosystem in the wiki platform
       available thanks to our partner personaldata.io and delves into dating app
       patents.
-  - description: "[](https://jessicapidoux.info/)Another volunteer digs into
-      regulation policies and how online dating interacts with collective
-      practices and communities."
+  - description: "[](https://jessicapidoux.info/)Another member digs into regulation
+      policies and how online dating interacts with collective practices and
+      communities."
   - description: A member helps us with  all the legal facets.
 inverse: true
 story: We are a small group of skilled individuals working to define a new
