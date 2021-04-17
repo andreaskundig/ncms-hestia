@@ -3,7 +3,7 @@ people_title: People
 layout: community
 permalink: /en/community/index.html
 title: Community
-hero: Community
+hero: Personal data community
 hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66
 hero_image_caption: Pascale
   Cerchio[](https://www.peoplerise.net/wp-content/uploads/2020/07/ale-cerchio.png)
