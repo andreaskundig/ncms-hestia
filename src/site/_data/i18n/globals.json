@@ -1,26 +1,10 @@
 {
   "en": {
-    "contact": "contact us",
-    "ethics": "ethics",
-    "blog": "blog",
-    "media": "media",
-    "community": "community",
-    "partners": "partners",
-    "mission": "mission",
     "suggested_posts": "You might also **like** to read",
-    "home": "home",
     "share": "Share this"
   },
   "fr": {
-    "contact": "contactez-nous",
-    "ethics": "ethics",
-    "blog": "blog",
-    "media": "médias",
-    "community": "communauté",
-    "partners": "partenaires",
-    "mission": "mission",
     "suggested_posts": "Vous aimeriez peut-être **aussi** lire",
-    "home": "accueil",
     "share": "Partager"
   }
 }
