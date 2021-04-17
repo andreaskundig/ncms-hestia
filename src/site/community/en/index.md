@@ -35,6 +35,12 @@ story: We are a small group of skilled individuals working to define a new
   relationship with data in dating.
 timeline_title: How it started - How it's going
 timeline_events:
+  - date: 2020-10-31T23:00:00.000Z
+    description: "This collective is a social movement we have started in November
+      2020 after identifying several privacy risks we, as dating app users, are
+      confronted with when looking for a date online: unwanted ads, harms
+      resulting from incorrect profiling and predictions, the possibility of
+      phishing and identity theft."
   - date: 2021-01-31T23:00:00.000Z
     description: >-
       "Dating Privacy” Collective Launch.
