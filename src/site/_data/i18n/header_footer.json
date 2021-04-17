@@ -6,7 +6,7 @@
     "projects": "projects",
     "partners": "partners",
     "media": "media",
-    "impressum": "legal",
+    "legal": "legal",
     "about": "about us",
     "contact": "contact us"
   },
@@ -17,7 +17,7 @@
     "projects": "projets",
     "partners": "partenaires",
     "media": "médias",
-    "impressum": "légal",
+    "legal": "légal",
     "about": "à propos",
     "contact": "contactez-nous"
   }

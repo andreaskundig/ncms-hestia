@@ -52,7 +52,7 @@ collections:
         - { label: Projects, name: projects, required: false, widget: string, i18n: true }
         - { label: Partners, name: partners, required: false, widget: string, i18n: true }
         - { label: Media, name: media, required: false, widget: string, i18n: true }
-        - { label: Impressum, name: impressum, required: false, widget: string, i18n: true }
+        - { label: Legal, name: legal, required: false, widget: string, i18n: true }
         - { label: About, name: about, required: false, widget: string, i18n: true }
         - { label: Contact, name: contact, required: false, widget: string, i18n: true }
     - label: Signup text fragments
