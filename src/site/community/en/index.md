@@ -28,8 +28,7 @@ people:
   - description: "[](https://jessicapidoux.info/)Another volunteer digs into
       regulation policies and how online dating interacts with collective
       practices and communities."
-  - description: A counsel in intellectual property and IT helps us with  all the
-      legal facets.
+  - description: A member helps us with  all the legal facets.
 inverse: true
 story: We are a small group of skilled individuals working to define a new
   relationship with data in dating.
