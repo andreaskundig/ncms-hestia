@@ -1,30 +1,10 @@
 {
   "en": {
-    "contact": "contact us",
-    "ethics": "ethics",
-    "blog": "blog",
-    "media": "media",
-    "partners": "partners",
-    "about": "about us",
-    "strategy": "strategy",
-    "impressum": "legal",
     "suggested_posts": "You might also **like** to read",
-    "projects": "projects",
-    "home": "home",
     "share": "Share this"
   },
   "fr": {
-    "contact": "contactez-nous",
-    "ethics": "ethics",
-    "blog": "blog",
-    "media": "médias",
-    "partners": "partenaires",
-    "about": "à propos",
-    "strategy": "stratégie",
-    "impressum": "légal",
     "suggested_posts": "Vous aimeriez peut-être **aussi** lire",
-    "projects": "projets",
-    "home": "accueil",
     "share": "Partager"
   }
 }

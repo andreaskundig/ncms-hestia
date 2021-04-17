@@ -38,16 +38,23 @@ collections:
       file: src/site/_data/i18n/globals.json
       i18n: true
       fields:
-        - { label: Contact, name: contact, required: false, widget: string, i18n: true }
-        - { label: About, name: about, required: false, widget: string, i18n: true }
-        - { label: Home, name: home, required: false, widget: string, i18n: true }
-        - { label: Blog, name: blog, required: false, widget: string, i18n: true }
-        - { label: Strategy, name: strategy, required: false, widget: string, i18n: true }
-        - { label: Media, name: media, required: false, widget: string, i18n: true }
-        - { label: Impressum, name: impressum, required: false, widget: string, i18n: true }
         - { label: Suggested blog posts, name: suggested_posts, required: false, i18n: true,
             widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
         - { label: Share, name: share, required: false, widget: string, i18n: true }
+    - label: Header and footer text fragments
+      name: i18n-header-footer
+      file: src/site/_data/i18n/header_footer.json
+      i18n: true
+      fields:
+        - { label: Home, name: home, required: false, widget: string, i18n: true }
+        - { label: Blog, name: blog, required: false, widget: string, i18n: true }
+        - { label: Strategy, name: strategy, required: false, widget: string, i18n: true }
+        - { label: Projects, name: projects, required: false, widget: string, i18n: true }
+        - { label: Partners, name: partners, required: false, widget: string, i18n: true }
+        - { label: Media, name: media, required: false, widget: string, i18n: true }
+        - { label: Impressum, name: impressum, required: false, widget: string, i18n: true }
+        - { label: About, name: about, required: false, widget: string, i18n: true }
+        - { label: Contact, name: contact, required: false, widget: string, i18n: true }
     - label: Signup text fragments
       name: i18n-signup
       file: src/site/_data/i18n/signup.json

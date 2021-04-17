@@ -1,0 +1,24 @@
+{
+  "en": {
+    "home": "home",
+    "blog": "blog",
+    "strategy": "strategy",
+    "projects": "projects",
+    "partners": "partners",
+    "media": "media",
+    "impressum": "legal",
+    "about": "about us",
+    "contact": "contact us"
+  },
+  "fr": {
+    "home": "accueil",
+    "blog": "blog",
+    "strategy": "stratégie",
+    "projects": "projets",
+    "partners": "partenaires",
+    "media": "médias",
+    "impressum": "légal",
+    "about": "à propos",
+    "contact": "contactez-nous"
+  }
+}
