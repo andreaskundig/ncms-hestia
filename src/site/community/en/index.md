@@ -54,4 +54,6 @@ chat_groups_title: Join the conversation
 chat_groups:
   - link: https://forum.personaldata.io/
     name: Forum
+  - name: Twitter
+    link: https://twitter.com/datingprivacy
 ---
