@@ -1,37 +1,36 @@
 ---
+people_title: People
 layout: community
-inverse: true
 permalink: /en/community/index.html
 title: Community
 hero: Community
 hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1008&q=80
-hero_image_caption:
+hero_image_caption: null
 story_title: A short story about us
-story: >-
-  We are a small group of skilled individuals
-
-  [Jessica Pidoux](https://jessicapidoux.info/), Doctoral Researcher at the Digital Humanities Institute at École Polytechnique Fédérale de Lausanne works on revealing biases in Tinder's secretive matching algorithms. [](https://jessicapidoux.info/)
-
-
-  [Frank](https://bit.ly/2J8mKOo), freelance journalist has revealed privacy risks on Hinge and is currently being messed around by Hinge, Bumble and Tinder having asked for his data. [](https://wiki.personaldata.io/wiki/User:Frandrews "User:Frandrews")
-
-  An other member maps the dating app ecosystem in the wiki platform available thanks to our partner personaldata.io and delves into dating app patents.
-
-
-  Another volunteer digs into regulation policies and how online dating interacts with collective practices and communities.
-
-
-  A counsel in intellectual property and IT helps us with  all the legal facets.
-people_title: People
 people:
-  - name: Hestia
-    description: 'In the Ancient Greek religion, Hestia (/ˈhɛstiə, ˈhɛstʃə/; Greek:
-      Ἑστία, "hearth" or "fireside") is the virgin goddess of the hearth, the
-      right ordering of domesticity, the family, the home, and the state. In
-      Greek mythology, she is the firstborn child of the Titans Cronus and Rhea'
-    image: https://placekitten.com/300/182
-    email: https://en.wikipedia.org/wiki/Hestia
-    linkedin: https://en.wikipedia.org/wiki/Hestia
+  - name: Jessica
+    description: "[Jessica Pidoux](https://jessicapidoux.info/), Doctoral Researcher
+      at the Digital Humanities Institute at École Polytechnique Fédérale de
+      Lausanne works on revealing biases in Tinder's secretive matching
+      algorithms."
+    image: https://people.epfl.ch/private/common/photos/links/251266.jpg?ts=1618691187
+    twitter: https://twitter.com/pidouxina
+  - name: Frank
+    description: '[Frank](https://bit.ly/2J8mKOo), freelance journalist has revealed
+      privacy risks on Hinge and is currently being messed around by Hinge,
+      Bumble and Tinder having asked for his
+      data. [](https://wiki.personaldata.io/wiki/User:Frandrews
+      "User:Frandrews")'
+  - description: An other member maps the dating app ecosystem in the wiki platform
+      available thanks to our partner personaldata.io and delves into dating app
+      patents.
+  - description: "[](https://jessicapidoux.info/)Another volunteer digs into
+      regulation policies and how online dating interacts with collective
+      practices and communities."
+  - description: A counsel in intellectual property and IT helps us with  all the
+      legal facets.
+inverse: true
+story: We are a small group of skilled individuals.
 timeline_title: How it started - How it's going
 timeline_events:
   - date: 0482-05-26T23:25:52.000Z
