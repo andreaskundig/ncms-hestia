@@ -43,7 +43,8 @@ timeline_events:
       phishing and identity theft."
   - date: 2021-01-31T23:00:00.000Z
     description: >-
-      "Dating Privacy” Collective Launch.
+      ["Dating Privacy” Collective
+      Launch](https://www.meetup.com/tech4goodLIN/events/276275535/)
 
 
       \
