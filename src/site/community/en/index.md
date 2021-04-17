@@ -4,8 +4,8 @@ layout: community
 permalink: /en/community/index.html
 title: Community
 hero: Community
-hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1008&q=80
-hero_image_caption: null
+hero_image: https://commons.wikimedia.org/wiki/File:01_Icon-Community@2x.png
+hero_image_caption: Vkw.studiogood, CC BY-SA 4.0
 story_title: A short story about us
 people:
   - name: Jessica
