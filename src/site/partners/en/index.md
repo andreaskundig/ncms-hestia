@@ -41,7 +41,9 @@ partners:
     image: https://www.freepik.com/free-vector/flat-university-concept_4565883.htm#page=1&query=academic&position=0
     image_caption: <a href="https://www.freepik.com/vectors/school">School vector
       created by freepik - www.freepik.com</a>
-  - description: ""
+  - description: Help your audience connect the dots and play your role as the
+      fourth estate by covering our efforts  of dating app privacy risks and
+      better practices.
     title: Media partners
     url: mailto:partners@hestialabs.org
     image: ""
