@@ -4,8 +4,9 @@ layout: community
 permalink: /en/community/index.html
 title: Community
 hero: Community
-hero_image: https://commons.wikimedia.org/wiki/File:01_Icon-Community@2x.png
-hero_image_caption: Vkw.studiogood, CC BY-SA 4.0
+hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66
+hero_image_caption: Pascale
+  Cerchio[](https://www.peoplerise.net/wp-content/uploads/2020/07/ale-cerchio.png)
 story_title: A short story about us
 people:
   - name: Jessica
@@ -30,24 +31,20 @@ people:
   - description: A counsel in intellectual property and IT helps us with  all the
       legal facets.
 inverse: true
-story: We are a small group of skilled individuals.
+story: We are a small group of skilled individuals working to define a new
+  relationship with data in dating.
 timeline_title: How it started - How it's going
 timeline_events:
-  - date: 0482-05-26T23:25:52.000Z
-    description: The end of the world predicted by Hydatius, also spelled Idacius
-  - date: 0793-04-05T23:25:52.000Z
-    description: The end of the world predicted by Saint Beatus of Liébana
-  - date: 1814-10-18T23:25:52.000Z
+  - date: 2021-01-31T23:00:00.000Z
     description: >-
-      The end of the world predicted by **Joanna Southcott**. 
+      "Dating Privacy” Collective Launch.
 
-      This 64-year-old self-described prophet claimed she was pregnant with the Christ child, and that he would be born on October 19, 1814. She died later that year having not delivered a child, and an autopsy proved she had not been pregnant.
+
+      \
+
+      During this short session, the collective presented the risks you take when using dating apps, shared practices to protect your privacy and explained how you can recover your data if you want to know what happens when you're swiping and liking. We also outlined our first major data literacy project: one we want you to be involved in.
 chat_groups_title: Join the conversation
 chat_groups:
-  - name: Whatsapp
-    link: https://en.wikipedia.org/wiki/WhatsApp
-    image: https://placekitten.com/20/20
-  - name: Discord
-    link: https://en.wikipedia.org/wiki/Discord
-    image: https://placekitten.com/19/20
+  - link: https://forum.personaldata.io/
+    name: Forum
 ---
