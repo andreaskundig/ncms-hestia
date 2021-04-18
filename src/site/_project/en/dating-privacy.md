@@ -1,6 +1,5 @@
 ---
 id: dating privacy
-title: Dating privacy
 name: Dating Privacy
 description: >-
   Dating Privacy aims to understand how dating applications work, in particular
@@ -13,9 +12,7 @@ description: >-
 
   In a first phase, this project will focus on the relevance of geolocation data. 
 image: /assets/media/project-dating-privacy-c-alexander-sinn-unsplash-c.jpeg
-image_caption: Photo by [Alexander
-  Sinn](https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-url: dating-privacy.hestialab.org
+image_caption: Photo by [Alexander Sinn](https://unsplash.com/@swimstaralex)
+  on [Unsplash](https://unsplash.com/@swimstaralex)
+url: https://dating-privacy.hestialabs.org/en/
 ---

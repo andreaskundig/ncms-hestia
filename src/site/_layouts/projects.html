@@ -18,15 +18,15 @@ layout: defaultWithHero
     {% for project in collections.project %}
     {% if project.data.locale == locale
       and project.data.id == project_to_display%}
-      <div>
-        <h2><a name="{{project.data.page.fileSlug}}">
-            {{project.data.name}}</a></h2>
+      <div id="{{project.data.page.fileSlug}}">
+        <h2><a href="{{project.data.url | url}}">
+          {{project.data.name}}</a></h2>
         <figure>
-          <a href="{{project.data.url}}"><img src="{{project.data.image}}"></a>
+          <a href="{{project.data.url | url}}"><img src="{{project.data.image}}"></a>
           <figcaption>{% markdown project.data.image_caption %}</figcaption>
         </figure>
         <p>{{project.data.description}}</p>
-        <a href="{{project.data.url}}">{{running_projects_button}}</a>
+        <a href="{{project.data.url | url}}">{{running_projects_button}}</a>
       </div>
       {% endif %}
     {% endfor %}
@@ -40,15 +40,15 @@ layout: defaultWithHero
     {% for project in collections.project %}
       {% if project.data.locale == locale
          and project.data.id == project_to_display%}
-        <div>
-          <h2><a name="{{project.data.page.fileSlug}}">
-              {{project.data.name}}</a></h2>
+        <div name="{{project.data.page.fileSlug}}">
+          <h2><a href="{{project.data.url | url}}">
+            {{project.data.name}}</a></h2>
           <figure>
-            <a href="{{project.data.url}}"><img src="{{project.data.image}}"></a>
+            <a href="{{project.data.url | url}}"><img src="{{project.data.image}}"></a>
             <figcaption>{% markdown project.data.image_caption %}</figcaption>
           </figure>
           <p>{{project.data.description}}</p>
-          <a href="{{project.data.url}}">{{launchpad_projects_button}}</a>
+          <a href="{{project.data.url | url}}">{{launchpad_projects_button}}</a>
         </div>
       {% endif %}
     {% endfor %}

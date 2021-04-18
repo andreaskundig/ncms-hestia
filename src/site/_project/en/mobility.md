@@ -9,9 +9,7 @@ description: >-
 
   What happens when we combine forces? Let’s find out!
 image: /assets/media/project-mobility-c-albert-jarod-ibay-unsplash-c.jpeg
-image_caption: Photo by [Albert Jarod
-  Ibay](https://unsplash.com/@albertibay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/albert-jarod?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+image_caption: Photo by [Albert Jarod Ibay](https://unsplash.com/@albertibay)
+  on [Unsplash](https://unsplash.com/s/photos/albert-jarod)
 url: mailto:projects@hestia.ai
 ---
