@@ -36,19 +36,40 @@
 
   /* Line heights */
 
-  --line-height-half: 0.75rem;      /* calc( --line-height-base / 2) */
+  --line-height-half: 0.75rem;                        /* calc( --line-height-base / 2) */
   --line-height-base: 1.5rem;
-  --line-height-double: 3rem;       /* calc( --line-height-base * 2) */
+  --line-height-double: 3rem;                         /* calc( --line-height-base * 2) */
 
   /* Text bodies */
 
-  --text-xs-font-size: 0.6rem;      /* 18/30 */
-  --text-sm-font-size: 0.8rem;      /* 24/30 */
-  --text-base-font-size: 1rem;      /* 30/30 (meant to be used for body font-size, while allowing for `rfs()`) */
+  --text-xs-font-size: 0.6rem;                        /* 18/30 */
+  --text-sm-font-size: 0.8rem;                        /* 24/30 */
+  --text-base-font-size: 1rem;                        /* 30/30 (meant to be used for body font-size, while allowing for `rfs()`) */
   --text-base-font-weight: 400;
   --text-bold-font-weight: 700;
-  --text-lg-font-size: 1.33333rem;  /* 40/30 */
-  --text-xl-font-size: 1.5rem;      /* @assert( --text-xl-font-size <= --line-height-base) */
+  --text-lg-font-size: 1.33333rem;                    /* 40/30 */
+  --text-xl-font-size: 1.5rem;                        /* @assert( --text-xl-font-size <= --line-height-base) */
+
+  /* Layout breakpoints */
+
+  --breakpoint-text-line-wraps-at: 45rem;             /* Maximum line width (approx. 17-18 words at 1rem font size) */
+
+  /* Following widths are meant to be used for media queries,
+     although `env(--breakpoint-width-xx)` can't be used yet
+     in ‹media feature› specifications.
+
+     Instead, would you want to update those widths, perform
+     a search of the variable names `--breakpoint-width-xx`
+     in the CSS source files — those names have been placed
+     as usage markers in comments near the media queries,
+     wherever one of these values were used — and manually
+     update the corresponding literal values. */
+
+  --breakpoint-width-xs: 0px;
+  --breakpoint-width-sm: 544px;                       /* Small screen / phone */
+  --breakpoint-width-md: 768px;                       /* Medium screen / tablet */
+  --breakpoint-width-lg: 1012px;                      /* Large screen / desktop (980 + (12 * 2)) <= container + gutters */
+  --breakpoint-width-xl: 1280px;                      /* Extra large screen / wide desktop */
 
   /* COLOR PALETTE / FUNCTIONAL COLORS */
 
