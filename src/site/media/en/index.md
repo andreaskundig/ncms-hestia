@@ -4,6 +4,9 @@ permalink: /en/media/index.html
 title: Medias
 hero: |-
   In the **press**
+hero_image: /assets/media/dp_media_hero-c-laura-lee-moreau-zpe2gobovro-unsplash-c.jpeg
+hero_image_caption: Photo by [Laura Lee Moreau](https://unsplash.com/@laura_lee)
+  on [Unsplash](https://unsplash.com/photos/ZpE2gobovro)
 articles_title: Last articles
 read_button: Read
 contact_title: Contact

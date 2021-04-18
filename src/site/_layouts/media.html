@@ -1,30 +1,30 @@
 ---
 layout: defaultWithHero
+inverse: true
 ---
 <section id="articles">
   <h1>{% markdown articles_title %}</h1>
   {% for article in media_articles %}
     <div>
       <figure>
-        <img src="{{article.image}}">
+        <a href="{{article.url | url}}"><img src="{{article.image}}"></a>
         <figcaption>{% markdown article.image_caption %}</figcaption>
       </figure>
       <h3>{{article.title}}</h3>
       <p>{{article.date | readableDate(locale)}}</p>
-      <a href="{{article.url}}">{{read_button}}</a>
+      <a href="{{article.url | url}}">{{read_button}}</a>
     </div>
   {% endfor %}
 </section>
 
 <section id="contact">
   <h1>{% markdown contact_title %}</h1>
-  <div>{{contact_email}}</div>
+  <div> {{contact_email}} </div>
 </section>
 
 <section id="downloads">
   <h1>{% markdown download_title %}</h1>
-  <div>
-    {% markdown media_kit_title %}
+  <div> {% markdown media_kit_title %}
     <a href="{{media_kit_file}}">{{download_button}}</a>
   </div>
 </section>
@@ -32,9 +32,9 @@ layout: defaultWithHero
 <section id="press-releases">
   <h1>{% markdown press_releases_title %}</h1>
   {% for release in press_releases %}
-  <div>
-    <p>{{release.date | readableDate(locale)}}</p>
-    <h3><a href="{{release.url}}"> {% markdown release.title %}</h3>
-  </div>
+    <div>
+      <p>{{release.date | readableDate(locale)}}</p>
+      <h3><a href="{{release.url}}"> {% markdown release.title %}</h3>
+    </div>
   {% endfor %}
 </section>

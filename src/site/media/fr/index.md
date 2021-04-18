@@ -5,6 +5,9 @@ title: Medias
 hero: |-
   Ils parlent de notre \
   **vertu**
+hero_image: /assets/media/dp_media_hero-c-laura-lee-moreau-zpe2gobovro-unsplash-c.jpeg
+hero_image_caption: Photo de [Laura Lee Moreau](https://unsplash.com/@laura_lee)
+  sur [Unsplash](https://unsplash.com/photos/ZpE2gobovro)
 articles_title: Derniers articles
 read_button: Lire
 contact_title: Contact
