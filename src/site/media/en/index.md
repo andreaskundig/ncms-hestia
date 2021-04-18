@@ -1,13 +1,13 @@
 ---
+layout: media
+permalink: /en/media/index.html
 title: Medias
 hero: |-
   They talk about our\
   **virtuous uses of data**
 hero_image: /assets/media/hl_media_hero-c-laura-lee-moreau-zpe2gobovro-unsplash-c.jpeg
-hero_image_caption: Photo by [Laura Lee
-  Moreau](https://unsplash.com/@laura_lee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/media?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+hero_image_caption: Photo by [Laura Lee Moreau](https://unsplash.com/@laura_lee)
+  on [Unsplash](https://unsplash.com/photos/ZpE2gobovro)
 articles_title: Last articles
 read_button: Read
 contact_title: Contact
@@ -18,8 +18,6 @@ download_title: ""
 download_button: ""
 press_releases_title: ""
 press_releases: []
-layout: media
-permalink: /en/media/index.html
 media_articles:
   - date: 2021-03-30T10:21:28.350Z
     title: Tinder, un business très lucratif

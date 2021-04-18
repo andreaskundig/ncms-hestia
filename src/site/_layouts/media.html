@@ -1,17 +1,18 @@
 ---
 layout: defaultWithHero
+inverse: true
 ---
 <section id="articles">
   <h1>{% markdown articles_title %}</h1>
   {% for article in media_articles %}
     <div>
       <figure>
-        <img src="{{article.image}}">
+        <a href="{{article.url | url}}"><img src="{{article.image}}"></a>
         <figcaption>{% markdown article.image_caption %}</figcaption>
       </figure>
       <h3>{{article.title}}</h3>
       <p>{{article.date | readableDate(locale)}}</p>
-      <a href="{{article.url}}">{{read_button}}</a>
+      <a href="{{article.url | url}}">{{read_button}}</a>
     </div>
   {% endfor %}
 </section>
