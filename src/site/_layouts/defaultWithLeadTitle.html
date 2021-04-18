@@ -8,13 +8,11 @@ locale: en
   <body>
     {% include "header.njk" %}
     <main>
-      <section id="hero" class="masthero{% if inverse %} inverse{% endif %} with-no-space"
-        role="img" aria-label="(Hero background image)"
-        style="{{hero_image | backgroundImage}}">
+      <section id="hero" class="normhero with-no-space">
         <div class="responsive-wrapper">
-          {% markdown hero %}
+          <h1>{{title}}</h1>
+          {% markdown lead %}
         </div>
-        <figcaption>{% markdown hero_image_caption %}</figcaption>
       </section>
       <div class="responsive-wrapper">
         {{ content | safe }}

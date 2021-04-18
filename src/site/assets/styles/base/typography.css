@@ -33,7 +33,8 @@ footer {
 
 h1, h2, h3,
 h4, h5, h6,
-section.masthead {
+section.masthero,
+section.normhero {
   color: var(--hx-text-color);
   font-family: var(--hx-font-family);
   letter-spacing: -0.015rem;
@@ -43,15 +44,20 @@ section.masthead {
   text-rendering: optimizeLegibility;
 }
 
-h1,
-section.masthead p,
-section.masthead button {
-  font-size: var(--h1-font-size);
-  line-height: var( --line-height-double);
+section.masthero {
+  font-size: calc( var(--h1-font-size) * 1.5);
+  line-height: 1;
+}
+
+section.normhero {
+  font-size: calc( var(--h3-font-size));
+  line-height: var( --line-height-base);
 }
 
 h1 {
+  font-size: var(--h1-font-size);
   font-weight: var(--h1-font-weight);
+  line-height: var( --line-height-double);
 }
 
 h2 {

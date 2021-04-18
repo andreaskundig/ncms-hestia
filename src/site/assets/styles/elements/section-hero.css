@@ -1,20 +1,21 @@
 .normhero {
   display: flex;
+  flex-flow: column nowrap;
   justify-content: flex-end;
   align-items: center;
-  flex-direction: column;
   text-align: left;
   width: 100%;
-  height: 20vh;
+  min-height: 20vh;
   overflow: hidden;
-  padding-bottom: var(--line-height-double);
+  padding-top: calc( 4.0 * var(--line-height-base));
+  padding-bottom: var(--line-height-base);
 }
 
 .masthero {
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   text-align: left;
   width: 100%;
   height: 40vh;
@@ -31,26 +32,11 @@
      `style="{{hero_image | backgroundImage}}"` shortcode) */
 }
 
-section.masthero h1, section.normhero h1,
-section.masthero h2, section.normhero h2,
-section.masthero h3, section.normhero h3,
-section.masthero h4, section.normhero h4,
-section.masthero h5, section.normhero h5,
-section.masthero h6, section.normhero h6,
-section.masthero p,  section.normhero p {
+section.masthero {
   text-shadow: var(--shadow-text-on-image);
-  font-size: calc( var(--h1-font-size) * 1.5);
-  line-height: 1;
-  margin-bottom: 0;
 }
 
-section.masthero.inverse h1,
-section.masthero.inverse h2,
-section.masthero.inverse h3,
-section.masthero.inverse h4,
-section.masthero.inverse h5,
-section.masthero.inverse h6,
-section.masthero.inverse p {
+section.masthero.inverse {
   text-shadow: var(--shadow-text-on-image-inverse);
   color: var(--color-text-white);
 }
@@ -60,7 +46,6 @@ section.masthero figcaption {
   right: var(--line-height-base);
 }
 
-section.masthero figcaption,
-section.masthero figcaption p {
+section.masthero figcaption > * {
   font-size: var(--text-sm-font-size);
 }
