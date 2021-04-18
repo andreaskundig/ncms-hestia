@@ -6,6 +6,7 @@
 @import './base/layout.css';
 @import './elements/header-footer.css';
 @import './elements/section-hero.css';
+@import './elements/section-all.css';
 @import './elements/buttons.css';
 
 body {
