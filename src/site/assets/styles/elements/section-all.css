@@ -1,0 +1,3 @@
+section:not(.masthero):not(.normhero) {
+  margin: var(--line-height-double) 0;
+}
