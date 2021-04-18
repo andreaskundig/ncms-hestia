@@ -1,19 +1,23 @@
 ---
 layout: default
 ---
-<section id="hero">
-  {% include "author_fragments/" + locale +"/hero.md" %}
+<section id="hero" class="normhero with-no-space">
+  <div class="responsive-wrapper">
+    <h1>{% include "category_fragments/" + locale +"/hero.md" %}</h1>
+    <p>{% markdown description %}</p>
+  </div>
 </section>
 
-<section id="description">
-  <p>{% markdown description %}</p>
-  <ul>
-    {% for post in collections.post %}
-      {% set post_categories = post.data.post_categories %}
-      {% if post.data.locale == locale
-         and id in post_categories %}
-        <li><a href="{{post.url}}">{{post.data.title}}</a></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</section>
+<div class="responsive-wrapper">
+  <section id="description" class="with-no-space-before">
+    <ul>
+      {% for post in collections.post %}
+        {% set post_categories = post.data.post_categories %}
+        {% if post.data.locale == locale
+          and id in post_categories %}
+          <li><a href="{{post.url}}">{{post.data.title}}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+</div>

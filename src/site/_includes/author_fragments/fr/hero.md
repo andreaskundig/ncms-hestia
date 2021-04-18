@@ -1,1 +1,1 @@
-Histoires par {{name}}
+Histoires par <strong>{{name}}</strong>

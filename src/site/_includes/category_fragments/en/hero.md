@@ -1,1 +1,1 @@
-Stories about {{name}}
+Stories about <strong>{{name}}</strong>

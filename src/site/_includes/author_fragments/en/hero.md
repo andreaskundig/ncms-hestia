@@ -1,1 +1,1 @@
-Stories by {{name}}
+Stories by <strong>{{name}}</strong>

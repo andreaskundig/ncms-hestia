@@ -41,6 +41,9 @@ collections:
         - { label: Suggested blog posts, name: suggested_posts, required: false, i18n: true,
             widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
         - { label: Share, name: share, required: false, widget: string, i18n: true }
+        - { label: By ‹author›, name: by_author, required: false, widget: string, i18n: true }
+        - { label: Published on, name: published_on, required: false, widget: string, i18n: true }
+        - { label: Tagged as, name: tagged_as, required: false, widget: string, i18n: true }
     - label: Header and footer text fragments
       name: i18n-header-footer
       file: src/site/_data/i18n/header_footer.json

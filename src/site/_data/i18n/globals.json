@@ -1,10 +1,16 @@
 {
   "en": {
     "suggested_posts": "You might also **like** to read",
-    "share": "Share this"
+    "share": "Share this",
+    "by_author": "by",
+    "published_on": "published on",
+    "tagged_as": "tagged as"
   },
   "fr": {
     "suggested_posts": "Vous aimeriez peut-être **aussi** lire",
-    "share": "Partager"
+    "share": "Partager",
+    "by_author": "par",
+    "published_on": "publié le",
+    "tagged_as": "catégorisé comme"
   }
 }
