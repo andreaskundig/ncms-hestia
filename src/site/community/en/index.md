@@ -14,7 +14,7 @@ people:
       at the Digital Humanities Institute at École Polytechnique Fédérale de
       Lausanne works on revealing biases in Tinder's secretive matching
       algorithms."
-    image: https://people.epfl.ch/private/common/photos/links/251266.jpg?ts=1618691187
+    image: /assets/media/jessica-pidoux-bw.jpg
     twitter: https://twitter.com/pidouxina
   - name: Frank
     description: '[Frank](https://bit.ly/2J8mKOo), freelance journalist has revealed
