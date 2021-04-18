@@ -45,12 +45,16 @@ h4, h5, h6,
 section.masthero,
 section.normhero {
   color: var(--hx-text-color);
-  font-family: var(--hx-font-family);
   letter-spacing: -0.015rem;
   /* The `text-rendering` property is non-standard; and should be
      applied to headings only, not to body; see following article:
      https://css-tricks.com/almanac/properties/t/text-rendering/ */
   text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: var(--hx-font-family);
 }
 
 section.masthero {
