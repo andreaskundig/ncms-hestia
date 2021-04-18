@@ -1,22 +1,21 @@
 ---
-layout: default
+layout: defaultWithLeadTitle
 ---
 <section id="post">
-  <h1>{% markdown title %}</h1>
   <p>
-    {% for author in collections.post_author %}
+    {{i18n.globals[locale].by_author}} {% for author in collections.post_author %}
       {% if author.data.id in post_authors
          and author.data.locale == locale %}
-        <a href="{{author.data.page.url}}">{{author.data.name}}</a>
+        <a href="{{author.data.page.url | url}}">{{author.data.name}}</a>
       {% endif %}
-      {% endfor %}
-      {{ date | readableDate(locale)}}
+    {% endfor %}
+    {{i18n.globals[locale].published_on}} {{ date | readableDate(locale)}}
   </p>
   <p>
-    {% for category in collections.post_category %}
+    {{i18n.globals[locale].tagged_as}} {% for category in collections.post_category %}
       {% if category.data.id in post_categories
          and category.data.locale == locale %}
-        <a href="{{category.data.page.url}}">{{category.data.name}}</a>
+        <a href="{{category.data.page.url | url}}">{{category.data.name}}</a>
       {% endif %}
     {% endfor %}
   </p>
@@ -27,11 +26,11 @@ layout: default
 </section>
 
 <section id="suggested-posts">
-  <h2>{% markdown i18n.globals[locale].suggested_posts %}</h2>
+  <h1>{% markdown i18n.globals[locale].suggested_posts %}</h1>
   {% set suggested_posts = [].concat(suggested_editorials, suggested_interviews, suggested_infographics) %}
   {% for post in collections.post %}
     {% if post.data.locale == locale and post.data.id in suggested_posts %}
-      <p><a href="{{post.url}}"> {% markdown post.data.title %}</a></p>
+      <p><a href="{{post.url | url}}"> {% markdown post.data.title %}</a></p>
     {% endif %}
   {% endfor %}
 </section>
