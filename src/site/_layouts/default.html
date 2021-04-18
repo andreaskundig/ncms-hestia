@@ -8,14 +8,7 @@ locale: en
   <body>
     {% include "header.njk" %}
     <main>
-      <section id="hero" class="normhero">
-        <div class="responsive-wrapper">
-          {% markdown hero %}
-        </div>
-      </section>
-      <div class="responsive-wrapper">
-        {{ content | safe }}
-      </div>
+      {{ content | safe }}
     </main>
     {% include "footer.njk" %}
   </body>
