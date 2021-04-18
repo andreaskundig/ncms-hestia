@@ -2,21 +2,26 @@
 layout: defaultWithHero
 inverse: true
 ---
-<h1>{% markdown you_title %}</h1>
-<figure>
-  <img src="{{you_image}}">
-  <figcaption>{% markdown you_image_caption %}</figcaption>
-</figure>
-<p>{% markdown you_description %}</p>
-<a href="{{you_url}}">{{you_button}}</a>
-{% for partner in partners %}
-<div>
-  <h1>{% markdown partner.title %}</h1>
+<section id="you">
+  <h1>{% markdown you_title %}</h1>
   <figure>
-    <a href="{{partner.url}}"><img src="{{partner.image}}"></a>
-    <figcaption>{% markdown partner.image_caption %}</figcaption>
+    <img src="{{you_image}}">
+    <figcaption>{% markdown you_image_caption %}</figcaption>
   </figure>
-  <p>{% markdown partner.description %}</p>
-  <a href="{{partner.url}}">{{partner.button}}</a>
-</div>
-{% endfor %}
+  <p>{% markdown you_description %}</p>
+  <a href="{{you_url}}"><button>{{you_button}}</button></a>
+</section>
+
+<section id="partners">
+  {% for partner in partners %}
+    <div>
+      <h1>{% markdown partner.title %}</h1>
+      <figure>
+        <a href="{{partner.url}}"><img src="{{partner.image}}"></a>
+        <figcaption>{% markdown partner.image_caption %}</figcaption>
+      </figure>
+      <p>{% markdown partner.description %}</p>
+      <a href="{{partner.url}}"><button>{{partner.button}}</button></a>
+    </div>
+  {% endfor %}
+</section>

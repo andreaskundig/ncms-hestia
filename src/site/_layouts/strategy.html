@@ -1,21 +1,28 @@
 ---
 layout: defaultWithHero
 ---
-<h1>{% markdown introduction_title %}</h1>
-<p>{% markdown introduction %}</p>
-<a href="{{submit_url}}" >{{submit_button_small}}</a>
-<h1>{% markdown four_steps_title %}</h1>
-{% for step in change_steps %}
-<div>
-  <h3>{% markdown step.title %}</h3>
-  <figure>
-    <img src="{{step.image}}">
-    <figcaption>{% markdown step.image_caption %}</figcaption>
-  </figure>
-  <p>{% markdown step.description %}</p>
-</div>
-{% endfor %}
+<section id="intro">
+  <h1>{% markdown introduction_title %}</h1>
+  <p>{% markdown introduction %}</p>
+  <a href="{{submit_url}}" >{{submit_button_small}}</a>
+</section>
 
-<h1>{% markdown conclusion_title %}</h1>
-<p>{% markdown conclusion %}</p>
-<a href="{{submit_url}}">{{submit_button_big}}</a>
+<section id="four-steps">
+  <h1>{% markdown four_steps_title %}</h1>
+  {% for step in change_steps %}
+  <div>
+    <h3>{% markdown step.title %}</h3>
+    <figure>
+      <img src="{{step.image}}">
+      <figcaption>{% markdown step.image_caption %}</figcaption>
+    </figure>
+    <p>{% markdown step.description %}</p>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="conclusion">
+  <h1>{% markdown conclusion_title %}</h1>
+  <p>{% markdown conclusion %}</p>
+  <a href="{{submit_url}}">{{submit_button_big}}</a>
+</section>

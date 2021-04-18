@@ -1,31 +1,39 @@
 ---
 layout: defaultWithHero
 ---
-<h1>{% markdown articles_title %}</h1>
-{% for article in media_articles %}
-<div>
-  <figure>
-    <img src="{{article.image}}">
-    <figcaption>{% markdown article.image_caption %}</figcaption>
-  </figure>
-  <h3>{{article.title}}</h3>
-  <p>{{article.date | readableDate(locale)}}</p>
-  <a href="{{article.url}}">{{read_button}}</a>
-</div>
-{% endfor %}
+<section id="articles">
+  <h1>{% markdown articles_title %}</h1>
+  {% for article in media_articles %}
+    <div>
+      <figure>
+        <img src="{{article.image}}">
+        <figcaption>{% markdown article.image_caption %}</figcaption>
+      </figure>
+      <h3>{{article.title}}</h3>
+      <p>{{article.date | readableDate(locale)}}</p>
+      <a href="{{article.url}}">{{read_button}}</a>
+    </div>
+  {% endfor %}
+</section>
 
-<h1>{% markdown contact_title %}</h1>
-<div> {{contact_email}} </div>
+<section id="contact">
+  <h1>{% markdown contact_title %}</h1>
+  <div> {{contact_email}} </div>
+</section>
 
-<h1>{% markdown download_title %}</h1>
-<div> {% markdown media_kit_title %}
-  <a href="{{media_kit_file}}">{{download_button}}</a>
-</div>
+<section id="downloads">
+  <h1>{% markdown download_title %}</h1>
+  <div> {% markdown media_kit_title %}
+    <a href="{{media_kit_file}}">{{download_button}}</a>
+  </div>
+</section>
 
-<h1>{% markdown press_releases_title %}</h1>
-{% for release in press_releases %}
-<div>
-  <p>{{release.date | readableDate(locale)}}</p>
-  <h3><a href="{{release.url}}"> {% markdown release.title %}</h3>
-</div>
-{% endfor %}
+<section id="press-releases">
+  <h1>{% markdown press_releases_title %}</h1>
+  {% for release in press_releases %}
+    <div>
+      <p>{{release.date | readableDate(locale)}}</p>
+      <h3><a href="{{release.url}}"> {% markdown release.title %}</h3>
+    </div>
+  {% endfor %}
+</section>
