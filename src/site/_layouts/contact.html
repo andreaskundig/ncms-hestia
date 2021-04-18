@@ -1,72 +1,64 @@
 ---
 layout: defaultWithHero
 ---
-<div>
-  <h4>
-    {{contact_community}}
-  </h4>
-  <h5>
-    <a href="{{contact_community_url}}">{{contact_community_action}}</a>
-  </h5>
-</div>
-<div>
-  <h4>
-    {{contact_researcher}}
-  </h4>
-  <h5>
-    <a href="{{contact_researcher_url}}">{{contact_researcher_action}}</a>
-  </h5>
-</div>
-<div>
-  <h4>
-    {{contact_partner}}
-  </h4>
-  <h5>
-    <a href="{{contact_partner_url}}">{{contact_partner_action}}</a>
-  </h5>
-<div>
-  <h4>
-    {{contact_media}}
-  </h4>
-  <h5>
-    <a href="{{contact_media_url}}">{{contact_media_action}}</a>
-  </h5>
-</div>
+<section id="contacts">
+  <div>
+    <h4>{{contact_community}}</h4>
+    <h5>
+      <a href="{{contact_community_url}}">{{contact_community_action}}</a>
+    </h5>
+  </div>
+  <div>
+    <h4>{{contact_researcher}}</h4>
+    <h5>
+      <a href="{{contact_researcher_url}}">{{contact_researcher_action}}</a>
+    </h5>
+  </div>
+  <div>
+    <h4>{{contact_partner}}</h4>
+    <h5>
+      <a href="{{contact_partner_url}}">{{contact_partner_action}}</a>
+    </h5>
+  <div>
+    <h4>{{contact_media}}</h4>
+    <h5>
+      <a href="{{contact_media_url}}">{{contact_media_action}}</a>
+    </h5>
+  </div>
+</section>
 
 <section id="contact-form">
   <form>
-    <h4>
-      {{contact_other}}
-    </h4>
-    <div >
+    <h4>{{contact_other}}</h4>
+    <div>
       <label for="contact-first-name">
         {{contact_first_name}}
       </label>
       <input type="text" name="first-name"
              id="contact-first-name">
     </div>
-    <div >
+    <div>
       <label for="contact-last-name">
         {{contact_last_name}}
       </label>
       <input type="text" name="last-name"
              id="contact-last-name">
     </div>
-    <div >
+    <div>
       <label for="contact-email">
         {{contact_email}}
       </label>
       <input type="email" name="email"
              id="contact-email">
     </div>
-    <div >
+    <div>
       <label for="contact-subject">
         {{contact_subject}}
       </label>
       <input type="email" name="subject"
              id="contact-subject">
     </div>
-    <div >
+    <div>
       <label for="contact-message">
         {{contact_message}}
       </label>

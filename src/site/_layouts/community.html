@@ -1,46 +1,49 @@
 ---
 layout: defaultWithHero
 ---
-<h1>{% markdown story_title %}</h1>
+<section id="story">
+  <h1>{% markdown story_title %}</h1>
+  {% for person in people %}
+    <div>
+      <img src="{{person.image}}" alt="{{person.name}}" title="{{person.name}}">
+      <h2>{{person.name}}</h2>
+      <p>{% markdown person.description %}</p>
+      <p>
+        {% if person.twitter %}
+          <a href="{{person.twitter}}">twitter</a>
+        {% endif %}
+        {% if person.linkedin %}
+          <a href="{{person.linkedin}}">linkedin</a>
+        {% endif %}
+        {% if person.email %}
+          <a href="{{person.email}}">email</a>
+        {% endif %}
+      </p>
+    </div>
+  {% endfor %}
+  <div>{% markdown story %}</div>
+</section>
 
-{% for person in people %}
-<div>
-  <img src="{{person.image}}" alt="{{person.name}}" title="{{person.name}}">
-  <h2>{{person.name}}</h2>
-  <p>{% markdown person.description %}</p>
-  <p>
-    {% if person.twitter %}
-      <a href="{{person.twitter}}">twitter</a>
-    {% endif %}
-    {% if person.linkedin %}
-      <a href="{{person.linkedin}}">linkedin</a>
-    {% endif %}
-    {% if person.email %}
-      <a href="{{person.email}}">email</a>
-    {% endif %}
-  </p>
-</div>
-{% endfor %}
-
-<div>{% markdown story %}</div>
-
-<h1>{{timeline_title}}</h1>
-
-{% for event in timeline_events %}
-<div>
-  <h2>{{event.date | readableDate(locale, "LLLL yyyy")}}</h2>
-  <p>{% markdown event.description %}</p>
-</div>
-{% endfor %}
+<section id="timeline">
+  <h1>{{timeline_title}}</h1>
+  {% for event in timeline_events %}
+  <div>
+    <h2>{{event.date | readableDate(locale, "LLLL yyyy")}}</h2>
+    <p>{% markdown event.description %}</p>
+  </div>
+  {% endfor %}
+</section>
 
 {% if chat_groups | length %}
-<h1>{{chat_groups_title}}</h1>
-  {% for group in chat_groups %}
-  <div>
-    <a href="{{group.link}}" target="_blank">
-      <img src="{{group.image}}">
-      <span>{{group.name}}</span>
-    </a>
-   </div>
-  {% endfor %}
+  <section id="join-conversation">
+    <h1>{{chat_groups_title}}</h1>
+    {% for group in chat_groups %}
+    <div>
+      <a href="{{group.link}}" target="_blank">
+        <img src="{{group.image}}">
+        <span>{{group.name}}</span>
+      </a>
+    </div>
+    {% endfor %}
+  </section>
 {% endif %}

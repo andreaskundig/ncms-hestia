@@ -1,38 +1,45 @@
 ---
 layout: default
 ---
-<h1>{% markdown title %}</h1>
-<p>
-{% for author in collections.post_author %}
-{% if author.data.id in post_authors
-   and author.data.locale == locale %}
-   By <a href="{{author.data.page.url}}">{{author.data.name}}</a>
-  {% endif %}
-{% endfor %}
-published on {{ date | readableDate(locale)}}
-</p>
-<p>
-{% for category in collections.post_category %}
-{% if category.data.id in post_categories
-   and category.data.locale == locale %}
-  <a href="{{category.data.page.url}}">{{category.data.name}}</a>
-{% endif %}
-{% endfor %}
-</p>
-<figure>
-  <img src="{{image}}">
-  <figcaption>{% markdown image_caption %}</figcaption>
-</figure>
-<div>
-{{ content | safe }}
-</div>
-<h2>{% markdown i18n.globals[locale].suggested_posts %}</h2>
-{% set suggested_posts = [].concat(suggested_editorials, suggested_interviews, suggested_infographics) %}
-{% for post in collections.post %}
-  {% if post.data.locale == locale and post.data.id in suggested_posts %}
+<section id="post">
+  <h1>{% markdown title %}</h1>
+  <p>
+    {% for author in collections.post_author %}
+      {% if author.data.id in post_authors
+        and author.data.locale == locale %}
+        By <a href="{{author.data.page.url}}">{{author.data.name}}</a>
+      {% endif %}
+    {% endfor %}
+    published on {{ date | readableDate(locale)}}
+  </p>
+  <p>
+    {% for category in collections.post_category %}
+      {% if category.data.id in post_categories
+        and category.data.locale == locale %}
+        <a href="{{category.data.page.url}}">{{category.data.name}}</a>
+      {% endif %}
+    {% endfor %}
+  </p>
+  <figure>
+    <img src="{{image}}">
+    <figcaption>{% markdown image_caption %}</figcaption>
+  </figure>
+  <div>
+    {{ content | safe }}
+  </div>
+</section>
 
+<section id="suggested-posts">
+  <h2>{% markdown i18n.globals[locale].suggested_posts %}</h2>
+  {% set suggested_posts = [].concat(suggested_editorials, suggested_interviews, suggested_infographics) %}
+  {% for post in collections.post %}
+    {% if post.data.locale == locale and post.data.id in suggested_posts %}
       <p><a href="{{post.url}}"> {% markdown post.data.title %}</a></p>
-  {% endif %}
-{% endfor %}
-{% include "share.njk" %}
-{% include "signup.njk" %}
+    {% endif %}
+  {% endfor %}
+</section>
+
+<section id="engage">
+  {% include "share.njk" %}
+  {% include "signup.njk" %}
+</section>

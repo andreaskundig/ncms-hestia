@@ -2,73 +2,85 @@
 layout: defaultWithHero
 ---
 {% include "signup.njk" %}
+
 {% if collections.editorial %}
-  <h1>{% markdown editorials_title %}</h1>
-  <div class="grid-layout-halves with-grid-gutters">
-    {% for post in collections.editorial %}
-      {% if post.data.locale == locale %}
-        <div class="grid-cell">
-          <h3><a href="{{post.url}}"> {% markdown post.data.title %}</a></h3>
-          {% markdown post.data.lead %}
-          <figure>
-            <a href="{{post.url}}"><img src="{{post.data.image}}"></a>
-            <figcaption>{% markdown post.data.image_caption %}</figcaption>
-          </figure>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
+  <section id="editorials">
+    <h1>{% markdown editorials_title %}</h1>
+    <div class="grid-layout-halves with-grid-gutters">
+      {% for post in collections.editorial %}
+        {% if post.data.locale == locale %}
+          <div class="grid-cell">
+            <h3><a href="{{post.url}}"> {% markdown post.data.title %}</a></h3>
+            {% markdown post.data.lead %}
+            <figure>
+              <a href="{{post.url}}"><img src="{{post.data.image}}"></a>
+              <figcaption>{% markdown post.data.image_caption %}</figcaption>
+            </figure>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
 {% endif %}
+
 {% if collections.interview %}
-  <h1>{% markdown interviews_title %}</h1>
-  <div class="grid-layout-halves with-grid-gutters">
-    {% for post in collections.interview %}
-      {% if post.data.locale == locale %}
-        <div class="grid-cell">
-          <h3><a href="{{post.url}}">{{post.data.title}}</a></h3>
-          {% markdown post.data.lead %}
-          <figure>
-            <a href="{{post.url}}"><img src="{{post.data.image}}"></a>
-            <figcaption>{% markdown post.data.image_caption %}</figcaption>
-          </figure>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
+  <section id="interviews">
+    <h1>{% markdown interviews_title %}</h1>
+    <div class="grid-layout-halves with-grid-gutters">
+      {% for post in collections.interview %}
+        {% if post.data.locale == locale %}
+          <div class="grid-cell">
+            <h3><a href="{{post.url}}">{{post.data.title}}</a></h3>
+            {% markdown post.data.lead %}
+            <figure>
+              <a href="{{post.url}}"><img src="{{post.data.image}}"></a>
+              <figcaption>{% markdown post.data.image_caption %}</figcaption>
+            </figure>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
 {% endif %}
 
 {% if collections.infographic %}
-  <h1>{% markdown infographics_title %}</h1>
-  <div class="grid-layout-halves with-grid-gutters">
-    {% for post in collections.infographic %}
-      {% if post.data.locale == locale %}
-        <div class="grid-cell">
-          <h3><a href="{{post.url}}">{{post.data.title}}</a></h3>
-          {% markdown post.data.lead %}
-          <figure>
-            <a href="{{post.url}}"><img src="{{post.data.image}}"></a>
-            <figcaption>{% markdown post.data.image_caption %}</figcaption>
-          </figure>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
+  <section id="infographics">
+    <h1>{% markdown infographics_title %}</h1>
+    <div class="grid-layout-halves with-grid-gutters">
+      {% for post in collections.infographic %}
+        {% if post.data.locale == locale %}
+          <div class="grid-cell">
+            <h3><a href="{{post.url}}">{{post.data.title}}</a></h3>
+            {% markdown post.data.lead %}
+            <figure>
+              <a href="{{post.url}}"><img src="{{post.data.image}}"></a>
+              <figcaption>{% markdown post.data.image_caption %}</figcaption>
+            </figure>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
 {% endif %}
 
-<h1>{% markdown categories_title %}</h1>
-<ul>
+<section id="categories">
+  <h1>{% markdown categories_title %}</h1>
+  <ul>
     {% for category in collections.post_category %}
-        {% if category.data.locale == locale %}
-            <li><a href="{{category.data.page.url}}">{{category.data.name}}</a></li>
-        {% endif %}
+      {% if category.data.locale == locale %}
+        <li><a href="{{category.data.page.url}}">{{category.data.name}}</a></li>
+      {% endif %}
     {% endfor %}
-</ul>
+  </ul>
+</section>
 
-<h1>{% markdown authors_title %}</h1>
-<ul>
+<section id="authors">
+  <h1>{% markdown authors_title %}</h1>
+  <ul>
     {% for author in collections.post_author %}
-        {% if author.data.locale == locale %}
-            <li><a href="{{author.data.page.url}}">{{author.data.name}}</a></li>
-        {% endif %}
+      {% if author.data.locale == locale %}
+        <li><a href="{{author.data.page.url}}">{{author.data.name}}</a></li>
+      {% endif %}
     {% endfor %}
-</ul>
+  </ul>
+</section>
