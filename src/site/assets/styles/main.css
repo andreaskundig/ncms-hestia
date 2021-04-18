@@ -3,6 +3,7 @@
 @import './base/fonts.css';
 @import './base/typography.css';
 @import './base/links.css';
+@import './base/layout.css';
 @import './elements/header-footer.css';
 @import './elements/section-hero.css';
 @import './elements/buttons.css';
@@ -27,7 +28,7 @@ main.splash {
 
 .responsive-wrapper {
   width: 90%;
-  max-width: 800px;
+  max-width: var(--breakpoint-text-line-wraps-at);
   margin-left: auto;
   margin-right: auto;
 }
@@ -44,4 +45,16 @@ main img {
 
 ::selection {
   background: var(--selection-bg-color);
+}
+
+/* Revisiting prefers-reduced-motion, the reduced motion media query
+   https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/ */
+
+@media screen and (prefers-reduced-motion: reduce) {
+  * {
+    /* Very short durations means JavaScript that relies on events still works */
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }

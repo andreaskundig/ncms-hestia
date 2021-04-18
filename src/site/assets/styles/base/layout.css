@@ -1,0 +1,49 @@
+/* Don’t Overthink It (Flexbox) Grids
+   https://css-tricks.com/dont-overthink-flexbox-grids/ */
+
+.grid-layout,
+.grid-layout-halves,
+.grid-layout-thirds {
+    display: flex;
+}
+
+.grid-layout-halves,
+.grid-layout-thirds {
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.grid-cell {
+  flex: 1;
+}
+
+.grid-layout-halves .grid-cell {
+  min-width: 48%;
+  max-width: 48%;
+}
+
+.grid-layout-thirds .grid-cell {
+  min-width: 32%;
+  max-width: 32%;
+}
+
+.with-grid-gutters {
+  margin: -1.5rem 0 0 -1.5rem;
+}
+
+.with-grid-gutters > .grid-cell {
+  padding: 1.5rem 0 0 1.5rem;
+}
+
+/* @media (max-width: env(--breakpoint-width-md)) */
+@media (max-width: 768px) {
+  .grid-layout,
+  .grid-layout-halves,
+  .grid-layout-thirds {
+    display: block;
+  }
+  .grid-layout-halves .grid-cell,
+  .grid-layout-thirds .grid-cell {
+    min-width: 96%;
+  }
+}
