@@ -46,6 +46,7 @@ main img {
 
 ::selection {
   background: var(--selection-bg-color);
+  color: var(--selection-text-color);
 }
 
 /* Revisiting prefers-reduced-motion, the reduced motion media query
