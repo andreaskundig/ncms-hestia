@@ -54,3 +54,13 @@ section.masthero.inverse p {
   text-shadow: var(--shadow-text-on-image-inverse);
   color: var(--color-text-white);
 }
+
+section.masthero figcaption {
+  position: absolute;
+  right: var(--line-height-base);
+}
+
+section.masthero figcaption,
+section.masthero figcaption p {
+  font-size: var(--text-sm-font-size);
+}
