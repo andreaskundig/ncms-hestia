@@ -83,7 +83,6 @@
 
   /* Backgrounds */
   --color-bg-canvas:               #ffffff;
-  --color-bg-highlight:            #ffd33d;
   --color-bg-primary:              #ffffff;
   --color-bg-secondary:            #5a53a0;
   --color-bg-tertiary:             #f6f8fa;
@@ -146,7 +145,8 @@
   /* ELEMENTS */
 
   /* Globals */
-  --selection-bg-color:             var(--color-bg-highlight);
+  --selection-bg-color:             var(--color-bg-secondary); /* same as --footer-bg-color and --body-bg-color */
+  --selection-text-color:           var(--color-text-inverse);
 
   /* Body */
   --body-text-font-family:          var(--font-family);
@@ -155,7 +155,7 @@
   --body-text-font-size:            var(--text-base-font-size);
   --body-text-color:                var(--color-text-secondary);
   --body-line-height:               var(--line-height-base);
-  --body-bg-color:                  var(--color-bg-secondary); /* same as --footer-bg-color */
+  --body-bg-color:                  var(--color-bg-secondary); /* same as --footer-bg-color and --selection-bg-color */
   --main-bg-color:                  var(--color-bg-canvas);
 
   /* Paragraphs */
@@ -171,7 +171,7 @@
   --link-visited-text-color:        var(--body-text-color);
   --link-hover-text-color:          var(--color-text-link);
   --link-active-text-color:         var(--color-text-link);
-  --link-active-text-bg:            var(--color-bg-highlight);
+  --link-active-text-bg:            var(--selection-bg-color);
   --link-focus-outline:             3px solid var(--color-text-link);
 
   /* Headings */
@@ -209,5 +209,5 @@
   --footer-font-size:               var(--text-sm-font-size);
   --footer-font-weight:             var(--h2-font-weight);
   --footer-text-color:              var(--color-text-white);
-  --footer-bg-color:                var(--color-bg-secondary);
+  --footer-bg-color:                var(--color-bg-secondary); /* same as --body-bg-color and --selection-bg-color */
 }

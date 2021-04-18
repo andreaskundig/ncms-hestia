@@ -15,6 +15,15 @@ strong, b {
   font-weight: var(--body-text-bold-font-weight);
 }
 
+h1 strong, h1 b,
+h2 strong, h2 b,
+h3 strong, h3 b,
+h4 strong, h4 b,
+h5 strong, h5 b,
+h6 strong, h6 b {
+  color: var(--selection-bg-color);
+}
+
 header {
   color: var(--header-text-color);
   font-family: var(--header-font-family);
