@@ -24,7 +24,7 @@
 
   /* REFERENCE VALUES */
 
-  --font-size-base: 18px;           /* 30/30 */
+  --font-size-base: 20px;           /* 30/30 */
 
   /* From here on, all metrics should be expressed in REM units,
      relative to the previous base font size definition, which
@@ -52,7 +52,7 @@
 
   /* Layout breakpoints */
 
-  --breakpoint-text-line-wraps-at: 45rem;             /* Maximum line width (approx. 17-18 words at 1rem font size) */
+  --breakpoint-text-line-wraps-at: 48rem;             /* Maximum line width (approx. 17-18 words at 1rem font size) */
 
   /* Following widths are meant to be used for media queries,
      although `env(--breakpoint-width-xx)` can't be used yet
