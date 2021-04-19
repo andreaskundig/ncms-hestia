@@ -6,6 +6,9 @@ hero: |-
   Make it happen —\
   Claim your data back!\
   **Now**  ⤵️
+hero_image: /assets/media/30-belle-collective-44jx1wu6nn4-unsplash.jpg
+hero_image_caption: Photo by [Belle
+  Collective](https://unsplash.com/@_bellecollective?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/jump?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 sar_title: Ask for your data
 sar_subtitle: You can ask here for a copy of your personal data
 ---
