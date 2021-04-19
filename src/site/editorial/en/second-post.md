@@ -1,5 +1,5 @@
 ---
-id: " a second post"
+id: a second post
 title: Dating applications share your data. Find out with whom.
 date: 2021-04-08T11:42:06.880Z
 image: /assets/media/out-of-control-mobil-650x433-liten-c-Forbrukerradet-c.jpg

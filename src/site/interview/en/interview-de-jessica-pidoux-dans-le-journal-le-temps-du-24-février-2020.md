@@ -11,5 +11,5 @@ post_categories:
 post_authors:
   - MPV
 suggested_editorials:
-  - " a second post"
+  - a second post
 ---

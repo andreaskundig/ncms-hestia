@@ -45,5 +45,5 @@ sar_button: Ask for you data
 news_title: News and events
 news_editorials:
   - a first blog post
-  - " a second post"
+  - a second post
 ---

@@ -44,5 +44,5 @@ partners_link_text: Contact us
 sar_button: Ask for you data
 news_title: News and events
 news_editorials:
-  - " a second post"
+  - a second post
 ---
