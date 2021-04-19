@@ -8,7 +8,7 @@ post_categories:
   - euphoric
   - hapay
 post_authors:
-  - proust
+  - MPV
 ---
 # Oui?
 
