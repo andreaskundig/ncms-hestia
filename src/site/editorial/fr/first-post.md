@@ -1,17 +1,29 @@
 ---
-title: notre premier post
-date: 2021-04-08T11:32:25.690Z
-image: https://placekitten.com/200/300
-image_caption: kitten
-lead: Une accroche irrestistible
+id: a first blog post
+title: HestiaLabs takes off
+date: 2021-04-19T11:37:00.000Z
+image: /assets/media/blog_editorial_1_c-mika-baumeister-y_lgxwqex2c-unsplash-c.jpeg
+image_caption: Photo de [Mika Baumeister](https://unsplash.com/@mbaumi)
+  sur [Unsplash](https://unsplash.com/photos/Y_LgXwQEx2c)
+lead: The foundation stone for a new digital world where users take back control
+  of their data is being laid today.
 post_categories:
   - chill
 post_authors:
   - CFD
+suggested_editorials:
+  - a second post
+suggested_interviews:
+  - papa legba
+suggested_infographics:
+  - napoleon in russia
 ---
-mmmmm
-**mmmmmmm**
+We are on the verge of creating the complex tools needed for user collectives to take back control of their data and innovate together.
 
-# **MMMMMMMMMM**
-{{post_categories}}
-{{locale}}
+We have the skills, the networks and the will to succeed.
+
+[Join us](https://hestialabs.org/en/projects/), [follow us](https://twitter.com/hestialabs), and stay tuned!
+
+{% creditedImage "/assets/media/blog_editorial_1-c-fabrizio-conti-xpfhk0mgsyw-unsplash-c.jpeg", "People and mountain", "Steep is the slope, but straight is the road", "Lachlan Rogers" %}
+
+{% creditedImage "", "", "", "Maria Orlova" %}

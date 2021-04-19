@@ -18,7 +18,7 @@ partners:
   - title: Fonds pionnier Migros
     description: Migros...
     url: https://www.migros-pionierfonds.ch/fr
-    image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
+    image: /assets/media/kitten-c-lachlan-rogers-c.jpg
   - title: Partenaires média
     description: >-
       La vie privée est le problème de tous dans notre monde numérique.

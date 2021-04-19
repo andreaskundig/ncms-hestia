@@ -54,5 +54,5 @@ projects_title: Running projects
 news_title: News and events
 news:
   - a first blog post
-  - " a second post"
+  - a second post
 ---

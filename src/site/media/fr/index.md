@@ -30,6 +30,6 @@ media_articles:
       qu’elles n’ont rien à cacher, certaines personnes s’accommodent du système
       pour se faciliter la vie ou tout simplement parce que c’est gratuit.
     url: https://www.bilan.ch/opinions/caroline-widmer/la-forteresse-du-big-data-quels-impacts-sur-notre-souverainete-collective
-    image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
+    image: /assets/media/kitten-c-lachlan-rogers-c.jpg
 media_kit: Kit media
 ---

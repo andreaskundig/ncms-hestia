@@ -1,5 +1,5 @@
 ---
-id: " a second post"
+id: a second post
 title: Data protection expert comments on Uber trial verdict
 date: 2021-04-11T11:42:06.880Z
 image: /assets/media/portrait-rené-mahieu-2017-small.jpeg

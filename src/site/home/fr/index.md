@@ -32,5 +32,5 @@ featured_projects:
   - data-literacy
 news_title: Nouvelles et événements
 news:
-  - " a second post"
+  - a second post
 ---
