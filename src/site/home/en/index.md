@@ -44,8 +44,8 @@ partners_link_text: Contact us
 sar_button: Ask for you data
 news_title: News and events
 news_editorials:
-  - a first blog post
-  - a second post
+  - grindr-profile-data
+  - dating-apps-share-your-data
 news_interviews:
   - Jessica Pidoux's interview in Le Temps
 ---
