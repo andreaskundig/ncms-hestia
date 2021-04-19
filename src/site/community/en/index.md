@@ -1,54 +1,59 @@
 ---
+people_title: People
 layout: community
-inverse: true
 permalink: /en/community/index.html
 title: Community
-hero: Community
-hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1008&q=80
-hero_image_caption:
+hero: Personal data community
+hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66
+hero_image_caption: Illustration by Pascale
+  Cerchio[](https://www.peoplerise.net/wp-content/uploads/2020/07/ale-cerchio.png)
 story_title: A short story about us
-story: >-
-  We are a small group of skilled individuals
-
-  [Jessica Pidoux](https://jessicapidoux.info/), Doctoral Researcher at the Digital Humanities Institute at École Polytechnique Fédérale de Lausanne works on revealing biases in Tinder's secretive matching algorithms. [](https://jessicapidoux.info/)
-
-
-  [Frank](https://bit.ly/2J8mKOo), freelance journalist has revealed privacy risks on Hinge and is currently being messed around by Hinge, Bumble and Tinder having asked for his data. [](https://wiki.personaldata.io/wiki/User:Frandrews "User:Frandrews")
-
-  An other member maps the dating app ecosystem in the wiki platform available thanks to our partner personaldata.io and delves into dating app patents.
-
-
-  Another volunteer digs into regulation policies and how online dating interacts with collective practices and communities.
-
-
-  A counsel in intellectual property and IT helps us with  all the legal facets.
-people_title: People
 people:
-  - name: Hestia
-    description: 'In the Ancient Greek religion, Hestia (/ˈhɛstiə, ˈhɛstʃə/; Greek:
-      Ἑστία, "hearth" or "fireside") is the virgin goddess of the hearth, the
-      right ordering of domesticity, the family, the home, and the state. In
-      Greek mythology, she is the firstborn child of the Titans Cronus and Rhea'
-    image: https://placekitten.com/300/182
-    email: https://en.wikipedia.org/wiki/Hestia
-    linkedin: https://en.wikipedia.org/wiki/Hestia
+  - name: Jessica
+    description: "[Jessica Pidoux](https://jessicapidoux.info/), Doctoral Researcher
+      at the Digital Humanities Institute at École Polytechnique Fédérale de
+      Lausanne works on revealing biases in Tinder's secretive matching
+      algorithms."
+    image: /assets/media/jessica-pidoux-bw.jpg
+    twitter: https://twitter.com/pidouxina
+  - name: Frank
+    description: '[Frank](https://bit.ly/2J8mKOo), freelance journalist has revealed
+      privacy risks on Hinge and is currently being messed around by Hinge,
+      Bumble and Tinder having asked for his
+      data. [](https://wiki.personaldata.io/wiki/User:Frandrews
+      "User:Frandrews")'
+  - description: An other member maps the dating app ecosystem in the wiki platform
+      available thanks to our partner personaldata.io and delves into dating app
+      patents.
+  - description: "[](https://jessicapidoux.info/)Another member digs into regulation
+      policies and how online dating interacts with collective practices and
+      communities."
+  - description: A member helps us with  all the legal facets.
+inverse: true
+story: We are a small group of skilled individuals working to define a new
+  relationship with data in dating.
 timeline_title: How it started - How it's going
 timeline_events:
-  - date: 0482-05-26T23:25:52.000Z
-    description: The end of the world predicted by Hydatius, also spelled Idacius
-  - date: 0793-04-05T23:25:52.000Z
-    description: The end of the world predicted by Saint Beatus of Liébana
-  - date: 1814-10-18T23:25:52.000Z
+  - date: 2020-10-31T23:00:00.000Z
+    description: "This collective is a social movement we have started in November
+      2020 after identifying several privacy risks we, as dating app users, are
+      confronted with when looking for a date online: unwanted ads, harms
+      resulting from incorrect profiling and predictions, the possibility of
+      phishing and identity theft."
+  - date: 2021-01-31T23:00:00.000Z
     description: >-
-      The end of the world predicted by **Joanna Southcott**. 
+      ["Dating Privacy” Collective
+      Launch](https://www.meetup.com/tech4goodLIN/events/276275535/)\
 
-      This 64-year-old self-described prophet claimed she was pregnant with the Christ child, and that he would be born on October 19, 1814. She died later that year having not delivered a child, and an autopsy proved she had not been pregnant.
-chat_groups_title: Join the conversation
+      During this short session, the collective presented the risks you take when using dating apps, shared practices to protect your privacy and explained how you can recover your data if you want to know what happens when you're swiping and liking. We also outlined our first major data literacy project: one we want you to be involved in.
+
+
+      Link to the presentation: <https://tinyurl.com/20210212datingprivacy>
+chat_groups_title: we are active in online forum and social media to discuss
+  about privacy and online dating. Join the conversation
 chat_groups:
-  - name: Whatsapp
-    link: https://en.wikipedia.org/wiki/WhatsApp
-    image: https://placekitten.com/20/20
-  - name: Discord
-    link: https://en.wikipedia.org/wiki/Discord
-    image: https://placekitten.com/19/20
+  - link: https://forum.personaldata.io/
+    name: Forum
+  - name: Twitter
+    link: https://twitter.com/datingprivacy
 ---
