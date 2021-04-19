@@ -57,7 +57,7 @@ people:
       Charles launched the media L'Usine Digitale before heading the NGO
       Empowerment Foundation for a human-centered digital world. He joined
       HestiaLabs in January 2021 as **Head of Communications**.
-    image: /assets/media/charles_square.png
+    image: /assets/media/charles_square.jpg
     twitter: https://twitter.com/lettweetbe
     linkedin: https://www.linkedin.com/in/charlesfoucaultdumas/
     email: mailto:charles.foucault@hestia.ai
