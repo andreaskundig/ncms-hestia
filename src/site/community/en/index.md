@@ -48,8 +48,8 @@ timeline_events:
       During this short session, the collective presented the risks you take when using dating apps, shared practices to protect your privacy and explained how you can recover your data if you want to know what happens when you're swiping and liking. We also outlined our first major data literacy project: one we want you to be involved in.
 
 
-      Link to the presentation: <https://tinyurl.com/20210212datingprivacy>
-chat_groups_title: we are active in online forum and social media to discuss
+      [Link to the presentation](https://tinyurl.com/20210212datingprivacy)
+chat_groups_title: We are active in online forum and social media to discuss
   about privacy and online dating. Join the conversation
 chat_groups:
   - link: https://forum.personaldata.io/
