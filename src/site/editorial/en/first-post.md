@@ -32,6 +32,4 @@ lead: An **attention**-*grabbing* lead
 
 {% creditedImage "", "", "", "Lachlan Rogers" %}
 
-Another credited image:
-
 {% creditedImage "", "", "", "Maria Orlova" %}
