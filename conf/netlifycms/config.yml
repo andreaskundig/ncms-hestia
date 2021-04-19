@@ -116,14 +116,38 @@ collections:
     - { label: "SAR button" , name: sar_button , required: false, widget: text, i18n: true }
     - { label: "News title", name: news_title, required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - label: "News items"
-      name: "news"
+    - label: "News editorials"
+      name: "news_editorials"
       widget: "list"
       i18n: true
       field:
         name: "Editorial"
         widget: relation
         collection: editorials
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
+    - label: "News interviews"
+      name: "news_interviews"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Interview"
+        widget: relation
+        collection: interviews
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
+    - label: "News infograpics"
+      name: "news_infograpics"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Infograpic"
+        widget: relation
+        collection: infograpics
         value_field: "id"
         display_fields: ["title"]
         multiple: false
