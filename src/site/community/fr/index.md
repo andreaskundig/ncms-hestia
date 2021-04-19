@@ -2,12 +2,6 @@
 people_title: Des gens
 layout: community
 permalink: /fr/community/index.html
-title: Communauté
-hero: |-
-  Vous rêvez \
-  Nous ...\
-  **Parlons-en**
-hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1008&q=80
 story_title: Ecoute ça
 people:
   - name: Hestia
@@ -23,6 +17,12 @@ people:
       religion romaine4. Sa présence était symbolisée par le feu sacré qui
       brûlait dans son foyer et ses temples. "
 inverse: true
+title: Communauté
+hero: |-
+  Vous rêvez \
+  Nous ...\
+  **Parlons-en**
+hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1008&q=80
 hero_image_caption: null
 story: C'est l'histoire d'un animal qui avait ...
 ---

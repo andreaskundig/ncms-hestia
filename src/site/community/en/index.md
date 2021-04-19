@@ -2,11 +2,6 @@
 people_title: People
 layout: community
 permalink: /en/community/index.html
-title: Community
-hero: Personal data community
-hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66
-hero_image_caption: Illustration by Pascale
-  Cerchio[](https://www.peoplerise.net/wp-content/uploads/2020/07/ale-cerchio.png)
 story_title: A short story about us
 people:
   - name: Jessica
@@ -30,17 +25,22 @@ people:
       communities."
   - description: A member helps us with  all the legal facets.
 inverse: true
+title: Community
+hero: Personal data community
+hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66
+hero_image_caption: Illustration by Pascale
+  Cerchio[](https://www.peoplerise.net/wp-content/uploads/2020/07/ale-cerchio.png)
 story: We are a small group of skilled individuals working to define a new
   relationship with data in dating.
 timeline_title: How it started - How it's going
 timeline_events:
-  - date: 2020-10-31T23:00:00.000Z
+  - date: 2020-11
     description: "This collective is a social movement we have started in November
       2020 after identifying several privacy risks we, as dating app users, are
       confronted with when looking for a date online: unwanted ads, harms
       resulting from incorrect profiling and predictions, the possibility of
       phishing and identity theft."
-  - date: 2021-01-31T23:00:00.000Z
+  - date: 2021-02
     description: >-
       ["Dating Privacy” Collective
       Launch](https://www.meetup.com/tech4goodLIN/events/276275535/)\
