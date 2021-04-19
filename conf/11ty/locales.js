@@ -46,9 +46,17 @@ function buildLocalesCollection(collectionApi) {
     return localesByPath;
 }
 
-const formatDate = (date, locale, format) =>
-  DateTime.fromJSDate(date, { zone: "utc" })
+const formatDate = (date, locale, format) => {
+  let parsedDate;
+  if(typeof date == 'string'){
+    parsedDate = DateTime.fromISO(date, { zone: "utc" });
+  } else {
+    parsedDate = DateTime.fromJSDate(date, { zone: "utc" });
+  }
+  const formattedDate = parsedDate
     .setLocale(locale || DEFAULT_LOCALE)
     .toFormat(format || "dd LLLL yyyy");
+  return formattedDate;
+}
 
 module.exports = { buildLocalesCollection, formatDate };
