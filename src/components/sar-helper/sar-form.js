@@ -43,7 +43,8 @@ export class SubjectAccessRequestForm extends LitElement {
             search: { type: String, attribute: false },
             recipient: { type: String, attribute: false },
             subject: { type: String, attribute: false },
-            body: { type: String, attribute: false }
+            body: { type: String, attribute: false },
+            incompleteBodyParts: { type: Array, attribute: false }
         }
     }
 
@@ -54,6 +55,7 @@ export class SubjectAccessRequestForm extends LitElement {
         this.recipient = '';
         this.subject = '';
         this.body = '';
+        this.missingBodyParts = [];
         this.i18n = {
             datingApp: 'Dating app',
             selectPlaceholder: 'Click to choose',
@@ -85,6 +87,7 @@ export class SubjectAccessRequestForm extends LitElement {
             this.body = mailTo.body;
             this.recipient = mailTo.recipient;
             this.subject = mailTo.subject;
+            this.missingBodyParts = mailTo.body.match(/.*<<.*>>/g);
         }
     }
 
@@ -156,6 +159,11 @@ export class SubjectAccessRequestForm extends LitElement {
                ${TXT.copyButton}
              </button>
           </div>
+<!--
+          <div>
+               ${this.missingBodyParts.join('')}
+          </div>
+-->
           <div>
             <label for="${IDS.body}">${TXT.body}</label>
             <textarea placeholder="${TXT.bodyPlaceholder}"
