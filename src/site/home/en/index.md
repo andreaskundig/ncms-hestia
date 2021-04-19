@@ -47,5 +47,5 @@ news_editorials:
   - grindr-profile-data
   - dating-apps-share-your-data
 news_interviews:
-  - Jessica Pidoux's interview in Le Temps
+  - interview-jessica-pidoux-journal-le-temps
 ---

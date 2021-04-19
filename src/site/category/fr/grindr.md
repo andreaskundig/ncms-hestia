@@ -1,0 +1,4 @@
+---
+id: Grindr
+name: Grindr
+---
