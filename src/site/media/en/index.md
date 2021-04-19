@@ -10,11 +10,12 @@ articles_title: Last articles
 read_button: Read
 contact_title: Contact
 contact_email: press@hestia.ai
-media_kit_title: Coming soon
+media_kit_title: Media kit
 media_kit_file: mailto:press@hestia.ai
-download_title: Coming soon
+download_title: Find here all the material you need about HestiaLabs (fact
+  sheet, press images, logos, testimonials)
 download_button: Coming soon
-press_releases_title: Coming soon
+press_releases_title: Press releases
 press_releases:
   - date: 2021-04-20T12:59:14.786Z
     title: Coming soon
