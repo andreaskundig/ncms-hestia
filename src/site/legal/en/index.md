@@ -2,8 +2,7 @@
 layout: legal
 permalink: /en/legal/index.html
 title: Legal notice
-hero: |-
-  **Legal notice**
+hero: "**Legal notice**"
 ---
 ## Legal notice
 
@@ -23,3 +22,5 @@ The various contents of the site may not be freely reproduced without the indica
 HestiaLabs’ website is compiled with the utmost care. Nevertheless, HestiaLabs cannot guarantee that the information contained herein is free of errors. Liability for damages is excluded unless based on intent or gross negligence on our part.
 
 HestiaLabs can change the content of its websites at any time at its own discretion and without prior notice. HestiaLabs websites contain links to other websites. We are not responsible for the data protection strategy or the content of these websites.
+
+Last Updated: April 2021

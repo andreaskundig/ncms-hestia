@@ -2,8 +2,7 @@
 layout: legal
 permalink: /fr/legal/index.html
 title: Notice légale
-hero: |-
-  **Notice légale**
+hero: "**Notice légale**"
 ---
 ## Notice légale
 
