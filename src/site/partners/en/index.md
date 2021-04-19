@@ -52,8 +52,8 @@ permalink: /en/partners/index.html
 inverse: true
 title: Partners
 hero: "**Partners we trust**"
-hero_image: /assets/media/nicepng_group-of-people-png_4459253.png
-hero_image_caption: People vector created by pch.vector
+hero_image: /assets/media/34-group-of-people-2471124_1280.jpg
+hero_image_caption: ""
 introduction: >-
   We only collaborate and engage with partners who we trust and who meet our
   [ethical chart](https://dating-privacy.hestialabs.org/en/ethics/).
