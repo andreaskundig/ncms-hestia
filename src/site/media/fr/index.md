@@ -3,33 +3,36 @@ layout: media
 permalink: /fr/media/index.html
 title: Medias
 hero: |-
-  Ils parlent de notre \
-  **vertu**
-hero_image: /assets/media/dp_media_hero-c-laura-lee-moreau-zpe2gobovro-unsplash-c.jpeg
+  Dans la **presse**
+hero_image: /assets/media/dp_media_hero-c-laura-lee-moreau-zpe2gobovro-unsplash-c.jpg
 hero_image_caption: Photo de [Laura Lee Moreau](https://unsplash.com/@laura_lee)
   sur [Unsplash](https://unsplash.com/photos/ZpE2gobovro)
-articles_title: Derniers articles
-read_button: Lire
+articles_title: Last articles
+read_button: Read
 contact_title: Contact
-contact_email: press@hestialabs.org
-media_kit_title: Kit media
-media_kit_file: https://benjamins.com/catalog/getpdf?uuid=2c8dd1a9-eba3-4458-8dd1-a9eba35458bc&href=%2Fprag%2Fprag.18.1%2Fprag.18.1.02cat%2Fprag.18.1.02cat.pdf
-download_title: Télécharger
-download_button: Télécharger
-press_releases_title: Communiqués de presse
-press_releases:
-  - date: 2021-04-06T10:38:12.392Z
-    title: Bonjour le monde
-    url: https://fr.wikipedia.org/wiki/Hello_world
+contact_email: datingprivacy@personaldata.io
+media_kit_title: ""
+media_kit_file: ""
+download_title: ""
+download_button: ""
+press_releases_title: ""
+press_releases: []
 media_articles:
-  - date: 2021-04-06T10:35:49.955Z
-    title: "La forteresse du Big Data: quel(s) impact(s) sur notre souveraineté
-      collective?"
-    publication: Bilan
-    lead: Emprisonnés dans la forteresse des big datas, en partant du principe
-      qu’elles n’ont rien à cacher, certaines personnes s’accommodent du système
-      pour se faciliter la vie ou tout simplement parce que c’est gratuit.
-    url: https://www.bilan.ch/opinions/caroline-widmer/la-forteresse-du-big-data-quels-impacts-sur-notre-souverainete-collective
-    image: /assets/media/kitten-c-lachlan-rogers-c-.jpg
-media_kit: Kit media
+  - date: 2021-03-30T10:21:28.350Z
+    title: Tinder, un business très lucratif
+    publication: RTS
+    lead: Aujourd'hui Tinder est l'application la plus téléchargée dans le monde, un
+      business très lucratif.
+    url: https://rts.ch/play/tv/redirect/detail/12087030
+    image: /assets/media/media-tinder-ttc-c-rts-c.jpg
+  - date: 2021-02-12T17:44:01.456Z
+    title: " Pourquoi les algorithmes des applications de rencontre sont-ils pervers?"
+    publication: RTBF
+    url: https://www.rtbf.be/auvio/detail_pourquoi-les-algorithmes-des-applications-de-rencontre-sont-ils-pervers?id=2735177
+    lead: "Est-on vraiment libre de ses choix sur les sites de rencontres ? Comment
+      l’algorithme fonctionne-t-il ? Que font les applications avec nos
+      données ? "
+    image: https://s2.qwant.com/thumbr/0x0/5/2/ba2f6fd5cf9473af72335762be3a1e18b5cde08514e618d6f59c8d535e10c0/ng_c6e4f241dcbc6186e61f-324x183@2x.jpg?u=https%3A%2F%2Fds1.static.rtbf.be%2Fmedia%2Fprogram%2Fimage%2Fng_c6e4f241dcbc6186e61f-324x183%402x.jpg&q=0&b=1&p=0&a=0
+    image_caption: Photo rtbf.be
+media_kit: Media kit
 ---

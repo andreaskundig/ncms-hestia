@@ -4,7 +4,7 @@ permalink: /en/media/index.html
 title: Medias
 hero: |-
   In the **press**
-hero_image: /assets/media/dp_media_hero-c-laura-lee-moreau-zpe2gobovro-unsplash-c.jpeg
+hero_image: /assets/media/dp_media_hero-c-laura-lee-moreau-zpe2gobovro-unsplash-c.jpg
 hero_image_caption: Photo by [Laura Lee Moreau](https://unsplash.com/@laura_lee)
   on [Unsplash](https://unsplash.com/photos/ZpE2gobovro)
 articles_title: Last articles
@@ -24,7 +24,7 @@ media_articles:
     lead: Aujourd'hui Tinder est l'application la plus téléchargée dans le monde, un
       business très lucratif.
     url: https://rts.ch/play/tv/redirect/detail/12087030
-    image: /assets/media/media-tinder-ttc-c-rts-c.png
+    image: /assets/media/media-tinder-ttc-c-rts-c.jpg
   - date: 2021-02-12T17:44:01.456Z
     title: " Pourquoi les algorithmes des applications de rencontre sont-ils pervers?"
     publication: RTBF

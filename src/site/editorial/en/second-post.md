@@ -2,7 +2,7 @@
 id: " a second post"
 title: Dating applications share your data. Find out with whom.
 date: 2021-04-08T11:42:06.880Z
-image: https://www.forbrukerradet.no/wp-content/uploads/2020/01/out-of-control-mobil-650x433-liten-.jpg
+image: /assets/media/out-of-control-mobil-650x433-liten-c-Forbrukerradet-c.jpg
 image_caption: Illustration by Forbrukerrådet
 hero: How Advertisement third parties work? A Review Of Data Sharing By Popular
   Mobile Apps by the Norwegian Consumer Council
