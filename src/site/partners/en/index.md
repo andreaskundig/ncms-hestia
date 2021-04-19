@@ -37,7 +37,7 @@ partners:
       partner or partners. Their expertise and legitimacy on these topics would
       enhance the value of this knowledge and give it the scientific resonance
       it deserves.
-    url: https://commons.wikimedia.org/wiki/File:EPFL_RLC_2017.jpg
+    url: ""
     image: https://upload.wikimedia.org/wikipedia/commons/e/e3/EPFL_RLC_2017.jpg
     image_caption: Mediacom EPFL, CC BY-SA 4.0
   - description: Help your audience connect the dots and play your role as the
