@@ -7,7 +7,7 @@ image_caption: Illustration by O. Dorsaz
 post_categories:
   - Grindr
 post_authors:
-  - MPV
+  - JP
 suggested_editorials:
   - a second post
 suggested_interviews:

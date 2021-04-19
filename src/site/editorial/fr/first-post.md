@@ -5,7 +5,7 @@ image: https://placekitten.com/200/300
 image_caption: kitten
 lead: Une accroche irrestistible
 post_categories:
-  - euphoric
+  - Grindr
 post_authors:
   - MPV
 ---
