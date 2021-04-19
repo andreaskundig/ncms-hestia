@@ -52,7 +52,7 @@ permalink: /en/partners/index.html
 inverse: true
 title: Partners
 hero: "**Partners we trust**"
-hero_image: https://www.freepik.com/free-vector/partners-holding-big-jigsaw-puzzle-pieces_7732651.htm
+hero_image: /assets/media/nicepng_group-of-people-png_4459253.png
 hero_image_caption: People vector created by pch.vector
 introduction: >-
   We only collaborate and engage with partners who we trust and who meet our
