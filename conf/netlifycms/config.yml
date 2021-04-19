@@ -204,7 +204,7 @@ collections:
       i18n: true
       summary: '{{fields.description}}'
       fields:
-        - {label: "Date", name: date, required: false, widget: date, date_format: "MM/YYYY" }
+        - {label: "Date", name: date, required: false, widget: date, format: "YYYY-MM", date_format: "YYYY-MM", picker_utc: true }
         - {label: Description, name: description, required: false, widget: markdown }
 
 #TODO check changes in figma
