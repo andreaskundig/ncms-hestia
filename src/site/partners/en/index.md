@@ -37,17 +37,16 @@ partners:
       partner or partners. Their expertise and legitimacy on these topics would
       enhance the value of this knowledge and give it the scientific resonance
       it deserves.
-    url: mailto:datingprivacy@personaldata.io
-    image: https://www.freepik.com/free-vector/flat-university-concept_4565883.htm#page=1&query=academic&position=0
-    image_caption: <a href="https://www.freepik.com/vectors/school">School vector
-      created by freepik - www.freepik.com</a>
+    url: https://commons.wikimedia.org/wiki/File:EPFL_RLC_2017.jpg
+    image: https://upload.wikimedia.org/wikipedia/commons/e/e3/EPFL_RLC_2017.jpg
+    image_caption: Mediacom EPFL, CC BY-SA 4.0
   - description: Help your audience connect the dots and play your role as the
       fourth estate by covering our efforts  of dating app privacy risks and
       better practices.
     title: Media partners
-    url: mailto:partners@hestialabs.org
-    image: <a href='https://www.freepik.com/vectors/camera'>Camera vector created by
-      macrovector - www.freepik.com</a>
+    url: ""
+    image: https://upload.wikimedia.org/wikipedia/commons/6/6a/Jamikaverhandlungen_Nov_2017_7.jpg
+    image_caption: Kasa Fue, CC BY-SA 4.0
 permalink: /en/partners/index.html
 inverse: true
 title: Partners
