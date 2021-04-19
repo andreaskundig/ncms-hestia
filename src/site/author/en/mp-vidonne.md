@@ -1,4 +1,4 @@
 ---
 id: MPV
-name: Marie-Pierre Vidonne
+name: Marie-Pierre
 ---
