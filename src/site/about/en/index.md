@@ -1,9 +1,13 @@
 ---
 title: About us
 hero: |-
-  Dreaming of a data-driven breakthrough?
-  — We have the skills to make it happen\
+  Dreaming of a data-driven breakthrough? We have the skills to make it happen\
   **Let’s talk**
+hero_image: /assets/media/hl_aboutus_hero-c-matt-ridley-unsplash-c.jpeg
+hero_image_caption: Photo by [Matt
+  Ridley](https://unsplash.com/@mattwridley?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/innovation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 story_title: A short story about us
 story: >-
   The work of HestiaLabs' founder (the mathematician Paul-Olivier Dehaye) led to
