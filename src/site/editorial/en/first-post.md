@@ -5,7 +5,7 @@ date: 2021-03-23T12:32:00.000Z
 image: /assets/media/do-not-touch-my-data.png
 image_caption: Illustration by O. Dorsaz
 post_categories:
-  - euphoric
+  - Grindr
 post_authors:
   - MPV
 suggested_editorials:

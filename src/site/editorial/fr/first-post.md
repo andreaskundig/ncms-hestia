@@ -6,10 +6,8 @@ image_caption: kitten
 lead: Une accroche irrestistible
 post_categories:
   - euphoric
-  - chill
-  - sleepy
 post_authors:
-  - dan brown
+  - MPV
 ---
 mmmmm
 **mmmmmmm**
