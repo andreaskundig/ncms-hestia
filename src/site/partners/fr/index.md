@@ -4,7 +4,7 @@ you_image_caption: Photo de [Claudio Schwarz](https://unsplash.com/@purzlbaum)
 layout: partners
 title: Partenaires
 hero: "**Ensemble**"
-hero_image: /assets/media/hl_partners_hero-c-eric-krull-ejcuhcdfwrs-unsplash-c.jpeg
+hero_image: /assets/media/hl_partners_hero-c-xavi-cabrera-kn-umdzqdjm-unsplash-c.jpeg
 hero_image_caption: Photo de [Eric Krull](https://unsplash.com/@ekrull) sur
   [Unsplash](https://unsplash.com/photos/Ejcuhcdfwrs)
 you_title: Vous
