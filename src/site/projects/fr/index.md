@@ -26,7 +26,7 @@ running_projects:
   - dating privacy
 launchpad_projects_title: En préparation
 launchpad_projects:
-  - uber drivers
+  - uber-drivers
   - mobility
   - disinformation
   - data-literacy
