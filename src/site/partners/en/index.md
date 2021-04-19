@@ -53,8 +53,7 @@ inverse: true
 title: Partners
 hero: "**Partners we trust**"
 hero_image: https://www.freepik.com/free-vector/partners-holding-big-jigsaw-puzzle-pieces_7732651.htm
-hero_image_caption: <a href="https://www.freepik.com/vectors/people">People
-  vector created by pch.vector - www.freepik.com</a>
+hero_image_caption: People vector created by pch.vector
 introduction: >-
   # Partners we trust
 
