@@ -1,17 +1,18 @@
 ---
+submit_button_small: Submit project
+submit_url: mailto:projects@hestia.ai
+four_steps_title: 4 (non-sequential) steps to change the world
 layout: strategy
+four_steps_introduction: ""
 permalink: /en/strategy/index.html
 title: Strategy
 hero: |-
   An urgent **mission**\
   A relevant **strategy**
 hero_image: /assets/media/hl_strategy_hero_c-volodymyr-hryshchenko-ini8gnms190-unsplash-c.jpeg
-hero_image_caption: Photo by [Volodymyr Hryshchenko](https://unsplash.com/@lunarts)
-  on [Unsplash](https://unsplash.com/photos/inI8GnmS190)
-submit_button_small: Submit project
-submit_url: mailto:projects@hestialabs.org
-four_steps_title: 4 (non-sequential) steps to change the world
-four_steps_introduction: ""
+hero_image_caption: Photo by [Volodymyr
+  Hryshchenko](https://unsplash.com/@lunarts) on
+  [Unsplash](https://unsplash.com/photos/inI8GnmS190)
 introduction_title: '"With great power comes great responsibility"'
 introduction: >-
   "The best minds of my generation are thinking about how to make people click
