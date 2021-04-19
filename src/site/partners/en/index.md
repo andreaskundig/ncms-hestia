@@ -22,7 +22,7 @@ partners:
       network](https://mydata.org/organisation-members/), MyData Vaud helps
       Dating Privacy to find relevant partners and promote its events."
   - title: HestiaLabs
-    url: www.hestialabs.org
+    url: https://hestialabs.org/
     image: /assets/media/hestialabs_logo_vectorise.svg
     description: >-
       HestiaLabs is a common good project enabled by the [Migros Pioneer
