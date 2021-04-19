@@ -1,9 +1,9 @@
 ---
 id: a first blog post
-title: Grindr's profile
+title: Data on Grindr's profile
 date: 2021-03-23T12:32:00.000Z
 image: /assets/media/do-not-touch-my-data.png
-image_caption: illustration  by O. Dorsaz
+image_caption: "illustration  by O. Dorsaz "
 post_categories:
   - euphoric
   - chill
