@@ -45,7 +45,7 @@ timeline_events:
       ["Dating Privacy” Collective
       Launch](https://www.meetup.com/tech4goodLIN/events/276275535/)\
 
-      During this short session, the collective presented the risks you take when using dating apps, shared practices to protect your privacy and explained how you can recover your data if you want to know what happens when you're swiping and liking. We also outlined our first major data literacy project: one we want you to be involved in.
+      During this short session, the collective presented the risks you take when using dating apps, shared practices to protect your privacy and explained how you can recover your data if you want to know what happens when you're swiping and liking. We also outlined our first major data literacy project: one [we want you to be involved in](https://dating-privacy.hestialabs.org/en/act/sar).
 
 
       [Link to the presentation](https://tinyurl.com/20210212datingprivacy)
