@@ -1,18 +1,15 @@
 ---
-id: a second post
-title: Second post
+id: " a second post"
+title: How Advertisement third parties work. Read Out Of Control” – A Review Of
+  Data Sharing By Popular Mobile Apps by the Norwegian Consumer Council
 date: 2021-04-08T11:42:06.880Z
-image: https://placekitten.com/300/300
+image: ""
 lead: some enticing paragraphs
 post_categories:
   - chill
   - euphoric
   - hapay
 post_authors:
-  - proust
+  - MPV
 ---
-# Nothing
-
-
-
-Nothing new, just saying
+In this report published in January 2020, Norwegian Consumer Council demonstrate how every time we use our phones, a large number of shadowy entities that are virtually unknown to consumers are receiving personal data about our interests, habits, and behavior.<https://www.forbrukerradet.no/undersokelse/no-undersokelsekategori/report-out-of-control/>
