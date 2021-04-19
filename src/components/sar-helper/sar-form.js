@@ -13,7 +13,8 @@ const IDS = {
     select: 'dating-app-select',
     body: 'email-body',
     recipient: 'email-recipient',
-    subject: 'email-subject'
+    subject: 'email-subject',
+    partsToFillIn: 'email-parts-to-fill-in'
 };
 
 //TODO https://github.com/andreasbm/lit-translate
@@ -26,7 +27,9 @@ const TXT = {
     body: 'Body',
     bodyPlaceholder: 'Choose an app to fill this automatically',
     copyButton: 'Copy to clipboard',
-    emailButton: 'Open in your email client'
+    emailButton: 'Open in your email client',
+    emailButton: 'Open in your email client',
+    partsToFillIn: 'The following information needs to be filled in by hand in the email:'
 };
 
 export class SubjectAccessRequestForm extends LitElement {
@@ -44,7 +47,7 @@ export class SubjectAccessRequestForm extends LitElement {
             recipient: { type: String, attribute: false },
             subject: { type: String, attribute: false },
             body: { type: String, attribute: false },
-            incompleteBodyParts: { type: Array, attribute: false }
+            partsToFillIn: { type: Array, attribute: false }
         }
     }
 
@@ -55,7 +58,7 @@ export class SubjectAccessRequestForm extends LitElement {
         this.recipient = '';
         this.subject = '';
         this.body = '';
-        this.missingBodyParts = [];
+        this.partsToFillIn = [];
         this.i18n = {
             datingApp: 'Dating app',
             selectPlaceholder: 'Click to choose',
@@ -87,7 +90,7 @@ export class SubjectAccessRequestForm extends LitElement {
             this.body = mailTo.body;
             this.recipient = mailTo.recipient;
             this.subject = mailTo.subject;
-            this.missingBodyParts = mailTo.body.match(/.*<<.*>>/g);
+            this.partsToFillIn = mailTo.body.match(/.*<<.*>>/g);
         }
     }
 
@@ -123,7 +126,6 @@ export class SubjectAccessRequestForm extends LitElement {
 
     render() {
         const t = this;
-        const TXT = this.i18n;
         return html`
           <div class="inline">
             <label for="${IDS.select}">${TXT.datingApp}</label>
@@ -159,11 +161,16 @@ export class SubjectAccessRequestForm extends LitElement {
                ${TXT.copyButton}
              </button>
           </div>
-<!--
+        ${!this.partsToFillIn.length ? '' : html`
           <div>
-               ${this.missingBodyParts.join('')}
-          </div>
--->
+            <div>${TXT.partsToFillIn}</div>
+            <ul>
+               ${this.partsToFillIn.map(p =>
+                   html`<li>${p}</li>`)}
+            </ul>
+          </div>`
+         }
+
           <div>
             <label for="${IDS.body}">${TXT.body}</label>
             <textarea placeholder="${TXT.bodyPlaceholder}"
