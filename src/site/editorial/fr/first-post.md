@@ -7,7 +7,7 @@ lead: Une accroche irrestistible
 post_categories:
   - Grindr
 post_authors:
-  - MPV
+  - JP
 ---
 mmmmm
 **mmmmmmm**
