@@ -1,22 +1,15 @@
 ---
+you_image_caption: Photo by [Claudio Schwarz](https://unsplash.com/@purzlbaum)
+  on [Unsplash](https://unsplash.com/photos/k39RGHmLoV8)
 layout: partners
-permalink: /en/partners/index.html
 title: Partners
 hero: |-
   Together with our partners,\
   we build **trust**
 hero_image: /assets/media/hl_partners_hero-c-eric-krull-ejcuhcdfwrs-unsplash-c.jpeg
-hero_image_caption: Photo by [Eric Krull](https://unsplash.com/@ekrull)
-  on [Unsplash](https://unsplash.com/photos/Ejcuhcdfwrs)
+hero_image_caption: Photo by [Eric Krull](https://unsplash.com/@ekrull) on
+  [Unsplash](https://unsplash.com/photos/Ejcuhcdfwrs)
 you_title: You
-you_description: |-
-  You are interested in building a better digital world?\
-  You think you can help us achieve our ambitious goals?\
-  Or maybe you just want to chat a bit?
-you_url: mailto:partners@hestialabs.org
-you_image: /assets/media/you_partner_claudio-schwarz-purzlbaum-unsplash.jpeg
-you_image_caption: Photo by [Claudio Schwarz](https://unsplash.com/@purzlbaum)
-  on [Unsplash](https://unsplash.com/photos/k39RGHmLoV8)
 you_button: Let's talk
 partners:
   - title: "Innovation partner: Migros Pioneer Fund"
@@ -92,4 +85,11 @@ partners:
       Films](https://unsplash.com/@vanillabearfilms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
       on
       [Unsplash](https://unsplash.com/s/photos/journalist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+permalink: /en/partners/index.html
+you_image: /assets/media/you_partner_claudio-schwarz-purzlbaum-unsplash.jpeg
+you_description: |-
+  You are interested in building a better digital world?\
+  You think you can help us achieve our ambitious goals?\
+  Or maybe you just want to chat a bit?
+you_url: mailto:projects@hestia.ai
 ---
