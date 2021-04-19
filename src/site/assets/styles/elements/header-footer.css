@@ -41,6 +41,25 @@
   height: var(--footer-height-inner);
 }
 
+.header-cell-one-third,
+.footer-cell-one-third,
+.header-cell-two-thirds,
+.footer-cell-two-thirds {
+  flex: 1;
+}
+
+.header-cell-one-third,
+.footer-cell-one-third {
+  min-width: 32%;
+  max-width: 32%;
+}
+
+.header-cell-two-thirds,
+.footer-cell-two-thirds {
+  min-width: 64%;
+  max-width: 64%;
+}
+
 .header-logo img,
 .footer-logo img {
   display: inline-block;
@@ -49,7 +68,8 @@
 .header-navigation,
 .footer-navigation {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: flex-end;
 }
 
 .header-navigation a,
