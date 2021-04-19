@@ -4,6 +4,9 @@ hero: |-
   A problem with a dating app? \
   Ideas, skills or goodwill to share? \
   **Let's talk**
+hero_image: /assets/media/29-aaron-burden-xg8iqmqmitm-unsplash.jpg
+hero_image_caption: Photo by [Aaron
+  Burden](https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/idea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 contact_community: You feel cheated by your dating app?
 contact_community_action: Join the community
 contact_community_url: https://dating-privacy.hestialabs.org/en/community/
@@ -22,7 +25,7 @@ contact_media_action: Get in touch with Frank
 contact_other: Something else?
 contact_first_name: First name
 contact_last_name: Last name
-contact_email: Email
 contact_subject: Subject
 contact_title: Contact us
+contact_email: Email
 ---
