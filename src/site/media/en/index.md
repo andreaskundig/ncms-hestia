@@ -29,6 +29,6 @@ media_articles:
     lead: Aujourd'hui Tinder est l'application la plus téléchargée dans le monde, un
       business très lucratif.
     url: https://rts.ch/play/tv/redirect/detail/12087030
-    image: /assets/media/media-tinder-ttc-c-rts-c.png
+    image: /assets/media/media-tinder-ttc-c-rts-c.jpg
 media_kit: Media kit
 ---
