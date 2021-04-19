@@ -3,7 +3,7 @@ id: a first blog post
 title: Data on Grindr's profile
 date: 2021-03-23T12:32:00.000Z
 image: /assets/media/do-not-touch-my-data.png
-image_caption: "illustration  by O. Dorsaz "
+image_caption: Illustration by O. Dorsaz
 post_categories:
   - euphoric
   - chill
@@ -11,7 +11,7 @@ post_categories:
 post_authors:
   - dan brown
 suggested_editorials:
-  - " a second post"
+  - a second post
 suggested_interviews:
   - papa legba
 suggested_infographics:
