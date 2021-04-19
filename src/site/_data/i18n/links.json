@@ -1,0 +1,18 @@
+{
+  "en": {
+    "twitter_label": "Twitter",
+    "twitter_url": "https://twitter.com/HestiaLabs",
+    "linkedin_label": "LinkedIn",
+    "linkedin_url": "https://www.linkedin.com/company/hestia-ai/",
+    "facebook_label": "Facebook",
+    "facebook_url": "https://www.facebook.com/hestialabs/"
+  },
+  "fr": {
+    "twitter_label": "Twitter",
+    "twitter_url": "https://twitter.com/HestiaLabs",
+    "linkedin_label": "LinkedIn",
+    "linkedin_url": "https://www.linkedin.com/company/hestia-ai/",
+    "facebook_label": "Facebook",
+    "facebook_url": "https://www.facebook.com/hestialabs/"
+  }
+}

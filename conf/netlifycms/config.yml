@@ -67,6 +67,17 @@ collections:
         - { label: "First name", name: first_name, required: false, widget: string, i18n: true }
         - { label: "Last name", name: last_name, required: false, widget: string, i18n: true }
         - { label: "Email address", name: email, required: false, widget: string, i18n: true }
+    - label: External links
+      name: i18n-links
+      file: src/site/_data/i18n/links.json
+      i18n: true
+      fields:
+        - { label: Twitter label, name: twitter_label, required: true, widget: string, i18n: true }
+        - { label: Twitter URL, name: twitter_url, required: true, widget: string, i18n: true }
+        - { label: LinkedIn label, name: linkedin_label, required: true, widget: string, i18n: true }
+        - { label: LinkedIn URL, name: linkedin_url, required: true, widget: string, i18n: true }
+        - { label: Facebook label, name: facebook_label, required: true, widget: string, i18n: true }
+        - { label: Facebook URL, name: facebook_url, required: true, widget: string, i18n: true }
 
 - label: ‹Projects›
   name: project
