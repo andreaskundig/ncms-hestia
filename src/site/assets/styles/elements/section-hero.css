@@ -42,6 +42,12 @@ section.masthero.inverse {
 }
 
 section.masthero figcaption {
+  display: none;
+}
+
+/*
+section.masthero figcaption {
+  display: none;
   position: absolute;
   right: var(--line-height-base);
 }
@@ -49,3 +55,4 @@ section.masthero figcaption {
 section.masthero figcaption > * {
   font-size: var(--text-sm-font-size);
 }
+*/
