@@ -1,8 +1,16 @@
 ---
-people_title: People
 layout: community
+inverse: true
 permalink: /en/community/index.html
+title: Community
+hero: "Personal data **community**"
+hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66
+hero_image_caption: Illustration by [Pascale
+  Cerchio](https://www.peoplerise.net/wp-content/uploads/2020/07/ale-cerchio.png)
 story_title: A short story about us
+story: We are a small group of skilled individuals working to define a new
+  relationship with data in dating.
+people_title: People
 people:
   - name: Jessica
     description: "[Jessica Pidoux](https://jessicapidoux.info/), Doctoral Researcher
@@ -24,14 +32,6 @@ people:
       policies and how online dating interacts with collective practices and
       communities."
   - description: A member helps us with  all the legal facets.
-inverse: true
-title: Community
-hero: Personal data community
-hero_image: https://images.unsplash.com/photo-1588613254750-cf5d89a29b66
-hero_image_caption: Illustration by Pascale
-  Cerchio[](https://www.peoplerise.net/wp-content/uploads/2020/07/ale-cerchio.png)
-story: We are a small group of skilled individuals working to define a new
-  relationship with data in dating.
 timeline_title: How it started - How it's going
 timeline_events:
   - date: 2020-11
@@ -52,8 +52,8 @@ timeline_events:
 chat_groups_title: We are active in online forum and social media to discuss
   about privacy and online dating. Join the conversation
 chat_groups:
-  - link: https://forum.personaldata.io/
-    name: Forum
+  - name: Forum
+    link: https://forum.personaldata.io/
   - name: Twitter
     link: https://twitter.com/datingprivacy
 ---
