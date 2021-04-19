@@ -1,5 +1,5 @@
 ---
-title: Medias
+title: Médias
 hero: |-
   Ils parlent de notre\
   **vertu**
