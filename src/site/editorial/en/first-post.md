@@ -1,27 +1,33 @@
 ---
 id: a first blog post
-title: A *first* **blog** post
-date: 2021-04-08T11:32:25.646Z
-image: https://placekitten.com/200/300
-image_caption: kitten
-lead: An **attention**-*grabbing* lead
+title: Data on Grindr's profile
+date: 2021-03-23T12:32:00.000Z
+image: /assets/media/do-not-touch-my-data.png
+image_caption: Illustration by O. Dorsaz
 post_categories:
-  - euphoric
-  - chill
-  - sleepy
+  - Grindr
 post_authors:
-  - dan brown
+  - JP
 suggested_editorials:
   - a second post
 suggested_interviews:
   - papa legba
 suggested_infographics:
   - napoleon in russia
+lead: An **attention**-*grabbing* lead
 ---
-This also works as a template for nunjucks. Here's my locale: {{locale}}<br>
+1-On Grindr's profile page a user can describe the "morphology" only as a man according to the given categories in masculin (French: "entretenu, moyen, grand, musclé, mince, trapu) which is still an explicit indication that the app assumes by design users are gay men.
 
-{% creditedImage "/assets/media/kitten-c-lachlan-rogers-c-.jpg", "a kitten", "how cute", "Lachlan Rogers" %}
+2-The same for ethnicity in masculin "asiatique, noir, latino, Homme du moyen orient, métis, amérindien, blanc, sud asiatique, autres"
 
-Another credited image:
+3-After creating an account, a picture, a name are requested to fill in (no mandatory). The age is shown after creating the account and entering date of birth.
 
-{% creditedImage "/assets/media/pexels-c-maria-orlova-c-4906149.jpg", "grilling marshmallows", "that's too much sugar right here", "Maria Orlova" %}
+4-Sex is not mandatory for creating an account in Grindr in contrast to other generalist dating apps like Tinder or Bumble for hetero, gay and bi that request the user's sex and s-he sex of preference.
+
+5-Instead, on Grindr the user can decide to fill in the sex later if he decides to complete his profile. "No answer" is selected by default by the app in the profile page.
+
+6- The assumption can be also largely confirmed by the abundance of scientific articles studying gay men user practices on Grindr and not other other sexual orientations.
+
+{% creditedImage "", "", "", "Lachlan Rogers" %}
+
+{% creditedImage "", "", "", "Maria Orlova" %}
