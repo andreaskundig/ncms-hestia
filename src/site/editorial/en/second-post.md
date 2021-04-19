@@ -6,9 +6,7 @@ image: ""
 hero: '"How Advertisement third parties work  – A Review Of Data Sharing By
   Popular Mobile Apps by the Norwegian Consumer Council'
 post_categories:
-  - chill
-  - euphoric
-  - hapay
+  - report
 post_authors:
   - MPV
 lead: some enticing paragraphs
