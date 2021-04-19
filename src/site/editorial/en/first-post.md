@@ -12,7 +12,7 @@ post_categories:
 post_authors:
   - dan brown
 suggested_editorials:
-  - " a second post"
+  - a second post
 suggested_interviews:
   - papa legba
 suggested_infographics:

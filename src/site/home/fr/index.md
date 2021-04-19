@@ -43,5 +43,5 @@ partners_description: >-
 sar_button: Ask for you data
 news_title: News and events
 news:
-  - " a second post"
+  - a second post
 ---
