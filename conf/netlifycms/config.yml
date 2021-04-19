@@ -208,16 +208,16 @@ collections:
         - {label: Description, name: description, required: false, widget: markdown }
 
 #TODO check changes in figma
-- label: Impressum
-  name: impressum
-  folder: src/site/impressum
+- label: Legal
+  name: legal
+  folder: src/site/legal
   extension: md
   editor:
     preview: false
   create: false
   delete: false
   i18n: true
-  preview_path: /en/impressum/
+  preview_path: /en/legal/
   fields:
     - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
