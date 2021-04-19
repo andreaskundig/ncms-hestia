@@ -1,4 +1,4 @@
 ---
 id: JP
-name: JP
+name: Jessica Pidoux
 ---
