@@ -145,9 +145,9 @@ collections:
       widget: "list"
       i18n: true
       field:
-        name: "Infograpic"
+        name: "Infographic"
         widget: relation
-        collection: infograpics
+        collection: infographics
         value_field: "id"
         display_fields: ["title"]
         multiple: false
