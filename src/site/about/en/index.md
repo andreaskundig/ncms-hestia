@@ -1,9 +1,7 @@
 ---
-layout: about
-permalink: /en/about/index.html
 title: About us
 hero: |-
-  Dreaming of a data-driven breakthrousgh?
+  Dreaming of a data-driven breakthrough?
   — We have the skills to make it happen\
   **Let’s talk**
 story_title: A short story about us
@@ -22,7 +20,7 @@ story: >-
 contact_title: Contact us
 contact_project: Your great project require data analysis?
 contact_project_action: Click here. We might help!
-contact_project_url: mailto:project@hestialabs.org
+contact_project_url: mailto:projects@hestia.ai
 contact_sharer: You would like to share your data in a constructive way (without being cheated)
 contact_sharer_action: Check our running projects
 contact_sharer_url: https://hestialabs.org/en/projects/
@@ -30,7 +28,9 @@ contact_partner: You feel like you would be a valuable partner for HestiaLabs?
 contact_partner_action: Get in touch with Marie-Pierre
 contact_media: Are you a journalist?
 people_title: People
-contact_partner_url: mailto:partners@hestialabs.org
+layout: about
+permalink: /en/about/index.html
+contact_partner_url: mailto:partners@hestia.ai
 contact_media_action: This page is just for you
 contact_media_url: https://hestialabs.org/en/media/
 contact_other: Something else?
@@ -42,7 +42,7 @@ people:
       on the board of MyData Global. He is the **CEO** of Hestia.ai, the company
       running the HestiaLabs project.
     twitter: https://twitter.com/podehaye
-    image: /assets/media/dehaye_paul-olivier_portrait_berlin_crop.jpg
+    image: /assets/media/blue_background.jpg
   - name: Olivier Lange
     description: Creative, skilled, intuitive and listening "software artisan",
       Olivier is the **CTO** of HestiaLabs.
