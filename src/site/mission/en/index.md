@@ -22,10 +22,10 @@ introduction: >-
   There is not enough visibility and situated knowledge about privacy and data protection on dating apps. A general definition of privacy does not apply to every app type. Plus, when you are dating you are interested in establishing trust with your potential date and also with the app introducing you to other people. We seek to raise awareness about privacy risks, as well as develop the potentialities of having new ethical, fair and collective values for the use of technologies and privacy.
 
 
-  ![Photo by Karla Hernandez on Unsplash](/assets/media/33-karla-hernandez-lrlyzzx6sws-unsplash.jpg)
+  ![](/assets/media/33-karla-hernandez-lrlyzzx6sws-unsplash.jpg)
 
 
-  {% creditedImage "https://unsplash.com/photos/LrlyZzX6Sws", "Photo by Karla Hernandez on Unsplash", "", "" %}
+  {% creditedImage "", "Photo by Karla Hernandez on Unsplash", "", "" %}
 
 
   Some users do not know their data is being collected, or for which purposes. 
