@@ -1,7 +1,5 @@
 ---
-layout: media
-permalink: /fr/media/index.html
-title: Medias
+title: Médias
 hero: |-
   Ils parlent de notre\
   **vertu**
@@ -21,6 +19,8 @@ press_releases:
   - date: 2021-04-06T10:38:12.392Z
     title: Bonjour le monde
     url: https://fr.wikipedia.org/wiki/Hello_world
+layout: media
+permalink: /fr/media/index.html
 media_articles:
   - date: 2021-04-06T10:35:49.955Z
     title: "La forteresse du Big Data: quel(s) impact(s) sur notre souveraineté

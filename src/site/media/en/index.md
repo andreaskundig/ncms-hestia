@@ -1,7 +1,5 @@
 ---
-layout: media
-permalink: /en/media/index.html
-title: Medias
+title: Media
 hero: |-
   They talk about our\
   **virtuous uses of data**
@@ -11,13 +9,18 @@ hero_image_caption: Photo by [Laura Lee Moreau](https://unsplash.com/@laura_lee)
 articles_title: Last articles
 read_button: Read
 contact_title: Contact
-contact_email: press@hestialabs.org
-media_kit_title: ""
-media_kit_file: ""
-download_title: ""
-download_button: ""
-press_releases_title: ""
-press_releases: []
+contact_email: press@hestia.ai
+media_kit_title: Coming soon
+media_kit_file: mailto:press@hestia.ai
+download_title: Coming soon
+download_button: Coming soon
+press_releases_title: Coming soon
+press_releases:
+  - date: 2021-04-20T12:59:14.786Z
+    title: Coming soon
+    url: mailto:press@hestia.ai
+layout: media
+permalink: /en/media/index.html
 media_articles:
   - date: 2021-03-30T10:21:28.350Z
     title: Tinder, un business très lucratif
