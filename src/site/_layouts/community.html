@@ -3,6 +3,7 @@ layout: defaultWithHero
 ---
 <section id="story">
   <h1>{% markdown story_title %}</h1>
+  <div>{% markdown story %}</div>
   {% for person in people %}
     <div>
       <img src="{{person.image}}" alt="{{person.name}}" title="{{person.name}}">
@@ -21,7 +22,6 @@ layout: defaultWithHero
       </p>
     </div>
   {% endfor %}
-  <div>{% markdown story %}</div>
 </section>
 
 <section id="timeline">
