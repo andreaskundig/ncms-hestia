@@ -1,12 +1,12 @@
 ---
 layout: mission
 permalink: /fr/mission/index.html
+title: Mission
+hero: Dating Privacy's journey
 hero_image: null
 introduction_title: Dating Privacy aims to raise awareness about privacy risks
   and build new practices in online dating for both users and platforms.
 conclusion_title: YOUR projects make this happen
-title: Mission
-hero: Dating Privacy's journey
 hero_image_caption: null
 introduction: >-
   ## The problem 

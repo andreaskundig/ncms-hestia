@@ -1,13 +1,14 @@
 ---
 layout: mission
 permalink: /en/mission/index.html
-hero_image: null
+title: Mission
+hero: Dating Privacy's journey
+hero_image: /assets/media/32-mojtaba-mohammadi-yiotsd3flka-unsplash.jpg
 introduction_title: Dating Privacy aims to raise awareness about privacy risks
   and build new practices in online dating for both users and platforms.
 conclusion_title: YOUR projects make this happen
-title: Mission
-hero: Dating Privacy's journey
-hero_image_caption: null
+hero_image_caption: Photo by [Mojtaba
+  Mohammadi](https://unsplash.com/@mojitaba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/ways?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 introduction: >-
   ## The problem 
 
