@@ -1,14 +1,17 @@
 ---
 layout: partners
-inverse: true
-permalink: /en/partners/index.html
 title: Partners
-hero: |-
-  **Partners we trust**\
-  We only collaborate and engage with partners who we trust and who meet our [ethical chart](../ethics/). They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
-hero_image: https://images.unsplash.com/photo-1594477898765-b9ad43ad9cfc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80
-hero_image_caption: Photo by [Nick Fewings](https://unsplash.com/@jannerboy62)
-  on [Unsplash](https://unsplash.com/photos/0Qdm8Gbg6PE)
+hero: "**Partners we trust**"
+hero_image: https://www.freepik.com/free-vector/partners-holding-big-jigsaw-puzzle-pieces_7732651.htm
+hero_image_caption: <a href="https://www.freepik.com/vectors/people">People
+  vector created by pch.vector - www.freepik.com</a>
+introduction: >-
+  # Partners we trust
+
+
+  We only collaborate and engage with partners who we trust and who meet our [ethical chart](https://dating-privacy.hestialabs.org/en/ethics/).
+
+  They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
 partners:
   - title: PersonalData.IO
     description: >-
@@ -42,20 +45,26 @@ partners:
 
       HestiaLabs helps Dating Privacy with fundraising and communication. Above all, it does the hard work of analysing the data collected and turning it into actionable insights.
   - title: Academic partners
-    description: ""
+    description: Dating privacy would be delighted to team up with an academic
+      partner or partners. Their expertise and legitimacy on these topics would
+      enhance the value of this knowledge and give it the scientific resonance
+      it deserves.
     url: mailto:datingprivacy@personaldata.io
-    image: ""
-  - description: ""
+    image: https://www.freepik.com/free-vector/flat-university-concept_4565883.htm#page=1&query=academic&position=0
+    image_caption: <a href="https://www.freepik.com/vectors/school">School vector
+      created by freepik - www.freepik.com</a>
+  - description: Help your audience connect the dots and play your role as the
+      fourth estate by covering our efforts  of dating app privacy risks and
+      better practices.
     title: Media partners
     url: mailto:partners@hestialabs.org
-    image: ""
+    image: <a href='https://www.freepik.com/vectors/camera'>Camera vector created by
+      macrovector - www.freepik.com</a>
   - url: mailto:datingprivacy@personaldata.io
     title: associations (LGBIQ+, feministes, ...)
-introduction: >-
-  Partners we trust
-
-
-  We only collaborate and engage with partners who we trust and who meet our [ethical chart](https://dating-privacy.hestialabs.org/en/ethics/).
-
-  They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
+    description: "**TO REMOVE AT LAUNCH.** texte pas pret"
+    image: <a href='https://www.freepik.com/vectors/people'>People vector created by
+      pch.vector - www.freepik.com</a>
+permalink: /en/partners/index.html
+inverse: true
 ---
