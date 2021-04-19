@@ -2,7 +2,8 @@
 id: " a second post"
 title: Out Of Control
 date: 2021-04-08T11:42:06.880Z
-image: ""
+image: https://www.forbrukerradet.no/wp-content/uploads/2020/01/out-of-control-mobil-650x433-liten-.jpg
+image_caption: Illustration by Forbrukerrådet
 hero: How Advertisement third parties work  – A Review Of Data Sharing By
   Popular Mobile Apps by the Norwegian Consumer Council
 post_categories:
