@@ -23,8 +23,8 @@ people:
       data. [](https://wiki.personaldata.io/wiki/User:Frandrews
       "User:Frandrews")'
   - description: An other member maps the dating app ecosystem in the wiki platform
-      available thanks to our partner personaldata.io and delves into dating app
-      patents.
+      available thanks to our partner [personaldata.io
+      ](https://personaldata.io)and delves into dating app patents.
   - description: "[](https://jessicapidoux.info/)Another member digs into regulation
       policies and how online dating interacts with collective practices and
       communities."
