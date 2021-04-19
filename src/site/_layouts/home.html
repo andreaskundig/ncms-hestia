@@ -67,17 +67,23 @@ inverse: true
   <h1>{% markdown news_title %}</h1>
   <noscript>You need JavaScript enabled to see the additional news articles hereafter.</noscript>
   <div class="grid-layout-halves with-grid-gutters">
-    {% for edito in collections.editorial %}
-      {% if edito.data.locale == locale
-         and edito.data.id in news %}
-        <article-breakout class="grid-cell"
-          href="{{edito.url}}" imgSrc="{{edito.data.image}}">
-          <span slot="title">{% markdown edito.data.title %}</span>
-            {% markdown edito.data.image_caption %}
-          </span>
-          {% markdown edito.data.lead %}
-        </article-breakout>
-      {% endif %}
+    {% set news = {editorial: news_editorials,
+                   interview: news_interviews,
+                   infographics: news_infographics} %}
+    {% for news_type, news_ids in news %}
+      {% for edito in collections[news_type] %}
+        {% if edito.data.locale == locale and news_ids
+           and edito.data.id in news_ids %}
+          <article-breakout class="grid-cell"
+            href="{{edito.url}}" imgSrc="{{edito.data.image}}">
+            <span slot="title">{% markdown edito.data.title %}</span>
+            <span slot="img-caption">
+              {% markdown edito.data.image_caption %}
+            </span>
+            {% markdown edito.data.lead %}
+          </article-breakout>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   </div>
 </section>

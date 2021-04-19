@@ -52,7 +52,7 @@ strategy_description: >-
   We support **community projects around personal data collectives**. We put our **skills** (technical, legal, advocacy) and **networks** at their disposal.
 projects_title: Running projects
 news_title: News and events
-news:
+news_editorials:
   - a first blog post
   - a second post
 ---

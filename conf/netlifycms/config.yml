@@ -147,14 +147,38 @@ collections:
         search_fields: ["name", "description"]
     - { label: "News title", name: news_title, required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - label: "News items"
-      name: "news"
+    - label: "News editorials"
+      name: "news_editorials"
       widget: "list"
       i18n: true
       field:
         name: "Editorial"
         widget: relation
         collection: editorials
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
+    - label: "News interviews"
+      name: "news_interviews"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Interview"
+        widget: relation
+        collection: interviews
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: false
+        search_fields: ["title", "body"]
+    - label: "News infographics"
+      name: "news_infographics"
+      widget: "list"
+      i18n: true
+      field:
+        name: "Infographic"
+        widget: relation
+        collection: infographics
         value_field: "id"
         display_fields: ["title"]
         multiple: false

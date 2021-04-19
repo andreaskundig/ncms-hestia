@@ -31,6 +31,6 @@ featured_projects:
   - disinformation
   - data-literacy
 news_title: Nouvelles et événements
-news:
+news_editorials:
   - a second post
 ---
