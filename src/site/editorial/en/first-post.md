@@ -6,10 +6,8 @@ image: /assets/media/do-not-touch-my-data.png
 image_caption: Illustration by O. Dorsaz
 post_categories:
   - euphoric
-  - chill
-  - sleepy
 post_authors:
-  - dan brown
+  - MPV
 suggested_editorials:
   - a second post
 suggested_interviews:
