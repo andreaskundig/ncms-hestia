@@ -4,7 +4,7 @@ permalink: /fr/act/sar/index.html
 title: Obtenez vos données
 hero: |-
   Faites-le advenir — \
-  Obtenez vos données! \
+  Récupérez vos données! \
   **Maintenant**  ⤵️
 sar_title: Demandez vos données
 sar_subtitle: Vous pouvez demander une copie de vos données personnelles
