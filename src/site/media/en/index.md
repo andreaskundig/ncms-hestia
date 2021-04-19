@@ -1,5 +1,5 @@
 ---
-title: Medias
+title: Media
 hero: |-
   They talk about our\
   **virtuous uses of data**
