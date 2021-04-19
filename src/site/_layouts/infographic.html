@@ -23,6 +23,9 @@ layout: defaultWithLeadTitle
     <img src="{{image}}">
     <figcaption>{% markdown image_caption %}</figcaption>
   </figure>
+  <div>
+    {{ content | safe }}
+  </div>
 </section>
 
 <section id="suggested-posts">
