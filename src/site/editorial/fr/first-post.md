@@ -5,11 +5,9 @@ image: https://placekitten.com/200/300
 image_caption: kitten
 lead: Une accroche irrestistible
 post_categories:
-  - euphoric
-  - chill
-  - sleepy
+  - Grindr
 post_authors:
-  - dan brown
+  - JP
 ---
 mmmmm
 **mmmmmmm**
