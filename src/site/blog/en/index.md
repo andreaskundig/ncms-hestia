@@ -1,14 +1,14 @@
 ---
-layout: blog
-permalink: /en/blog/index.html
 title: Data stories
-hero: Our **wonderfuls posts**
-hero_image: 
-hero_image_caption: Photo by [Max Langelott](https://unsplash.com/@freiburgermax)
-  on [Unsplash](https://unsplash.com/photos/wWQ760meyWI)
+hero: ""
+hero_image: /assets/media/28-sincerely-media-vcf5y2edm6a-unsplash.jpg
+hero_image_caption: Photo by [Sincerely
+  Media](https://unsplash.com/@sincerelymedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/blog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 editorials_title: Latest posts
-authors_title: authors
 interviews_title: Special guests
 infographics_title: Infographics
 categories_title: categories
+authors_title: authors
+layout: blog
+permalink: /en/blog/index.html
 ---
