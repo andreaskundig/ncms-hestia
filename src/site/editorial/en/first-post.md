@@ -9,7 +9,7 @@ post_categories:
 post_authors:
   - JP
 suggested_editorials:
-  - a first blog post
+  - " a second post"
 suggested_interviews:
   - papa legba
 suggested_infographics:
