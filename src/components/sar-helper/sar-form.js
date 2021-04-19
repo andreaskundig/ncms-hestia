@@ -28,7 +28,6 @@ const TXT = {
     bodyPlaceholder: 'Choose an app to fill this automatically',
     copyButton: 'Copy to clipboard',
     emailButton: 'Open in your email client',
-    emailButton: 'Open in your email client',
     partsToFillIn: 'The following information needs to be filled in by hand in the email:'
 };
 
