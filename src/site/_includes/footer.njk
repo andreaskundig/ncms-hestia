@@ -1,16 +1,25 @@
 <footer class="footer-outer">
   <div class="footer-inner responsive-wrapper">
-    <a href="/{{locale}}" class="foot-logo"
-      role="img" aria-label="{{i18n.header_footer[locale].home}}">
-      <img src="/assets/img/hestialabs-logo+text-inverted.svg"
-        onerror="this.onerror=null; this.src='/assets/img/hestialabs-logo+text-inverted.export-390x147.png'"
-        height="72" width="191" alt="‹HestiaLabs› logo">
-    </a>
-    <nav class="footer-navigation">
-      <a href="/{{locale}}/media/">{{i18n.header_footer[locale].media}}</a>
-      <a href="/{{locale}}/legal/">{{i18n.header_footer[locale].legal}}</a>
-      <a href="/{{locale}}/about/">{{i18n.header_footer[locale].about}}</a>
-      <a href="/{{locale}}/about/#contact">{{i18n.header_footer[locale].contact}}</a>
-    </nav>
+    <div class="footer-cell-one-third">
+      <a href="/{{locale}}" class="foot-logo"
+        role="img" aria-label="{{i18n.header_footer[locale].home}}">
+        <img src="/assets/img/hestialabs-logo+text-inverted.svg"
+          onerror="this.onerror=null; this.src='/assets/img/hestialabs-logo+text-inverted.export-390x147.png'"
+          height="72" width="191" alt="‹HestiaLabs› logo">
+      </a>
+    </div>
+    <div class="footer-cell-two-thirds">
+      <nav class="footer-navigation">
+        <a href="/{{locale}}/media/">{{i18n.header_footer[locale].media}}</a>
+        <a href="/{{locale}}/legal/">{{i18n.header_footer[locale].legal}}</a>
+        <a href="/{{locale}}/about/">{{i18n.header_footer[locale].about}}</a>
+        <a href="/{{locale}}/about/#contact">{{i18n.header_footer[locale].contact}}</a>
+      </nav>
+      <nav class="footer-navigation">
+        <a href="https://twitter.com/HestiaLabs" rel="nofollow noopener">Twitter</a>
+        <a href="https://www.linkedin.com/company/hestia-ai/" rel="nofollow noopener">LinkedIn</a>
+        <a href="https://www.facebook.com/hestialabs/" rel="nofollow noopener">Facebook</a>
+      </nav>
+    </div>
   </div>
 </footer>
