@@ -1,7 +1,7 @@
 ---
 title: About us
 hero: |-
-  Dreaming of a data-driven breakthrousgh?
+  Dreaming of a data-driven breakthrough?
   — We have the skills to make it happen\
   **Let’s talk**
 story_title: A short story about us
