@@ -2,9 +2,8 @@
 id: a first blog post
 title: Grindr's profile
 date: 2021-03-23T12:32:00.000Z
-image: https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e
-image_caption: Photo by [Rodion
-  Kutsaev](https://unsplash.com/@frostroomhead?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/smartphone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+image: /assets/media/do-not-touch-my-data.png
+image_caption: illustration  by O. Dorsaz
 post_categories:
   - euphoric
   - chill
