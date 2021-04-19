@@ -1,17 +1,5 @@
 ---
 layout: partners
-title: Partners
-hero: "**Partners we trust**"
-hero_image: https://www.freepik.com/free-vector/partners-holding-big-jigsaw-puzzle-pieces_7732651.htm
-hero_image_caption: <a href="https://www.freepik.com/vectors/people">People
-  vector created by pch.vector - www.freepik.com</a>
-introduction: >-
-  # Partners we trust
-
-
-  We only collaborate and engage with partners who we trust and who meet our [ethical chart](https://dating-privacy.hestialabs.org/en/ethics/).
-
-  They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
 partners:
   - title: PersonalData.IO
     description: >-
@@ -60,11 +48,18 @@ partners:
     url: mailto:partners@hestialabs.org
     image: <a href='https://www.freepik.com/vectors/camera'>Camera vector created by
       macrovector - www.freepik.com</a>
-  - url: mailto:datingprivacy@personaldata.io
-    title: associations (LGBIQ+, feministes, ...)
-    description: "**TO REMOVE AT LAUNCH.** texte pas pret"
-    image: <a href='https://www.freepik.com/vectors/people'>People vector created by
-      pch.vector - www.freepik.com</a>
 permalink: /en/partners/index.html
 inverse: true
+title: Partners
+hero: "**Partners we trust**"
+hero_image: https://www.freepik.com/free-vector/partners-holding-big-jigsaw-puzzle-pieces_7732651.htm
+hero_image_caption: <a href="https://www.freepik.com/vectors/people">People
+  vector created by pch.vector - www.freepik.com</a>
+introduction: >-
+  # Partners we trust
+
+
+  We only collaborate and engage with partners who we trust and who meet our [ethical chart](https://dating-privacy.hestialabs.org/en/ethics/).
+
+  They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
 ---
