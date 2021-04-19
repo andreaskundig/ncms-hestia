@@ -43,6 +43,6 @@ mission_link_text: Learn more
 partners_link_text: Contact us
 sar_button: Ask for you data
 news_title: News and events
-news:
+news_editorials:
   - " a second post"
 ---
