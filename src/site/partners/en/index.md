@@ -55,10 +55,8 @@ hero: "**Partners we trust**"
 hero_image: https://www.freepik.com/free-vector/partners-holding-big-jigsaw-puzzle-pieces_7732651.htm
 hero_image_caption: People vector created by pch.vector
 introduction: >-
-  # Partners we trust
-
-
-  We only collaborate and engage with partners who we trust and who meet our [ethical chart](https://dating-privacy.hestialabs.org/en/ethics/).
+  We only collaborate and engage with partners who we trust and who meet our
+  [ethical chart](https://dating-privacy.hestialabs.org/en/ethics/).
 
   They structure and legitimize the Dating Privacy project and amplify its results to establish it in the long term.
 ---
