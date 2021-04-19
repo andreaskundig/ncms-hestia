@@ -1,6 +1,6 @@
 ---
 id: Jessica Pidoux's interview in Le Temps
-title: ""
+title: "Jessica Pidoux in Le Temps"
 date: 2021-02-08T22:43:00.000Z
 image: /assets/media/jessica-pidoux-bw.jpg
 lead: "[Jessica Pidoux, l'algorithme de Tinder dans la
