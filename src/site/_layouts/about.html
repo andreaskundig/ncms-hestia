@@ -15,13 +15,13 @@ layout: defaultWithHero
       <p>{% markdown person.description %}</p>
       <p>
         {% if person.twitter %}
-          <a href="{{person.twitter}}">twitter</a>
+          <a href="{{person.twitter}}" target="_blank">twitter</a>
         {% endif %}
         {% if person.linkedin %}
-          <a href="{{person.linkedin}}">linkedin</a>
+          <a href="{{person.linkedin}}" target="_blank">linkedin</a>
         {% endif %}
         {% if person.email %}
-          <a href="{{person.email}}">email</a>
+          <a href="{{person.email}}" target="_blank">email</a>
         {% endif %}
       </p>
     </div>

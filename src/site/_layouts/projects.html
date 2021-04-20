@@ -19,14 +19,14 @@ layout: defaultWithHero
     {% if project.data.locale == locale
       and project.data.id == project_to_display%}
       <div id="{{project.data.page.fileSlug}}">
-        <h2><a href="{{project.data.url | url}}">
+        <h2><a href="{{project.data.url}}" target="_blank">
           {{project.data.name}}</a></h2>
         <figure>
-          <a href="{{project.data.url | url}}"><img src="{{project.data.image}}"></a>
+          <a href="{{project.data.url}}"  target="_blank"><img src="{{project.data.image}}"></a>
           <figcaption>{% markdown project.data.image_caption %}</figcaption>
         </figure>
         <p>{{project.data.description}}</p>
-        <a href="{{project.data.url | url}}">{{running_projects_button}}</a>
+        <a href="{{project.data.url}}" target="_blank">{{running_projects_button}}</a>
       </div>
       {% endif %}
     {% endfor %}
@@ -41,14 +41,14 @@ layout: defaultWithHero
       {% if project.data.locale == locale
          and project.data.id == project_to_display%}
         <div name="{{project.data.page.fileSlug}}">
-          <h2><a href="{{project.data.url | url}}">
+          <h2><a href="{{project.data.url}}" target="_blank">
             {{project.data.name}}</a></h2>
           <figure>
-            <a href="{{project.data.url | url}}"><img src="{{project.data.image}}"></a>
+            <a href="{{project.data.url}}" target="_blank"><img src="{{project.data.image}}"></a>
             <figcaption>{% markdown project.data.image_caption %}</figcaption>
           </figure>
           <p>{{project.data.description}}</p>
-          <a href="{{project.data.url | url}}">{{launchpad_projects_button}}</a>
+          <a href="{{project.data.url}}" target="_blank">{{launchpad_projects_button}}</a>
         </div>
       {% endif %}
     {% endfor %}

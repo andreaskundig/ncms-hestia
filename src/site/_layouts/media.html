@@ -7,12 +7,12 @@ inverse: true
   {% for article in media_articles %}
     <div>
       <figure>
-        <a href="{{article.url | url}}"><img src="{{article.image}}"></a>
+        <a href="{{article.url }}" target="_blank"><img src="{{article.image}}"></a>
         <figcaption>{% markdown article.image_caption %}</figcaption>
       </figure>
       <h3>{{article.title}}</h3>
       <p>{{article.date | readableDate(locale)}}</p>
-      <a href="{{article.url | url}}">{{read_button}}</a>
+      <a href="{{article.url}}" target="_blank">{{read_button}}</a>
     </div>
   {% endfor %}
 </section>
