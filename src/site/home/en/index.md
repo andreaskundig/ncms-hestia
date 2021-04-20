@@ -50,6 +50,7 @@ strategy_description: >-
 
   We support **community projects around personal data collectives**. We put our **skills** (technical, legal, advocacy) and **networks** at their disposal.
 join_link_text: Submit a project
+join_link_url: mailto:projects@hestia.ai
 partners_link_text: Learn more
 projects_title: Running projects
 news_title: News and events
