@@ -12,15 +12,15 @@
     "to_fill_in": "The following information needs to be filled in by hand in the email:"
   },
   "fr": {
-    "body": "body",
-    "subject": "subject",
-    "dating_app": "dating app",
-    "select_placeholder": "click to choose",
-    "email_button": "open in your email client",
-    "body_placeholder": "choose an app to fill this automatically",
-    "recipient": "recipient",
-    "search_placeholder": "search",
-    "copy_button": "copy to clipboard",
-    "to_fill_in": "the following information needs to be filled in by hand in the email:"
+    "body": "Message",
+    "subject": "Objet",
+    "dating_app": "App de rencontre",
+    "select_placeholder": "Cliquer pour choisir",
+    "email_button": "Ouvrir dans votre client email",
+    "body_placeholder": "Choisir une app pour remplir ce champ automatiquement",
+    "recipient": "Destinataire",
+    "search_placeholder": "recherche",
+    "copy_button": "Copier",
+    "to_fill_in": "A compléter dans l'email"
   }
 }
