@@ -6,7 +6,7 @@ layout: defaultWithHero
 {% if collections.editorial %}
   <section id="editorials">
     <h1>{% markdown editorials_title %}</h1>
-    <div class="grid-layout-halves with-grid-gutters">
+    <div class="grid-layout-halves with-gutters">
       {% for post in collections.editorial %}
         {% if post.data.locale == locale %}
           <div class="grid-cell">
@@ -26,7 +26,7 @@ layout: defaultWithHero
 {% if collections.interview %}
   <section id="interviews">
     <h1>{% markdown interviews_title %}</h1>
-    <div class="grid-layout-halves with-grid-gutters">
+    <div class="grid-layout-halves with-gutters">
       {% for post in collections.interview %}
         {% if post.data.locale == locale %}
           <div class="grid-cell">
@@ -46,7 +46,7 @@ layout: defaultWithHero
 {% if collections.infographic %}
   <section id="infographics">
     <h1>{% markdown infographics_title %}</h1>
-    <div class="grid-layout-halves with-grid-gutters">
+    <div class="grid-layout-halves with-gutters">
       {% for post in collections.infographic %}
         {% if post.data.locale == locale %}
           <div class="grid-cell">

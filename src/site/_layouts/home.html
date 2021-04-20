@@ -8,7 +8,7 @@ inverse: true
 #}
 <section id="purpose">
   <h1>{% markdown paragraph1_title %}</h1>
-  <div class="grid-layout-halves with-grid-gutters">
+  <div class="grid-layout-halves with-gutters">
     <div class="grid-cell">
       <h2>{% markdown problem_title %}</h2>
       <div>
@@ -40,7 +40,7 @@ inverse: true
 
 <section id="projects">
   <h1>{% markdown projects_title %}</h1>
-  <div class="grid-layout-halves with-grid-gutters">
+  <div class="grid-layout-halves with-gutters">
     {% set projects_to_display = defaultTranslation.page.data.featured_projects %}
     {% for project_to_display in projects_to_display %}
       {% for project in collections.project %}
@@ -64,7 +64,7 @@ inverse: true
 <section id="news">
   <h1>{% markdown news_title %}</h1>
   <noscript>You need JavaScript enabled to see the additional news articles hereafter.</noscript>
-  <div class="grid-layout-halves with-grid-gutters">
+  <div class="grid-layout-halves with-gutters">
     {% set news = {editorial: news_editorials,
                    interview: news_interviews,
                    infographic: news_infographics} %}
