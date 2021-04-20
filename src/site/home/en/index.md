@@ -1,17 +1,9 @@
 ---
-layout: home
-permalink: en/index.html
-path: home
-title: HestiaLabs
-hero: |-
-  We give users\
-  **control over their data**\
-  Are you in?
-hero_image: /assets/media/hl_home_hero-c-rodion-kutsaev-unsplash-c.jpeg
-hero_image_caption: Photo by [Rodion Kutsaev](https://unsplash.com/@frostroomhead)
-  on [Unsplash](https://unsplash.com/photos/0VGG7cqTwCo)
 join_title: Join us
 partners_title: Partners we can trust
+path: home
+title: HestiaLabs
+problem_title: The problem we solve
 problem_description: >-
   Artificial intelligence is changing the world. This revolution must benefit
   the many and not the few. For this to happen, individuals and organisations
@@ -32,16 +24,25 @@ partners_description: We are very grateful to those who believe in us since the
   carry out our **public interest mission** without the constant pressure of
   profitability.
 subtitle_1: Your data is important
+layout: home
 partners_link_text: Learn more
 featured_projects:
   - dating privacy
-  - uber drivers
-  - mobility
+  - uber-drivers
   - disinformation
+  - mobility
   - data-literacy
 subtitle_2: We support data collectives
+permalink: en/index.html
+hero: |-
+  We give users\
+  **control over their data**\
+  Are you in?
+hero_image: /assets/media/hl_home_hero-c-rodion-kutsaev-unsplash-c.jpeg
+hero_image_caption: Photo by [Rodion
+  Kutsaev](https://unsplash.com/@frostroomhead) on
+  [Unsplash](https://unsplash.com/photos/0VGG7cqTwCo)
 paragraph1_title: We create a new relationship to personal data
-problem_title: The problem we solve
 strategy_title: Our strategy
 strategy_description: >-
   **Small shifts in personal habits lead to major societal changes**. People
