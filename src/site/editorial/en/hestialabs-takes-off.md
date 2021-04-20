@@ -1,5 +1,5 @@
 ---
-id: a first blog post
+id: HestiaLabs takes off
 title: HestiaLabs takes off
 date: 2021-04-19T11:37:00.000Z
 image: /assets/media/blog_editorial_1_c-mika-baumeister-y_lgxwqex2c-unsplash-c.jpeg
