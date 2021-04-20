@@ -49,6 +49,7 @@
     "url": "git+https://github.com/hestiaAI/website.labs.git"
   },
   "dependencies": {
-    "lit-element": "^2.4.0"
+    "lit-element": "^2.4.0",
+    "lit-translate": "^1.2.1"
   }
 }

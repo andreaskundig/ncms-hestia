@@ -1,5 +1,14 @@
 import { LitElement, html, css } from 'lit-element';
+import { registerTranslateConfig, use, translate } from "lit-translate";
 import { fetchDatingApps, fetchMailTo } from './personaldata-io.js';
+
+// is this really the place to do this?
+registerTranslateConfig({
+    loader: async (lang) => {
+        const result = await fetch(`/assets/i18n/sar-form.json`);
+        const translations = await result.json();
+      return translations[lang];
+    }});
 
 function compareItemLabel(appA, appB) {
     const nameA = appA.itemLabel.toUpperCase();
@@ -17,20 +26,6 @@ const IDS = {
     partsToFillIn: 'email-parts-to-fill-in'
 };
 
-//TODO https://github.com/andreasbm/lit-translate
-const TXT = {
-    datingApp: 'Dating app',
-    selectPlaceholder: 'Click to choose',
-    searchPlaceholder: 'search',
-    recipient: 'Recipient',
-    subject: 'Subject',
-    body: 'Body',
-    bodyPlaceholder: 'Choose an app to fill this automatically',
-    copyButton: 'Copy to clipboard',
-    emailButton: 'Open in your email client',
-    partsToFillIn: 'The following information needs to be filled in by hand in the email:'
-};
-
 export class SubjectAccessRequestForm extends LitElement {
 
     static get styles() {
@@ -41,6 +36,7 @@ export class SubjectAccessRequestForm extends LitElement {
 
     static get properties() {
         return {
+            lang: { type: String },
             apps: { type: Array, attribute: false },
             search: { type: String, attribute: false },
             recipient: { type: String, attribute: false },
@@ -72,6 +68,13 @@ export class SubjectAccessRequestForm extends LitElement {
 
         this.fetchApps();
     }
+
+  connectedCallback() {
+    super.connectedCallback();
+
+    // Load the default language
+      use(this.lang);
+  }
 
     async fetchApps() {
         const apps = await fetchDatingApps();
@@ -127,9 +130,9 @@ export class SubjectAccessRequestForm extends LitElement {
         const t = this;
         return html`
           <div class="inline">
-            <label for="${IDS.select}">${TXT.datingApp}</label>
+            <label for="${IDS.select}">${translate("dating_app")}</label>
             <select id="${IDS.select}" @change="${t.onSelectApp}">
-               <option disabled selected value> ${TXT.selectPlaceholder} </option>
+               <option disabled selected value> ${translate("select_placeholder")} </option>
               ${t.apps.map(app =>
                html`<option data-item="${app.item}"
                              value="${app.itemLabel}">
@@ -137,7 +140,7 @@ export class SubjectAccessRequestForm extends LitElement {
             </select>
           </div>
           <div class="inline">
-            <input placeholder="${TXT.searchPlaceholder}"
+            <input placeholder="${translate("search_placeholder")}"
                    list="search-list"
                    value="${t.search}"
                    @input="${t.onSearch}">
@@ -147,22 +150,22 @@ export class SubjectAccessRequestForm extends LitElement {
             </datalist>
           </div>
           <div>
-            <label for="${IDS.recipient}">${TXT.recipient}</label>
+            <label for="${IDS.recipient}">${translate("recipient")}</label>
             <input id="${IDS.recipient}" value="${t.recipient}">
             <button @click="${_ => t.copyToClipboard(IDS.recipient)}">
-               ${TXT.copyButton}
+               ${translate("copy_button")}
              </button>
           </div>
           <div>
-            <label for="${IDS.subject}">${TXT.subject}</label>
+            <label for="${IDS.subject}">${translate("subject")}</label>
             <input id="${IDS.subject}" value="${t.subject}">
             <button @click="${_ => t.copyToClipboard(IDS.subject)}">
-               ${TXT.copyButton}
+               ${translate("copy_button")}
              </button>
           </div>
         ${!this.partsToFillIn.length ? '' : html`
           <div>
-            <div>${TXT.partsToFillIn}</div>
+            <div>${translate("to_fill_in")}</div>
             <ul>
                ${this.partsToFillIn.map(p =>
                    html`<li>${p}</li>`)}
@@ -171,16 +174,16 @@ export class SubjectAccessRequestForm extends LitElement {
          }
 
           <div>
-            <label for="${IDS.body}">${TXT.body}</label>
-            <textarea placeholder="${TXT.bodyPlaceholder}"
+            <label for="${IDS.body}">${translate("body")}</label>
+            <textarea placeholder="${translate("body_placeholder")}"
                       id="${IDS.body}">${t.body}</textarea>
             <button @click="${_ => t.copyToClipboard(IDS.body)}">
-               ${TXT.copyButton}
+               ${translate("copy_button")}
             </button>
           </div>
           <div>
             <button @click="${t.openEmailClient}">
-               ${TXT.emailButton}
+               ${translate("email_button")}
             </button>
           </div>
      `;

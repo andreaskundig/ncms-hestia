@@ -77,6 +77,21 @@ collections:
         - { label: Twitter URL, name: twitter_url, required: true, widget: string, i18n: true }
         - { label: Forum label, name: forum_label, required: true, widget: string, i18n: true }
         - { label: Forum URL, name: forum_url, required: true, widget: string, i18n: true }
+    - label: SAR Form
+      name: sar-form
+      file: src/site/assets/i18n/sar-form.json
+      i18n: true
+      fields:
+        - { label: Dating app, name: dating_app, required: true, widget: string, i18n: true }
+        - { label: Select placeholder, name: select_placeholder, required: true, widget: string, i18n: true }
+        - { label: Search placeholder, name: search_placeholder, required: true, widget: string, i18n: true }
+        - { label: Recipient, name: recipient, required: true, widget: string, i18n: true }
+        - { label: Subject, name: subject, required: true, widget: string, i18n: true }
+        - { label: Body, name: body, required: true, widget: string, i18n: true }
+        - { label: Body placeholder, name: body_placeholder, required: true, widget: string, i18n: true }
+        - { label: Copy button, name: copy_button, required: true, widget: string, i18n: true }
+        - { label: Email button, name: email_button, required: true, widget: string, i18n: true }
+        - { label: Parts to fill in, name: to_fill_in, required: true, widget: string, i18n: true }
 
 - label: Home page
   name: home
