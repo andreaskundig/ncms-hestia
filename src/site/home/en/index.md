@@ -54,10 +54,7 @@ join_link_url: mailto:projects@hestia.ai
 partners_link_text: Learn more
 projects_title: Running projects
 news_title: News and events
-news:
-  - a first blog post
-  - a second post
 news_editorials:
-  - a first blog post
-  - a second post
+  - hestialabs takes off
+  - uber trial amsterdam
 ---

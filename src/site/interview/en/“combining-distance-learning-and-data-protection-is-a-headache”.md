@@ -18,7 +18,7 @@ post_categories:
 post_authors:
   - CFD
 suggested_editorials:
-  - a first blog post
-  - a second post
+  - hestialabs takes off
+  - uber trial amsterdam
 ---
 How many students study from home? And how long has it been since they last went to university?

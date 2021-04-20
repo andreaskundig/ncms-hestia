@@ -18,5 +18,5 @@ post_categories:
 post_authors:
   - CFD
 suggested_editorials:
-  - a first blog post
+  - hestialabs takes off
 ---

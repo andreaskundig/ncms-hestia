@@ -34,5 +34,5 @@ featured_projects:
 permalink: fr/index.html
 news_title: Nouvelles et événements
 news_editorials:
-  - a second post
+  - uber trial amsterdam
 ---
