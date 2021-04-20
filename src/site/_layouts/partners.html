@@ -10,11 +10,11 @@ layout: defaultWithHero
     <div>
       <h1>{% markdown partner.title %}</h1>
       <figure>
-        <a href="{{partner.url}}"><img src="{{partner.image}}"></a>
+        <a href="{{partner.url}}" target="_blank"><img src="{{partner.image}}"></a>
         <figcaption>{% markdown partner.image_caption %}</figcaption>
       </figure>
       <p>{% markdown partner.description %}</p>
-      <a href="{{partner.url}}">website</a>
+      <a href="{{partner.url}}" target="_blank">website</a>
     </div>
   {% endfor %}
 </section>
