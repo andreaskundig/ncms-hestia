@@ -6,8 +6,10 @@ layout: defaultWithHero
   <div>{% markdown story %}</div>
   {% for person in people %}
     <div>
-      <img src="{{person.image}}" alt="{{person.name}}" title="{{person.name}}">
       <h2>{{person.name}}</h2>
+      {% if person.image %}
+      <img src="{{person.image}}" alt="{{person.name}}" title="{{person.name}}">
+      {% endif %}
       <p>{% markdown person.description %}</p>
       <p>
         {% if person.twitter %}
