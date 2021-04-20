@@ -1,0 +1,4 @@
+---
+id: News
+name: Actualités
+---
