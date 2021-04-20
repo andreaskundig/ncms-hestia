@@ -41,7 +41,7 @@ ethics_link_text: Our ethical chart
 community_link_text: Join us
 mission_link_text: Learn more
 partners_link_text: Contact us
-sar_button: Ask for you data
+sar_button: Ask for your data
 news_title: News and events
 news_editorials:
   - dating-apps-share-your-data

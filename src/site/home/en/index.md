@@ -41,7 +41,7 @@ hero_image: https://picjumbo.com/wp-content/uploads/abstract-bokeh-hearts-real-l
 ethics_title: Dating data is sensitive
 ethics_link_text: Our ethical chart
 partners_link_text: Contact us
-sar_button: Ask for you data
+sar_button: Ask for your data
 news_title: News and events
 news_editorials:
   - grindr-profile-data
