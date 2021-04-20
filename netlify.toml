@@ -22,23 +22,27 @@
   NODE_VERSION = "14"
   NPM_VERSION = "7"
 
-# Redirects deactivated until public launch; display
-# landing homepage in the meantime (see WEBSITE.LABS #21)
+# Redirects to homepage in matching language
 #
-#[[redirects]]
-#  from = "/admin/*"
-#  to = "/admin/:splat"
-#  status = 302
-#
+# NOTE: redirection reactivated on 20210420, to english
+# version of the website only; we'll reactivate the
+# automatic language switching to fr/en, once the french
+# version will be ready (see WEBSITE.LABS #23)
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/:splat"
+  status = 302
+
 #[[redirects]]
 #  from = "/"
 #  to = "/fr/"
 #  status = 302
 #  conditions = {Language = ["fr"]}
-#
-#[[redirects]]
-#  from = "/"
-#  to = "/en/"
-#  status = 302
+
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 302
 
 # eof
