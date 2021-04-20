@@ -1,9 +1,12 @@
 ---
 title: HestiaLabs
 locale: en
+redirectURL: /en/
+redirectTimeout: 3
 ---
 <!DOCTYPE html>
 <html lang="{{locale}}">
+  <meta http-equiv="refresh" content="{{redirectTimeout}}; URL={{redirectURL}}" />
   {% include "head.njk" %}
   <body>
     <main class="splash">
