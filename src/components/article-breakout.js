@@ -17,6 +17,17 @@ export class ArticleBreakout extends LitElement {
         min-height: 6rem;
       }
 
+      figure, figure > img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+      }
+
+      figure > figcaption {
+        display: none;
+      }
+
       .box > h1 { margin-top: 0.5rem }
     `;
   }
@@ -33,15 +44,17 @@ export class ArticleBreakout extends LitElement {
   }
 
   render() {
-    return html`<article class="box">
-      <figure>
-        <a href="${this.href}"><img src="${this.imgSrc}"></a>
-        <figcaption/><slot name="img-caption"/><figcaption>
-      </figure>
-      <h1><a href="${this.href}"><slot name="title"/></a></h1>
-      <p><slot></slot></p>
-      <a href="${this.href}"><button>Read more</button></a>
-    </article>`
+    return html`<a href="${this.href}">
+      <article class="box">
+        <figure>
+          <img src="${this.imgSrc}">
+          <figcaption/><slot name="img-caption"/><figcaption>
+        </figure>
+        <h1><slot name="title"/></h1>
+        <p><slot></slot></p>
+        <button>Read more</button>
+      </article>
+    </a>`
   }
 }
 
