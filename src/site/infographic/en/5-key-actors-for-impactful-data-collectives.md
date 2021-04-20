@@ -17,4 +17,6 @@ post_categories:
   - Data collectives
 post_authors:
   - CFD
+suggested_editorials:
+  - a first blog post
 ---
