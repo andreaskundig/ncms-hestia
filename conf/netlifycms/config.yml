@@ -128,6 +128,7 @@ collections:
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Join description", name: join_description, required: false, widget: markdown, i18n: true }
     - { label: "Join link text", name: join_link_text, required: false, widget: string, i18n: true }
+    - { label: "Join link", name: join_link_url, required: false, widget: file, i18n: true }
     - { label: "Partners title", name: partners_title, required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Partners description", name: partners_description, required: false, widget: markdown, i18n: true }
