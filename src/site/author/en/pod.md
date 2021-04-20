@@ -1,5 +1,6 @@
 ---
 id: POD
 name: Paul-Olivier Dehaye
-description: Hestia.AI CEO, PersonalData.IO Director
+description: HestiaLabs' project leader, CEO and founder of Hestia.AI, founder
+  and director of PersonalData.IO.
 ---
