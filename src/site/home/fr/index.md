@@ -26,9 +26,9 @@ partners_link_text: En savoir plus
 projects_title: Projets en cours
 featured_projects:
   - dating privacy
-  - uber drivers
-  - mobility
+  - uber-drivers
   - disinformation
+  - mobility
   - data-literacy
 permalink: fr/index.html
 news_title: Nouvelles et événements
