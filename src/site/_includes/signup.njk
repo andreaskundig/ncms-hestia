@@ -1,22 +1,24 @@
-<h1>{{i18n.signup[locale].title}}</h1>
-<div >
-    <label for="signup-first-name">
-    {{i18n.signup[locale].first_name}}
-    </label>
-    <input type="text" name="first-name"
-      id="signup-first-name">
-</div>
-<div >
-    <label for="signup-last-name">
-    {{i18n.signup[locale].last_name}}
-    </label>
-    <input type="text" name="last-name"
-      id="signup-last-name">
-</div>
-<div >
-    <label for="signup-email">
-    {{i18n.signup[locale].email}}
-    </label>
-    <input type="email" name="email"
-      id="signup-email">
-</div>
+<form name="signup" method="POST" data-netlify="true">
+    <h1>{{i18n.signup[locale].title}}</h1>
+    <div >
+        <label for="signup-first-name">
+        {{i18n.signup[locale].first_name}}
+        </label>
+        <input type="text" name="first_name"
+        id="signup-first-name">
+    </div>
+    <div >
+        <label for="signup-last-name">
+        {{i18n.signup[locale].last_name}}
+        </label>
+        <input type="text" name="last_name"
+        id="signup-last-name">
+    </div>
+    <div >
+        <label for="signup-email">
+        {{i18n.signup[locale].email}}
+        </label>
+        <input type="email" name="email"
+        id="signup-email">
+    </div>
+</form>
