@@ -181,6 +181,8 @@ collections:
         - { label: Name, name: name, required: false, widget: string }
         - { label: Description, name: description, required: false, widget: markdown }
         - { label: Image, name: image, required: false, widget: image }
+        - { label: "Image caption", name: image_caption, required: false,
+            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
         - { label: Twitter, name: twitter, required: false, widget: string }
         - { label: Linkedin, name: linkedin, required: false, widget: string }
         - { label: Email, name: email, required: false, widget: string }
