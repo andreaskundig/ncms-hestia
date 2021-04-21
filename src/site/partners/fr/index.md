@@ -1,11 +1,5 @@
 ---
 layout: partners
-inverse: true
-permalink: /fr/partners/index.html
-title: Partenaires
-hero: "**Ensemble**"
-hero_image: /assets/media/34-group-of-people-2471124_1280.jpg
-hero_image_caption: ""
 partners:
   - title: PersonalData.IO
     description: >-
@@ -53,6 +47,12 @@ partners:
     url: ""
     image: https://upload.wikimedia.org/wikipedia/commons/6/6a/Jamikaverhandlungen_Nov_2017_7.jpg
     image_caption: Kasa Fue, CC BY-SA 4.0
+permalink: /fr/partners/index.html
+inverse: true
+title: Partenaires
+hero: "**Ensemble**"
+hero_image: /assets/media/34-group-of-people-2471124_1280.jpg
+hero_image_caption: ""
 introduction: >-
   We only collaborate and engage with partners who we trust and who meet our
   [ethical chart](https://dating-privacy.hestialabs.org/en/ethics/).
