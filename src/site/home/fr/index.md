@@ -19,10 +19,10 @@ strategy_description: par ici
 strategy_link_text: En savoir plus
 join_description: par là
 join_link_text: Proposer un projet
-join_link_url: mailto:projects@hestia.ai
 partners_description: "[Migros Fonds
   pionnier](https://www.migros-pionierfonds.ch/fr/kuhne-vorhaben-fr)"
 layout: home
+join_link_url: mailto:projects@hestia.ai
 partners_link_text: En savoir plus
 projects_title: Projets en cours
 featured_projects:
