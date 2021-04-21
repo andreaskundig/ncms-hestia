@@ -2,12 +2,31 @@ import { LitElement, html, css } from 'lit-element';
 import { registerTranslateConfig, use, translate } from "lit-translate";
 import { fetchDatingApps, fetchMailTo } from './personaldata-io.js';
 
+
+const DEFAULT_TRANSLATIONS = {
+    "body": "Body",
+    "subject": "Subject",
+    "dating_app": "Dating app",
+    "select_placeholder": "Click to choose",
+    "email_button": "Open in your email client",
+    "body_placeholder": "Choose an app to fill this automatically",
+    "recipient": "Recipient",
+    "search_placeholder": "Search",
+    "copy_button": "Copy to clipboard",
+    "to_fill_in": "The following information needs to be filled in by hand in the email:"
+
+};
+
 // is this really the place to do this?
 registerTranslateConfig({
     loader: async (lang) => {
-        const result = await fetch(`/assets/i18n/sar-form.json`);
-        const translations = await result.json();
-      return translations[lang];
+        try{
+            const result = await fetch(`/assets/i18n/sar-form.json`);
+            const translations = await result.json();
+            return translations[lang] || DEFAULT_TRANSLATIONS;
+        }catch(error){
+           return  DEFAULT_TRANSLATIONS;
+        }
     }});
 
 function compareItemLabel(appA, appB) {
@@ -69,9 +88,7 @@ export class SubjectAccessRequestForm extends LitElement {
         this.fetchApps();
     }
 
-  connectedCallback() {
-    super.connectedCallback();
-
+  firstUpdated() {
     // Load the default language
       use(this.lang);
   }
