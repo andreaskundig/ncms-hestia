@@ -51,6 +51,7 @@ strategy_description: >-
   prime the pump, HestiaLabs helps those who are already ready to reinvent our
   data future.
 
+
   We support **community projects around personal data collectives**. We put our **skills** (technical, legal, advocacy) and **networks** at their disposal.
 projects_title: Running projects
 news_title: News and events
