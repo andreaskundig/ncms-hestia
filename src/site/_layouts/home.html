@@ -40,20 +40,22 @@ inverse: true
 
 <section id="projects">
   <h1>{% markdown projects_title %}</h1>
-  <div class="grid-layout-halves with-gutters">
+  <div class="stack-layout with-gutters">
     {% set projects_to_display = defaultTranslation.page.data.featured_projects %}
+    {% set articleLayout = cycler("card", "card-alt") %}
     {% for project_to_display in projects_to_display %}
       {% for project in collections.project %}
         {% if project.data.locale == locale
           and project.data.id == project_to_display%}
-          {% set project_url = "/" + locale + "/projects#" +project.data.page.fileSlug %}
-          <article-breakout class="grid-cell"
-            href="{{project_url}}" imgSrc="{{project.data.image}}">
+          {% set project_url = "/" + locale + "/projects#" + project.data.page.fileSlug %}
+          <article-breakout class="stack-cell" layout="{{articleLayout.next()}}"
+            href="{{project_url}}" img-src="{{project.data.image}}">
             <span slot="title">{{project.data.name}}</span>
-            <span slot="img-caption">
+            <span slot="caption">
               {% markdown project.data.image_caption %}
             </span>
             {% markdown project.data.description %}
+            <button>Read more</button>
           </article-breakout>
         {% endif %}
       {% endfor %}
@@ -63,22 +65,24 @@ inverse: true
 
 <section id="news">
   <h1>{% markdown news_title %}</h1>
-  <noscript>You need JavaScript enabled to see the additional news articles hereafter.</noscript>
+  <noscript>You need JavaScript enabled to see
+    the additional news articles hereafter.</noscript>
   <div class="grid-layout-halves with-gutters">
     {% set news = {editorial: news_editorials,
                    interview: news_interviews,
                    infographic: news_infographics} %}
     {% for news_type, news_ids in news %}
-    {% for edito in collections[news_type] %}
+      {% for edito in collections[news_type] %}
         {% if edito.data.locale == locale and news_ids
            and edito.data.id in news_ids %}
-          <article-breakout class="grid-cell"
-            href="{{edito.url}}" imgSrc="{{edito.data.image}}">
+          <article-breakout class="grid-cell" layout="box"
+            href="{{edito.url}}" img-src="{{edito.data.image}}">
             <span slot="title">{% markdown edito.data.title %}</span>
-            <span slot="img-caption">
+            <span slot="caption">
               {% markdown edito.data.image_caption %}
             </span>
             {% markdown edito.data.lead %}
+            <button>Read more</button>
           </article-breakout>
         {% endif %}
       {% endfor %}
