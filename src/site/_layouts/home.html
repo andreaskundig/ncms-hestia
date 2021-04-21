@@ -58,13 +58,14 @@ inverse: true
       {% for edito in collections[news_type] %}
         {% if edito.data.locale == locale and news_ids
            and edito.data.id in news_ids %}
-          <article-breakout class="grid-cell"
-            href="{{edito.url}}" imgSrc="{{edito.data.image}}">
+          <article-breakout class="grid-cell" layout="box"
+            href="{{edito.url}}" img-src="{{edito.data.image}}">
             <span slot="title">{% markdown edito.data.title %}</span>
-            <span slot="img-caption">
+            <span slot="caption">
               {% markdown edito.data.image_caption %}
             </span>
             {% markdown edito.data.lead %}
+            <button>Read more</button>
           </article-breakout>
         {% endif %}
       {% endfor %}
