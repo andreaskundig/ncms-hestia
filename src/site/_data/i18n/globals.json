@@ -2,6 +2,8 @@
   "en": {
     "suggested_posts": "You might also **like** to read",
     "share": "Share this",
+    "read_more": "Read more",
+    "ask_your_data": "Ask for your data",
     "by_author": "by",
     "published_on": "published on",
     "tagged_as": "tagged as"
@@ -9,6 +11,8 @@
   "fr": {
     "suggested_posts": "Vous aimeriez peut-être **aussi** lire",
     "share": "Partager",
+    "read_more": "Lisez l'article",
+    "ask_your_data": "Demandez vos données",
     "by_author": "par",
     "published_on": "publié le",
     "tagged_as": "catégorisé comme"

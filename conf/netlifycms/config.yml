@@ -41,7 +41,9 @@ collections:
         - { label: Suggested blog posts, name: suggested_posts, required: false, i18n: true,
             widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
         - { label: Share, name: share, required: false, widget: string, i18n: true }
-        - { label: By ‹author›, name: by_author, required: false, widget: string, i18n: true }
+        - { label: Read more ‹button›, name: read_more, required: false, widget: string, i18n: true }
+        - { label: Ask for your data ‹button›, name: ask_your_data, required: false, widget: string, i18n: true }
+        - { label: By (author), name: by_author, required: false, widget: string, i18n: true }
         - { label: Published on, name: published_on, required: false, widget: string, i18n: true }
         - { label: Tagged as, name: tagged_as, required: false, widget: string, i18n: true }
     - label: Header and footer text fragments
@@ -129,7 +131,6 @@ collections:
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Partners description", name: partners_description, required: false, widget: markdown, i18n: true }
     - { label: "Partners link text", name: partners_link_text, required: false, widget: string, i18n: true }
-    - { label: "SAR button" , name: sar_button , required: false, widget: text, i18n: true }
     - { label: "News title", name: news_title, required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - label: "News editorials"
