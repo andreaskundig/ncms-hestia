@@ -76,10 +76,11 @@
   /* Shadows palette */
   --shadow-small:                  0 1px 0 rgba(27,31,35,0.04);
   --shadow-medium:                 0 3px 6px rgba(149,157,165,0.15);
+  --shadow-medium-dark:            0 3px 6px rgba(27,31,35,0.8);
   --shadow-large:                  0 8px 24px rgba(149,157,165,0.2);
   --shadow-highlight:              inset 0 1px 0 rgba(255,255,255,0.25);
-  --shadow-text-on-image:          1px 2px 4px rgba(255, 255, 255, 0.8);
-  --shadow-text-on-image-inverse:  1px 2px 4px rgba(0, 0, 0, 0.8);
+  --shadow-text-on-image:          1px 2px 4px rgba(255,255,255,0.8);
+  --shadow-text-on-image-inverse:  1px 2px 4px rgba(27,31,35,0.8);
 
   /* Backgrounds */
   --color-bg-canvas:               #ffffff;
@@ -210,4 +211,10 @@
   --footer-font-weight:             var(--h2-font-weight);
   --footer-text-color:              var(--color-text-white);
   --footer-bg-color:                var(--color-bg-secondary); /* same as --body-bg-color and --selection-bg-color */
+
+  /* Breakouts, cards, boxes */
+  --breakout-bg-color:              var(--color-bg-tertiary);
+  --breakout-text-color:            var(--color-text-tertiary);
+  --breakout-shadow:                var(--shadow-medium);
+  --breakout-img-shadow:            var(--shadow-medium-dark);
 }
