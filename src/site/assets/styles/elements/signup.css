@@ -1,0 +1,7 @@
+.signup input{
+    display: block;
+    width: 100%;
+}
+.signup .grid-cell{
+  max-width: 100%;
+}
