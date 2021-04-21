@@ -14,12 +14,18 @@ hero_image_caption: Photo by [Xavi
 you_title: You
 you_button: Let's talk
 partners:
-  - title: "Innovation partner: Migros Pioneer Fund"
+  - title: Migros Pioneer Fund
     description: >-
+      User data is the driving force behind many innovations. With the support
+      of the Migros Pioneer Fund, HestiaLabs creates the processes and trusted
+      software that bring users together to turn their forward-thinking ideas
+      into social progress.
+
+
       **About Migros Pioneer Fund**
 
-      The Migros Pioneer Fund looks for and supports ideas with social potential. It enables pioneering projects that break new ground and seek out forward-looking solutions. Its impact-oriented funding approach combines financial support with coaching services. The Migros Pioneer Fund is part of the Migros Group's social engagement and is enabled by the Migros Group with around CHF 15 million annually. For further information: [www.migros- pioneer-fund.ch/en](https://www.migros-pionierfonds.ch/en)
-    url: https://www.migros-pionierfonds.ch/en
+      The Migros Pioneer Fund looks for and supports ideas with social potential. It enables pioneering projects that break new ground and seek out forward-looking solutions. Its impact-oriented funding approach combines financial support with coaching services. The Migros Pioneer Fund is part of the Migros Group's social engagement and is enabled by the Migros Group with around CHF 15 million annually.
+    url: www.migros-pionierfonds.ch/de/pioniere/hestialabs
     image: /assets/media/logo_fge_mptag1_erm_rgb_300dpi_en.png
     button: Website
   - title: MyData Geneva
