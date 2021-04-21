@@ -6,22 +6,24 @@
     <p>{{i18n.signup[locale].info}}</p>
     {% endif %}
   </div>
-  <div class="grid-layout-halves with-grid-gutters">
-    <div class="grid-cell">
+  <div class="signup-fields">
+    <div class="signup-field">
       <label for="signup-first-name">
         {{i18n.signup[locale].first_name}}
       </label>
       <input type="text" name="first-name"
              id="signup-first-name">
     </div>
-    <div class="grid-cell">
+    <div class="signup-field">
       <label for="signup-last-name">
         {{i18n.signup[locale].last_name}}
       </label>
       <input type="text" name="last-name"
              id="signup-last-name">
     </div>
-    <div class="grid-cell">
+  </div>
+  <div class="signup-fields">
+    <div class="signup-field">
       <label for="signup-email">
         {{i18n.signup[locale].email}}
       </label>

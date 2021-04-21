@@ -1,7 +1,17 @@
-.signup input{
+
+.signup-fields {
+    display: flex;
+}
+.signup-field{
+    flex: 1;
+    min-width: 48%;
+    padding-left: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.signup-field:first-child{
+    padding-left: 0;
+}
+.signup-field input{
     display: block;
     width: 100%;
-}
-.signup .grid-cell{
-  max-width: 100%;
 }
