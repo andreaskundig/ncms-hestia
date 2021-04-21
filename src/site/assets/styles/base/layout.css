@@ -1,10 +1,21 @@
 /* Don’t Overthink It (Flexbox) Grids
    https://css-tricks.com/dont-overthink-flexbox-grids/ */
 
+/* .stack-layout piles up its .stack-cell children without wrapping;
+   .grid-layout lines up its .grid-cell children without wrapping
+   (fitting them on same row); .grid-layout-{halves,thrids} line up
+   their children while wrapping at end of row, while fitting them
+   in half- or a third of the available space. */
+
+.stack-layout,
 .grid-layout,
 .grid-layout-halves,
 .grid-layout-thirds {
     display: flex;
+}
+
+.stack-layout {
+  flex-flow: column nowrap;
 }
 
 .grid-layout-halves,
@@ -13,6 +24,7 @@
   justify-content: flex-start;
 }
 
+.stack-cell,
 .grid-cell {
   flex: 1;
 }
@@ -31,7 +43,8 @@
   margin: calc(-1.0 * var(--line-height-base)) 0 0 calc(-1.0 * var(--line-height-base));
 }
 
-.with-gutters > .grid-cell {
+.with-gutters > .grid-cell,
+.with-gutters > .stack-cell {
   padding: var(--line-height-base) 0 0 var(--line-height-base);
 }
 

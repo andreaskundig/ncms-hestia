@@ -10,7 +10,8 @@ Web Components of our website.
 
 ```javascript
 <article-breakout href="en/editorial/first-post/">
-  <h1>A first blog post</h1>
+  <h1 slot="title">A first blog post</h1>
+  <caption slot="caption">photo by …</caption>
   <p>An attention-grabbing lead</p>
 </article-breakout>
 
