@@ -48,8 +48,9 @@ inverse: true
         {% if project.data.locale == locale
           and project.data.id == project_to_display%}
           {% set project_url = "/" + locale + "/projects#" + project.data.page.fileSlug %}
-          <article-breakout class="stack-cell" layout="{{articleLayout.next()}}"
-            href="{{project_url}}" img-src="{{project.data.image}}">
+          <article-breakout
+              class="stack-cell" layout="{{articleLayout.next()}}"
+              href="{{project_url}}" img-src="{{project.data.image}}">
             <span slot="title">{{project.data.name}}</span>
             <span slot="caption">
               {% markdown project.data.image_caption %}
@@ -75,8 +76,9 @@ inverse: true
       {% for edito in collections[news_type] %}
         {% if edito.data.locale == locale and news_ids
            and edito.data.id in news_ids %}
-          <article-breakout class="grid-cell" layout="box"
-            href="{{edito.url}}" img-src="{{edito.data.image}}">
+          <article-breakout
+              class="grid-cell" layout="box"
+              href="{{edito.url}}" img-src="{{edito.data.image}}">
             <span slot="title">{% markdown edito.data.title %}</span>
             <span slot="caption">
               {% markdown edito.data.image_caption %}

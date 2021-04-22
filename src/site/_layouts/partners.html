@@ -2,26 +2,30 @@
 layout: defaultWithHero
 inverse: true
 ---
+{% set articleLayout = cycler("card-alt", "card") %}
 <section id="you">
-  <h1>{% markdown you_title %}</h1>
-  <figure>
-    <img src="{{you_image}}">
-    <figcaption>{% markdown you_image_caption %}</figcaption>
-  </figure>
-  <p>{% markdown you_description %}</p>
-  <a href="{{you_url}}"><button>{{you_button}}</button></a>
+  <article-breakout layout="{{articleLayout.next()}}"
+        href="{{you_url}}" img-src="{{you_image}}">
+    <span slot="title">{% markdown you_title %}</span>
+    <span slot="caption">{% markdown you_image_caption %}</span>
+    <p>{% markdown you_description %}</p>
+    <button>{{you_button}}</button>
+  </article-breakout>
 </section>
 
-<section id="partners">
+<section id="partners" class="stack-layout with-gutters">
   {% for partner in partners %}
-    <div>
-      <h1>{% markdown partner.title %}</h1>
-      <figure>
-        <a href="{{partner.url}}" target="_blank"><img src="{{partner.image}}"></a>
-        <figcaption>{% markdown partner.image_caption %}</figcaption>
-      </figure>
-      <p>{% markdown partner.description %}</p>
-      <a href="{{partner.url}}" target="_blank"><button>{{partner.button}}</button></a>
-    </div>
+    <article-breakout
+        class="stack-cell" layout="{{articleLayout.next()}}"
+        href="{{partner.url}}" img-src="{{partner.image}}">
+      <span slot="title">{% markdown partner.title %}</span>
+      <span slot="caption">{% markdown partner.image_caption %}</span>
+      {% markdown partner.description %}
+      <button>{{partner.button}}</button>
+    </article-breakout>
   {% endfor %}
 </section>
+
+<script type="module">
+  import '/components/article-breakout.js';
+</script>
