@@ -145,7 +145,7 @@ export class SubjectAccessRequestForm extends LitElement {
     async onSelectApp(event) {
         const select = event.target;
         const option = select.options[select.selectedIndex];
-        if(option){
+        if(option && option.dataset.item){
             this.search = '';
             const item = option.dataset.item;
             const mailTo = await fetchMailTo(item, false);
