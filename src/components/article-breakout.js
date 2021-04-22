@@ -110,6 +110,16 @@ export class ArticleBreakout extends LitElement {
 
       .box h1 {
         margin-top: var(--line-height-half); }
+
+      /* @media (max-width: env(--breakpoint-width-md)) */
+      @media (max-width: 768px) {
+        .column-layout,
+        .column-one-half {
+          display: block; }
+
+        .column-one-half{
+          min-width: 96%; }
+      }
     `;
   }
 
