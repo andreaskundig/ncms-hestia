@@ -10,13 +10,13 @@
     </div>
     <div class="header-cell-two-thirds">
       <nav class="header-navigation">
-        <a href="/{{locale}}/blog/">{{i18n.header_footer[locale].blog}}</a>
-        <a href="/{{locale}}/strategy/">{{i18n.header_footer[locale].strategy}}</a>
-        <a href="/{{locale}}/projects/">{{i18n.header_footer[locale].projects}}</a>
-        <a href="/{{locale}}/partners/">{{i18n.header_footer[locale].partners}}</a>
+        {% ilink page, "blog", locale %}{{i18n.header_footer[locale].blog}}{% endilink %}
+        {% ilink page, "strategy", locale %}{{i18n.header_footer[locale].strategy}}{% endilink %}
+        {% ilink page, "projects", locale %}{{i18n.header_footer[locale].projects}}{% endilink %}
+        {% ilink page, "partners", locale %}{{i18n.header_footer[locale].partners}}{% endilink %}
         {% for translation in translations %}
           {% if not loop.first %}|{% endif %}
-          <a href="{{translation.page.url}}">{{translation.locale}}</a>
+          {% ilink page, translation.page.url %}{{translation.locale}}{% endilink %}
         {% endfor %}
       </nav>
     </div>

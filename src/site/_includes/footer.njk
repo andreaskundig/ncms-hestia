@@ -10,10 +10,10 @@
     </div>
     <div class="footer-cell-two-thirds">
       <nav class="footer-navigation">
-        <a href="/{{locale}}/media/">{{i18n.header_footer[locale].media}}</a>
-        <a href="/{{locale}}/legal/">{{i18n.header_footer[locale].legal}}</a>
-        <a href="/{{locale}}/about/">{{i18n.header_footer[locale].about}}</a>
-        <a href="/{{locale}}/about/#contact">{{i18n.header_footer[locale].contact}}</a>
+        {% ilink page, "media", locale %}{{i18n.header_footer[locale].media}}{% endilink %}
+        {% ilink page, "legal", locale %}{{i18n.header_footer[locale].legal}}{% endilink %}
+        {% ilink page, "about", locale %}{{i18n.header_footer[locale].about}}{% endilink %}
+        {% ilink page, "about/#contact", locale %}{{i18n.header_footer[locale].contact}}{% endilink %}
       </nav>
       <nav class="footer-navigation">
         <a href="{{i18n.links[locale].twitter_url}}"  rel="nofollow noopener">{{i18n.links[locale].twitter_label}}</a>
