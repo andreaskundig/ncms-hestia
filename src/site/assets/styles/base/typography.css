@@ -107,3 +107,9 @@ p {
   margin: 0;
   margin-bottom: var(--paragraph-margin-bottom);
 }
+
+/* .big elements share font size with h3, but
+    neither font-family nor letter-spacing */
+.big {
+  font-size: var(--h3-font-size);
+}
