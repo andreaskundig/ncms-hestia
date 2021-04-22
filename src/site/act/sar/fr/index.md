@@ -1,11 +1,15 @@
 ---
 layout: sar
+inverse: true
 permalink: /fr/act/sar/index.html
 title: Obtenez vos données
 hero: |-
   Faites-le advenir — \
-  Récupérez vos données! \
-  **Maintenant**  ⤵️
+  **Récupérez vos données!** \
+  Maintenant  ⤵️
+hero_image: /assets/media/31-jong-marshes-79mnmavsorg-unsplash.jpg
+hero_image_caption: Photo by [Jong Marshes](https://unsplash.com/@turnlip19)
+  on [Unsplash](https://unsplash.com/s/photos/jump)
 sar_title: Demandez vos données
 sar_subtitle: Vous pouvez demander une copie de vos données personnelles
 ---

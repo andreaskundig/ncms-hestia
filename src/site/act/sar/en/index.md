@@ -1,14 +1,15 @@
 ---
 layout: sar
+inverse: true
 permalink: /en/act/sar/index.html
 title: claim your data back
 hero: |-
   Make it happen —\
-  Claim your data back!\
-  **Now**  ⤵️
+  **Claim your data back!**\
+  Now  ⤵️
 hero_image: /assets/media/31-jong-marshes-79mnmavsorg-unsplash.jpg
 hero_image_caption: Photo by [Jong Marshes](https://unsplash.com/@turnlip19)
-  on [Unsplash](https://unsplash.com/s/photos/jump?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  on [Unsplash](https://unsplash.com/s/photos/jump)
 sar_title: Ask for your data
 sar_subtitle: You can ask here for a copy of your personal data
 ---
