@@ -3,11 +3,10 @@ import { registerTranslateConfig, use, translate } from "lit-translate";
 
 const DEFAULT_TRANSLATIONS = {
     "title": "Sign up to our newsletter",
-    "info": "",
+    "info": "We won't really spam you",
     "first_name": "First name",
     "last_name": "Last name",
     "email": "Email address",
-    "info": "We won't really spam you",
     "submit_button": "Send"
 };
 
