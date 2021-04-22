@@ -1,9 +1,4 @@
 ---
-your_url: mailto:projects@hestia.ai
-your_subtitle: >-
-  So? What about your idea?
-
-  Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
 layout: projects
 permalink: /en/projects/index.html
 title: Projects
@@ -11,9 +6,16 @@ hero: |-
   Already 5 projects underway\
   **What's yours?**
 hero_image: /assets/media/hl_projects_hero_c-jess-bailey-ffh_ofq9f08-unsplash-c.jpeg
-hero_image_caption: Photo by [Jess
-  Bailey](https://unsplash.com/@jessbaileydesigns) on
-  [Unsplash](https://unsplash.com/photos/Ffh_ofq9f08)
+hero_image_caption: Photo by [Jess Bailey](https://unsplash.com/@jessbaileydesigns)
+  on [Unsplash](https://unsplash.com/photos/Ffh_ofq9f08)
+your_title: >-
+  **Your** project
+your_content: >-
+  **So? What about your idea?**
+
+  Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
+your_button: Submit a project
+your_url: mailto:projects@hestia.ai
 introduction_title: We support data collectives
 introduction: >-
   ## What is a data collective?
@@ -63,12 +65,6 @@ introduction: >-
 
 
   The projects backed by HestiaLabs bring people together to build and learn things by pooling their data. We help you share the results with journalists, researchers and civil society so that these innovations and knowledge benefit society as a whole.
-your_title: Your project
-your_content: >-
-  **So? What about your idea?**
-
-  Do you believe that, in your field, data producers (you, me, them, everybody) should be able to decide which of their data are used and for what purpose?
-your_button: Submit a project
 running_projects_title: 1 Running project
 running_projects_button: Website
 running_projects:
