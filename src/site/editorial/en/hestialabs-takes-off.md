@@ -22,4 +22,4 @@ We have the skills, the networks and the will to succeed.
 
 [Join us](https://hestialabs.org/en/projects/), [follow us](https://twitter.com/hestialabs), and stay tuned!
 
-{% creditedImage "/assets/media/blog_editorial_1-c-fabrizio-conti-xpfhk0mgsyw-unsplash-c-.jpeg", "People and mountain", "Steep is the slope, but straight is the road.", "Fabrizio Conti" %}
+{% creditedImage "/assets/media/blog_editorial_1-c-fabrizio-conti-xpfhk0mgsyw-unsplash-c.jpeg", "People and mountain", "Steep is the slope, but straight is the road.", "Fabrizio Conti" %}
