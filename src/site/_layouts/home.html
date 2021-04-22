@@ -75,16 +75,9 @@ inverse: true
 </section>
 
 <section id="newsletter">
-  {# Netlify needs to see a hardcoded form in the html.
-     Should we move the web component and script tag into
-     the template newsletter-signup-netlify.njk?
-  #}
   {% include "newsletter-signup-netlify.njk" %}
-  <newsletter-signup lang="{{locale}}"
-                     netlifyFormName="{{netlifyFormName}}"/>
 </section>
 
 <script type="module">
   import '/components/article-breakout.js';
-  import '/components/newsletter-signup.js';
 </script>
