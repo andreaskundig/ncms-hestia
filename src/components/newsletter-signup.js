@@ -37,7 +37,7 @@ registerTranslateConfig({
  *   lang: String
  *    The language of the page on which the component is displayed.
  *
- *   netlifyName: String
+ *   netlifyFormName: String
  *    The name of the netlify form.
  *
  *
@@ -97,7 +97,7 @@ export class NewsletterSignup extends LitElement {
   render() {
     return html`
     <form class="signup" method="POST">
-      <input type="hidden" name="form-name" value="${this.netlifyName}" />
+      <input type="hidden" name="form-name" value="${this.netlifyFormName}" />
       <input type="hidden" name="lang" value="${this.lang}" />
       <div >
         <h1>${translate("title")}</h1>
