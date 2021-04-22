@@ -1,6 +1,7 @@
 ---
+you_image_caption: Photo by [Claudio Schwarz](https://unsplash.com/@purzlbaum)
+  on [Unsplash](https://unsplash.com/photos/k39RGHmLoV8)
 layout: partners
-permalink: /fr/partners/index.html
 title: Partners
 hero: |-
   Together with our partners,\
@@ -9,15 +10,7 @@ hero_image: /assets/media/hl_partners_hero-c-xavi-cabrera-kn-umdzqdjm-unsplash-c
 hero_image_caption: Photo by [Xavi Cabrera](https://unsplash.com/@xavi_cabrera)
   on [Unsplash](https://unsplash.com/s/photos/lego-bricks)
 you_title: You
-you_image: /assets/media/you_partner_claudio-schwarz-purzlbaum-unsplash.jpeg
-you_description: |-
-  You are interested in building a better digital world?\
-  You think you can help us achieve our ambitious goals?\
-  Or maybe you just want to chat a bit?
-you_url: mailto:projects@hestia.ai
 you_button: Let's talk
-you_image_caption: Photo by [Claudio Schwarz](https://unsplash.com/@purzlbaum)
-  on [Unsplash](https://unsplash.com/photos/k39RGHmLoV8)
 partners:
   - title: Migros Pioneer Fund
     description: >-
@@ -68,7 +61,8 @@ partners:
       HestiaLabs is currently working with multiple labs and units at the [University of Genève](https://www.unige.ch/) and the [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch).
     url: mailto:partners@hestia.ai
     image: /assets/media/researcher_pexels.jpeg
-    image_caption: Photo by [Startup Stock Photos](https://www.pexels.com/fr-fr/@startup-stock-photos) on [Pexels](https://www.pexels.com/fr-fr/photo/homme-personne-piece-rechercher-212286/)
+    image_caption: Photo by [Startup Stock
+      Photos](https://www.pexels.com/fr-fr/@startup-stock-photos) on [Pexels](https://www.pexels.com/fr-fr/photo/homme-personne-piece-rechercher-212286/)
     button: Join us
   - description: >-
       Privacy is everyone's concern in our digital world. Would you like to be
@@ -93,6 +87,14 @@ partners:
     url: mailto:partners@hestia.ai
     image: /assets/media/journalist_unsplash.jpeg
     button: Join us
-    image_caption: Photo by [Vanilla Bear Films](https://unsplash.com/@vanillabearfilms)
-      on [Unsplash](https://unsplash.com/s/photos/journalist)
+    image_caption: Photo by [Vanilla Bear
+      Films](https://unsplash.com/@vanillabearfilms) on
+      [Unsplash](https://unsplash.com/s/photos/journalist)
+permalink: /fr/partners/index.html
+you_image: /assets/media/you_partner_claudio-schwarz-purzlbaum-unsplash.jpeg
+you_description: |-
+  You are interested in building a better digital world?\
+  You think you can help us achieve our ambitious goals?\
+  Or maybe you just want to chat a bit?
+you_url: mailto:projects@hestia.ai
 ---
