@@ -1,5 +1,6 @@
 ---
 layout: defaultWithHero
+netlifyFormName: newsletter-signup-dp
 inverse: true
 ---
 {#
@@ -74,8 +75,13 @@ inverse: true
 </section>
 
 <section id="newsletter">
+  {# Netlify needs to see a hardcoded form in the html.
+     Should we move the web component and script tag into
+     the template newsletter-signup-netlify.njk?
+  #}
+  {% include "newsletter-signup-netlify.njk" %}
   <newsletter-signup lang="{{locale}}"
-                     netlifyName="newsletter-signup-dp"/>
+                     netlifyFormName="{{netlifyFormName}}"/>
 </section>
 
 <script type="module">

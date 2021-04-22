@@ -22,6 +22,37 @@ registerTranslateConfig({
         }
     }});
 
+/**
+ * ‹newsletter-signup› custom element, displaying a
+ * form to sign up for a newsletter.
+ *
+ * This currently works by sending the values to a netlify form.
+ * The netlify build needs to recognize the form in the html,
+ * and doesn't see what's built by the web component.
+ * Therefore a hidden form needs to be added to the html
+ * in addition to this web-component.
+ * See https://docs.netlify.com/forms/setup/#work-with-javascript-rendered-forms
+ *
+ * Attributes:
+ *
+ *   lang: String
+ *    The language of the page on which the component is displayed.
+ *
+ *   netlifyName: String
+ *    The name of the netlify form.
+ *
+ *
+ * Usage:
+ *
+ *     <form name="{{netlifyFormName}}" method="POST" data-netlify="true">
+ *           <input type="hidden" name="first-name">
+ *           <input type="hidden" name="last-name">
+ *           <input type="hidden" name="email">
+ *     </form>
+ *     <newsletter-signup lang="{{locale}}"
+ *                        netlifyFormName="{{netlifyFormName}}"/>
+ *
+ */
 export class NewsletterSignup extends LitElement {
 
   static get styles() {
@@ -51,7 +82,7 @@ export class NewsletterSignup extends LitElement {
     static get properties() {
         return {
             lang: { type: String },
-            netlifyName: { type: String }
+            netlifyFormName: { type: String }
         }
     }
 
@@ -65,14 +96,10 @@ export class NewsletterSignup extends LitElement {
   }
 
   render() {
-    // https://docs.netlify.com/forms/setup/#work-with-javascript-rendered-forms
     return html`
-    <form name="${this.netlifyName}" class="signup"
-          method="POST" data-netlify="true">
-      <input type="hidden" name="form-name"
-             value="${this.netlifyName}" />
-      <input type="hidden" name="lang"
-             value="${this.lang}" />
+    <form class="signup" method="POST">
+      <input type="hidden" name="form-name" value="${this.netlifyName}" />
+      <input type="hidden" name="lang" value="${this.lang}" />
       <div >
         <h1>${translate("title")}</h1>
         ${!translate("info") ? '' :
