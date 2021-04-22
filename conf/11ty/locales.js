@@ -36,7 +36,8 @@ function buildLocalesCollection(collectionApi) {
         Object.values(ts).forEach(t => {
           const {locale, page} = t;
           const translations = LOCALES
-                .filter(loc => loc != locale )
+                // uncomment to ignore current locale
+                // .filter(loc => loc != locale )
                 .map(loc => ts[loc]);
           locsByPath[page.inputPath] =
             {locale, page, defaultTranslation, translations};
