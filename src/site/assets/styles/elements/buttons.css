@@ -33,6 +33,6 @@ section#hero button {
 }
 
 button.big {
-  font-size: var(--h3-font-size);
-  border-radius: var(--h3-font-size);
+  font-size: var(--text-lg-font-size);
+  border-radius: var(--text-lg-font-size);
 }
