@@ -1,7 +1,10 @@
 ---
 layout: defaultWithHero
+netlifyFormName: newsletter-signup-hl
 ---
-{% include "signup.njk" %}
+<section id="newsletter">
+ {% include "newsletter-signup-netlify.njk" %}
+</section>
 
 {% if collections.editorial %}
   <section id="editorials">
