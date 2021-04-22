@@ -150,30 +150,31 @@ export class ArticleBreakout extends LitElement {
   }
 
   renderCardFigureFrag() {
-    return html`<figure class="column-one-half">
+    return html`
+      <figure class="column-one-half">
         <img src="${this.imgSrc}">
         <figcaption/><slot name="caption"/><figcaption>
       </figure>`;
   }
 
   renderCardBodyFrag() {
-    return html`<div class="column-one-half">
+    return html`
+      <div class="column-one-half">
         <h1><slot name="title"/></h1>
         <slot></slot>
-      </div>`
+      </div>`;
   }
 
   renderAsCard(leftHTMLFrag, rightHTMLFrag) {
-    return html`<a href="${this.href}">
+    return html`
       <article class="card column-layout">
         ${leftHTMLFrag}
         ${rightHTMLFrag}
-      </article>
-    </a>`
+      </article>`;
   }
 
   renderAsBox() {
-    return html`<a href="${this.href}">
+    return html`
       <article class="box">
         <figure>
           <img src="${this.imgSrc}">
@@ -183,25 +184,31 @@ export class ArticleBreakout extends LitElement {
           <h1><slot name="title"/></h1>
           <slot></slot>
         </div>
-      </article>
-    </a>`
+      </article>`;
   }
 
   render() {
+    let articleHTMLFrag = "";
     switch( this.layout) {
       case LAYOUT_CARD:
-        return this.renderAsCard(
+        articleHTMLFrag = this.renderAsCard(
           this.renderCardFigureFrag(),
           this.renderCardBodyFrag()
         );
+        break;
       case LAYOUT_CARD_ALT:
-        return this.renderAsCard(
+        articleHTMLFrag = this.renderAsCard(
           this.renderCardBodyFrag(),
           this.renderCardFigureFrag()
         );
+        break;
       default:
-        return this.renderAsBox();
-    }
+        articleHTMLFrag = this.renderAsBox();
+        break;
+    };
+    return (typeof this.href !== "undefined" && this.href !== null)
+      ? html`<a href="${this.href}">${articleHTMLFrag}</a>`
+      : articleHTMLFrag;
   }
 }
 
