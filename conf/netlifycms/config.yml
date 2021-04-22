@@ -59,9 +59,9 @@ collections:
         - { label: Ethics, name: ethics, required: false, widget: string, i18n: true }
         - { label: Community, name: community, required: false, widget: string, i18n: true }
         - { label: Contact, name: contact, required: false, widget: string, i18n: true }
-    - label: Signup text fragments
-      name: i18n-signup
-      file: src/site/_data/i18n/signup.json
+    - label: Newsletter signup text fragments
+      name: i18n-newsletter-signup
+      file: src/site/assets/i18n/newsletter-signup.json
       i18n: true
       fields:
         - { label: Title, name: title, required: false, widget: string, i18n: true }

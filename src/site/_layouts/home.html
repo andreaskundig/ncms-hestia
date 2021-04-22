@@ -74,9 +74,11 @@ inverse: true
 </section>
 
 <section id="newsletter">
-  {% include "signup.njk" %}
+  <newsletter-signup lang="{{locale}}"
+                     netlifyName="newsletter-signup-dp"/>
 </section>
 
 <script type="module">
   import '/components/article-breakout.js';
+  import '/components/newsletter-signup.js';
 </script>

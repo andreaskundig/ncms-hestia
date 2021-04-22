@@ -88,10 +88,10 @@ export class SubjectAccessRequestForm extends LitElement {
         this.fetchApps();
     }
 
-  firstUpdated() {
-    // Load the default language
-      use(this.lang);
-  }
+    firstUpdated() {
+        // Load the default language
+        use(this.lang);
+    }
 
     async fetchApps() {
         const apps = await fetchDatingApps();
