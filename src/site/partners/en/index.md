@@ -1,18 +1,23 @@
 ---
-you_image_caption: Photo by [Claudio Schwarz](https://unsplash.com/@purzlbaum)
-  on [Unsplash](https://unsplash.com/photos/k39RGHmLoV8)
 layout: partners
+permalink: /en/partners/index.html
 title: Partners
 hero: |-
   Together with our partners,\
   we build **trust**
 hero_image: /assets/media/hl_partners_hero-c-xavi-cabrera-kn-umdzqdjm-unsplash-c.jpeg
-hero_image_caption: Photo by [Xavi
-  Cabrera](https://unsplash.com/@xavi_cabrera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/lego-bricks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+hero_image_caption: Photo by [Xavi Cabrera](https://unsplash.com/@xavi_cabrera)
+  on [Unsplash](https://unsplash.com/s/photos/lego-bricks)
 you_title: You
+you_image: /assets/media/you_partner_claudio-schwarz-purzlbaum-unsplash.jpeg
+you_description: |-
+  You are interested in building a better digital world?\
+  You think you can help us achieve our ambitious goals?\
+  Or maybe you just want to chat a bit?
+you_url: mailto:projects@hestia.ai
 you_button: Let's talk
+you_image_caption: Photo by [Claudio Schwarz](https://unsplash.com/@purzlbaum)
+  on [Unsplash](https://unsplash.com/photos/k39RGHmLoV8)
 partners:
   - title: Migros Pioneer Fund
     description: >-
@@ -25,8 +30,8 @@ partners:
       **About Migros Pioneer Fund**
 
       The Migros Pioneer Fund looks for and supports ideas with social potential. It enables pioneering projects that break new ground and seek out forward-looking solutions. Its impact-oriented funding approach combines financial support with coaching services. The Migros Pioneer Fund is part of the Migros Group's social engagement and is enabled by the Migros Group with around CHF 15 million annually.
-    url: www.migros-pionierfonds.ch/de/pioniere/hestialabs
-    image: /assets/media/logo_fge_mptag1_erm_rgb_300dpi_en.png
+    url: https://www.migros-pionierfonds.ch/de/pioniere/hestialabs
+    image: /assets/img/migros-pionierfonds-logo-en.png
     button: Website
   - title: MyData Geneva
     url: https://mydatageneva.org/
@@ -63,8 +68,7 @@ partners:
       HestiaLabs is currently working with multiple labs and units at the [University of Genève](https://www.unige.ch/) and the [Ecole Polytechnique Fédérale de Lausanne](https://www.epfl.ch).
     url: mailto:partners@hestia.ai
     image: /assets/media/researcher_pexels.jpeg
-    image_caption: Photo by **[Startup Stock
-      Photos](https://www.pexels.com/fr-fr/@startup-stock-photos?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** on **[Pexels](https://www.pexels.com/fr-fr/photo/homme-personne-piece-rechercher-212286/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)**
+    image_caption: Photo by [Startup Stock Photos](https://www.pexels.com/fr-fr/@startup-stock-photos) on [Pexels](https://www.pexels.com/fr-fr/photo/homme-personne-piece-rechercher-212286/)
     button: Join us
   - description: >-
       Privacy is everyone's concern in our digital world. Would you like to be
@@ -89,15 +93,6 @@ partners:
     url: mailto:partners@hestia.ai
     image: /assets/media/journalist_unsplash.jpeg
     button: Join us
-    image_caption: Photo by [Vanilla Bear
-      Films](https://unsplash.com/@vanillabearfilms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-      on
-      [Unsplash](https://unsplash.com/s/photos/journalist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-permalink: /en/partners/index.html
-you_image: /assets/media/you_partner_claudio-schwarz-purzlbaum-unsplash.jpeg
-you_description: |-
-  You are interested in building a better digital world?\
-  You think you can help us achieve our ambitious goals?\
-  Or maybe you just want to chat a bit?
-you_url: mailto:projects@hestia.ai
+    image_caption: Photo by [Vanilla Bear Films](https://unsplash.com/@vanillabearfilms)
+      on [Unsplash](https://unsplash.com/s/photos/journalist)
 ---
