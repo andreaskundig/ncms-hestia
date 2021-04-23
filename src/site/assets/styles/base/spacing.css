@@ -1,0 +1,32 @@
+.center {
+  text-align: center;
+}
+
+h1, h2, h3,
+h4, h5, h6,
+p {
+  margin: 0;
+  margin-bottom: var(--paragraph-space-between);
+}
+
+section:not(.with-no-space) {
+  margin: var(--paragraph-space-around) 0;
+}
+
+.with-space, .with-space-before {
+  margin-top: var(--paragraph-space-around);
+}
+
+.with-space, .with-space-after {
+  margin-bottom: var(--paragraph-space-around);
+}
+
+.with-no-space,
+.with-no-space-before {
+  margin-top: 0;
+}
+
+.with-no-space,
+.with-no-space-after {
+  margin-bottom: 0;
+}

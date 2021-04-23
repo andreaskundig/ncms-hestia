@@ -101,25 +101,6 @@ h6 {
   font-weight: var(--h6-font-weight);
 }
 
-h1, h2, h3,
-h4, h5, h6,
-p {
-  margin: 0;
-  margin-bottom: var(--paragraph-space-between);
-}
-
-.space, .space-before {
-  margin-top: var(--paragraph-space-around);
-}
-
-.space, .space-after {
-  margin-bottom: var(--paragraph-space-around);
-}
-
-.center {
-  text-align: center;
-}
-
 /* .big elements share font size with h3, but
     neither font-family nor letter-spacing */
 .big {

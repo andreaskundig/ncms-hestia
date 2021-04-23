@@ -165,7 +165,7 @@
   /* Paragraphs */
 
   --paragraph-space-between:        var(--line-height-half);
-  --paragraph-space-around:         var(--line-height-base);   /* that is, more space than in between paragraphs, while preserving line-height interval */
+  --paragraph-space-around:         var(--line-height-double); /* that is, more space than in between paragraphs, while preserving line-height interval */
 
   /* Links */
   --link-text-deco:                 underline;
