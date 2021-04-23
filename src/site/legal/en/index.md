@@ -2,7 +2,7 @@
 layout: legal
 permalink: /en/legal/index.html
 title: Legal notice
-hero: "**Legal notice**"
+hero: ""
 ---
 ## Legal notice
 
