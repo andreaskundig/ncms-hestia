@@ -1,0 +1,14 @@
+section.newsletter {
+  background-color: var(--breakout-bg-color);
+  box-shadow: var(--breakout-shadow);
+  padding: var(--breakout-padding);
+  border: var(--breakout-border);
+}
+
+section.newsletter.floating-on-hero {
+  max-width: calc(50% - 1.5rem);
+  margin-top: -8rem;
+  margin-right: 2rem;
+  margin-left: auto;
+  margin-bottom: -3rem;
+}
