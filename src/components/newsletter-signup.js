@@ -54,7 +54,7 @@ registerTranslateConfig({
  *     is displayed; will be placed in a hidden field,
  *     to be stored with the other fields of the form.
  *
- *   netlifyFormName: String
+ *   form-name: String
  *     Name of the Netlify Form.
  *
  *   layout (optional): "normal" (default) | "compact"
@@ -65,15 +65,15 @@ registerTranslateConfig({
  *
  * Usage:
  *
- *     <form name="{{netlifyFormName}}" method="POST" data-netlify="true">
+ *     <form name="newsletter-signup" method="POST" data-netlify="true">
  *         <input type="hidden" name="first-name">
  *         <input type="hidden" name="last-name">
  *         <input type="hidden" name="email">
  *     </form>
  *
  *     <newsletter-signup
- *         lang="{{locale}}" layout="compact"
- *         netlifyFormName="{{netlifyFormName}}">
+ *         lang="en" layout="compact"
+ *         form-name="newsletter-signup">
  *     </newsletter-signup>
  *
  */
@@ -124,7 +124,7 @@ export class NewsletterSignup extends LitElement {
   static get properties() {
     return {
       lang: { type: String },
-      netlifyFormName: { type: String },
+      netlifyFormName: { type: String, attribute: "form-name" },
       layout: {
         type: String,
         converter: {
