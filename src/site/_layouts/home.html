@@ -1,7 +1,6 @@
 ---
 layout: defaultWithHero
 inverse: true
-netlifyFormName: newsletter-signup-hl
 ---
 {#
   Would we need custom HTML per language, copy & override
@@ -94,9 +93,13 @@ netlifyFormName: newsletter-signup-hl
 </section>
 
 <section id="newsletter">
-  {% include "newsletter-signup-netlify.njk" %}
+  <newsletter-signup
+    lang="{{locale}}"
+    netlifyFormName="newsletter-signup-hl">
+  </newsletter-signup>
 </section>
 
 <script type="module">
   import '/components/article-breakout.js';
+  import '/components/newsletter-signup.js';
 </script>
