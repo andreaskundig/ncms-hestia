@@ -10,14 +10,27 @@ layout: default
 
 <div class="responsive-wrapper">
   <section id="description" class="with-no-space-before">
-    <ul>
+    <div class="grid-layout-halves with-gutters with-no-space-before">
       {% for post in collections.post %}
         {% set post_categories = post.data.post_categories %}
         {% if post.data.locale == locale
           and id in post_categories %}
-          <li><a href="{{post.url}}">{{post.data.title}}</a></li>
+          <article-breakout
+              class="grid-cell" layout="box"
+              href="{{post.url}}" img-src="{{post.data.image}}">
+            <span slot="title">{% markdown post.data.title %}</span>
+            <span slot="caption">
+              {% markdown post.data.image_caption %}
+            </span>
+            {% markdown post.data.lead %}
+            <button>{{i18n.globals[locale].read_more}}</button>
+          </article-breakout>
         {% endif %}
       {% endfor %}
-    </ul>
+    </div>
   </section>
 </div>
+
+<script type="module">
+  import '/components/article-breakout.js';
+</script>
