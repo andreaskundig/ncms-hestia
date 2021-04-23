@@ -66,6 +66,7 @@ export class ArticleBreakout extends LitElement {
         --line-height-half:     0.5rem;
         --breakout-shadow:      0 3px 6px rgba(27,31,35,0.8);
         --breakout-img-shadow:  1px 2px 4px rgba(27,31,35,0.8);
+        --breakout-padding:     1rem;
       }
 
       :host {
@@ -76,7 +77,7 @@ export class ArticleBreakout extends LitElement {
         background-color: var(--color-bg-tertiary);
         box-shadow: var(--breakout-shadow);
         min-height: 8rem;
-        padding: 1rem;
+        padding: var(--breakout-padding);
       }
 
       .box {
