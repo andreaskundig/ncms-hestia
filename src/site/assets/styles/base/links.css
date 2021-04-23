@@ -24,13 +24,22 @@ main a:focus {
   outline: var(--link-focus-outline);
 }
 
-/* Style all links that include .pdf|.csv|.doc|.xls at the end */
+/* Style all links that include mailto: at the beginning */
+main a[href^="mailto:"]::after {
+  content: " (e-mail)";
+}
+
+x/* Style all links that include .pdf|.csv|.doc[x]|.xls[x]|.zip at the end */
 main a[href$=".pdf"]::after {
   content: " (PDF)";
 }
 
 main a[href$=".csv"]::after {
   content: " (CSV)";
+}
+
+main a[href$=".zip"]::after {
+  content: " (ZIP)";
 }
 
 main a[href$=".doc"]::after,
