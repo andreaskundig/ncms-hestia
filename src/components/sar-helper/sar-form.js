@@ -16,6 +16,17 @@ const DEFAULT_TRANSLATIONS = {
 
 };
 
+const IDS = {
+    select: 'dating-app-select',
+    body: 'email-body',
+    recipient: 'email-recipient',
+    subject: 'email-subject',
+    partsToFillIn: 'email-parts-to-fill-in'
+};
+
+const FEATURED_APPS = ["Bumble", "Tinder", "Match.com", "Meetic",
+                       "Hinge"];
+
 // is this really the place to do this?
 registerTranslateConfig({
     loader: async (lang) => {
@@ -36,13 +47,16 @@ function compareItemLabel(appA, appB) {
     return 0;
 }
 
-const IDS = {
-    select: 'dating-app-select',
-    body: 'email-body',
-    recipient: 'email-recipient',
-    subject: 'email-subject',
-    partsToFillIn: 'email-parts-to-fill-in'
-};
+function compareFeatured(appA, appB) {
+    const aFeatured = FEATURED_APPS.includes(appA.itemLabel);
+    const bFeatured = FEATURED_APPS.includes(appB.itemLabel);
+    if(aFeatured == bFeatured){
+        return compareItemLabel(appA, appB);
+    }
+    return aFeatured ? -1 : 1;
+}
+
+const unCamelCase = (string) => string.replace(/([A-Z][a-z])/g, ' $1');
 
 export class SubjectAccessRequestForm extends LitElement {
 
@@ -51,7 +65,10 @@ export class SubjectAccessRequestForm extends LitElement {
         @import '/assets/styles/vendor/normalize.css';
         @import '/assets/styles/base/typography.css';
         @import '/assets/styles/elements/buttons.css';
-          .inline{ display: inline-block; }
+
+       input {
+          padding: 0.3em;
+       }
 
        .app-selection {
           display:flex;
@@ -63,6 +80,36 @@ export class SubjectAccessRequestForm extends LitElement {
        }
        .app-selection > input {
           flex-grow: 1;
+       }
+
+       .app-buttons {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 1em;
+/*
+          justify-content: space-between;
+*/
+       }
+
+       /* first five children */
+       .app-buttons > span:nth-child(-n+5) {
+            width: 6em;
+       }
+
+       .app-buttons > span {
+            width: 4.5em;
+            height: 2em;
+            overflow: hidden;
+            border: 1px solid;
+/*
+*/
+            margin: .15em;
+            padding: .2em;
+            text-overflow: ellipsis;
+            /* Required for text-overflow to do anything */
+            white-space: nowrap;
+            cursor:  pointer;
+            text-align: center;
        }
 
        .email-field {
@@ -136,9 +183,18 @@ export class SubjectAccessRequestForm extends LitElement {
         use(this.lang);
     }
 
+    appsForDisplay(){
+        const appsClone = this.apps.slice();
+        appsClone.sort(compareFeatured);
+        return appsClone;
+    }
+
     async fetchApps() {
-        const apps = await fetchDatingApps();
-        apps.sort(compareItemLabel);
+        const fetched = await fetchDatingApps();
+        const apps = fetched.map(app =>
+            Object.assign(app,
+                { displayName: unCamelCase(app.itemLabel) }))
+            .sort(compareItemLabel);
         this.apps = apps;
     }
 
@@ -156,15 +212,26 @@ export class SubjectAccessRequestForm extends LitElement {
         }
     }
 
-    onSearch(event){
-        const search = event.target;
+    onClickApp(itemLabel){
+        this.selectOption(itemLabel);
+    }
+
+    selectOption(value){
         const select = this.byId(IDS.select);
         const option = select.querySelector(
-                `option[value='${search.value}']`);
+                `option[value='${value}']`);
         if (option) {
             select.value = option.value;
-            search.value = "";
             select.dispatchEvent(new Event('change'));
+            return true;
+        }
+        return false;
+    }
+
+    onSearch(event){
+        const search = event.target;
+        if (this.selectOption(search.value)) {
+            search.value = "";
         }
     }
 
@@ -214,17 +281,28 @@ export class SubjectAccessRequestForm extends LitElement {
               ${t.apps.map(app =>
                html`<option data-item="${app.item}"
                              value="${app.itemLabel}">
-                        ${app.itemLabel}</option>`)}
+                        ${app.displayName}</option>`)}
             </select>
             <input placeholder="${translate("search_placeholder")}"
                    list="search-list"
+                   id="search-input"
                    value="${t.search}"
                    @keyup="${t.onSearchType}"
                    @input="${t.onSearch}">
             <datalist  id="search-list">
               ${t.apps.map(app =>
-                   html`<option value="${app.itemLabel}"></option>`)}
+                   html`<option value="${app.itemLabel}">
+                          ${app.displayName}
+                        </option>`)}
             </datalist>
+          </div>
+          <div class="app-buttons">
+              ${t.appsForDisplay().map(app =>
+                  html`
+                    <span @click="${_ => t.onClickApp(app.itemLabel)}"
+                          title="${app.displayName}">
+                    ${app.displayName}
+                    </span> `)}
           </div>
           <div class="email-field">
             <label for="${IDS.recipient}">${translate("recipient")}</label>
