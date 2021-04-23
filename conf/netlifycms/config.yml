@@ -79,6 +79,13 @@ collections:
         - { label: Twitter URL, name: twitter_url, required: true, widget: string, i18n: true }
         - { label: Forum label, name: forum_label, required: true, widget: string, i18n: true }
         - { label: Forum URL, name: forum_url, required: true, widget: string, i18n: true }
+    - label: Blog
+      name: i18n-blog
+      file: src/site/_data/i18n/blog.json
+      i18n: true
+      fields:
+        - { label: Stories by, name: stories_by, required: true, widget: string, i18n: true }
+        - { label: Stories about, name: stories_about, required: true, widget: string, i18n: true }
     - label: SAR Form
       name: sar-form
       file: src/site/assets/i18n/sar-form.json
@@ -689,19 +696,6 @@ collections:
     - { label: "Name", name: name, required: false, widget: string, i18n: true }
     - { label: Description, name: description, required: false, widget: markdown, i18n: true }
 
-- label: Blog ‹Category fragments›
-  name: category_fragments
-  folder: src/site/_includes/category_fragments
-  extension: md
-  editor:
-    preview: false
-  create: false
-  delete: false
-  i18n: true
-  identifier_field: body
-  fields:
-    - { label: "Body ({{name}} will be replaced by category name)", name: "body", required: false, widget: "markdown", i18n: true }
-
 - label: Blog › Authors
   name: post_authors
   folder: src/site/author
@@ -718,16 +712,4 @@ collections:
     - { label: "Name", name: name, required: false, widget: string, i18n: true}
     - { label: Description, name: description, required: false, widget: markdown, i18n: true }
 
-- label: Blog ‹Author fragments›
-  name: author_fragments
-  folder: src/site/_includes/author_fragments
-  extension: md
-  editor:
-    preview: false
-  create: false
-  delete: false
-  i18n: true
-  identifier_field: body
-  fields:
-    - { label: "Body ({{name}} will be replaced by author name)", name: "body", required: false, widget: "markdown", i18n: true }
 # eof
