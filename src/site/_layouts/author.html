@@ -4,7 +4,7 @@ layout: default
 {% set id = defaultTranslation.page.data.id %}
 <section id="hero" class="normhero with-no-space">
   <div class="responsive-wrapper">
-    <h1>{% include "author_fragments/" + locale +"/hero.md" %}</h1>
+    <h1>{{i18n.blog[locale].stories_by}} <strong>{{name}}</strong></h1>
     <p>{% markdown description %}</p>
   </div>
 </section>

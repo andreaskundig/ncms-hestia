@@ -1,1 +1,0 @@
-Stories about <strong>{{name}}</strong>
