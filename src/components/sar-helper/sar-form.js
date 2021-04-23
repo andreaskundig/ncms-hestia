@@ -20,7 +20,6 @@ const DEFAULT_TRANSLATIONS = {
 };
 
 const IDS = {
-    select: 'dating-app-select',
     search: 'dating-app-search',
     body: 'email-body',
     recipient: 'email-recipient',
@@ -273,7 +272,7 @@ export class SubjectAccessRequestForm extends LitElement {
         const t = this;
         return html`
           <div class="app-selection"">
-            <label for="${IDS.select}">${translate("dating_app")}</label>
+            <label for="${IDS.search}">${translate("dating_app")}</label>
             <input placeholder="${translate("search_placeholder")}"
                    list="search-list"
                    id="${IDS.search}"
