@@ -103,7 +103,7 @@
   --color-text-placeholder:        #6a737d;
   --color-text-disabled:           #959da5;
   --color-text-inverse:            var(--color-bg-primary);
-  --color-text-link:               #f49600;
+  --color-text-link:               var(--color-bg-secondary); /* earlier: #f49600 */
   --color-text-danger:             #cb2431;
   --color-text-success:            #22863a;
   --color-text-warning:            #b08800;
