@@ -20,7 +20,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site/robots.txt");
   eleventyConfig.addPassthroughCopy("src/site/admin/*.js");
   eleventyConfig.addPassthroughCopy("src/site/admin/doc/*.png");
-  eleventyConfig.addPassthroughCopy({ "conf/netlifycms/config.yml": "admin/config.yml" });
+  eleventyConfig.addPassthroughCopy({ "conf/netlify/cms/config.yml": "admin/config.yml" });
+  eleventyConfig.addPassthroughCopy({ "conf/netlify/forms/*.html": "admin/forms/" });
 
   eleventyConfig.addCollection("locales", buildLocalesCollection);
 
