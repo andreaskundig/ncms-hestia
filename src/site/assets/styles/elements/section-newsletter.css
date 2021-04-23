@@ -1,6 +1,8 @@
 section.newsletter {
   background-color: var(--breakout-bg-color);
   box-shadow: var(--breakout-shadow);
+  margin: var(--breakout-border-offset);
+  margin-top: 0;
   padding: var(--breakout-padding);
   border: var(--breakout-border);
 }

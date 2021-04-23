@@ -225,4 +225,5 @@
   --breakout-img-shadow:            var(--shadow-medium-dark);
   --breakout-padding:               1rem;
   --breakout-border:                0.5rem solid var(--color-bg-canvas);
+  --breakout-border-offset:         -0.5rem;                   /* negative(--breakout-border.width) */
 }
