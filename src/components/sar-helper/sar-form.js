@@ -21,6 +21,7 @@ const DEFAULT_TRANSLATIONS = {
 
 const IDS = {
     select: 'dating-app-select',
+    search: 'dating-app-search',
     body: 'email-body',
     recipient: 'email-recipient',
     subject: 'email-subject',
@@ -231,6 +232,9 @@ export class SubjectAccessRequestForm extends LitElement {
 
     async selectApp(app){
         this.selectedApp = app;
+        console.log('s', this.selectedApp)
+        const search = this.byId(IDS.search);
+        search.value = app.displayName;
         await this.displayEmail(app.item);
     }
 
@@ -253,7 +257,6 @@ export class SubjectAccessRequestForm extends LitElement {
 
     openEmailClient() {
         const t = this;
-        console.log('heee',IDS.subject, t.byId(IDS.subject))
         const email = t.byId(IDS.recipient).value;
         const subject = encodeURIComponent(t.byId(IDS.subject).value);
         const body = encodeURIComponent(t.byId(IDS.body).value);
@@ -268,22 +271,12 @@ export class SubjectAccessRequestForm extends LitElement {
 
     render() {
         const t = this;
-        let previewText;
-        if(t.selectedApp){
-            previewText =
-                html`${translate('preview_of_email_to')}
-                 <strong>${t.selectedApp.displayName}</strong>        `
-        }else{
-            previewText= translate('preview_of_email')
-        }
-
         return html`
           <div class="app-selection"">
             <label for="${IDS.select}">${translate("dating_app")}</label>
             <input placeholder="${translate("search_placeholder")}"
                    list="search-list"
-                   id="search-input"
-                   value="${t.selectedApp?.displayName || ''}"
+                   id="${IDS.search}"
                    @keyup="${t.onSearchType}"
                    @input="${t.onSearch}">
             <datalist  id="search-list">
