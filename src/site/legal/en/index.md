@@ -31,9 +31,7 @@ This privacy policy provides you information on data processed by Hestia.ai when
 
 1. ### Contact Us / Request
 
-You may request a copy of our Personal Data, withdraw Your previously given consent or request deletion of Your data (when relevant), or just contact Us, by sending an email at : 
-
-* By email: legal@hestia.ai
+You may request a copy of our Personal Data, withdraw Your previously given consent or request deletion of Your data (when relevant), or just contact Us, by sending an email at: legal@hestia.ai
 
 2. ### Definitions
 
@@ -45,10 +43,10 @@ For the purposes of this policy, the words of which the initial letter is capita
 
 3. ### Data processing
 
-| Purpose of the processing                                         | Collected data      | Lawful basis            | Recipients                  | Retention period                                         |
-| ----------------------------------------------------------------- | ------------------- | ----------------------- | --------------------------- | -------------------------------------------------------- |
-| Newsletter                                                        | Email address       | Execution of a contract | Hestia.ai and subprocessors | As long as registered                                    |
-| Basic analytics (no tracking), technical maintenance and security | IP address, user ID | Legitimate interest     | Hestia.ai and subprocessors | See [here](https://www.netlify.com/products/analytics/). |
+| Purpose of the processing                                         | Collected data                                                    | Lawful basis            | Recipients                  | Retention period                                         |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------- | --------------------------- | -------------------------------------------------------- |
+| Newsletter                                                        | Email address                                                     | Execution of a contract | Hestia.ai and subprocessors | As long as registered                                    |
+| Basic analytics (no tracking), technical maintenance and security | IP address, user agent, date and time of connection (server logs) | Legitimate interest     | Hestia.ai and subprocessors | See [here](https://www.netlify.com/products/analytics/). |
 
 \
 Please be aware that your Personal Data may be disclosed under the following circumstances, provided such disclosure occurs under sufficient security measures and does not lead to uncontrolled spread of information :
@@ -67,18 +65,18 @@ Information, including Personal Data, may be processed in various places. The ma
 
 5. ### Subprocessors
 
-Hestia.ai may work with different technical providers to provide You access to the services, including \[hosting provider, mailing provider, monitoring services…]. These providers act on Our behalf as subprocessors, and do not have an independent access to Your Personal Data.
+Hestia.ai may work with different technical providers to provide You access to the services, such as [Netlify](https://www.netlify.com) (for hosting and analytics). These providers act on Our behalf as subprocessors, and do not have an independent access to Your Personal Data.
 
 6. ### Liability
 
-Hestia.ai endeavors to ensure the security of their system and all information used, including Your Personal Data. Nevertheless, it is very hard to guarantee absolute security of any method of transmission over the Internet, or method of electronic storage. In case of breach, the competent data protection authority shall be informed according to applicable law, and if need be, You will be contacted.
+Hestia.ai endeavors to ensure the security of their systems and all information used, including Your Personal Data. Nevertheless, it is very hard to guarantee absolute security of any  method of electronic storage or any method of transmission over the Internet. In case of breach, the competent data protection authority shall be informed according to applicable law, and if need be, You will be contacted.
 
-The Website may contain links to other websites that are not operated by Us, we have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+The Website may contain links to other websites that are not operated by Us. We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
 
 Generally speaking, our purpose is to provide awareness and information around Privacy and Data Protection, and to the extent permitted by law, we shall not be liable for any direct, indirect or consequential damages. If the applicable law doesn’t allow a full exclusion of a liability, our aggregated liability shall be limited to the minimal amount allowed by law, and in no case superior to an amount of CHF 100.- (one hundred Swiss Francs), whether arising in tort, for breach of contract or otherwise.
 
 7. ### Applicable law and right to file a complaint
 
-We are based in Switzerland, Swiss Law shall govern this policy and the swiss courts be competent.
+We are based in Switzerland, Swiss Law shall govern this policy and the Swiss courts be competent.
 
-You will find more information about the procedure on Switzerland on <https://www.edoeb.admin.ch/edoeb/fr/home/le-pfpdt/contact/formulaire-de-contact.html>
+You will find more information about the procedure in Switzerland through this [contact form](<https://www.edoeb.admin.ch/edoeb/fr/home/le-pfpdt/contact/formulaire-de-contact.html>).
