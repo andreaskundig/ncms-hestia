@@ -1,9 +1,11 @@
 ---
 layout: defaultWithHero
-netlifyFormName: newsletter-signup-dp
 ---
 <section id="newsletter">
-  {% include "newsletter-signup-netlify.njk" %}
+  <newsletter-signup
+    lang="{{locale}}"
+    netlifyFormName="newsletter-signup-dp">
+  </newsletter-signup>
 </section>
 
 {% if collections.editorial %}
@@ -96,4 +98,5 @@ netlifyFormName: newsletter-signup-dp
 
 <script type="module">
   import '/components/article-breakout.js';
+  import '/components/newsletter-signup.js';
 </script>

@@ -1,6 +1,5 @@
 ---
 layout: defaultWithLeadTitle
-netlifyFormName: newsletter-signup-dp
 ---
 <section id="post" class="with-no-space-before">
   <p>
@@ -41,5 +40,15 @@ netlifyFormName: newsletter-signup-dp
 
 <section id="engage">
   {% include "share.njk" %}
-  {% include "newsletter-signup-netlify.njk" %}
 </section>
+
+<section id="newsletter">
+  <newsletter-signup
+    lang="{{locale}}"
+    netlifyFormName="newsletter-signup-dp">
+  </newsletter-signup>
+</section>
+
+<script type="module">
+  import '/components/newsletter-signup.js';
+</script>
