@@ -73,6 +73,9 @@
 
   /* COLOR PALETTE / FUNCTIONAL COLORS */
 
+  /* NOTE: for the definition of the lightenDarkenColor() function used hereafter,
+     see see https://css-tricks.com/snippets/javascript/lighten-darken-color/ */
+
   /* Shadows palette */
   --shadow-small:                  0 1px 0 rgba(27,31,35,0.04);
   --shadow-medium:                 0 3px 6px rgba(149,157,165,0.15);
@@ -84,7 +87,7 @@
 
   /* Backgrounds */
   --color-bg-canvas:               #ffffff;
-  --color-bg-primary:              #ffffff;
+  --color-bg-primary:              #faf3ff;           /* lightenDarkenColor(var(--color-bg-secondary),160) */
   --color-bg-secondary:            #5a53a0;
   --color-bg-tertiary:             #f6f8fa;
   --color-bg-info:                 #f1f8ff;
@@ -102,8 +105,8 @@
   --color-text-tertiary:           #6a737d;
   --color-text-placeholder:        #6a737d;
   --color-text-disabled:           #959da5;
-  --color-text-inverse:            var(--color-bg-primary);
-  --color-text-link:               var(--color-bg-secondary); /* earlier: #f49600 */
+  --color-text-inverse:            var(--color-bg-canvas);
+  --color-text-link:               var(--color-bg-secondary); /* was orange (#f49600) at first */
   --color-text-danger:             #cb2431;
   --color-text-success:            #22863a;
   --color-text-warning:            #b08800;
@@ -173,8 +176,9 @@
   --link-visited-text-color:        var(--body-text-color);
   --link-current-text-color:        var(--color-text-disabled);
   --link-hover-text-color:          var(--color-text-link);
-  --link-active-text-color:         var(--color-text-link);
-  --link-active-text-bg:            var(--selection-bg-color);
+  --link-hover-text-bg:             var(--color-bg-primary);
+  --link-active-text-color:         var(--link-hover-text-bg);
+  --link-active-text-bg:            var(--link-hover-text-color);
   --link-focus-outline:             3px solid var(--color-text-link);
 
   /* Headings */
@@ -204,7 +208,7 @@
   --header-font-size:               var(--text-sm-font-size);
   --header-font-weight:             var(--h2-font-weight);
   --header-text-color:              var(--color-text-secondary);
-  --header-bg-color:                var(--color-bg-primary);
+  --header-bg-color:                var(--color-bg-canvas);
 
   --footer-height-outer:            8rem;
   --footer-height-inner:            7rem;

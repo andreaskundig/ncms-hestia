@@ -13,6 +13,7 @@ main a:visited {
 
 main a:hover {
   color: var(--link-hover-text-color);
+  background-color: var(--link-hover-text-bg);
 }
 
 main a:active {
