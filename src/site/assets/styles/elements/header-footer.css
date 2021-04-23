@@ -81,11 +81,23 @@
 }
 
 .header-navigation a {
-  font-size: var(--header-text-font-size);
+  font-family: var(--header-font-family);
+  font-size: var(--header-font-size);
+  font-weight: var(--header-font-weight);
+  color: var(--header-text-color);
 }
 
 .footer-navigation a {
-  font-size: var(--footer-text-footer-size);
+  font-family: var(--footer-font-family);
+  font-size: var(--footer-font-size);
+  font-weight: var(--footer-font-weight);
+  color: var(--footer-text-color);
+}
+
+.header-navigation a[aria-current="page"],
+.header-navigation a[aria-current="lang"],
+.footer-navigation a[aria-current="page"] {
+  color: var(--link-current-text-color);
 }
 
 .header-navigation a:hover:after,
