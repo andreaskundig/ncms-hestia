@@ -12,6 +12,9 @@ const DEFAULT_TRANSLATIONS = {
     "recipient": "Recipient",
     "search_placeholder": "Search",
     "copy_button": "Copy to clipboard",
+    "preview_of_email": "Preview of the email",
+    "preview_of_email_to": "Preview of the email to",
+    "explanation": "You can copy the email fields or open it directly in your email client",
     "to_fill_in": "The following information needs to be filled in by hand in the email:"
 
 };
@@ -56,7 +59,7 @@ function compareFeatured(appA, appB) {
     return aFeatured ? -1 : 1;
 }
 
-const unCamelCase = (string) => string.replace(/([A-Z][a-z])/g, ' $1');
+const unCamelCase = (string) => string.replace(/([a-z])([A-Z][a-z])/g, '$1 $2');
 
 export class SubjectAccessRequestForm extends LitElement {
 
@@ -85,10 +88,7 @@ export class SubjectAccessRequestForm extends LitElement {
        .app-buttons {
           display: flex;
           flex-wrap: wrap;
-          margin: 1em;
-/*
-          justify-content: space-between;
-*/
+          margin: 1em 0 ;
        }
 
        /* first five children */
@@ -101,8 +101,6 @@ export class SubjectAccessRequestForm extends LitElement {
             height: 2em;
             overflow: hidden;
             border: 1px solid;
-/*
-*/
             margin: .15em;
             padding: .2em;
             text-overflow: ellipsis;
@@ -147,6 +145,7 @@ export class SubjectAccessRequestForm extends LitElement {
         return {
             lang: { type: String },
             apps: { type: Array, attribute: false },
+            selectedApp: { type: Object, attribute: false },
             search: { type: String, attribute: false },
             recipient: { type: String, attribute: false },
             subject: { type: String, attribute: false },
@@ -158,11 +157,13 @@ export class SubjectAccessRequestForm extends LitElement {
     constructor() {
         super();
         this.apps = [];
+        this.selectedApp = undefined;
         this.search = '';
         this.recipient = '';
         this.subject = '';
         this.body = '';
         this.partsToFillIn = [];
+
         this.i18n = {
             datingApp: 'Dating app',
             selectPlaceholder: 'Click to choose',
@@ -198,12 +199,8 @@ export class SubjectAccessRequestForm extends LitElement {
         this.apps = apps;
     }
 
-    async onSelectApp(event) {
-        const select = event.target;
-        const option = select.options[select.selectedIndex];
-        if(option && option.dataset.item){
-            this.search = '';
-            const item = option.dataset.item;
+    async displayEmail(item) {
+        if(item){
             const mailTo = await fetchMailTo(item, false);
             this.body = mailTo.body;
             this.recipient = mailTo.recipient;
@@ -212,39 +209,37 @@ export class SubjectAccessRequestForm extends LitElement {
         }
     }
 
-    onClickApp(itemLabel){
-        this.selectOption(itemLabel);
-    }
-
-    selectOption(value){
-        const select = this.byId(IDS.select);
-        const option = select.querySelector(
-                `option[value='${value}']`);
-        if (option) {
-            select.value = option.value;
-            select.dispatchEvent(new Event('change'));
-            return true;
-        }
-        return false;
+    findAppByDisplayName(searchString, exactMatch) {
+        const found = this.apps.filter(app => {
+            const name = app.displayName.toLowerCase();
+            const search = searchString.toLowerCase();
+            if (exactMatch) {
+                return name === search;
+            }
+            return name.includes(search);
+        });
+        return found.length === 1 ? found[0] : undefined;
     }
 
     onSearch(event){
         const search = event.target;
-        if (this.selectOption(search.value)) {
-            search.value = "";
+        const app = this.findAppByDisplayName(search.value, true);
+        if (app) {
+            this.selectApp(app);
         }
+    }
+
+    async selectApp(app){
+        this.selectedApp = app;
+        await this.displayEmail(app.item);
     }
 
     onSearchType(event){
         if(event.key === 'Enter'){
             const search = event.target;
-            const select = this.byId(IDS.select);
-            const options = select.querySelectorAll(
-                `option[value*='${search.value}' i]`);
-            if(options.length === 1){
-                select.value = options[0].value;
-                search.value = "";
-                select.dispatchEvent(new Event('change'));
+            const app = this.findAppByDisplayName(search.value);
+            if (app) {
+                this.selectApp(app);
             }
         }
     }
@@ -273,20 +268,22 @@ export class SubjectAccessRequestForm extends LitElement {
 
     render() {
         const t = this;
+        let previewText;
+        if(t.selectedApp){
+            previewText =
+                html`${translate('preview_of_email_to')}
+                 <strong>${t.selectedApp.displayName}</strong>        `
+        }else{
+            previewText= translate('preview_of_email')
+        }
+
         return html`
           <div class="app-selection"">
             <label for="${IDS.select}">${translate("dating_app")}</label>
-            <select id="${IDS.select}" @change="${t.onSelectApp}">
-               <option disabled selected value> ${translate("select_placeholder")} </option>
-              ${t.apps.map(app =>
-               html`<option data-item="${app.item}"
-                             value="${app.itemLabel}">
-                        ${app.displayName}</option>`)}
-            </select>
             <input placeholder="${translate("search_placeholder")}"
                    list="search-list"
                    id="search-input"
-                   value="${t.search}"
+                   value="${t.selectedApp?.displayName || ''}"
                    @keyup="${t.onSearchType}"
                    @input="${t.onSearch}">
             <datalist  id="search-list">
@@ -299,11 +296,29 @@ export class SubjectAccessRequestForm extends LitElement {
           <div class="app-buttons">
               ${t.appsForDisplay().map(app =>
                   html`
-                    <span @click="${_ => t.onClickApp(app.itemLabel)}"
+                    <span @click="${_ => t.selectApp(app)}"
                           title="${app.displayName}">
                     ${app.displayName}
                     </span> `)}
           </div>
+          <hr>
+          <h2>${
+            t.selectedApp ?
+             html`${translate('preview_of_email_to')}
+              <strong>${t.selectedApp.displayName}</strong>        `
+            :
+             translate('preview_of_email')
+          } </h2>
+          <p>${translate('explanation')}</p>
+        ${!this.partsToFillIn.length ? '' : html`
+          <div>
+            <div>${translate("to_fill_in")}</div>
+            <ul>
+               ${this.partsToFillIn.map(p =>
+                   html`<li>${p}</li>`)}
+            </ul>
+          </div>`
+         }
           <div class="email-field">
             <label for="${IDS.recipient}">${translate("recipient")}</label>
             <input id="${IDS.recipient}" value="${t.recipient}">
@@ -333,16 +348,6 @@ export class SubjectAccessRequestForm extends LitElement {
                ${translate("email_button")}
             </button>
           </div>
-        ${!this.partsToFillIn.length ? '' : html`
-          <div>
-            <div>${translate("to_fill_in")}</div>
-            <ul>
-               ${this.partsToFillIn.map(p =>
-                   html`<li>${p}</li>`)}
-            </ul>
-          </div>`
-         }
-
      `;
     }
 

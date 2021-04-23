@@ -9,6 +9,9 @@
     "recipient": "Recipient",
     "search_placeholder": "Search",
     "copy_button": "Copy to clipboard",
+    "preview_of_email": "Preview of the email",
+    "preview_of_email_to": "Preview of the email to",
+    "explanation": "You can copy the email fields or open it directly in your email client",
     "to_fill_in": "The following information needs to be filled in by hand in the email:"
   },
   "fr": {
@@ -21,6 +24,8 @@
     "recipient": "Destinataire",
     "search_placeholder": "recherche",
     "copy_button": "Copier",
+    "preview_of_email": "Aperçu de l'email",
+    "preview_of_email_to": "Aperçu de l'email à",
     "to_fill_in": "A compléter dans l'email"
   }
 }

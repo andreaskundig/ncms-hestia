@@ -100,6 +100,9 @@ collections:
         - { label: Body placeholder, name: body_placeholder, required: true, widget: string, i18n: true }
         - { label: Copy button, name: copy_button, required: true, widget: string, i18n: true }
         - { label: Email button, name: email_button, required: true, widget: string, i18n: true }
+        - { label: Preview of email, name: preview_of_email, required: true, widget: string, i18n: true }
+        - { label: Preview of email to, name: preview_of_email_to, required: true, widget: string, i18n: true }
+        - { label: Explanation, name: explanation, required: true, widget: string, i18n: true }
         - { label: Parts to fill in, name: to_fill_in, required: true, widget: string, i18n: true }
 
 - label: Home page
