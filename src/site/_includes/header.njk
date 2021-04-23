@@ -15,7 +15,6 @@
         {% ilink page, "community", locale %}{{i18n.header_footer[locale].community}}{% endilink %}
         {% ilink page, "partners", locale %}{{i18n.header_footer[locale].partners}}{% endilink %}
         {% for translation in translations %}
-          {% if not loop.first %}|{% endif %}
           {% ilink page, translation.page.url %}{{translation.locale}}{% endilink %}
         {% endfor %}
       </nav>
