@@ -69,6 +69,19 @@ collections:
         - { label: "First name", name: first_name, required: false, widget: string, i18n: true }
         - { label: "Last name", name: last_name, required: false, widget: string, i18n: true }
         - { label: "Email address", name: email, required: false, widget: string, i18n: true }
+        - { label: Message, name: message, required: false, widget: string, i18n: true }
+        - { label: "Submit button", name: submit_button, required: false, widget: string, i18n: true }
+    - label: Contact form text fragments
+      name: i18n-contact-form
+      file: src/site/assets/i18n/contact-form.json
+      i18n: true
+      fields:
+        - { label: Title, name: title, required: false, widget: string, i18n: true }
+        - { label: "First name", name: first_name, required: false, widget: string, i18n: true }
+        - { label: "Last name", name: last_name, required: false, widget: string, i18n: true }
+        - { label: "Email address", name: email, required: false, widget: string, i18n: true }
+        - { label: "Subject", name: subject, required: false, widget: string, i18n: true }
+        - { label: "Message", name: message, required: false, widget: string, i18n: true }
         - { label: "Submit button", name: submit_button, required: false, widget: string, i18n: true }
     - label: External links
       name: i18n-links
@@ -261,12 +274,6 @@ collections:
     - { label: "Contact media", name: contact_media, required: false, widget: string, i18n: true }
     - { label: "Contact media action", name: contact_media_action, required: false, widget: string, i18n: true }
     - { label: "Contact media url", name: contact_media_url, required: false, widget: file, i18n: true }
-    - { label: "Contact other", name: contact_other, required: false, widget: string, i18n: true }
-    - { label: "First name", name: contact_first_name, required: false, widget: string, i18n: true }
-    - { label: "Last name", name: contact_last_name, required: false, widget: string, i18n: true }
-    - { label: "Email address", name: contact_email, required: false, widget: string, i18n: true }
-    - { label: "Subject", name: contact_subject, required: false, widget: string, i18n: true }
-    - { label: "Message", name: contact_message, required: false, widget: string, i18n: true }
 
 - label: Ethics
   name: ethics

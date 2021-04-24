@@ -1,0 +1,20 @@
+{
+  "en": {
+    "title": "Something else?",
+    "subject": "Subject",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email": "Email address",
+    "submit_button": "Send",
+    "message": "Type your message here"
+  },
+  "fr": {
+    "title": "Autre chose?",
+    "email": "Adresse email",
+    "last_name": "Nom",
+    "first_name": "Prénom",
+    "subject": "Objet",
+    "submit_button": "Envoyer",
+    "message": "Ecrivez votre message ici"
+  }
+}

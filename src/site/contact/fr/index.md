@@ -20,12 +20,6 @@ contact_partner_action: Get in touch with the collective
 contact_partner_url: mailto:datingprivacy@personaldata.io
 contact_media: You are journalist?
 contact_media_url: mailto:datingprivacy@personaldata.io
-contact_message: Type your message here
 contact_media_action: Get in touch with Frank
-contact_other: Something else?
-contact_first_name: First name
-contact_last_name: Last name
-contact_subject: Subject
-contact_title: Contact us
-contact_email: Email
+netlifyFormName: contact-form-dp
 ---
