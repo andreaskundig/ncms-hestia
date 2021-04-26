@@ -280,13 +280,19 @@ export class SubjectAccessRequestForm extends LitElement {
                    @input="${t.onSearch}">
             <datalist  id="search-list">
               ${t.apps.map(app =>
-                   html`<option value="${app.itemLabel}">
-                          ${app.displayName}
-                        </option>`)}
+                   html`<option>${app.displayName}</option>`)}
             </datalist>
           </div>
+          <div class="app-buttons featured">
+              ${t.featuredApps().map(app =>
+                  html`
+                    <span @click="${_ => t.selectApp(app)}"
+                          title="${app.displayName}">
+                    ${app.displayName}
+                    </span> `)}
+          </div>
           <div class="app-buttons">
-              ${t.appsForDisplay().map(app =>
+              ${t.unfeaturedApps().map(app =>
                   html`
                     <span @click="${_ => t.selectApp(app)}"
                           title="${app.displayName}">
