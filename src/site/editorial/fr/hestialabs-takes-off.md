@@ -8,6 +8,7 @@ post_categories:
   - News
 post_authors:
   - CFD
+show_social_sharing: true
 ---
 mmmmm
 **mmmmmmm**

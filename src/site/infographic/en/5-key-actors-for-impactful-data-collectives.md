@@ -19,4 +19,5 @@ post_authors:
   - CFD
 suggested_editorials:
   - hestialabs takes off
+show_social_sharing: true
 ---

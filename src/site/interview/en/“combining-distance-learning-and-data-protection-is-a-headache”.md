@@ -20,5 +20,6 @@ post_authors:
 suggested_editorials:
   - hestialabs takes off
   - uber trial amsterdam
+show_social_sharing: true
 ---
 How many students study from home? And how long has it been since they last went to university?

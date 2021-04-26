@@ -9,6 +9,7 @@ post_categories:
   - GDPR
 post_authors:
   - CFD
+show_social_sharing: true
 ---
 # Oui?
 

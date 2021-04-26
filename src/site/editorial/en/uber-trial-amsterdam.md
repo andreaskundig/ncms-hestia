@@ -15,6 +15,7 @@ post_categories:
   - GDPR
 post_authors:
   - CFD
+show_social_sharing: true
 ---
 The right of access to data was at the heart of the latest trial between 4 Uber drivers and the VTC platform. In a long interview with our partner PersonalData.io, data protection specialist René Mahieu dissects the verdict handed down by the Amsterdam court, on 11 March. An enlightening analysis on the rights GDPR offers to European citizens and the power that exercising these rights collectively gives them.
 

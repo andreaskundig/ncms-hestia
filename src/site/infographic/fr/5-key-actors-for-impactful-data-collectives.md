@@ -4,4 +4,5 @@ post_categories:
   - Data collectives
 post_authors:
   - CFD
+show_social_sharing: true
 ---
