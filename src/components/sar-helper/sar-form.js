@@ -27,7 +27,7 @@ const IDS = {
     partsToFillIn: 'email-parts-to-fill-in'
 };
 
-const FEATURED_APPS = ["Bumble", "Tinder", "Match.com", "Meetic",
+const FEATURED_APPS = ["Bumble", "Tinder", "Match.com", "Meetic", "OkCupid", "Once",
                        "Hinge"];
 
 // is this really the place to do this?
@@ -88,12 +88,15 @@ export class SubjectAccessRequestForm extends LitElement {
        .app-buttons {
           display: flex;
           flex-wrap: wrap;
-          margin: 1em 0 ;
+          margin: 0.5em 0 ;
        }
 
-       /* first five children */
-       .app-buttons > span:nth-child(-n+5) {
+       .app-buttons.featured > span {
             width: 6em;
+            height: 3em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
        }
 
        .app-buttons > span {
@@ -188,6 +191,22 @@ export class SubjectAccessRequestForm extends LitElement {
         const appsClone = this.apps.slice();
         appsClone.sort(compareFeatured);
         return appsClone;
+    }
+
+    featuredApps(){
+        const appsFeatured = this.apps.filter(app =>
+            FEATURED_APPS.includes(app.itemLabel)
+        );
+        appsFeatured.sort(compareFeatured);
+        return appsFeatured;
+    }
+
+    unfeaturedApps(){
+        const appsUnfeatured = this.apps.filter(app =>
+            !FEATURED_APPS.includes(app.itemLabel)
+        );
+        appsUnfeatured.sort(compareFeatured);
+        return appsUnfeatured;
     }
 
     async fetchApps() {
