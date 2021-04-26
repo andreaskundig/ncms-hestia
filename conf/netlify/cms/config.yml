@@ -558,6 +558,7 @@ collections:
         display_fields: ["title"]
         multiple: false
         search_fields: ["title", "body"]
+    - { label: "Show social media sharing", name: show_social_sharing, required: false, widget: boolean, i18n: true }
 
 - label: Blog › Interviews
   name: interviews
@@ -630,6 +631,7 @@ collections:
         display_fields: ["title"]
         multiple: false
         search_fields: ["title", "body"]
+    - { label: "Show social media sharing", name: show_social_sharing, required: false, widget: boolean, i18n: true }
 
 - label: Blog › Infographics
   name: infographics
@@ -701,6 +703,7 @@ collections:
         display_fields: ["title"]
         multiple: false
         search_fields: ["title", "body"]
+    - { label: "Show social media sharing", name: show_social_sharing, required: false, widget: boolean, i18n: true }
 
 - label: Blog › Categories
   name: post_categories

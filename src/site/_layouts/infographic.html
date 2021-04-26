@@ -35,9 +35,11 @@ layout: defaultWithLeadTitle
   {% endfor %}
 </section>
 
+{% if show_social_sharing %}
 <section id="engage">
   {% include "share.njk" %}
 </section>
+{% endif %}
 
 <section id="newsletter" class="newsletter">
   <newsletter-signup

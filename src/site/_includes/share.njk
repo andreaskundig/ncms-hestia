@@ -2,20 +2,14 @@
    where you can also get some icons...
 #}
 <h1>{{i18n.globals[locale].share}}</h1>
-<ul class="share-buttons" data-source="simplesharingbuttons.com">
+<ul class="share-buttons" >
   <li><a
-  {% if base_url %}
-  href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F{{base_url}}&quote="
-  {% endif %}
   title="Share on Facebook"
   target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;">
  Facebook
   </a></li>
   <li>
   <a
-  {% if base_url %}
-  href="https://twitter.com/intent/tweet?source=http%3A%2F%2F{{base_url}}&text=:%20http%3A%2F%2F{{base_url}}"
-  {% endif %}
   target="_blank"
   title="Tweet"
   onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;">
@@ -23,9 +17,6 @@
   </a></li>
   <li>
   <a
-  {% if base_url %}
-  href="http://www.reddit.com/submit?url=http%3A%2F%2F{{base_url}}&title="
-  {% endif %}
   target="_blank"
   title="Submit to Reddit"
   onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;">
@@ -34,9 +25,6 @@
   </li>
   <li>
   <a
-  {% if base_url %}
-  href="mailto:?subject=&body=:%20http%3A%2F%2F{{base_url}}"
-  {% endif %}
   target="_blank"
   title="Send email"
   onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;">
