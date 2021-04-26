@@ -23,26 +23,33 @@
   NPM_VERSION = "7"
 
 # Redirects to homepage in matching language
-#
-# NOTE: redirection reactivated on 20210420, to english
-# version of the website only; we'll reactivate the
-# automatic language switching to fr/en, once the french
-# version will be ready (see WEBSITE.LABS #23)
+# while keeping access to /admin/
 
 [[redirects]]
   from = "/admin/*"
   to = "/admin/:splat"
   status = 302
 
+# NOTE: we'll reactivate the automatic language switching to fr/en,
+# once the french version will be ready (see WEBSITE.LABS #23);
+# until then, we'll redirect /fr/* ⟶ /en/:splat
 #[[redirects]]
 #  from = "/"
 #  to = "/fr/"
 #  status = 302
 #  conditions = {Language = ["fr"]}
+[[redirects]]
+  from = "/fr/*"
+  to = "/en/:splat"
+  status = 302
+  force = true
 
 [[redirects]]
   from = "/"
   to = "/en/"
   status = 302
+  # NOTE: don't enable the following `force` property to shadow the static
+  # «splash landing» page (index.html), until we'll want to remove it
+  # force = true    # https://docs.netlify.com/routing/redirects/rewrites-proxies/#shadowing
 
 # eof
