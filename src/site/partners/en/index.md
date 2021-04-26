@@ -14,10 +14,9 @@ you_button: Let's talk
 partners:
   - title: Migros Pioneer Fund
     description: >-
-      User data is the driving force behind many innovations. With the support
-      of the Migros Pioneer Fund, HestiaLabs creates the processes and trusted
-      software that bring users together to turn their forward-thinking ideas
-      into social progress.
+      By developing trustworthy processes and software, HestiaLabs forms
+      synergies between different players and, with the support of the Migros
+      Pioneer Fund, enables our data to be used for social advancements.
 
 
       **About Migros Pioneer Fund**
