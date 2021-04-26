@@ -2,9 +2,9 @@
 id: grindr-profile-data
 title: Data on Grindr's profile
 date: 2021-03-23T12:32:00.000Z
-lead: An **attention**-*grabbing* lead
 image: /assets/media/do-not-touch-my-data.png
 image_caption: Illustration by O. Dorsaz
+lead: ""
 post_categories:
   - Grindr
 post_authors:
