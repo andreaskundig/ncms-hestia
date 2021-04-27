@@ -10,7 +10,7 @@ layout: defaultWithHero
       {% if person.image %}
           <figure>
             <img src="{{person.image}}" alt="{{person.name}}" title="{{person.name}}">
-            <figcaption>{% markdown person.image_caption %}</figcaption>
+            <figcaption>{{person.name}}</figcaption>
           </figure>
       {% endif %}
       <p>{% markdown person.description %}</p>

@@ -67,7 +67,7 @@ collections:
         - { label: Info, name: info, required: false, widget: string, i18n: true }
         - { label: "First name", name: first_name, required: false, widget: string, i18n: true }
         - { label: "Last name", name: last_name, required: false, widget: string, i18n: true }
-        - { label: "Email address", name: email, required: false, widget: string, i18n: true }
+        - { label: "E-mail address", name: email, required: false, widget: string, i18n: true }
         - { label: Message, name: message, required: false, widget: string, i18n: true }
         - { label: "Submit button", name: submit_button, required: false, widget: string, i18n: true }
     - label: Contact form text fragments
@@ -78,7 +78,7 @@ collections:
         - { label: Title, name: title, required: false, widget: string, i18n: true }
         - { label: "First name", name: first_name, required: false, widget: string, i18n: true }
         - { label: "Last name", name: last_name, required: false, widget: string, i18n: true }
-        - { label: "Email address", name: email, required: false, widget: string, i18n: true }
+        - { label: "E-mail address", name: email, required: false, widget: string, i18n: true }
         - { label: "Subject", name: subject, required: false, widget: string, i18n: true }
         - { label: "Message", name: message, required: false, widget: string, i18n: true }
         - { label: "Submit button", name: submit_button, required: false, widget: string, i18n: true }
@@ -111,9 +111,9 @@ collections:
         - { label: Body, name: body, required: true, widget: string, i18n: true }
         - { label: Body placeholder, name: body_placeholder, required: true, widget: string, i18n: true }
         - { label: Copy button, name: copy_button, required: true, widget: string, i18n: true }
-        - { label: Email button, name: email_button, required: true, widget: string, i18n: true }
-        - { label: Preview of email, name: preview_of_email, required: true, widget: string, i18n: true }
-        - { label: Preview of email to, name: preview_of_email_to, required: true, widget: string, i18n: true }
+        - { label: E-mail button, name: email_button, required: true, widget: string, i18n: true }
+        - { label: Preview of e-mail, name: preview_of_email, required: true, widget: string, i18n: true }
+        - { label: Preview of e-mail to, name: preview_of_email_to, required: true, widget: string, i18n: true }
         - { label: Explanation, name: explanation, required: true, widget: string, i18n: true }
         - { label: Parts to fill in, name: to_fill_in, required: true, widget: string, i18n: true }
 
@@ -220,11 +220,9 @@ collections:
         - { label: Name, name: name, required: false, widget: string }
         - { label: Description, name: description, required: false, widget: markdown }
         - { label: Image, name: image, required: false, widget: image }
-        - { label: "Image caption", name: image_caption, required: false,
-            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
         - { label: Twitter, name: twitter, required: false, widget: string }
         - { label: Linkedin, name: linkedin, required: false, widget: string }
-        - { label: Email, name: email, required: false, widget: string }
+        - { label: E-mail, name: email, required: false, widget: string }
     - { label: "Timeline title", name: timeline_title, required: false, widget: string, i18n: true }
     - label: "Timeline events"
       name: "timeline_events"
@@ -350,7 +348,7 @@ collections:
     - { label: "Read button" , name: read_button , required: false, widget: text, i18n: true }
     - { label: "Contact title" , name: contact_title , required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
-    - { label: "Contact email" , name: contact_email , required: false, widget: text, i18n: true }
+    - { label: "Contact e-mail" , name: contact_email , required: false, widget: text, i18n: true }
     - { label: "Media kit title" , name: media_kit_title , required: false, i18n: true,
         widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - { label: "Media kit file" , name: media_kit_file , required: false, widget: file, i18n: true }
