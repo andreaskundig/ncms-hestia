@@ -16,11 +16,9 @@ layout: defaultWithHero
         {% if post.data.locale == locale %}
           <article-breakout
               class="grid-cell" layout="box"
-              href="{{post.url}}" img-src="{{post.data.image}}">
-            <span slot="title">{% markdown post.data.title %}</span>
-            <span slot="caption">
-              {% markdown post.data.image_caption %}
-            </span>
+              href="{{post.url | url}}" img-src="{{post.data.image}}">
+            <span slot="caption">{% markdown post.data.image_caption %}</span>
+            <h1>{% markdown post.data.title %}</h1>
             {% markdown post.data.lead %}
             <button>{{i18n.globals[locale].read_more}}</button>
           </article-breakout>
@@ -38,11 +36,9 @@ layout: defaultWithHero
         {% if post.data.locale == locale %}
           <article-breakout
               class="grid-cell" layout="box"
-              href="{{post.url}}" img-src="{{post.data.image}}">
-            <span slot="title">{% markdown post.data.title %}</span>
-            <span slot="caption">
-              {% markdown post.data.image_caption %}
-            </span>
+              href="{{post.url | url}}" img-src="{{post.data.image}}">
+            <span slot="caption">{% markdown post.data.image_caption %}</span>
+            <h1>{% markdown post.data.title %}</h1>
             {% markdown post.data.lead %}
             <button>{{i18n.globals[locale].read_more}}</button>
           </article-breakout>
@@ -60,11 +56,9 @@ layout: defaultWithHero
         {% if post.data.locale == locale %}
           <article-breakout
               class="grid-cell" layout="box"
-              href="{{post.url}}" img-src="{{post.data.image}}">
-            <span slot="title">{% markdown post.data.title %}</span>
-            <span slot="caption">
-              {% markdown post.data.image_caption %}
-            </span>
+              href="{{post.url | url}}" img-src="{{post.data.image}}">
+            <span slot="caption">{% markdown post.data.image_caption %}</span>
+            <h1>{% markdown post.data.title %}</h1>
             {% markdown post.data.lead %}
             <button>{{i18n.globals[locale].read_more}}</button>
           </article-breakout>
@@ -79,7 +73,7 @@ layout: defaultWithHero
   <ul>
     {% for category in collections.post_category %}
       {% if category.data.locale == locale %}
-        <li><a href="{{category.data.page.url}}">{{category.data.name}}</a></li>
+        <li><a href="{{category.data.page.url | url}}">{{category.data.name}}</a></li>
       {% endif %}
     {% endfor %}
   </ul>
@@ -90,7 +84,7 @@ layout: defaultWithHero
   <ul>
     {% for author in collections.post_author %}
       {% if author.data.locale == locale %}
-        <li><a href="{{author.data.page.url}}">{{author.data.name}}</a></li>
+        <li><a href="{{author.data.page.url | url}}">{{author.data.name}}</a></li>
       {% endif %}
     {% endfor %}
   </ul>

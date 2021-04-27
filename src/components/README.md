@@ -9,10 +9,13 @@ Web Components of our website.
 ## Usage
 
 ```javascript
-<article-breakout href="en/editorial/first-post/">
-  <h1 slot="title">Data on Grinder's profile</h1>
-  <caption slot="caption">photo by …</caption>
-  <p>An <strong>attention</strong>-grabbing lead</p>
+<article-breakout layout="box"
+  href="en/editorial/first-post/"
+  img-src="illustration.jpg">
+  <span slot="caption">photo by …</span>
+  <h1>A first blog post</h1>
+  <p>An <em>attention</em>-<strong>grabbing</strong> lead.</p>
+  <button>Read more</button>
 </article-breakout>
 
 <script type="module">

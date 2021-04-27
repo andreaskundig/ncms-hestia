@@ -55,14 +55,12 @@ inverse: true
                    infographic: news_infographics} %}
     {% for news_type, news_ids in news %}
       {% for edito in collections[news_type] %}
-        {% if edito.data.locale == locale and news_ids
-           and edito.data.id in news_ids %}
-          <article-breakout class="grid-cell" layout="box"
-            href="{{edito.url}}" img-src="{{edito.data.image}}">
-            <span slot="title">{% markdown edito.data.title %}</span>
-            <span slot="caption">
-              {% markdown edito.data.image_caption %}
-            </span>
+        {% if edito.data.locale == locale and news_ids and edito.data.id in news_ids %}
+          <article-breakout
+              class="grid-cell" layout="box"
+              href="{{edito.url | url}}" img-src="{{edito.data.image}}">
+            <span slot="caption">{% markdown edito.data.image_caption %}</span>
+            <h1>{% markdown edito.data.title %}</h1>
             {% markdown edito.data.lead %}
             <button>{{i18n.globals[locale].read_more}}</button>
           </article-breakout>

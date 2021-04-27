@@ -17,11 +17,9 @@ layout: default
         {% if post.data.locale == locale and id in post_authors %}
           <article-breakout
               class="grid-cell" layout="box"
-              href="{{post.url}}" img-src="{{post.data.image}}">
-            <span slot="title">{% markdown post.data.title %}</span>
-            <span slot="caption">
-              {% markdown post.data.image_caption %}
-            </span>
+              href="{{post.url | url}}" img-src="{{post.data.image}}">
+            <span slot="caption">{% markdown post.data.image_caption %}</span>
+            <h1>{% markdown post.data.title %}</h1>
             {% markdown post.data.lead %}
             <button>{{i18n.globals[locale].read_more}}</button>
           </article-breakout>
