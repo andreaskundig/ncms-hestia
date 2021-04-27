@@ -2,10 +2,10 @@
 layout: community
 inverse: true
 permalink: /fr/community/index.html
-title: Communauté
+title: Community
 hero: "**Communauté** Personal data"
 hero_image: /assets/media/dp-community-hero-1588613254750-cf5d89a29b66.jpg
-hero_image_caption: Illustration by [Pascale
+hero_image_caption: Illustration de [Pascale
   Cerchio](https://www.peoplerise.net/wp-content/uploads/2020/07/ale-cerchio.png)
 story_title: A short story about us
 story: We are a small group of skilled individuals working to define a new
@@ -32,7 +32,7 @@ people:
       policies and how online dating interacts with collective practices and
       communities."
   - description: A member helps us with  all the legal facets.
-timeline_title: How it started - How it's going
+timeline_title: How it started — how it's going
 timeline_events:
   - date: 2020-11
     description: "This collective is a social movement we have started in November

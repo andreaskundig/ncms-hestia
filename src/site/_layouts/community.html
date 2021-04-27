@@ -3,30 +3,28 @@ layout: defaultWithHero
 ---
 <section id="story">
   <h1>{% markdown story_title %}</h1>
-  <div>{% markdown story %}</div>
-  {% for person in people %}
-    <div>
-      <h2>{{person.name}}</h2>
-      {% if person.image %}
-          <figure>
-            <img src="{{person.image}}" alt="{{person.name}}" title="{{person.name}}">
-            <figcaption>{{person.name}}</figcaption>
-          </figure>
-      {% endif %}
-      <p>{% markdown person.description %}</p>
-      <p>
-        {% if person.twitter %}
-          <a href="{{person.twitter}}" target="_blank">twitter</a>
-        {% endif %}
-        {% if person.linkedin %}
-          <a href="{{person.linkedin}}" target="_blank">linkedin</a>
-        {% endif %}
-        {% if person.email %}
-          <a href="{{person.email}}">email</a>
-        {% endif %}
-      </p>
-    </div>
-  {% endfor %}
+  {% markdown story %}
+  <div class="stack-layout with-gutters">
+    {% for person in people %}
+      <contact-card class="stack-cell"
+          name="{{person.name}}"
+          img-src="{{person.image}}">
+        <h2>{{person.name}}</h2>
+        <p>{% markdown person.description %}</p>
+        <p>
+          {% if person.twitter %}
+            <a href="{{person.twitter}}" target="_blank">twitter</a>
+          {% endif %}
+          {% if person.linkedin %}
+            <a href="{{person.linkedin}}" target="_blank">linkedin</a>
+          {% endif %}
+          {% if person.email %}
+            <a href="{{person.email}}">email</a>
+          {% endif %}
+        </p>
+      </contact-card>
+    {% endfor %}
+  </div>
 </section>
 
 <section id="timeline">
@@ -52,3 +50,7 @@ layout: defaultWithHero
     {% endfor %}
   </section>
 {% endif %}
+
+<script type="module">
+  import '/components/contact-card.js';
+</script>

@@ -32,7 +32,7 @@ people:
       policies and how online dating interacts with collective practices and
       communities."
   - description: A member helps us with  all the legal facets.
-timeline_title: How it started - How it's going
+timeline_title: How it started — how it's going
 timeline_events:
   - date: 2020-11
     description: "This collective is a social movement we have started in November
