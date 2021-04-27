@@ -56,7 +56,7 @@ const LAYOUT_BOX = "box",
  *                       href="/en/blog/article-1234/"
  *                       img-src="illustration.jpg">
  *       <span slot="caption">Photo by …</span>
- *       <h1>Article title</h1>
+ *       <h2>Article title</h2>
  *       <p>An <em>attention</em>-<strong>grabbing</strong> lead.</p>
  *       <button>Read more</button>
  *     </article-breakout>

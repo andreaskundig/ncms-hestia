@@ -11,39 +11,29 @@ inverse: true
   <div class="grid-layout-halves with-gutters">
     <div class="grid-cell">
       <h2>{% markdown ethics_title %}</h2>
-      <div>
-        {% markdown ethics_description %}
-        <a href="/{{locale}}/ethics/">
-          {{ethics_link_text}}</a>
-      </div>
+      {% markdown ethics_description %}
+      <a href="/{{locale}}/ethics/"><button>{{ethics_link_text}}</button></a>
     </div>
     <div class="grid-cell">
       <h2>{% markdown community_title %}</h2>
-      <div>
-        {% markdown community_description %}
-        <a href="/{{locale}}/community/">
-          {{community_link_text}}</a>
-      </div>
+      {% markdown community_description %}
+      <a href="/{{locale}}/community/"><button>{{community_link_text}}</button></a>
     </div>
     <div class="grid-cell">
       <h2>{% markdown mission_title %}</h2>
-      <div>
-        {% markdown mission_description %}
-        <a href="/{{locale}}/mission/">
-          {{mission_link_text}}</a>
-      </div>
+      {% markdown mission_description %}
+      <a href="/{{locale}}/mission/"><button>{{mission_link_text}}</button></a>
     </div>
     <div class="grid-cell">
       <h2>{% markdown partners_title %}</h2>
-      <div>
-        {% markdown partners_description %}
-        <a href="/{{locale}}/partners/">{{partners_link_text}}</a>
-      </div>
+      {% markdown partners_description %}
+      <a href="/{{locale}}/partners/"><button>{{partners_link_text}}</button></a>
     </div>
   </div>
   <p class="center with-space">
-    <a href="/{{locale}}/act/sar/"><button class="big">
-      {{i18n.globals[locale].ask_your_data}}</button></a></p>
+    <a href="/{{locale}}/act/sar/"><button class="primary big">
+      {{i18n.globals[locale].ask_your_data}}</button></a>
+  </p>
 </section>
 
 <section id="news">
@@ -58,9 +48,9 @@ inverse: true
         {% if edito.data.locale == locale and news_ids and edito.data.id in news_ids %}
           <article-breakout
               class="grid-cell" layout="box"
-              href="{{edito.url | url}}" img-src="{{edito.data.image}}">
+              href="{{edito.url | url}}" img-src="{{edito.data.image | url}}">
             <span slot="caption">{% markdown edito.data.image_caption %}</span>
-            <h1>{% markdown edito.data.title %}</h1>
+            <h2>{% markdown edito.data.title %}</h2>
             {% markdown edito.data.lead %}
             <button>{{i18n.globals[locale].read_more}}</button>
           </article-breakout>

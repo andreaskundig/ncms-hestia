@@ -13,7 +13,7 @@ Web Components of our website.
   href="en/editorial/first-post/"
   img-src="illustration.jpg">
   <span slot="caption">photo by …</span>
-  <h1>A first blog post</h1>
+  <h2>A first blog post</h2>
   <p>An <em>attention</em>-<strong>grabbing</strong> lead.</p>
   <button>Read more</button>
 </article-breakout>
