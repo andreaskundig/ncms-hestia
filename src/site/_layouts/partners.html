@@ -5,16 +5,22 @@ layout: defaultWithHero
   {% markdown introduction %}
 </section>
 
+{% set articleLayout = cycler("card-alt", "card") %}
 <section id="partners">
-  {% for partner in partners %}
-    <div>
-      <h1>{% markdown partner.title %}</h1>
-      <figure>
-        <a href="{{partner.url}}" target="_blank"><img src="{{partner.image}}"></a>
-        <figcaption>{% markdown partner.image_caption %}</figcaption>
-      </figure>
-      <p>{% markdown partner.description %}</p>
-      <a href="{{partner.url}}" target="_blank">website</a>
-    </div>
-  {% endfor %}
+  <div class="stack-layout with-gutters">
+    {% for partner in partners %}
+      <article-breakout
+          class="grid-cell" layout="{{articleLayout.next()}}"
+          href="{{partner.url}}" img-src="{{partner.image}}">
+        <span slot="caption">{% markdown partner.image_caption %}</span>
+        <h1>{% markdown partner.title %}</h1>
+        {% markdown partner.description %}
+        <button>{{partner.button}}</button>
+      </article-breakout>
+    {% endfor %}
+  </div>
 </section>
+
+<script type="module">
+  import '/components/article-breakout.js';
+</script>
