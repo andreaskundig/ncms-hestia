@@ -174,7 +174,7 @@
   --link-text-underline-pos:        under;            /* websites peculiar visual identity & also fixes WEBSITE.LABS#57 */
   --link-normal-text-color:         var(--body-text-color);
   --link-visited-text-color:        var(--body-text-color);
-  --link-current-text-color:        var(--color-text-disabled);
+  --link-current-text-color:        var(--link-hover-text-color);
   --link-hover-text-color:          var(--color-text-link);
   --link-hover-text-bg:             var(--color-bg-primary);
   --link-active-text-color:         var(--link-hover-text-bg);

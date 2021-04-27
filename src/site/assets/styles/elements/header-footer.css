@@ -95,9 +95,12 @@
 }
 
 .header-navigation a[aria-current="page"],
-.header-navigation a[aria-current="lang"],
-.footer-navigation a[aria-current="page"] {
+.header-navigation a[aria-current="lang"] {
   color: var(--link-current-text-color);
+}
+
+.header-navigation a:hover {
+  color: var(--link-hover-text-color);
 }
 
 .header-navigation a:hover:after,
