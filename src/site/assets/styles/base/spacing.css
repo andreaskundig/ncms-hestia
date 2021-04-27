@@ -1,32 +1,44 @@
-.center {
-  text-align: center;
-}
+/* Spacing between ordinary content elements _aka_ paragraph-like
+   (which are expected to appear within sections only) */
 
 h1, h2, h3,
 h4, h5, h6,
-p {
+p, ul, ol {
   margin: 0;
   margin-bottom: var(--paragraph-space-between);
 }
+
+/* Spacing between sections */
 
 section:not(.with-no-space) {
   margin: var(--paragraph-space-around) 0;
 }
 
-.with-space, .with-space-before {
-  margin-top: var(--paragraph-space-around);
-}
-
-.with-space, .with-space-after {
-  margin-bottom: var(--paragraph-space-around);
-}
-
-.with-no-space,
-.with-no-space-before {
+section.with-no-space,
+section.with-no-space-before {
   margin-top: 0;
 }
 
-.with-no-space,
-.with-no-space-after {
+section.with-no-space,
+section.with-no-space-after {
   margin-bottom: 0;
+}
+
+/* Space overrides for any element */
+
+.with-space,
+.with-space-before {
+  margin-top: var(--paragraph-space-around);
+}
+
+.with-space,
+.with-space-after {
+  margin-bottom: var(--paragraph-space-around);
+}
+
+/* Alignment helpers (not really «spacing»,
+   but found no better home for this rule) */
+
+.center {
+  text-align: center;
 }
