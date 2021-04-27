@@ -7,14 +7,13 @@ const LAYOUT_BOX = "box",
       LAYOUT_ENUM = [LAYOUT_BOX, LAYOUT_CARD, LAYOUT_CARD_ALT];
 
 /**
- * ‹article-breakout› custom element, displaying an
- * image, heading and short body in a shadowed box
- * or card layout.
+ * ‹article-breakout› custom element, displaying an image,
+ * heading and short lead in a shadowed box or card layout.
  *
  * Attributes:
  *
  *   layout (optional): "box" (default) | "card" | "card-alt"
- *     determines how to display contents to the user;
+ *     Determines how to display contents to the user;
  *     `box` stacks image on top of heading and body;
  *     `card` places image to the left of heading and
  *     body, which are stacked on top of each other;
@@ -28,34 +27,50 @@ const LAYOUT_BOX = "box",
  *   img-src (mandatory): String
  *     URL of the image illustrating the article.
  *
- *
  * Slots:
  *
- *   title (mandatory): String|Inline
- *      heading of the article breakout, which should
- *      contain raw text or inline-elements only.
- *
  *   caption (optional): String|Inline
- *      image caption, which should contain raw text
+ *
+ *      Image caption, which should contain raw text
  *      or inline-elments only (<a> for instance); not
  *      displayed to user, only visible in source code.
  *
- *   ‹default› (mandatory): String|Inline|Block
- *      body of the article breakout, which can include
- *      inline and block elements (<p>, <ul>/<li>, <button>).
+ *      Recommended structure:
  *
- * Usage:
+ *          <span slot="caption">…</span>
+ *
+ *   ‹default› (mandatory): Inline|Block
+ *
+ *      Body of the article breakout, which can include a mix
+ *      of inline and block elements (<p>, <ul>/<li>, <button>).
+ *
+ *      Recommended structure:
+ *
+ *          <h1>Article title</h1>
+ *          <p>Article lead</p>
+ *          <button>Read more</button>
+ *
+ * Sample usage:
  *
  *     <article-breakout layout="box"
  *                       href="/en/blog/article-1234/"
  *                       img-src="illustration.jpg">
- *       <span slot="title">Article title</span>
  *       <span slot="caption">Photo by …</span>
- *       <p>An <em>attention</em>-<strong>grabbing</strong>lead.</p>
+ *       <h1>Article title</h1>
+ *       <p>An <em>attention</em>-<strong>grabbing</strong> lead.</p>
  *       <button>Read more</button>
  *     </article-breakout>
  *
- */
+ * Note:
+ *
+ *   We left the choice of structural elements as much as
+ *   possible of choice to page authors / users of this
+ *   custom element, so to allow host styles to apply.
+ *
+ *   If we had inlined the <h1>, <p> and <button> in the
+ *   template of this component, we would have needed to
+ *   replicate the host CSS rules, to inherit the styling.
+*/
 export class ArticleBreakout extends LitElement {
 
   static get styles() {
@@ -112,6 +127,9 @@ export class ArticleBreakout extends LitElement {
       .box h1 {
         margin-top: var(--line-height-half); }
 
+      .place-first {
+        order: -1; }
+
       /* @media (max-width: env(--breakpoint-width-md)) */
       @media (max-width: 768px) {
         .column-layout,
@@ -120,7 +138,10 @@ export class ArticleBreakout extends LitElement {
 
         .column-one-half{
           min-width: 96%; }
-      }
+
+        .place-first {
+          order: 0; } /* on mobile devices, do not alternate left/right placement of image/text */
+      }               /* (by invalidating order modification / restoring default order) */
     `;
   }
 
@@ -150,27 +171,21 @@ export class ArticleBreakout extends LitElement {
     this.layout = LAYOUT_DEFAULT;
   }
 
-  renderCardFigureFrag() {
-    return html`
-      <figure class="column-one-half">
-        <img src="${this.imgSrc}">
-        <figcaption/><slot name="caption"/><figcaption>
-      </figure>`;
-  }
-
-  renderCardBodyFrag() {
-    return html`
-      <div class="column-one-half">
-        <h1><slot name="title"/></h1>
-        <slot></slot>
-      </div>`;
-  }
-
-  renderAsCard(leftHTMLFrag, rightHTMLFrag) {
+  renderAsCard( withAlternateLayout) {
+    const placeFirstModifier = !!withAlternateLayout ? ' place-first' : '';
     return html`
       <article class="card column-layout">
-        ${leftHTMLFrag}
-        ${rightHTMLFrag}
+        <figure class="column-one-half">
+          <img src="${this.imgSrc}">
+          <figcaption/><slot name="caption"></slot><figcaption>
+        </figure>
+        <div class="column-one-half${placeFirstModifier}">
+          <slot>
+            <h1>‹Title›</h1>
+            <p>‹Article lead›</p>
+            <button>Read more</button>
+          </slot>
+        </div>
       </article>`;
   }
 
@@ -179,34 +194,22 @@ export class ArticleBreakout extends LitElement {
       <article class="box">
         <figure>
           <img src="${this.imgSrc}">
-          <figcaption/><slot name="caption"/><figcaption>
+          <figcaption/><slot name="caption"></slot><figcaption>
         </figure>
         <div>
-          <h1><slot name="title"/></h1>
-          <slot></slot>
+          <slot>
+            <h1>‹Title›</h1>
+            <p>‹Article lead›</p>
+            <button>Read more</button>
+          </slot>
         </div>
       </article>`;
   }
 
   render() {
-    let articleHTMLFrag = "";
-    switch( this.layout) {
-      case LAYOUT_CARD:
-        articleHTMLFrag = this.renderAsCard(
-          this.renderCardFigureFrag(),
-          this.renderCardBodyFrag()
-        );
-        break;
-      case LAYOUT_CARD_ALT:
-        articleHTMLFrag = this.renderAsCard(
-          this.renderCardBodyFrag(),
-          this.renderCardFigureFrag()
-        );
-        break;
-      default:
-        articleHTMLFrag = this.renderAsBox();
-        break;
-    };
+    const articleHTMLFrag = (this.layout === LAYOUT_BOX)
+      ? this.renderAsBox()
+      : this.renderAsCard( this.layout === LAYOUT_CARD_ALT);
     return (typeof this.href !== "undefined" && this.href !== null)
       ? html`<a href="${this.href}">${articleHTMLFrag}</a>`
       : articleHTMLFrag;
