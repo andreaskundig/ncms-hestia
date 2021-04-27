@@ -16,7 +16,7 @@ partners:
     url: https://wiki.personaldata.io/wiki/Main_Page
     button: Website
     image: /assets/media/personaldata.png
-    image_caption: ""
+    image_caption: PersonalData.io logo
     description: >-
       Global nonprofit focused on data protection, PersonalData.IO encourages
       collaborative dynamics between the general public and civil society in all
@@ -28,6 +28,7 @@ partners:
     url: https://mydata.org/swiss-vaud/
     button: Website
     image: /assets/media/mydata-hub-vaud-logo.png
+    image_caption: MyData Vaud logo
     description: "[MyData is a global movement](http://mydata.org) encouraging
       individual empowerment around personal data. Its local chapters in
       French-speaking Switzerland are based in
@@ -38,8 +39,8 @@ partners:
   - title: HestiaLabs
     url: https://hestialabs.org/
     button: Website
-    image: /assets/media/hestialabs_logo_vectorise.svg
-    image_caption: ""
+    image: /assets/img/hestialabs-logo.svg
+    image_caption: HestiaLabs logo
     description: >-
       HestiaLabs is a common good project. The core of HestiaLabs’ activities is
       to support data collectives in their governance, their goal setting and
