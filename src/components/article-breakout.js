@@ -182,7 +182,7 @@ export class ArticleBreakout extends LitElement {
       <article class="card column-layout">
         <figure class="column-one-half">
           <img src="${this.imgSrc}">
-          <figcaption/><slot name="caption"></slot><figcaption>
+          <figcaption><slot name="caption"></slot></figcaption>
         </figure>
         <div class="column-one-half${placeFirstOrderModifier}">
           <slot>
@@ -199,7 +199,7 @@ export class ArticleBreakout extends LitElement {
       <article class="box">
         <figure>
           <img src="${this.imgSrc}">
-          <figcaption/><slot name="caption"></slot><figcaption>
+          <figcaption><slot name="caption"></slot></figcaption>
         </figure>
         <div>
           <slot>
