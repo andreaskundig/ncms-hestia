@@ -21,5 +21,4 @@ contact_partner_url: mailto:datingprivacy@personaldata.io
 contact_media: You are journalist?
 contact_media_url: mailto:datingprivacy@personaldata.io
 contact_media_action: Get in touch with Frank
-netlifyFormName: contact-form-dp
 ---

@@ -28,5 +28,11 @@ layout: defaultWithHero
 </section>
 
 <section id="contact-form">
-  {% include "contact-form-netlify.njk" %}
+  <contact-form
+    lang="{{locale}}"
+    form-name="contact-dp"></contact-form>
 </section>
+
+<script type="module">
+  import '/components/contact-form.js';
+</script>

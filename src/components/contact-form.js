@@ -2,32 +2,32 @@ import { LitElement, html, css } from 'lit-element';
 import { registerTranslateConfig, use, translate } from "lit-translate";
 
 const DEFAULT_TRANSLATIONS = {
-    "title": "Something else?",
-    "subject": "Subject",
-    "first_name": "First name",
-    "last_name": "Last name",
-    "email": "Email address",
-    "message": "Type your message here",
-    "submit_button": "Send"
+  "title": "Something else?",
+  "subject": "Subject",
+  "first_name": "First name",
+  "last_name": "Last name",
+  "email": "Email address",
+  "message": "Type your message here",
+  "submit_button": "Send"
 };
 
 registerTranslateConfig({
-    loader: async (lang) => {
-        try{
-            const result = await fetch(`/assets/i18n/contact-form.json`);
-            const translations = await result.json();
-            return translations[lang] || DEFAULT_TRANSLATIONS;
-        }catch(error){
-           return  DEFAULT_TRANSLATIONS;
-        }
-    }});
+  loader: async (lang) => {
+    try {
+      const result = await fetch(`/assets/i18n/contact-form.json`);
+      const translations = await result.json();
+      return translations[lang] || DEFAULT_TRANSLATIONS;
+    } catch(error) {
+      return  DEFAULT_TRANSLATIONS;
+    }
+  }});
 
 /**
- * ‹contact-form› custom element, displaying a
- * form to send a message.
+ * ‹contact-form› custom element, displaying a form
+ * to write and send a message to the site owners.
  *
- * Submitted values will be sent to and stored into the
- * Netlify Forms service.
+ * Submitted values will be sent to and stored into
+ * the Netlify Forms service.
  *
  * Note:
  *
@@ -46,24 +46,28 @@ registerTranslateConfig({
  * Attributes:
  *
  *   lang: String
- *    The language of the page on which the component is displayed.
+ *     Language of the page on which the component
+ *     is displayed; will be placed in a hidden field,
+ *     to be stored with the other fields of the form.
  *
- *   netlifyFormName: String
- *    The name of the netlify form.
- *
+ *   form-name: String
+ *     Name of the Netlify Form.
  *
  * Usage:
  *
- *     <form name="{{netlifyFormName}}" method="POST" data-netlify="true">
- *           <input type="hidden" name="first-name">
- *           <input type="hidden" name="last-name">
- *           <input type="hidden" name="email">
- *           <input type="hidden" name="subject">
- *           <input type="hidden" name="message">
- *           <input type="hidden" name="lang" />
+ *     <form name="contact" method="POST" data-netlify="true">
+ *       <input type="hidden" name="first-name">
+ *       <input type="hidden" name="last-name">
+ *       <input type="hidden" name="email">
+ *       <input type="hidden" name="subject">
+ *       <input type="hidden" name="message">
+ *       <input type="hidden" name="lang" />
  *     </form>
- *     <contact-form lang="{{locale}}"
- *                        netlifyFormName="{{netlifyFormName}}"/>
+ *
+ *     <contact-form
+ *       lang="en"
+ *       form-name="contact">
+ *     </contact-form>
  *
  */
 export class ContactForm extends LitElement {
@@ -103,7 +107,7 @@ export class ContactForm extends LitElement {
     static get properties() {
         return {
             lang: { type: String },
-            netlifyFormName: { type: String }
+            netlifyFormName: { type: String, attribute: "form-name" }
         }
     }
 
@@ -118,51 +122,50 @@ export class ContactForm extends LitElement {
 
   render() {
     return html`
-    <form class="signup" method="POST">
-      <h4>${translate('title')}</h4>
-      <input type="hidden" name="form-name" value="${this.netlifyFormName}" />
-      <input type="hidden" name="lang" value="${this.lang}" />
-      <div class="fields">
-        <div class="field">
-          <label for="first-name"> ${translate("first_name")} </label>
-          <input type="text" name="first-name" id="first-name"
-                 placeholder="${translate("first_name")}">
+      <form class="signup" method="POST" data-netlify="true">
+        <h4>${translate('title')}</h4>
+        <input type="hidden" name="form-name" value="${this.netlifyFormName}" />
+        <input type="hidden" name="lang" value="${this.lang}" />
+        <div class="fields">
+          <div class="field">
+            <label for="first-name">${translate("first_name")}</label>
+            <input type="text" name="first-name" id="first-name"
+                   placeholder="${translate("first_name")}">
+          </div>
+          <div class="field">
+            <label for="last-name">${translate("last_name")}</label>
+            <input type="text" name="last-name" id="last-name"
+                   placeholder="${translate("last_name")}">
+          </div>
         </div>
-        <div class="field">
-          <label for="last-name"> ${translate("last_name")} </label>
-          <input type="text" name="last-name" id="last-name"
-                 placeholder="${translate("last_name")}">
+        <div class="fields">
+          <div class="field">
+            <label for="email">${translate("email")}</label>
+            <input type="email" name="email" id="email"
+                   placeholder="${translate("email")}">
+          </div>
         </div>
-      </div>
-      <div class="fields">
-        <div class="field">
-          <label for="email"> ${translate("email")} </label>
-          <input type="email" name="email" id="email"
-                 placeholder="${translate("email")}">
+        <div class="fields">
+          <div class="field">
+            <label for="subject">${translate("subject")}</label>
+            <input type="text" name="subject" id="subject"
+                   placeholder="${translate("subject")}">
+          </div>
         </div>
-      </div>
-      <div class="fields">
-        <div class="field">
-          <label for="subject"> ${translate("subject")} </label>
-          <input type="text" name="subject" id="subject"
-                 placeholder="${translate("subject")}">
+        <div class="fields">
+          <div class="field">
+            <label for="message">${translate("message")}</label>
+            <textarea placeholder="${translate("message")}"
+                      name="message" id="message" >
+            </textarea>
+          </div>
         </div>
-      </div>
-      <div class="fields">
-        <div class="field">
-          <label for="message"> ${translate("message")} </label>
-          <textarea placeholder="${translate("message")}"
-                    name="message" id="message" >
-          </textarea>
+        <div>
+          <button type="submit">${translate("submit_button")}</button>
         </div>
-      </div>
-      <div>
-        <button type="submit">${translate("submit_button")}</button>
-      </div>
-    </form>
+      </form>
     `;
   }
-
 }
 
 customElements.define('contact-form', ContactForm);
