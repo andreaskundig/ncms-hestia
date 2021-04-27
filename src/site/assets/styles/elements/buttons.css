@@ -1,26 +1,40 @@
 /* CSS Tricks › A Complete Guide to Links and Buttons
    https://css-tricks.com/a-complete-guide-to-links-and-buttons/ */
 
-button {
+/* Base button styles */
+
+button,
+a.pill {
+  border-radius: 1em;
   border: var(--color-btn-primary-border);
-  border-radius: var(--text-base-font-size);
   background-color: var(--color-btn-primary-bg);
   color: var(--color-btn-primary-text);
   box-shadow: var(--color-btn-primary-shadow);
   white-space: nowrap;
   text-decoration: none;
-  padding: calc(var(--text-base-font-size) / 4) calc(var(--text-base-font-size) * 1.5);
-  margin: calc(var(--text-base-font-size) / 4);
   transition: box-shadow 400ms ease, background 200ms ease;
   width: fit-content;
   cursor: pointer;
 }
 
-button:focus {
+button {
+  padding: 0.25em 1.5em;
+  margin: 0.25em;
+}
+
+a.pill {
+  font-size: var(--text-sm-font-size);
+  padding: 0.15em 0.5em;
+  margin: 0 0.25em;
+}
+
+button:focus,
+a.pill:focus {
   border-color: var(--color-btn-primary-hover-border);
 }
 
-button:hover {
+button:hover,
+a.pill:hover {
   background-color: var(--color-btn-primary-hover-bg);
   border: var(--color-btn-primary-hover-border);
   color: var(--color-btn-primary-hover-text);
@@ -28,7 +42,10 @@ button:hover {
   transition: box-shadow 400ms ease, background 200ms ease;
 }
 
-section#hero button {
+/* Button variants */
+
+section.normhero button,
+section.masthero button {
   border-radius: var(--h1-font-size);
 }
 

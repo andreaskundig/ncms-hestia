@@ -12,10 +12,10 @@ layout: defaultWithLeadTitle
     {{i18n.globals[locale].published_on}} {{ date | readableDate(locale)}}
   </p>
   <p>
-    {{i18n.globals[locale].tagged_as}} {% for category in collections.post_category %}
+    {% for category in collections.post_category %}
       {% if category.data.id in post_categories
          and category.data.locale == locale %}
-        <a href="{{category.data.page.url | url}}">{{category.data.name}}</a>
+        <a class="pill" href="{{category.data.page.url | url}}">{{category.data.name}}</a>
       {% endif %}
     {% endfor %}
   </p>

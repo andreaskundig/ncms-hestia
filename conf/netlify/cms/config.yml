@@ -45,7 +45,6 @@ collections:
         - { label: Ask for your data ‹button›, name: ask_your_data, required: false, widget: string, i18n: true }
         - { label: By (author), name: by_author, required: false, widget: string, i18n: true }
         - { label: Published on, name: published_on, required: false, widget: string, i18n: true }
-        - { label: Tagged as, name: tagged_as, required: false, widget: string, i18n: true }
     - label: Header and footer text fragments
       name: i18n-header-footer
       file: src/site/_data/i18n/header_footer.json
