@@ -87,6 +87,10 @@ export class ArticleBreakout extends LitElement {
       :host {
         display: inline-block; }
 
+      a.no-appearance {
+        text-decoration: none;
+      }
+
       .box, .card {
         color: var(--color-text-tertiary);
         background-color: var(--color-bg-tertiary);
@@ -116,6 +120,7 @@ export class ArticleBreakout extends LitElement {
 
       img {
         box-shadow: var(--breakout-img-shadow);
+        object-fit: cover;
         width: 100%; }
 
       figure > figcaption {
@@ -136,7 +141,7 @@ export class ArticleBreakout extends LitElement {
         .column-one-half {
           display: block; }
 
-        .column-one-half{
+        .column-one-half {
           min-width: 96%; }
 
         .place-first {
@@ -172,14 +177,14 @@ export class ArticleBreakout extends LitElement {
   }
 
   renderAsCard( withAlternateLayout) {
-    const placeFirstModifier = !!withAlternateLayout ? ' place-first' : '';
+    const placeFirstOrderModifier = !!withAlternateLayout ? ' place-first' : '';
     return html`
       <article class="card column-layout">
         <figure class="column-one-half">
           <img src="${this.imgSrc}">
           <figcaption/><slot name="caption"></slot><figcaption>
         </figure>
-        <div class="column-one-half${placeFirstModifier}">
+        <div class="column-one-half${placeFirstOrderModifier}">
           <slot>
             <h1>‹Title›</h1>
             <p>‹Article lead›</p>
@@ -211,7 +216,7 @@ export class ArticleBreakout extends LitElement {
       ? this.renderAsBox()
       : this.renderAsCard( this.layout === LAYOUT_CARD_ALT);
     return (typeof this.href !== "undefined" && this.href !== null)
-      ? html`<a href="${this.href}">${articleHTMLFrag}</a>`
+      ? html`<a class="no-appearance" href="${this.href}">${articleHTMLFrag}</a>`
       : articleHTMLFrag;
   }
 }
