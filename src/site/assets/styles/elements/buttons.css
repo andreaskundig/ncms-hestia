@@ -6,10 +6,10 @@
 button,
 a.pill {
   border-radius: 1em;
-  border: var(--color-btn-primary-border);
-  background-color: var(--color-btn-primary-bg);
-  color: var(--color-btn-primary-text);
-  box-shadow: var(--color-btn-primary-shadow);
+  border: var(--color-btn-border);
+  background-color: var(--color-btn-bg);
+  color: var(--color-btn-text);
+  box-shadow: var(--color-btn-shadow);
   white-space: nowrap;
   text-decoration: none;
   transition: box-shadow 400ms ease, background 200ms ease;
@@ -30,26 +30,34 @@ a.pill {
 
 button:focus,
 a.pill:focus {
-  border-color: var(--color-btn-primary-hover-border);
+  border-color: var(--color-btn-hover-border);
 }
 
 button:hover,
 a.pill:hover {
-  background-color: var(--color-btn-primary-hover-bg);
-  border: var(--color-btn-primary-hover-border);
-  color: var(--color-btn-primary-hover-text);
-  box-shadow: var(--color-btn-primary-hover-shadow);
+  background-color: var(--color-btn-hover-bg);
+  border: var(--color-btn-hover-border);
+  color: var(--color-btn-hover-text);
+  box-shadow: var(--color-btn-hover-shadow);
   transition: box-shadow 400ms ease, background 200ms ease;
 }
 
 /* Button variants */
 
-section.normhero button,
-section.masthero button {
-  border-radius: var(--h1-font-size);
+button.primary {
+  border: var(--color-btn-primary-border);
+  background-color: var(--color-btn-primary-bg);
+  color: var(--color-btn-primary-text);
+  box-shadow: var(--color-btn-primary-shadow);
 }
 
-button.big {
-  font-size: var(--text-lg-font-size);
-  border-radius: var(--text-lg-font-size);
+button.primary:focus {
+  border-color: var(--color-btn-primary-hover-border);
+}
+
+button.primary:hover {
+  background-color: var(--color-btn-primary-hover-bg);
+  border: var(--color-btn-primary-hover-border);
+  color: var(--color-btn-primary-hover-text);
+  box-shadow: var(--color-btn-primary-hover-shadow);
 }
