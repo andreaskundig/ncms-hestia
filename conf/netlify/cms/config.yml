@@ -480,7 +480,7 @@ collections:
     preview: false
   create: true
   i18n: true
-  preview_path: /en/editorial/{{slug}}
+  preview_path: /en/blog/editorial/{{slug}}
   fields:
     - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string }
     - { label: Title, name: title, required: false, i18n: true,
@@ -553,7 +553,7 @@ collections:
     preview: false
   create: true
   i18n: true
-  preview_path: /en/interview/{{slug}}
+  preview_path: /en/blog/interview/{{slug}}
   fields:
     - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string }
     - { label: Title, name: title, required: false, i18n: true,
@@ -626,7 +626,7 @@ collections:
     preview: false
   create: true
   i18n: true
-  preview_path: /en/infographic/{{slug}}
+  preview_path: /en/blog/infographic/{{slug}}
   fields:
     - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string }
     - { label: Title, name: title, required: false, i18n: true,
@@ -696,7 +696,7 @@ collections:
   create: true
   editor:
     preview: false
-  preview_path: /en/category/{{slug}}
+  preview_path: /en/blog/category/{{slug}}
   identifier_field: id
   i18n: true
   # i18n:
@@ -712,7 +712,7 @@ collections:
   create: true
   editor:
     preview: false
-  preview_path: /en/author/{{slug}}
+  preview_path: /en/blog/author/{{slug}}
   identifier_field: id
   i18n: true
   # i18n:
