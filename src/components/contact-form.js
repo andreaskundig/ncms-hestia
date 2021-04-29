@@ -2,25 +2,25 @@ import { LitElement, html, css } from 'lit-element';
 import { registerTranslateConfig, use, translate } from "lit-translate";
 
 const DEFAULT_TRANSLATIONS = {
-  "title": "Something else?",
-  "subject": "Subject",
-  "first_name": "First name",
-  "last_name": "Last name",
-  "email": "Email address",
-  "message": "Type your message here",
-  "submit_button": "Send"
+    "title": "Something else?",
+    "subject": "Subject",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email": "Email address",
+    "message": "Type your message here",
+    "submit_button": "Send"
 };
 
 registerTranslateConfig({
-  loader: async (lang) => {
-    try {
-      const result = await fetch(`/assets/i18n/contact-form.json`);
-      const translations = await result.json();
-      return translations[lang] || DEFAULT_TRANSLATIONS;
-    } catch(error) {
-      return  DEFAULT_TRANSLATIONS;
-    }
-  }});
+    loader: async (lang) => {
+        try{
+            const result = await fetch(`/assets/i18n/contact-form.json`);
+            const translations = await result.json();
+            return translations[lang] || DEFAULT_TRANSLATIONS;
+        }catch(error){
+           return  DEFAULT_TRANSLATIONS;
+        }
+    }});
 
 /**
  * ‹contact-form› custom element, displaying a form
@@ -53,6 +53,12 @@ registerTranslateConfig({
  *   form-name: String
  *     Name of the Netlify Form.
  *
+ *   title: String (optional)
+ *     Title above the form
+ *
+ *   subject: String (optional)
+ *     Content of the subject field
+ *
  * Usage:
  *
  *     <form name="contact" method="POST" data-netlify="true">
@@ -66,7 +72,9 @@ registerTranslateConfig({
  *
  *     <contact-form
  *       lang="en"
- *       form-name="contact">
+ *       title=""
+ *       form-name="contact"
+ *       subject="Your credit card has been blocked" >
  *     </contact-form>
  *
  */
@@ -107,12 +115,15 @@ export class ContactForm extends LitElement {
     static get properties() {
         return {
             lang: { type: String },
-            netlifyFormName: { type: String, attribute: "form-name" }
+            netlifyFormName: { type: String, attribute: "form-name" },
+            title: { type: String },
+            subjectContent: { type: String, attribute: "subject" }
         }
     }
 
   constructor() {
     super();
+    this.subjectContent = "";
   }
 
   firstUpdated() {
@@ -121,49 +132,50 @@ export class ContactForm extends LitElement {
   }
 
   render() {
+    const title = this.title || translate('title');
     return html`
-      <form class="signup" method="POST" data-netlify="true">
-        <h4>${translate('title')}</h4>
-        <input type="hidden" name="form-name" value="${this.netlifyFormName}" />
-        <input type="hidden" name="lang" value="${this.lang}" />
-        <div class="fields">
-          <div class="field">
-            <label for="first-name">${translate("first_name")}</label>
-            <input type="text" name="first-name" id="first-name"
-                   placeholder="${translate("first_name")}">
-          </div>
-          <div class="field">
-            <label for="last-name">${translate("last_name")}</label>
-            <input type="text" name="last-name" id="last-name"
-                   placeholder="${translate("last_name")}">
-          </div>
+    <form class="signup" method="POST">
+      <h4>${title}</h4>
+      <input type="hidden" name="form-name" value="${this.netlifyFormName}" />
+      <input type="hidden" name="lang" value="${this.lang}" />
+      <div class="fields">
+        <div class="field">
+          <label for="first-name"> ${translate("first_name")} </label>
+          <input type="text" name="first-name" id="first-name"
+                 placeholder="${translate("first_name")}">
         </div>
-        <div class="fields">
-          <div class="field">
-            <label for="email">${translate("email")}</label>
-            <input type="email" name="email" id="email"
-                   placeholder="${translate("email")}">
-          </div>
+        <div class="field">
+          <label for="last-name"> ${translate("last_name")} </label>
+          <input type="text" name="last-name" id="last-name"
+                 placeholder="${translate("last_name")}">
         </div>
-        <div class="fields">
-          <div class="field">
-            <label for="subject">${translate("subject")}</label>
-            <input type="text" name="subject" id="subject"
-                   placeholder="${translate("subject")}">
-          </div>
+      </div>
+      <div class="fields">
+        <div class="field">
+          <label for="email"> ${translate("email")} </label>
+          <input type="email" name="email" id="email"
+                 placeholder="${translate("email")}">
         </div>
-        <div class="fields">
-          <div class="field">
-            <label for="message">${translate("message")}</label>
-            <textarea placeholder="${translate("message")}"
-                      name="message" id="message" >
-            </textarea>
-          </div>
+      </div>
+      <div class="fields">
+        <div class="field">
+          <label for="subject"> ${translate("subject")} </label>
+          <input type="text" name="subject" id="subject"
+                 value="${this.subjectContent}"
+                 placeholder="${translate("subject")}">
         </div>
-        <div>
-          <button type="submit">${translate("submit_button")}</button>
+      </div>
+      <div class="fields">
+        <div class="field">
+          <label for="message"> ${translate("message")} </label>
+          <textarea placeholder="${translate("message")}"
+                    name="message" id="message" ></textarea>
         </div>
-      </form>
+      </div>
+      <div>
+        <button type="submit">${translate("submit_button")}</button>
+      </div>
+    </form>
     `;
   }
 }
