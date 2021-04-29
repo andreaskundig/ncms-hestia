@@ -474,7 +474,7 @@ collections:
 
 - label: Blog › Editorials
   name: editorials
-  folder: src/site/editorial
+  folder: src/site/blog/editorial
   extension: md
   editor:
     preview: false
@@ -547,7 +547,7 @@ collections:
 
 - label: Blog › Interviews
   name: interviews
-  folder: src/site/interview
+  folder: src/site/blog/interview
   extension: md
   editor:
     preview: false
@@ -620,7 +620,7 @@ collections:
 
 - label: Blog › Infographics
   name: infographics
-  folder: src/site/infographic
+  folder: src/site/blog/infographic
   extension: md
   editor:
     preview: false
@@ -692,7 +692,7 @@ collections:
 
 - label: Blog › Categories
   name: post_categories
-  folder: src/site/category
+  folder: src/site/blog/category
   create: true
   editor:
     preview: false
@@ -708,7 +708,7 @@ collections:
 
 - label: Blog › Authors
   name: post_authors
-  folder: src/site/author
+  folder: src/site/blog/author
   create: true
   editor:
     preview: false
