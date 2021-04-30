@@ -38,7 +38,7 @@ collections:
       file: src/site/_data/i18n/globals.json
       i18n: true
       fields:
-        - { label: Suggested blog posts, name: suggested_posts, required: false, i18n: true,
+        - { label: Suggested blog posts, name: suggested_posts_title, required: false, i18n: true,
             widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
         - { label: Share, name: share, required: false, widget: string, i18n: true }
         - { label: Read more ‹button›, name: read_more, required: false, widget: string, i18n: true }
