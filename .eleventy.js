@@ -6,7 +6,7 @@ const { buildLocalesCollection, formatDate} = require('./conf/11ty/locales');
 const { backgroundImage } = require('./conf/11ty/backgroundImage')
 const { creditedImage } = require('./conf/11ty/creditedImage')
 const { internalLink } = require('./conf/11ty/internalLink')
-const {markdownShortCode, markdownIt} = require('./conf/11ty/markdown');
+const {inlineMarkdownShortCode, markdownShortCode, markdownIt} = require('./conf/11ty/markdown');
 
 module.exports = function (eleventyConfig) {
 
@@ -30,6 +30,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("creditedImage", creditedImage);
   eleventyConfig.addPairedShortcode("ilink", internalLink);
   eleventyConfig.addShortcode("markdown", (s) => markdownShortCode(s||''));
+  eleventyConfig.addShortcode("inlineMarkdown", (s) => inlineMarkdownShortCode(s||''));
 
   eleventyConfig.setLibrary("md", markdownIt);
 

@@ -21,7 +21,7 @@ layout: defaultWithLeadTitle
   </p>
   <figure>
     <img src="{{image}}">
-    <figcaption>{% markdown image_caption %}</figcaption>
+    <figcaption>{% inlineMarkdown image_caption %}</figcaption>
   </figure>
   <div>
     {{ content | safe }}
@@ -29,11 +29,11 @@ layout: defaultWithLeadTitle
 </section>
 
 <section id="suggested-posts">
-  <h1>{% markdown i18n.globals[locale].suggested_posts %}</h1>
+  <h1>{% inlineMarkdown i18n.globals[locale].suggested_posts %}</h1>
   {% set suggested_posts = [].concat(suggested_editorials, suggested_interviews, suggested_infographics) %}
   {% for post in collections.post %}
     {% if post.data.locale == locale and post.data.id in suggested_posts %}
-      <p><a href="{{post.url | url}}"> {% markdown post.data.title %}</a></p>
+      <p><a href="{{post.url | url}}"> {% inlineMarkdown post.data.title %}</a></p>
     {% endif %}
   {% endfor %}
 </section>

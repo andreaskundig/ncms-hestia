@@ -11,7 +11,7 @@ hero_image: /assets/media/31-jong-marshes-79mnmavsorg-unsplash.jpg
 hero_image_caption: Photo by [Jong Marshes](https://unsplash.com/@turnlip19)
   on [Unsplash](https://unsplash.com/s/photos/jump)
 sar_title: Ask for your data
-sar_subtitle: You can ask here for a copy of your personal data
+sar_sub_title: You can ask here for a copy of your personal data
 ---
 # These are your rights
 

@@ -14,7 +14,7 @@ locale: en
         <div class="responsive-wrapper">
           {% markdown hero %}
         </div>
-        <figcaption>{% markdown hero_image_caption %}</figcaption>
+        <figcaption>{% inlineMarkdown hero_image_caption %}</figcaption>
       </section>
       <div class="responsive-wrapper">
         {{ content | safe }}

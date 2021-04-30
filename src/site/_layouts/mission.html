@@ -2,18 +2,18 @@
 layout: defaultWithHero
 ---
 <section id="intro">
-<h1>{% markdown introduction_title %}</h1>
+<h1>{% inlineMarkdown introduction_title %}</h1>
 <p>{% markdown introduction %}</p>
 </section>
 
 <section id="solutions">
   {% for solution in solutions %}
     <div>
-      <h3>{% markdown solution.title %}</h3>
+      <h3>{% inlineMarkdown solution.title %}</h3>
       {% if solution.image %}
         <figure>
           <img src="{{solution.image}}">
-          <figcaption>{% markdown solution.image_caption %}</figcaption>
+          <figcaption>{% inlineMarkdown solution.image_caption %}</figcaption>
         </figure>
       {% endif %}
       <p>{% markdown solution.description %}</p>

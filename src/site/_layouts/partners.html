@@ -12,8 +12,8 @@ layout: defaultWithHero
       <article-breakout
           class="grid-cell" layout="{{articleLayout.next()}}"
           href="{{partner.url | url}}" img-src="{{partner.image | url}}">
-        <span slot="caption">{% markdown partner.image_caption %}</span>
-        <h2>{% markdown partner.title %}</h2>
+        <span slot="caption">{% inlineMarkdown partner.image_caption %}</span>
+        <h2>{% inlineMarkdown partner.title %}</h2>
         {% markdown partner.description %}
         <button>{{partner.button}}</button>
       </article-breakout>
