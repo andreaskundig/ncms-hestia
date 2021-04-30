@@ -1,15 +1,15 @@
 ---
 layout: mission
-inverse: true
 permalink: /fr/mission/index.html
+inverse: true
 title: Mission
 hero: "**Dating Privacy's journey**"
 hero_image: /assets/media/32-mojtaba-mohammadi-yiotsd3flka-unsplash.jpg
-hero_image_caption: Photo de [Mojtaba Mohammadi](https://unsplash.com/@mojitaba)
-  sur [Unsplash](https://unsplash.com/s/photos/ways)
 introduction_title: Dating Privacy aims to raise awareness about privacy risks
   and build new practices in online dating for both users and platforms
 conclusion_title: YOUR projects make this happen
+hero_image_caption: Photo de [Mojtaba Mohammadi](https://unsplash.com/@mojitaba)
+  sur [Unsplash](https://unsplash.com/s/photos/ways)
 introduction: >-
   ## The problem 
 

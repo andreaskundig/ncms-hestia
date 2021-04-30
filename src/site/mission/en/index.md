@@ -1,15 +1,15 @@
 ---
 layout: mission
-inverse: true
 permalink: /en/mission/index.html
+inverse: true
 title: Mission
 hero: "**Dating Privacy's journey**"
 hero_image: /assets/media/32-mojtaba-mohammadi-yiotsd3flka-unsplash.jpg
-hero_image_caption: Photo by [Mojtaba Mohammadi](https://unsplash.com/@mojitaba)
-  on [Unsplash](https://unsplash.com/s/photos/ways)
 introduction_title: Dating Privacy aims to raise awareness about privacy risks
   and build new practices in online dating for both users and platforms
 conclusion_title: YOUR projects make this happen
+hero_image_caption: Photo by [Mojtaba Mohammadi](https://unsplash.com/@mojitaba)
+  on [Unsplash](https://unsplash.com/s/photos/ways)
 introduction: >-
   ## The problem 
 
@@ -18,6 +18,9 @@ introduction: >-
 
 
   Data helps apps to put users in contact with each other. You meet somebody outside your network and with different characteristics who you didn’t even know you liked. But it also comes with privacy risks: unknown users see a lot of information about your identity, you are only introduced to people who the app considers right for you, you meet people without any guarantees about their real identity, your data is used for ads that are not necessarily relevant to your tastes but help the app earn money.
+
+
+  ![](/assets/media/21-karsten-winegeart-60gsdomrfgc-unsplash.jpg)
 
 
   There is not enough visibility and situated knowledge about privacy and data protection on dating apps. A general definition of privacy does not apply to every app type. Plus, when you are dating you are interested in establishing trust with your potential date and also with the app introducing you to other people. We seek to raise awareness about privacy risks, as well as develop the potentialities of having new ethical, fair and collective values for the use of technologies and privacy.
