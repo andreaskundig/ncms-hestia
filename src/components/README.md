@@ -5,8 +5,11 @@ Web Components of our website.
 ## Available components
 
 * `<article-breakout href="…"> …text… </article-breakout>`
+* `<video-player src="…" img-src="…"> …text… </video-player>`
 
 ## Usage
+
+Sample usage of the ‹article-breakout› component; applies to all our components:
 
 ```javascript
 <article-breakout layout="box"
