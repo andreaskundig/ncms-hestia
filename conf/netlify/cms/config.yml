@@ -243,6 +243,32 @@ collections:
         - {label: Link, name: link, required: false, widget: file }
         - {label: Image, name: image, required: false, widget: image }
 
+- label: Community › Meetup
+  name: community-meetup
+  folder: src/site/community/meetup
+  extension: md
+  editor:
+    preview: false
+  create: false
+  delete: false
+  i18n: true
+  preview_path: /en/community/meetup/
+  fields:
+    - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
+    - { label: Lead, name: lead, required: false, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
+    - label: Video recordings
+      name: recordings
+      widget: "list"
+      i18n: true
+      summary: '{{fields.title}}'
+      fields:
+        - {label: "Id (link anchor)", name: id, required: false, widget: string, i18n: true }
+        - {label: "Title", name: title, required: false, widget: text }
+        - {label: "Description", name: description, required: false, widget: markdown }
+        - {label: "Video URL", name: videoSrc, required: false, widget: string }
+        - {label: "Video Thumbnail URL", name: videoThumbSrc, required: false, widget: string }
+
 - label: Contact
   name: contact
   folder: src/site/contact
