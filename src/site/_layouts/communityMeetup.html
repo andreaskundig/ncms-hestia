@@ -1,0 +1,18 @@
+---
+layout: defaultWithLeadTitle
+---
+<section id="recordings" class="with-no-space-before">
+  {% for recording in recordings %}
+    <video-player
+        id="{{recording.id}}"
+        src="{{recording.videoSrc}}"
+        img-src="{{recording.videoThumbSrc}}">
+      <h3>{% markdown recording.title %}</h3>
+      {% markdown recording.description %}
+    </video-player>
+  {% endfor %}
+</section>
+
+<script type="module">
+  import '/components/video-player.js';
+</script>

@@ -26,8 +26,7 @@ people:
       data. [](https://wiki.personaldata.io/wiki/User:Frandrews
       "User:Frandrews")'
   - description: An other member maps the dating app ecosystem in the wiki platform
-      available thanks to our partner [personaldata.io
-      ](https://personaldata.io)and delves into dating app patents.
+      available thanks to our partner [personaldata.io](https://personaldata.io) and delves into dating app patents.
   - description: "[](https://jessicapidoux.info/)Another member digs into regulation
       policies and how online dating interacts with collective practices and
       communities."
@@ -45,10 +44,10 @@ timeline_events:
       ["Dating Privacy” Collective
       Launch](https://www.meetup.com/tech4goodLIN/events/276275535/)\
 
-      During this short session, the collective presented the risks you take when using dating apps, shared practices to protect your privacy and explained how you can recover your data if you want to know what happens when you're swiping and liking. We also outlined our first major data literacy project: one [we want you to be involved in](https://dating-privacy.hestialabs.org/en/act/sar).
+      During this short session, the collective presented the risks you take when using dating apps, shared practices to protect your privacy and explained how you can recover your data if you want to know what happens when you're swiping and liking. We also outlined our first major data literacy project: one [we want you to be involved in](/en/act/sar).
 
 
-      [Link to the presentation](https://tinyurl.com/20210212datingprivacy)
+      [Link to the video recording](meetup/#20210212-dp-collective-launch) [Link to the presentation](https://tinyurl.com/20210212datingprivacy)
 chat_groups_title: We are active in online forum and social media to discuss
   about privacy and online dating. Join the conversation
 chat_groups:
