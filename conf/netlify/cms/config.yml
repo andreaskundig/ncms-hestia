@@ -353,6 +353,22 @@ collections:
     - { label: Hero , name: hero, required: false, widget: markdown, i18n: true }
     - { label: Body , name: body, required: false, widget: markdown, i18n: true }
 
+- label: Legal
+  name: legal
+  folder: src/site/legal
+  extension: md
+  editor:
+    preview: false
+  create: false
+  delete: false
+  i18n: true
+  preview_path: /en/legal/
+  fields:
+    - { label: "Browser tab title", name: title, required: false, widget: string, i18n: true }
+    - { label: Lead, name: lead, required: false, i18n: true,
+        widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true }
+    - { label: Body, name: body, required: false, widget: markdown, i18n: true }
+
 - label: Media
   name: media
   folder: src/site/media

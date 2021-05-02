@@ -5,6 +5,7 @@
     "mission": "mission",
     "partners": "partners",
     "media": "media",
+    "legal": "legal",
     "ethics": "ethics",
     "community": "community",
     "contact": "contact us"
@@ -15,6 +16,7 @@
     "mission": "mission",
     "partners": "partenaires",
     "media": "médias",
+    "legal": "mentions légales",
     "ethics": "ethics",
     "community": "communauté",
     "contact": "contactez-nous"
