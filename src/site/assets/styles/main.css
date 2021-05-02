@@ -5,10 +5,11 @@
 @import './base/links.css';
 @import './base/layout.css';
 @import './base/spacing.css';
+@import './elements/buttons.css';
 @import './elements/header-footer.css';
 @import './elements/section-hero.css';
 @import './elements/section-newsletter.css';
-@import './elements/buttons.css';
+@import './elements/tables.css';
 
 body {
   max-width: 100vw;

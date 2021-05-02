@@ -162,10 +162,20 @@
   --body-bg-color:                  var(--color-bg-secondary); /* same as --footer-bg-color and --selection-bg-color */
   --main-bg-color:                  var(--color-bg-canvas);
 
-  /* Paragraphs */
+  /* Paragraphs and headings */
 
+  --headings-space-before:          var(--line-height-base);
   --paragraph-space-between:        var(--line-height-half);
   --paragraph-space-around:         var(--line-height-double); /* that is, more space than in between paragraphs, while preserving line-height interval */
+
+  /* Tables */
+  --tables-space-around:            var(--line-height-base);
+  --tables-head-text-color:         var(--color-bg-secondary);
+  --tables-head-text-weight:        var(--body-text-bold-font-weight);
+  --tables-head-border:             2px solid var(--color-bg-secondary);
+  --tables-row-border:              1px solid var(--color-bg-secondary);
+  --tables-row-zebra-strip-bg:      var(--color-bg-tertiary);
+  --tables-cell-padding:            var(--paragraph-space-between) 0.5rem var(--paragraph-space-between) 0.5rem;
 
   /* Links */
   --link-text-deco:                 underline;
