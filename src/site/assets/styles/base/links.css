@@ -34,7 +34,16 @@ main a[href^="mailto:"]::after {
   content: " (e-mail)";
 }
 
-x/* Style all links that include .pdf|.csv|.doc[x]|.xls[x]|.zip at the end */
+/* */
+
+a[target=_blank]::after {
+  background: url(/assets/img/icon-external-link.svg) 50%/contain no-repeat;
+  content: "";
+  margin: 0 .15rem;
+  padding-right: .65rem;
+}
+
+/* Style all links that include .pdf|.csv|.doc[x]|.xls[x]|.zip at the end */
 main a[href$=".pdf"]::after {
   content: " (PDF)";
 }
