@@ -1,14 +1,32 @@
 <head>
   <meta charset="UTF-8">
-  {# https://www.w3schools.com/css/css_rwd_viewport.asp #}
+
+  {# Responsive Web Design — The Viewport
+     https://www.w3schools.com/css/css_rwd_viewport.asp #}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="@11ty/eleventy" >
+
+  {# Page title, author and generator #}
   <title>{{title}}</title>
+  <meta name="generator" content="@11ty/eleventy" >
+
+  {# The Essential Meta Tags for Social Media
+     https://css-tricks.com/essential-meta-tags-social-media/ #}
+  {% set canonical_url = i18n.links[locale].canonical_base_url + page.url %}
   <meta name="twitter:card" content="summary" >
-  <meta name="twitter:site" content="@HestiaLabs" >
+  <meta name="twitter:site" content="{{i18n.links[locale].twitter_account}}" >
   <meta name="twitter:title" content="{{title}}" >
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:type" content="article" >
+  <meta property="og:url" content="{{canonical_url}}">
+  <link rel="canonical" href="{{canonical_url}}">
+
+  {# CSS styles #}
   <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
+
+  {# Web App Manifest and favicons #}
   {% include "favicons.njk" %}
+
+  {# Netlify Identity widget (required to login users, only used for CMS on /admin/ for now) #}
   {% if path == "home" %}
     <script defer type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% endif %}
