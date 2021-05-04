@@ -5,6 +5,7 @@
 @import './base/links.css';
 @import './base/layout.css';
 @import './base/spacing.css';
+@import './elements/blocks.css';
 @import './elements/buttons.css';
 @import './elements/header-footer.css';
 @import './elements/section-hero.css';
