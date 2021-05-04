@@ -2,8 +2,11 @@
   <meta charset="UTF-8">
   {# https://www.w3schools.com/css/css_rwd_viewport.asp #}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="@11ty/eleventy" />
+  <meta name="generator" content="@11ty/eleventy" >
   <title>{{title}}</title>
+  <meta name="twitter:card" content="summary" >
+  <meta name="twitter:site" content="@HestiaLabs" >
+  <meta name="twitter:title" content="{{title}}" >
   <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
   {% include "favicons.njk" %}
   {% if path == "home" %}
