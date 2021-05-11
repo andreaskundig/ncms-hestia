@@ -85,34 +85,6 @@ export class SubjectAccessRequestForm extends LitElement {
           flex-grow: 1;
        }
 
-       .app-buttons {
-          display: flex;
-          flex-wrap: wrap;
-          margin: 0.5em 0 ;
-       }
-
-       .app-buttons.featured > span {
-            width: 6em;
-            height: 3em;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-       }
-
-       .app-buttons > span {
-            width: 4.5em;
-            height: 2em;
-            overflow: hidden;
-            border: 1px solid;
-            margin: .15em;
-            padding: .2em;
-            text-overflow: ellipsis;
-            /* Required for text-overflow to do anything */
-            white-space: nowrap;
-            cursor:  pointer;
-            text-align: center;
-       }
-
        .email-field {
           display:flex;
           margin-bottom: 0.5em;
@@ -185,28 +157,6 @@ export class SubjectAccessRequestForm extends LitElement {
     firstUpdated() {
         // Load the default language
         use(this.lang);
-    }
-
-    appsForDisplay(){
-        const appsClone = this.apps.slice();
-        appsClone.sort(compareFeatured);
-        return appsClone;
-    }
-
-    featuredApps(){
-        const appsFeatured = this.apps.filter(app =>
-            FEATURED_APPS.includes(app.itemLabel)
-        );
-        appsFeatured.sort(compareFeatured);
-        return appsFeatured;
-    }
-
-    unfeaturedApps(){
-        const appsUnfeatured = this.apps.filter(app =>
-            !FEATURED_APPS.includes(app.itemLabel)
-        );
-        appsUnfeatured.sort(compareFeatured);
-        return appsUnfeatured;
     }
 
     async fetchApps() {
@@ -302,23 +252,6 @@ export class SubjectAccessRequestForm extends LitElement {
                    html`<option>${app.displayName}</option>`)}
             </datalist>
           </div>
-          <div class="app-buttons featured">
-              ${t.featuredApps().map(app =>
-                  html`
-                    <span @click="${_ => t.selectApp(app)}"
-                          title="${app.displayName}">
-                    ${app.displayName}
-                    </span> `)}
-          </div>
-          <div class="app-buttons">
-              ${t.unfeaturedApps().map(app =>
-                  html`
-                    <span @click="${_ => t.selectApp(app)}"
-                          title="${app.displayName}">
-                    ${app.displayName}
-                    </span> `)}
-          </div>
-          <hr>
           <h2>${
             t.selectedApp ?
              html`${translate('preview_of_email_to')}
