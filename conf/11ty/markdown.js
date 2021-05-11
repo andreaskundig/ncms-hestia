@@ -24,6 +24,8 @@ inlineMarkdownIt.enable([
   'paragraph',
   'text', 'strikethrough', 'emphasis',
   'link', 'autolink', 'entity' ])
+inlineMarkdownIt.renderer.rules.paragraph_open = () => '';
+inlineMarkdownIt.renderer.rules.paragraph_close = () => '';
 
 function markdownShortCode(content) {
   return markdownIt.render(content);
