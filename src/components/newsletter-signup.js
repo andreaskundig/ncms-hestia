@@ -84,7 +84,9 @@ export class NewsletterSignup extends LitElement {
     return css`
         @import '/assets/styles/vendor/normalize.css';
         @import '/assets/styles/base/typography.css';
+        @import '/assets/styles/base/spacing.css';
         @import '/assets/styles/elements/buttons.css';
+        @import '/assets/styles/elements/forms.css';
 
         :host {
           display: block; }
@@ -94,10 +96,6 @@ export class NewsletterSignup extends LitElement {
         p { margin-bottom: 0.5rem; }
 
         button { margin-top: 0.5rem; }
-
-        input[type=text],
-        input[type=email] {
-          padding: 0 0.25rem; }
 
         .signup-fields {
           display: flex; }
