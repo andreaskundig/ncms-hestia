@@ -47,9 +47,29 @@ main img {
   content-visibility: auto;
 }
 
+/* A fancy dash of «signature» colors */
+
 ::selection {
   background: var(--selection-bg-color);
   color: var(--selection-text-color);
+}
+
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-bg);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-bg);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-bg);
 }
 
 /* Revisiting prefers-reduced-motion, the reduced motion media query

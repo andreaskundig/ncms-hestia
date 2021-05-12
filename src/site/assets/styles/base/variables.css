@@ -151,6 +151,9 @@
   /* Globals */
   --selection-bg-color:             var(--color-bg-secondary); /* same as --footer-bg-color and --body-bg-color */
   --selection-text-color:           var(--color-text-inverse);
+  --scrollbar-track-bg:             var(--color-bg-tertiary);
+  --scrollbar-thumb-bg:             linear-gradient(243.12deg, var(--selection-bg-color) 0%, var(--color-bg-danger-inverse) 100%);
+  --scrollbar-width:                0.65rem;
 
   /* Body */
   --body-text-font-family:          var(--font-family);
