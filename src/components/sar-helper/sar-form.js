@@ -2,21 +2,19 @@ import { LitElement, html, css, svg } from 'lit-element';
 import { registerTranslateConfig, use, translate } from "lit-translate";
 import { fetchDatingApps, fetchMailTo } from './personaldata-io.js';
 
-
 const DEFAULT_TRANSLATIONS = {
     "subject": "Subject",
     "dating_app": "Dating app",
     "select_placeholder": "Click to choose",
-    "email_button": "Open in your email client",
+    "email_button": "Open in your e-mail client",
     "body_placeholder": "Choose an app to fill this automatically",
     "recipient": "Recipient",
     "search_placeholder": "Search",
     "copy_button": "Copy to clipboard",
-    "preview_of_email": "Preview of the email",
-    "preview_of_email_to": "Preview of the email to",
-    "explanation": "You can copy the email fields or open it directly in your email client",
-    "to_fill_in": "The following information needs to be filled in by hand in the email:"
-
+    "preview_of_email": "Preview of the e-mail",
+    "preview_of_email_to": "Preview of the e-mail to",
+    "explanation": "You can copy the e-mail fields or open it directly in your e-mail client",
+    "to_fill_in": "The following information needs to be filled in by hand in the e-mail body:"
 };
 
 const IDS = {
@@ -64,56 +62,54 @@ const unCamelCase = (string) => string.replace(/([a-z])([A-Z][a-z])/g, '$1 $2');
 export class SubjectAccessRequestForm extends LitElement {
 
     static get styles() {
-        return css`
+      return css`
         @import '/assets/styles/vendor/normalize.css';
         @import '/assets/styles/base/typography.css';
+        @import '/assets/styles/base/spacing.css';
         @import '/assets/styles/elements/buttons.css';
+        @import '/assets/styles/elements/forms.css';
 
-       input {
-          padding: 0.3em;
-       }
+        :host {
+          display: block; }
 
-       .app-selection {
+        .app-selection {
           display:flex;
-          margin-bottom: 0.5em;
-       }
+          margin-bottom: 0.5rem; }
 
-       .app-selection > label {
-          width: 20%;
-       }
-       .app-selection > input {
-          flex-grow: 1;
-       }
+        .app-selection > label {
+          width: 20%; }
 
-       .email-field {
+        .app-selection > input {
+          flex-grow: 1; }
+
+        .email-field {
           display:flex;
-          margin-bottom: 0.5em;
-       }
+          margin-bottom: 0.5rem; }
 
-       .email-field > label {
-          width: 20%;
-       }
+        .email-field > label {
+          width: 20%; }
 
-       .email-field > input {
-          flex-grow: 1;
-       }
+        .email-field > input {
+          flex-grow: 1; }
 
-       .copy {
+        .copyIcon {
           cursor: pointer;
-          margin-left: 0.5em;
-       }
+          margin-left: 0.5rem; }
 
-       .email-body{
-          display: flex
+        .copyIconSpacer {
+          /* same width as the SVG ‹Copy› icon (returned by getCopyIcon() function),
+             plus the margin/padding defined by the above 'copyIcon' class */
+          min-width: calc( 0.5rem + 24px);
+        }
 
-       }
-       .email-body > textarea {
+        .email-body{
+          display: flex }
+
+        .email-body > textarea {
           flex-grow: 1;
           height: 20em;
-          margin-bottom: 0.5em;
-          padding: 0.75em;
-       }
-     `;
+          margin-bottom: 1rem; }
+      `;
     }
 
     static get properties() {
@@ -224,80 +220,77 @@ export class SubjectAccessRequestForm extends LitElement {
     }
 
     openEmailClient() {
-        const t = this;
-        const email = t.byId(IDS.recipient).value;
-        const subject = encodeURIComponent(t.byId(IDS.subject).value);
-        const body = encodeURIComponent(t.byId(IDS.body).value);
+        const email = this.byId(IDS.recipient).value;
+        const subject = encodeURIComponent(this.byId(IDS.subject).value);
+        const body = encodeURIComponent(this.byId(IDS.body).value);
         const urlString = `mailto:${email}?subject=${subject}&body=${body}`;
         const url = new URL(urlString);
         window.location.href = url.href;
     }
 
     getCopyIcon(){
-       return svg`<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>`
+       return svg`<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000000">
+          <path d="M0 0h24v24H0z" fill="none"/>
+          <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+        </svg>`
     }
 
     render() {
-        const t = this;
+        const that = this;
         return html`
           <div class="app-selection"">
             <label for="${IDS.search}">${translate("dating_app")}</label>
             <input placeholder="${translate("search_placeholder")}"
                    list="search-list"
                    id="${IDS.search}"
-                   @keyup="${t.onSearchType}"
-                   @input="${t.onSearch}">
+                   @keyup="${that.onSearchType}"
+                   @input="${that.onSearch}">
             <datalist  id="search-list">
-              ${t.apps.map(app =>
-                   html`<option>${app.displayName}</option>`)}
+              ${this.apps.map(app =>
+                html`<option>${app.displayName}</option>`)}
             </datalist>
+            <span class="copyIconSpacer">&nbsp;</span>
           </div>
-          <h2>${
-            t.selectedApp ?
-             html`${translate('preview_of_email_to')}
-              <strong>${t.selectedApp.displayName}</strong>        `
-            :
-             translate('preview_of_email')
-          } </h2>
+          <h2>${this.selectedApp
+            ? html`${translate('preview_of_email_to')}
+                <strong>${this.selectedApp.displayName}</strong>`
+            : translate('preview_of_email')
+          }</h2>
           <p>${translate('explanation')}</p>
-        ${!this.partsToFillIn.length ? '' : html`
-          <div>
-            <div>${translate("to_fill_in")}</div>
+          ${!this.partsToFillIn.length ? '' : html`
+          <div class="parts-to-fill-in">
+            <p>${translate("to_fill_in")}</p>
             <ul>
-               ${this.partsToFillIn.map(p =>
-                   html`<li>${p}</li>`)}
+              ${this.partsToFillIn.map(p => html`<li>${p}</li>`)}
             </ul>
-          </div>`
-         }
+          </div>`}
           <div class="email-field">
             <label for="${IDS.recipient}">${translate("recipient")}</label>
-            <input id="${IDS.recipient}" value="${t.recipient}">
-            <span class="copy" title="${translate("copy_button")}"
-                  @click="${_ => t.copyToClipboard(IDS.recipient)}">
-               ${this.getCopyIcon()}
-             </span>
+            <input id="${IDS.recipient}" type="email" value="${this.recipient}">
+            <span class="copyIcon" title="${translate("copy_button")}"
+                  @click="${_ => that.copyToClipboard(IDS.recipient)}">
+              ${this.getCopyIcon()}
+            </span>
           </div>
           <div class="email-field">
             <label for="${IDS.subject}">${translate("subject")}</label>
-            <input id="${IDS.subject}" value="${t.subject}">
-            <span class="copy" title="${translate("copy_button")}"
-                  @click="${_ => t.copyToClipboard(IDS.subject)}">
+            <input id="${IDS.subject}" type="text" value="${this.subject}">
+            <span class="copyIcon" title="${translate("copy_button")}"
+                  @click="${_ => that.copyToClipboard(IDS.subject)}">
                ${this.getCopyIcon()}
              </span>
           </div>
           <div class="email-body">
             <textarea placeholder="${translate("body_placeholder")}"
-                      id="${IDS.body}">${t.body}</textarea>
-            <span class="copy" title="${translate("copy_button")}"
-                  @click="${_ => t.copyToClipboard(IDS.body)}">
+                      id="${IDS.body}">${this.body}</textarea>
+            <span class="copyIcon" title="${translate("copy_button")}"
+                  @click="${_ => that.copyToClipboard(IDS.body)}">
                ${this.getCopyIcon()}
             </span>
           </div>
-          <div>
-            <button @click="${t.openEmailClient}">
-               ${translate("email_button")}
-            </button>
-          </div>
+          <button @click="${this.openEmailClient}">
+            ${translate("email_button")}
+          </button>
      `;
     }
 
