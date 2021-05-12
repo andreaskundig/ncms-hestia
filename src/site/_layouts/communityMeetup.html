@@ -7,7 +7,7 @@ layout: defaultWithLeadTitle
         id="{{recording.id}}"
         src="{{recording.videoSrc}}"
         img-src="{{recording.videoThumbSrc}}">
-      <h3>{% markdown recording.title %}</h3>
+      <h3>{{ recording.title }}</h3>
       {% markdown recording.description %}
     </video-player>
   {% endfor %}

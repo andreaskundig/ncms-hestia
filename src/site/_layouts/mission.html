@@ -3,7 +3,7 @@ layout: defaultWithHero
 ---
 <section id="intro">
 <h1>{% inlineMarkdown introduction_title %}</h1>
-<p>{% markdown introduction %}</p>
+{% markdown introduction %}
 </section>
 
 <section id="solutions">
@@ -16,7 +16,7 @@ layout: defaultWithHero
           <figcaption>{% inlineMarkdown solution.image_caption %}</figcaption>
         </figure>
       {% endif %}
-      <p>{% markdown solution.description %}</p>
+      {% markdown solution.description %}
     </div>
   {% endfor %}
 </section>

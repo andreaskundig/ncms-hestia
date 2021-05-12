@@ -10,7 +10,7 @@ layout: defaultWithHero
           name="{{person.name}}"
           img-src="{{person.image}}">
         <h2>{{person.name}}</h2>
-        <p>{% markdown person.description %}</p>
+        {% markdown person.description %}
         <p>
           {% if person.twitter %}
             <a href="{{person.twitter}}" target="_blank">twitter</a>
@@ -32,7 +32,7 @@ layout: defaultWithHero
   {% for event in timeline_events %}
   <div>
     <h2>{{event.date | readableDate(locale, "LLLL yyyy")}}</h2>
-    <p>{% markdown event.description %}</p>
+    {% markdown event.description %}
   </div>
   {% endfor %}
 </section>
