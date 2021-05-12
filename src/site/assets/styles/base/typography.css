@@ -2,6 +2,13 @@ html {
   font-size: var( --font-size-base);
 }
 
+/* @media (max-width: env(--breakpoint-width-md)) */
+@media (max-width: 768px) {
+  html {
+    font-size: calc( var( --font-size-base) * 0.7);
+  }
+}
+
 body {
   font-family: var(--body-text-font-family);
   font-weight: var(--body-text-font-weight);
