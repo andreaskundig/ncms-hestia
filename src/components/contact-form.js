@@ -2,7 +2,6 @@ import { LitElement, html, css } from 'lit-element';
 import { registerTranslateConfig, use, translate } from "lit-translate";
 
 const DEFAULT_TRANSLATIONS = {
-    "title": "Something else?",
     "subject": "Subject",
     "first_name": "First name",
     "last_name": "Last name",
@@ -12,15 +11,16 @@ const DEFAULT_TRANSLATIONS = {
 };
 
 registerTranslateConfig({
-    loader: async (lang) => {
-        try{
-            const result = await fetch(`/assets/i18n/contact-form.json`);
-            const translations = await result.json();
-            return translations[lang] || DEFAULT_TRANSLATIONS;
-        }catch(error){
-           return  DEFAULT_TRANSLATIONS;
-        }
-    }});
+  loader: async (lang) => {
+    try {
+      const result = await fetch(`/assets/i18n/contact-form.json`);
+      const translations = await result.json();
+      return translations[lang] || DEFAULT_TRANSLATIONS;
+    } catch(error) {
+      return  DEFAULT_TRANSLATIONS;
+    }
+  }
+});
 
 /**
  * ‹contact-form› custom element, displaying a form
@@ -53,9 +53,6 @@ registerTranslateConfig({
  *   form-name: String
  *     Name of the Netlify Form.
  *
- *   title: String (optional)
- *     Title above the form
- *
  *   subject: String (optional)
  *     Content of the subject field
  *
@@ -72,9 +69,8 @@ registerTranslateConfig({
  *
  *     <contact-form
  *       lang="en"
- *       title=""
  *       form-name="contact"
- *       subject="Your credit card has been blocked" >
+ *       subject="My credit card has been blocked">
  *     </contact-form>
  *
  */
@@ -82,44 +78,44 @@ export class ContactForm extends LitElement {
 
   static get styles() {
     return css`
-        @import '/assets/styles/vendor/normalize.css';
-        @import '/assets/styles/base/typography.css';
-        @import '/assets/styles/elements/buttons.css';
+      @import '/assets/styles/vendor/normalize.css';
+      @import '/assets/styles/base/typography.css';
+      @import '/assets/styles/base/spacing.css';
+      @import '/assets/styles/elements/buttons.css';
+      @import '/assets/styles/elements/forms.css';
 
-        .fields {
-            display: flex;
-        }
-        .field{
-            flex: 1;
-            min-width: 48%;
-            padding-left: 0.75rem;
-            padding-bottom: 0.75rem;
-        }
-        .field:first-child{
-            padding-left: 0;
-        }
-        .field input, .field textarea{
-            display: block;
-            width: 100%;
-        }
-        .field textarea{
-            height: 10em;
-        }
+      :host {
+        display: block; }
 
-        input[type=text],
-        input[type=email],
-        textarea {
-          padding: 0 0.25rem; }
+      .fields {
+        display: flex; }
+
+      .field {
+        flex: 1;
+        min-width: 48%;
+        padding-left: 0.75rem;
+        padding-bottom: 0.75rem;
+      }
+
+      .field:first-child {
+        padding-left: 0; }
+
+      .field input, .field textarea{
+        display: block;
+        width: 100%; }
+
+      .field textarea {
+        height: 10rem; }
     `;
   }
-    static get properties() {
-        return {
-            lang: { type: String },
-            netlifyFormName: { type: String, attribute: "form-name" },
-            title: { type: String },
-            subjectContent: { type: String, attribute: "subject" }
-        }
+
+  static get properties() {
+    return {
+      lang: { type: String },
+      netlifyFormName: { type: String, attribute: "form-name" },
+      subjectContent: { type: String, attribute: "subject" }
     }
+  }
 
   constructor() {
     super();
@@ -128,54 +124,50 @@ export class ContactForm extends LitElement {
 
   firstUpdated() {
     // Load the default language
-      use(this.lang);
+    use(this.lang);
   }
 
   render() {
-    const title = this.title || translate('title');
     return html`
-    <form class="signup" method="POST">
-      <h4>${title}</h4>
-      <input type="hidden" name="form-name" value="${this.netlifyFormName}" />
-      <input type="hidden" name="lang" value="${this.lang}" />
-      <div class="fields">
-        <div class="field">
-          <label for="first-name"> ${translate("first_name")} </label>
-          <input type="text" name="first-name" id="first-name"
-                 placeholder="${translate("first_name")}">
+      <form class="signup" method="POST">
+        <input type="hidden" name="form-name" value="${this.netlifyFormName}" />
+        <input type="hidden" name="lang" value="${this.lang}" />
+        <div class="fields">
+          <div class="field">
+            <label for="first-name"> ${translate("first_name")} </label>
+            <input type="text" name="first-name" id="first-name"
+                   placeholder="${translate("first_name")}">
+          </div>
+          <div class="field">
+            <label for="last-name"> ${translate("last_name")} </label>
+            <input type="text" name="last-name" id="last-name"
+                   placeholder="${translate("last_name")}">
+          </div>
         </div>
-        <div class="field">
-          <label for="last-name"> ${translate("last_name")} </label>
-          <input type="text" name="last-name" id="last-name"
-                 placeholder="${translate("last_name")}">
+        <div class="fields">
+          <div class="field">
+            <label for="email"> ${translate("email")} </label>
+            <input type="email" name="email" id="email"
+                   placeholder="${translate("email")}">
+          </div>
         </div>
-      </div>
-      <div class="fields">
-        <div class="field">
-          <label for="email"> ${translate("email")} </label>
-          <input type="email" name="email" id="email"
-                 placeholder="${translate("email")}">
+        <div class="fields">
+          <div class="field">
+            <label for="subject"> ${translate("subject")} </label>
+            <input type="text" name="subject" id="subject"
+                   value="${this.subjectContent}"
+                   placeholder="${translate("subject")}">
+          </div>
         </div>
-      </div>
-      <div class="fields">
-        <div class="field">
-          <label for="subject"> ${translate("subject")} </label>
-          <input type="text" name="subject" id="subject"
-                 value="${this.subjectContent}"
-                 placeholder="${translate("subject")}">
+        <div class="fields">
+          <div class="field">
+            <label for="message"> ${translate("message")} </label>
+            <textarea placeholder="${translate("message")}"
+                      name="message" id="message" ></textarea>
+          </div>
         </div>
-      </div>
-      <div class="fields">
-        <div class="field">
-          <label for="message"> ${translate("message")} </label>
-          <textarea placeholder="${translate("message")}"
-                    name="message" id="message" ></textarea>
-        </div>
-      </div>
-      <div>
         <button type="submit">${translate("submit_button")}</button>
-      </div>
-    </form>
+      </form>
     `;
   }
 }

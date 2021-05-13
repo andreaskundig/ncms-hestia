@@ -2,36 +2,35 @@
 layout: defaultWithHero
 ---
 <section id="contacts">
-  <div>
-    <h4>{{contact_community}}</h4>
-    <h5>
-      <a href="{{contact_community_url}}">{{contact_community_action}}</a>
-    </h5>
-  </div>
-  <div>
-    <h4>{{contact_researcher}}</h4>
-    <h5>
-      <a href="{{contact_researcher_url}}">{{contact_researcher_action}}</a>
-    </h5>
-  </div>
-  <div>
-    <h4>{{contact_partner}}</h4>
-    <h5>
-      <a href="{{contact_partner_url}}">{{contact_partner_action}}</a>
-    </h5>
-  <div>
-    <h4>{{contact_media}}</h4>
-    <h5>
-      <a href="{{contact_media_url}}">{{contact_media_action}}</a>
-    </h5>
-  </div>
-</section>
+  <h3>{{contact_community}}</h3>
+  <p><a href="{{contact_community_url}}">{{contact_community_action}}</a></p>
 
-<section id="contact-form">
+  <h3>{{contact_researcher}}</h3>
+  <p><a href="{{contact_researcher_url}}">{{contact_researcher_action}}</a></p>
+
+  <h3>{{contact_partner}}</h3>
+  <p><a href="{{contact_partner_url}}">{{contact_partner_action}}</a></p>
+
+  <h3>{{contact_media}}</h3>
+  <p><a href="{{contact_media_url}}">{{contact_media_action}}</a></p>
+
+  <h3>{{contact_else}}</h3>
   <contact-form
     lang="{{locale}}"
-    form-name="contact-dp"></contact-form>
+    form-name="contact-dp"
+    subject="{{subject}}"></contact-form>
 </section>
+
+<!-- A little help for the Netlify post-processing bots -->
+<!-- for use with web-component contact-form -->
+<form name="{{form_name}}" method="POST" data-netlify="true">
+      <input type="hidden" name="email">
+      <input type="hidden" name="first-name">
+      <input type="hidden" name="last-name">
+      <input type="hidden" name="subject">
+      <input type="hidden" name="message">
+      <input type="hidden" name="lang" />
+</form>
 
 <script type="module">
   import '/components/contact-form.js';
