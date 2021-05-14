@@ -1,7 +1,9 @@
 // https://github.com/11ty/eleventy/issues/658#issuecomment-599142642
+const plainText = require('markdown-it-plain-text');
 const markdownIt = require("markdown-it")({
   html: true
 });
+markdownIt.use(plainText);
 
 // all markdownIt rules
 // https://github.com/markdown-it/markdown-it/blob/master/lib/parser_inline.js
@@ -26,16 +28,18 @@ inlineMarkdownIt.enable([
   'link', 'autolink', 'entity' ])
 inlineMarkdownIt.renderer.rules.paragraph_open = () => '';
 inlineMarkdownIt.renderer.rules.paragraph_close = () => '';
+inlineMarkdownIt.use(plainText);
 
-function markdownShortCode(content) {
+function markdownShortCode(content, type) {
   return markdownIt.render(content);
+  return type == "plain" ? inlineMarkdownIt.plainText : html;
 }
 
-function inlineMarkdownShortCode(content) {
+function inlineMarkdownShortCode(content, type) {
   // console.log('inline', content)
   const html = inlineMarkdownIt.render(content);
   // console.log('inlined', html);
-  return html;
+  return type == "plain" ? inlineMarkdownIt.plainText : html;
 }
 
 module.exports = { inlineMarkdownShortCode, markdownShortCode, markdownIt };

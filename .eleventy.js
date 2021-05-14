@@ -32,7 +32,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPairedShortcode("ilink", internalLink);
   eleventyConfig.addShortcode("markdown", (s) => markdownShortCode(s||''));
   eleventyConfig.addShortcode("inlineMarkdown", (s) => inlineMarkdownShortCode(s||''));
-  eleventyConfig.addNunjucksAsyncShortcode("renderLiquid", renderLiquid);
+  eleventyConfig.addPairedShortcode("inlineMd", inlineMarkdownShortCode);
+  eleventyConfig.addShortcode("renderLiquid", renderLiquid);
 
   eleventyConfig.setLibrary("md", markdownIt);
 
