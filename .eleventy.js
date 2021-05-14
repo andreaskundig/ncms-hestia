@@ -6,6 +6,7 @@ const { buildLocalesCollection, formatDate} = require('./conf/11ty/locales');
 const { backgroundImage } = require('./conf/11ty/backgroundImage')
 const { creditedImage } = require('./conf/11ty/creditedImage')
 const { internalLink } = require('./conf/11ty/internalLink')
+const { renderLiquid } = require('./conf/11ty/liquid')
 const {inlineMarkdownShortCode, markdownShortCode, markdownIt} = require('./conf/11ty/markdown');
 
 module.exports = function (eleventyConfig) {
@@ -31,6 +32,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPairedShortcode("ilink", internalLink);
   eleventyConfig.addShortcode("markdown", (s) => markdownShortCode(s||''));
   eleventyConfig.addShortcode("inlineMarkdown", (s) => inlineMarkdownShortCode(s||''));
+  eleventyConfig.addNunjucksAsyncShortcode("renderLiquid", renderLiquid);
 
   eleventyConfig.setLibrary("md", markdownIt);
 
@@ -47,5 +49,7 @@ module.exports = function (eleventyConfig) {
     // templateFormats: ["html", "md", "njk"],
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
+    // don't preprocess global data.
+    dataTemplateEngine: false
   };
 };

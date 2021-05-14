@@ -39,6 +39,12 @@ const findId = (data) => {
   return data.id;
 };
 
+const omitSomeEleventySuppliedData = data => {
+  const {pkg, collections, eleventyComputed, ...cosher} = data;
+  return cosher;
+}
+
+
 // https://www.11ty.dev/docs/data-computed/
 // It is important to note that Computed Data is computed
 // right before templates are rendered. Therefore Computed Data
@@ -51,5 +57,6 @@ module.exports = {
   // post_categories: findPostCategories,
   post_categories: data => findPostAttributes(data, 'post_categories'),
   post_authors: data => findPostAttributes(data, 'post_authors'),
-  id: findId
+  id: findId,
+  pageData: data => omitSomeEleventySuppliedData(data)
 }
