@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   {# Page title, author and generator #}
-  <title>{% renderLiquid "title", pageData %}</title>
+  <title>{% inlineMd "plain" %}{% renderLiquid "title", pageData %}{% endinlineMd %}</title>
   <meta name="generator" content="@11ty/eleventy" >
 
   {# The Essential Meta Tags for Social Media

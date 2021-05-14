@@ -3,7 +3,7 @@ layout: default
 ---
 <section id="hero" class="normhero with-no-space">
   <div class="responsive-wrapper">
-    <h1>{% renderLiquid "title", pageData %}</strong></h1>
+    <h1>{% inlineMd %}{% renderLiquid "title", pageData %}{% endinlineMd %}</strong></h1>
     {% markdown description %}
   </div>
 </section>

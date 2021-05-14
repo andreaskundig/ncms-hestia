@@ -4,7 +4,7 @@ layout: default
 {% set id = defaultTranslation.page.data.id %}
 <section id="hero" class="normhero with-no-space">
   <div class="responsive-wrapper">
-    <h1>{% renderLiquid "title", pageData %}</h1>
+    <h1>{% inlineMd %}{% renderLiquid "title", pageData %}{% endinlineMd %}</h1>
     {% markdown description %}
   </div>
 </section>

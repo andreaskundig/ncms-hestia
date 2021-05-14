@@ -1,10 +1,10 @@
 {
   "en": {
-    "stories_by": "Stories by <strong>{{name}}</strong>",
-    "stories_about": "Stories about <strong>{{name}}</strong>"
+    "stories_by": "Stories by **{{name}}**",
+    "stories_about": "Stories about **{{name}}**"
   },
   "fr": {
-    "stories_by": "Histoires par <strong>{{name}}</strong>",
-    "stories_about": "Histoires de <strong>{{name}}</strong>"
+    "stories_by": "Histoires par **{{name}}**",
+    "stories_about": "Histoires de **{{name}}**"
   }
 }

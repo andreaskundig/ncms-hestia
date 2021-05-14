@@ -96,8 +96,10 @@ collections:
       file: src/site/_data/i18n/blog.json
       i18n: true
       fields:
-        - { label: Stories by, name: stories_by, required: true, widget: string, i18n: true }
-        - { label: Stories about, name: stories_about, required: true, widget: string, i18n: true }
+        - { label: Stories by, name: stories_by, required: true, i18n: true,
+            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
+        - { label: Stories about, name: stories_about, required: true, i18n: true,
+            widget: markdown, buttons: [bold, italic, link], editor_components: [], minimal: true}
     - label: SAR Form
       name: sar-form
       file: src/site/assets/i18n/sar-form.json
