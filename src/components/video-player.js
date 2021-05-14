@@ -62,16 +62,16 @@ export class VideoPlayer extends LitElement {
         display: block; }
 
       video {
-        display: block;
-        max-width: 100%;
-        width: 100%;
-        margin: 0 0; }
+        display: block; }
 
       img {
+        object-fit: cover; }
+
+      video, img {
+        width: 100%;
+        max-width: 100%;
         box-shadow: var(--breakout-img-shadow);
-        object-fit: cover;
-        width: 100%; }
-      }
+        margin: var(--breakout-padding) 0; }
     `;
   }
 
@@ -95,7 +95,8 @@ export class VideoPlayer extends LitElement {
         src="${this.src}"
         poster="${this.imgSrc}">
         <p>Sorry, your browser doesn't support HTML5 embedded videos.
-      Here is <a href="${this.src}">a link to download the video</a>.</p>
+        Here is a <a href="${this.src}">link to download the video</a>.</p>
+        <a href="${this.src}"><img src="${this.imgSrc}"></a>
       </video>
     `;
   }
