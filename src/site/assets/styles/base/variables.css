@@ -173,8 +173,9 @@
 
   /* Callout blocks */
   --blocks-bg-color:                var(--color-bg-tertiary);
+  --blocks-alt-bg-color:            var(--color-bg-primary);
   --blocks-space-around:            var(--line-height-base);
-  --blocks-space-sides:             var(--line-height-base);
+  --blocks-space-inside:            var(--line-height-double);
 
   /* Tables */
   --tables-space-around:            var(--line-height-base);
