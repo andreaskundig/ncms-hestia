@@ -1,1 +1,3 @@
-{"permalink": "/fr/blog/category/{{page.fileSlug}}/index.html"}
+{
+    "title": {"path": "i18n.blog.fr.stories_about"},
+    "permalink": "/fr/blog/category/{{page.fileSlug}}/index.html"}
