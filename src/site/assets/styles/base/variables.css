@@ -36,6 +36,7 @@
 
   /* Line heights */
 
+  --line-height-quarter: 0.375rem;                    /* calc( --line-height-base / 4) */
   --line-height-half: 0.75rem;                        /* calc( --line-height-base / 2) */
   --line-height-base: 1.5rem;
   --line-height-double: 3rem;                         /* calc( --line-height-base * 2) */
@@ -166,7 +167,6 @@
   --main-bg-color:                  var(--color-bg-canvas);
 
   /* Paragraphs and headings */
-
   --headings-space-before:          var(--line-height-base);
   --paragraph-space-between:        var(--line-height-half);
   --paragraph-space-around:         var(--line-height-double); /* that is, more space than in between paragraphs, while preserving line-height interval */
@@ -201,6 +201,11 @@
   --link-active-text-color:         var(--link-hover-text-bg);
   --link-active-text-bg:            var(--link-hover-text-color);
   --link-focus-outline:             3px solid var(--color-text-link);
+
+  /* Lists */
+  --list-bullet-color:              var(--color-bg-secondary);
+  --list-space-sides:               var(--line-height-base);
+  --list-space-between:             var(--line-height-quarter);
 
   /* Headings */
 
