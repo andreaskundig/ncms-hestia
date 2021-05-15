@@ -27,26 +27,22 @@ layout: defaultWithHero
   </div>
 </section>
 
-<section id="timeline">
+<section id="timeline" class="callout alt">
   <h1>{{timeline_title}}</h1>
   {% for event in timeline_events %}
-  <div>
     <h2>{{event.date | readableDate(locale, "LLLL yyyy")}}</h2>
     {% markdown event.description %}
-  </div>
   {% endfor %}
 </section>
 
 {% if chat_groups | length %}
-  <section id="join-conversation">
+  <section id="join-conversation" class="callout">
     <h1>{{chat_groups_title}}</h1>
     {% for group in chat_groups %}
-    <div>
-      <a href="{{group.link}}" target="_blank">
+      <p><a href="{{group.link}}" target="_blank">
         <img src="{{group.image}}">
         <span>{{group.name}}</span>
-      </a>
-    </div>
+      </a></p>
     {% endfor %}
   </section>
 {% endif %}
