@@ -21,5 +21,6 @@ section.callout {
 }
 
 section.callout.alt {
-  background-color: var(--blocks-alt-bg-color);
+  background-color: var(--blocks-alt-bg);
+  border: var(--blocks-alt-border);
 }
