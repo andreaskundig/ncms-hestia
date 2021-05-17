@@ -2,12 +2,12 @@
 layout: contact
 permalink: /fr/contact/index.html
 title: Contact
-hero: |-
+lead: |-
   Vous rêvez\
   Nous ...\
   **Parlons-en**
-hero_image: /assets/media/29-aaron-burden-xg8iqmqmitm-unsplash.jpg
-hero_image_caption: Photo de [Aaron Burden](https://unsplash.com/@aaronburden)
+lead_image: /assets/media/29-aaron-burden-xg8iqmqmitm-unsplash.jpg
+lead_image_caption: Photo de [Aaron Burden](https://unsplash.com/@aaronburden)
   sur [Unsplash](https://unsplash.com/s/photos/idea)
 contact_community: You feel cheated by your dating app?
 contact_community_action: Join the community

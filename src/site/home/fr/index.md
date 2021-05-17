@@ -26,9 +26,9 @@ partners_description: >-
 layout: home
 permalink: /fr/index.html
 title: Dating privacy
-hero: The community of **dating privacy**
-hero_image: https://picjumbo.com/wp-content/uploads/abstract-bokeh-hearts-real-light-2210x1474.jpg
-hero_image_caption: Photo by [Viktor
+lead: The community of **dating privacy**
+lead_image: https://picjumbo.com/wp-content/uploads/abstract-bokeh-hearts-real-light-2210x1474.jpg
+lead_image_caption: Photo by [Viktor
   Hanacek](https://picjumbo.com/author/viktorhanacek/ "Download free stock
   photos by Viktor Hanacek")
 paragraph1_title: We define a new relationship to dating data

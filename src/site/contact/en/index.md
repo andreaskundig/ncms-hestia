@@ -2,12 +2,12 @@
 layout: contact
 permalink: /en/contact/index.html
 title: Contact
-hero: |-
+lead: |-
   A problem with a dating app? \
   Ideas, skills or goodwill to share? \
   **Let's talk**
-hero_image: /assets/media/29-aaron-burden-xg8iqmqmitm-unsplash.jpg
-hero_image_caption: Photo by [Aaron Burden](https://unsplash.com/@aaronburden)
+lead_image: /assets/media/29-aaron-burden-xg8iqmqmitm-unsplash.jpg
+lead_image_caption: Photo by [Aaron Burden](https://unsplash.com/@aaronburden)
   on [Unsplash](https://unsplash.com/s/photos/idea)
 contact_community: You feel cheated by your dating app?
 contact_community_action: Join the community

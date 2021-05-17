@@ -2,7 +2,7 @@
 layout: catalog
 permalink: /en/act/catalog/index.html
 title: Data Catalog
-hero: Data Catalog
+lead: Data Catalog
 ---
 ## Why a catalog?
 

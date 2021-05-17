@@ -3,9 +3,9 @@ layout: ethics
 inverse: true
 permalink: /en/ethics/index.html
 title: Ethics
-hero: "**Ethics & Credits**"
-hero_image: /assets/media/14-winkler-ttj0cljli6w-unsplash.jpg
-hero_image_caption: Photo by [Markus
+lead: "**Ethics & Credits**"
+lead_image: /assets/media/14-winkler-ttj0cljli6w-unsplash.jpg
+lead_image_caption: Photo by [Markus
   Winkler](https://unsplash.com/@markuswinkler) on
   [Unsplash](https://unsplash.com/photos/TtJ0CLjLi6w)
 ---

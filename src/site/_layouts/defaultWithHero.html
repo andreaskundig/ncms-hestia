@@ -10,11 +10,11 @@ locale: en
     <main>
       <section id="hero" class="masthero{% if inverse %} inverse{% endif %} with-no-space"
         role="img" aria-label="(Hero background image)"
-        style="{{hero_image | backgroundImage}}">
+        style="{{lead_image | backgroundImage}}">
         <div class="responsive-wrapper">
-          {% markdown hero %}
+          {% markdown lead %}
         </div>
-        <figcaption>{% inlineMarkdown hero_image_caption %}</figcaption>
+        <figcaption>{% inlineMarkdown lead_image_caption %}</figcaption>
       </section>
       <div class="responsive-wrapper">
         {{ content | safe }}

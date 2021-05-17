@@ -1,6 +1,6 @@
 ---
-hero: The community of **dating privacy**
-hero_image_caption: Photo by [Viktor
+lead: The community of **dating privacy**
+lead_image_caption: Photo by [Viktor
   Hanacek](https://picjumbo.com/author/viktorhanacek/ "Download free stock
   photos by Viktor Hanacek")
 paragraph1_title: We define a new relationship to dating data
@@ -37,7 +37,7 @@ partners_description: >-
 layout: home
 permalink: /en/index.html
 title: Dating privacy
-hero_image: https://picjumbo.com/wp-content/uploads/abstract-bokeh-hearts-real-light-2210x1474.jpg
+lead_image: https://picjumbo.com/wp-content/uploads/abstract-bokeh-hearts-real-light-2210x1474.jpg
 ethics_title: Dating data is sensitive
 ethics_link_text: Our ethical chart
 partners_link_text: Contact us

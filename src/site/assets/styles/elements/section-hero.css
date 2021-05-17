@@ -29,7 +29,7 @@
   /* the above `background-image` CSS property is expected to be overridden
      by the hero section elements themselves, thru their `style` attribute:
      `style="background-image: url(media.jpg)"` (alternatively, use the
-     `style="{{hero_image | backgroundImage}}"` shortcode) */
+     `style="{{lead_image | backgroundImage}}"` shortcode) */
 }
 
 section.masthero {

@@ -3,9 +3,9 @@ layout: partners
 inverse: true
 permalink: /fr/partners/index.html
 title: Partners
-hero: "**Partners we trust**"
-hero_image: /assets/media/34-group-of-people-2471124_1280.jpg
-hero_image_caption: ""
+lead: "**Partners we trust**"
+lead_image: /assets/media/34-group-of-people-2471124_1280.jpg
+lead_image_caption: ""
 introduction: >-
   We only collaborate and engage with partners who we trust and who meet our
   [ethical chart](/fr/ethics/).

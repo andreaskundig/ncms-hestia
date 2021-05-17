@@ -1,8 +1,8 @@
 ---
 title: Histoires de données
-hero: Nos très **intéressants articles**
-hero_image: null
-hero_image_caption: Photo de [Max
+lead: Nos très **intéressants articles**
+lead_image: null
+lead_image_caption: Photo de [Max
   Langelott](https://unsplash.com/@freiburgermax) sur
   [Unsplash](https://unsplash.com/s/photos/wWQ760meyWI)
 editorials_title: Derniers posts

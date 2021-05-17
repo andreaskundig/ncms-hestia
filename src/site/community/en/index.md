@@ -3,9 +3,9 @@ layout: community
 inverse: true
 permalink: /en/community/index.html
 title: Community
-hero: "Personal data **community**"
-hero_image: /assets/media/dp-community-hero-1588613254750-cf5d89a29b66.jpg
-hero_image_caption: Illustration by [Pascale
+lead: "Personal data **community**"
+lead_image: /assets/media/dp-community-hero-1588613254750-cf5d89a29b66.jpg
+lead_image_caption: Illustration by [Pascale
   Cerchio](https://www.peoplerise.net/wp-content/uploads/2020/07/ale-cerchio.png)
 story_title: A short story about us
 story: We are a small group of skilled individuals working to define a new

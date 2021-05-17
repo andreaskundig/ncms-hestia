@@ -2,10 +2,10 @@
 layout: media
 permalink: /fr/media/index.html
 title: Medias
-hero: |-
+lead: |-
   Dans la **presse**
-hero_image: /assets/media/dp_media_hero-c-laura-lee-moreau-zpe2gobovro-unsplash-c.jpg
-hero_image_caption: Photo de [Laura Lee Moreau](https://unsplash.com/@laura_lee)
+lead_image: /assets/media/dp_media_hero-c-laura-lee-moreau-zpe2gobovro-unsplash-c.jpg
+lead_image_caption: Photo de [Laura Lee Moreau](https://unsplash.com/@laura_lee)
   sur [Unsplash](https://unsplash.com/photos/ZpE2gobovro)
 articles_title: Last articles
 read_button: Read
