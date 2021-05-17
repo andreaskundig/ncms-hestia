@@ -1,7 +1,7 @@
 ---
 layout: sar
-inverse: true
 permalink: /fr/act/sar/index.html
+inverse: true
 title: Obtenez vos données
 lead: |-
   Faites-le advenir — \
