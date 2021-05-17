@@ -748,7 +748,7 @@ collections:
   fields:
     - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string }
     - { label: "Name", name: name, required: false, widget: string, i18n: true }
-    - { label: Description, name: description, required: false, widget: markdown, i18n: true }
+    - { label: Lead, name: lead, required: false, widget: markdown, i18n: true }
 
 - label: Blog › Authors
   name: post_authors
@@ -764,6 +764,6 @@ collections:
   fields:
     - { label: "Id (never change this, only set a unique value at creation)", name: id, widget: string }
     - { label: "Name", name: name, required: false, widget: string, i18n: true}
-    - { label: Description, name: description, required: false, widget: markdown, i18n: true }
+    - { label: Lead, name: lead, required: false, widget: markdown, i18n: true }
 
 # eof

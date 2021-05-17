@@ -1,4 +1,4 @@
 ---
 name: Charles Foucault-Dumas
-description: Communications HestiaLabs
+lead: Communications HestiaLabs
 ---

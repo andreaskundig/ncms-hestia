@@ -1,4 +1,4 @@
 ---
 name: Paul-Olivier Dehaye
-description: CEO Hestia.AI, Directeur PersonalData.IO
+lead: CEO Hestia.AI, Directeur PersonalData.IO
 ---

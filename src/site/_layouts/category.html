@@ -1,14 +1,6 @@
 ---
-layout: default
+layout: defaultWithLeadTitle
 ---
-<section id="hero" class="normhero with-no-space">
-  <div class="responsive-wrapper">
-    <h1>{% inlineMd %}{% renderLiquid "title", pageData %}{% endinlineMd %}</strong></h1>
-    {% markdown description %}
-  </div>
-</section>
-
-<div class="responsive-wrapper">
   <section id="description" class="with-no-space-before">
     <div class="grid-layout-halves with-gutters with-no-space-before">
       {% for post in collections.post %}
@@ -26,7 +18,6 @@ layout: default
       {% endfor %}
     </div>
   </section>
-</div>
 
 <script type="module">
   import '/components/article-breakout.js';
