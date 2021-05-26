@@ -25,9 +25,6 @@ const IDS = {
     partsToFillIn: 'email-parts-to-fill-in'
 };
 
-const FEATURED_APPS = ["Bumble", "Tinder", "Match.com", "Meetic", "OkCupid", "Once",
-                       "Hinge"];
-
 // is this really the place to do this?
 registerTranslateConfig({
     loader: async (lang) => {
@@ -46,15 +43,6 @@ function compareItemLabel(appA, appB) {
     if (nameA < nameB) { return -1; }
     if (nameA > nameB) { return 1; }
     return 0;
-}
-
-function compareFeatured(appA, appB) {
-    const aFeatured = FEATURED_APPS.includes(appA.itemLabel);
-    const bFeatured = FEATURED_APPS.includes(appB.itemLabel);
-    if(aFeatured == bFeatured){
-        return compareItemLabel(appA, appB);
-    }
-    return aFeatured ? -1 : 1;
 }
 
 const unCamelCase = (string) => string.replace(/([a-z])([A-Z][a-z])/g, '$1 $2');
@@ -134,18 +122,6 @@ export class SubjectAccessRequestForm extends LitElement {
         this.subject = '';
         this.body = '';
         this.partsToFillIn = [];
-
-        this.i18n = {
-            datingApp: 'Dating app',
-            selectPlaceholder: 'Click to choose',
-            searchPlaceholder: 'search',
-            recipient: 'Recipient',
-            subject: 'Subject',
-            body: 'Body',
-            bodyPlaceholder: 'Choose an app to fill this automatically',
-            copyButton: 'Copy to clipboard',
-            emailButton: 'Open in your email client'
-        };
 
         this.fetchApps();
     }
