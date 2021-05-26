@@ -7,7 +7,7 @@ const { backgroundImage } = require('./conf/11ty/backgroundImage')
 const { creditedImage } = require('./conf/11ty/creditedImage')
 const { internalLink } = require('./conf/11ty/internalLink')
 const { renderLiquid } = require('./conf/11ty/liquid')
-const {inlineMarkdownShortCode, markdownShortCode, markdownIt} = require('./conf/11ty/markdown');
+const {inlineMarkdownPairedShortCode, inlineMarkdownShortCode, markdownShortCode, markdownIt} = require('./conf/11ty/markdown');
 
 module.exports = function (eleventyConfig) {
 
@@ -31,8 +31,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("creditedImage", creditedImage);
   eleventyConfig.addPairedShortcode("ilink", internalLink);
   eleventyConfig.addShortcode("markdown", (s) => markdownShortCode(s||''));
-  eleventyConfig.addShortcode("inlineMarkdown", (s) => inlineMarkdownShortCode(s||''));
-  eleventyConfig.addPairedShortcode("inlineMd", inlineMarkdownShortCode);
+  eleventyConfig.addShortcode("inlineMarkdown", inlineMarkdownShortCode);
+  eleventyConfig.addPairedShortcode("inlineMarkdownP", inlineMarkdownPairedShortCode);
   eleventyConfig.addShortcode("renderLiquid", renderLiquid);
 
   eleventyConfig.setLibrary("md", markdownIt);

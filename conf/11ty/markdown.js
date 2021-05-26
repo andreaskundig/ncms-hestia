@@ -35,11 +35,17 @@ function markdownShortCode(content, type) {
   return type == "plain" ? inlineMarkdownIt.plainText : html;
 }
 
-function inlineMarkdownShortCode(content, type) {
+function renderInlineMarkdown(content='', type) {
   // console.log('inline', content)
   const html = inlineMarkdownIt.render(content);
   // console.log('inlined', html);
   return type == "plain" ? inlineMarkdownIt.plainText : html;
 }
 
-module.exports = { inlineMarkdownShortCode, markdownShortCode, markdownIt };
+const inlineMarkdownPairedShortCode = renderInlineMarkdown;
+const inlineMarkdownShortCode = renderInlineMarkdown;
+
+module.exports = { inlineMarkdownPairedShortCode,
+                   inlineMarkdownShortCode,
+                   markdownShortCode,
+                   markdownIt };

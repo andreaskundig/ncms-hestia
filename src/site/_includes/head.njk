@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   {# Page title, author and generator #}
-  <title>{% inlineMd "plain" %}{% renderLiquid "title", pageData %}{% endinlineMd %}</title>
+  <title>{% inlineMarkdownP "plain" %}{% renderLiquid "title", pageData %}{% endinlineMarkdownP %}</title>
   <meta name="generator" content="@11ty/eleventy" >
 
   {# The Essential Meta Tags for Social Media
@@ -14,8 +14,8 @@
   {% set canonical_url = i18n.links[locale].canonical_base_url + page.url %}
   <meta name="twitter:card" content="summary" >
   <meta name="twitter:site" content="{{i18n.links[locale].twitter_account}}" >
-  <meta name="twitter:title" content="{% inlineMd "plain" %}{% renderLiquid "title", pageData %}{% endinlineMd %}" >
-  <meta property="og:title" content="{% inlineMd "plain" %}{% renderLiquid "title", pageData %}{% endinlineMd %}">
+  <meta name="twitter:title" content="{% inlineMarkdownP "plain" %}{% renderLiquid "title", pageData %}{% endinlineMarkdownP %}" >
+  <meta property="og:title" content="{% inlineMarkdownP "plain" %}{% renderLiquid "title", pageData %}{% endinlineMarkdownP %}">
   <meta property="og:type" content="article" >
   <meta property="og:url" content="{{canonical_url}}">
   <link rel="canonical" href="{{canonical_url}}">
