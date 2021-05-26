@@ -14,8 +14,8 @@
   {% set canonical_url = i18n.links[locale].canonical_base_url + page.url %}
   <meta name="twitter:card" content="summary" >
   <meta name="twitter:site" content="{{i18n.links[locale].twitter_account}}" >
-  <meta name="twitter:title" content="{{title}}" >
-  <meta property="og:title" content="{{title}}">
+  <meta name="twitter:title" content="{% inlineMd "plain" %}{% renderLiquid "title", pageData %}{% endinlineMd %}" >
+  <meta property="og:title" content="{% inlineMd "plain" %}{% renderLiquid "title", pageData %}{% endinlineMd %}">
   <meta property="og:type" content="article" >
   <meta property="og:url" content="{{canonical_url}}">
   <link rel="canonical" href="{{canonical_url}}">
