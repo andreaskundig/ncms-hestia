@@ -49,7 +49,7 @@ partners:
 
       HestiaLabs helps Dating Privacy with the hard work of analysing the data collected and turning it into actionable insights.
   - title: Academic partners
-    url: /en/contact/
+    url: /en/contact/info/
     button: Join us
     image: https://upload.wikimedia.org/wikipedia/commons/e/e3/EPFL_RLC_2017.jpg
     image_caption: Mediacom EPFL, CC BY-SA 4.0
@@ -58,7 +58,7 @@ partners:
       enhance the value of this knowledge and give it the scientific resonance
       it deserves.
   - title: Media partners
-    url: /en/contact/
+    url: /en/contact/info/
     button: Join us
     image: https://upload.wikimedia.org/wikipedia/commons/6/6a/Jamikaverhandlungen_Nov_2017_7.jpg
     image_caption: Kasa Fue, CC BY-SA 4.0

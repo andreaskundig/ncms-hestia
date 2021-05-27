@@ -5,6 +5,7 @@
 const { buildLocalesCollection, formatDate} = require('./conf/11ty/locales');
 const { backgroundImage } = require('./conf/11ty/backgroundImage')
 const { creditedImage } = require('./conf/11ty/creditedImage')
+const { contactUrl } = require('./conf/11ty/contactUrl')
 const { internalLink } = require('./conf/11ty/internalLink')
 const { renderLiquid } = require('./conf/11ty/liquid')
 const {inlineMarkdownPairedShortCode, inlineMarkdownShortCode, markdownShortCode, markdownIt} = require('./conf/11ty/markdown');
@@ -29,6 +30,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("readableDate", formatDate);
   eleventyConfig.addFilter("backgroundImage", backgroundImage);
   eleventyConfig.addShortcode("creditedImage", creditedImage);
+  eleventyConfig.addShortcode("contactUrl", contactUrl);
   eleventyConfig.addPairedShortcode("ilink", internalLink);
   eleventyConfig.addShortcode("markdown", (s) => markdownShortCode(s||''));
   eleventyConfig.addShortcode("inlineMarkdown", inlineMarkdownShortCode);
